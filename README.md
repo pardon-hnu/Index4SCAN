@@ -1,6 +1,26 @@
 # Two space-efficient indexes for high-speed structural graph clustering
 > this respository is used for the paper "Advancing Structural Graph Clustering: Space-Efficient Indexes for High-Speed Queries"
 
+## file structure
+```
+    ---datasets: consits of two toy graph, hiv and example. Example is the example graph in paper.
+    ---src: source code
+    ------example: the result of example, used in paper
+    ------HeadFile: all head files
+    ---------global: head files of global definitions and SCAN 
+    ---------index: four indexes 
+    ---------util: utils
+    ------Index: storage of all indexes
+    ------res: experiment results, used in paper
+    ------Result: clustering results
+    ---------lables: written by labels (binary file)
+    ---------result: written by cluster sets
+    ------shell_files: shell files for experiment in paper
+    ------main.cpp
+    ------makefile
+    ------other auxiliary files
+```
+
 ## compile
 ```shell
 cd src
@@ -39,12 +59,12 @@ Pattern:
 ```shell
     cd src
     make
-    ./main hiv GS-Index construct
+    ./main example GS-Index query 0.6 5
+    ./main example BOTBIN query 0.6 5
+    ./main example FOREST query 0.6 5
+    ./main example PPT query 0.6 5
     ./main hiv GS-Index query 0.6 5
-    ./main hiv BOTBIN construct
     ./main hiv BOTBIN query 0.6 5
-    ./main hiv FOREST construct
     ./main hiv FOREST query 0.6 5
-    ./main hiv PPT construct
     ./main hiv PPT query 0.6 5
 ```
