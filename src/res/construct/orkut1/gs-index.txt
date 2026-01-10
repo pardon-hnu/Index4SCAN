@@ -1,0 +1,16 @@
+[LOAD GRAPH] start!!! graph: orkut1 filepath: /home/hnu/Disk0/ParDon/graph/orkut1.txt
+graph size: 2997166
+edge size: 106349209
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] begin constructing neighbor order!!!
+reserve vector 
+construct neighbor order 
+[COSNTRUCT INDEX] finishi construting no !!!
+[TIME COST] 217.09 s.
+[CONSTRUCT INDEX] begin constructing core order !!!
+[CONSTRUCT INDEX] finish constructing co !!!
+[TIME COST] 10.2542 s.
+[PRINT TIME] total building time: 227.344
+[PRINT SPAEC]: total space cost: 3245.52 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

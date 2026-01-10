@@ -1,0 +1,16 @@
+[LOAD GRAPH] start!!! graph: pokec filepath: /home/hnu/Disk0/ParDon/graph/pokec.txt
+graph size: 1632803
+edge size: 22301964
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] begin constructing neighbor order!!!
+reserve vector 
+construct neighbor order 
+[COSNTRUCT INDEX] finishi construting no !!!
+[TIME COST] 19.2073 s.
+[CONSTRUCT INDEX] begin constructing core order !!!
+[CONSTRUCT INDEX] finish constructing co !!!
+[TIME COST] 1.95732 s.
+[PRINT TIME] total building time: 21.1646
+[PRINT SPAEC]: total space cost: 680.602 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,37 @@
+[LOAD GRAPH] start!!! graph: friendster filepath: /home/hnu/Disk0/ParDon/graph/friendster.txt
+graph size: 65608366
+edge size: 1806067135
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 6910.34 s.
+[CONSTRUCT FOREST] start
+[CONSTRUCT FOREST] now construct 9 th tree
+[CONSTRUCT FOREST] now construct 8 th tree
+[CONSTRUCT FOREST] now construct 7 th tree
+[CONSTRUCT FOREST] now construct 6 th tree
+[CONSTRUCT FOREST] now construct 5 th tree
+[CONSTRUCT FOREST] now construct 4 th tree
+[CONSTRUCT FOREST] now construct 3 th tree
+[CONSTRUCT FOREST] now construct 2 th tree
+[CONSTRUCT FOREST] now construct 1 th tree
+[CONSTRUCT FOREST] finishi! time cost: 250.521
+==================================================================
+[PRINT NDDE NUM] each node num of forest is :
+0 th tree node num: 0
+1 th tree node num: 6371929
+2 th tree node num: 6811430
+3 th tree node num: 3485440
+4 th tree node num: 2038865
+5 th tree node num: 1257645
+6 th tree node num: 627998
+7 th tree node num: 238320
+8 th tree node num: 129652
+9 th tree node num: 73235
+[PRINT NODE NUM] total node num of forest is 21034514
+[PRINT NDDE NUM] average node num of each tree is 2.10345e+06
+[PRINT TIME] total building time: 7160.86
+[PRINT SPACE INFORMATION] core vertices space cost: 235.727.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 260.917.MB
+[PRINT SPACE]: total space cost: 817.605 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

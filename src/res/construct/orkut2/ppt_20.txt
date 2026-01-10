@@ -1,0 +1,26 @@
+parameters.size()=1
+[20] 
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: orkut2 filepath: /home/hnu/Disk0/ParDon/graph/orkut2.txt
+graph size: 3072441
+edge size: 117185083
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 258.966 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 0.828406 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 13.9623 s.
+[PRINT NODE NUM] total point (leaf node): 2682
+[PRINT CLUSTER SLICE]: total core componets: 1581323
+[PRINT CLUSTER SLICE]: average core componets per PPT: 589.606
+[PRINT TIME] total building time: 273.756
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 8.27842.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 4.13921.MB
+[PRINT PPT SPACE]: total space cost: 90.3988.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,9 @@
+./test uk2002 FOREST construct 10 > ./res/construct/uk2002/forest_10.txt
+./test uk2002 FOREST construct 20 > ./res/construct/uk2002/forest_20.txt
+./test uk2002 FOREST construct 50 > ./res/construct/uk2002/forest_50.txt
+./test uk2002 FOREST construct 100 > ./res/construct/uk2002/forest_50.txt
+./test uk2002 PPT construct 5 > ./res/construct/uk2002/ppt_5.txt
+./test uk2002 PPT construct 10 > ./res/construct/uk2002/ppt_10.txt
+./test uk2002 PPT construct 20 > ./res/construct/uk2002/ppt_20.txt
+./test uk2002 PPT construct 50 > ./res/construct/uk2002/ppt_50.txt
+./test uk2002 PPT construct 100 > ./res/construct/uk2002/ppt_50.txt

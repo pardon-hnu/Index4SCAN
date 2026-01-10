@@ -1,0 +1,26 @@
+parameters.size()=1
+[10] 
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: uk2002 filepath: /home/hnu/Disk0/ParDon/graph/uk2002.txt
+graph size: 18483186
+edge size: 261787258
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 386.763 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 2.92286 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 92.5208 s.
+[PRINT NODE NUM] total point (leaf node): 4255
+[PRINT CLUSTER SLICE]: total core componets: 9531330
+[PRINT CLUSTER SLICE]: average core componets per PPT: 2240.03
+[PRINT TIME] total building time: 482.207
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 49.4869.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 24.7434.MB
+[PRINT PPT SPACE]: total space cost: 371.59.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

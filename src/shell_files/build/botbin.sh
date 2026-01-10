@@ -1,0 +1,17 @@
+./test amazon BOTBIN construct > res/construct/amazon/botbin.txt 
+./test dblp BOTBIN construct > res/construct/dblp/botbin.txt 
+./test youtube BOTBIN construct > res/construct/youtube/botbin.txt 
+./test skitter BOTBIN construct > res/construct/skitter/botbin.txt 
+./test pokec BOTBIN construct > res/construct/pokec/botbin.txt 
+./test topcats BOTBIN construct > res/construct/topcats/botbin.txt 
+./test livejournal1 BOTBIN construct > res/construct/livejournal1/botbin.txt 
+./test livejournal2 BOTBIN construct > res/construct/livejournal2/botbin.txt 
+./test orkut1 BOTBIN construct > res/construct/orkut1/botbin.txt 
+./test orkut2 BOTBIN construct > res/construct/orkut2/botbin.txt 
+./test indochina BOTBIN construct > res/construct/indochina/botbin.txt 
+./test uk2002 BOTBIN construct > res/construct/uk2002/botbin.txt 
+./test webbase BOTBIN construct > res/construct/webbase/botbin.txt 
+./test uk2005 BOTBIN construct > res/construct/uk2005/botbin.txt 
+./test it2004 BOTBIN construct > res/construct/it2004/botbin.txt 
+./test friendster BOTBIN construct > res/construct/friendster/botbin.txt 
+./test sk2005 BOTBIN construct > res/construct/sk2005/botbin.txt 

@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: dblp filepath: /home/hnu/Disk0/ParDon/graph/dblp.txt
+graph size: 317080
+edge size: 1049866
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 0.225105 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 0.347886 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 0.116031 s.
+[PRINT TIME] total building time: 0.689023
+[PRINT SPAEC]: total space cost: 32.0797 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

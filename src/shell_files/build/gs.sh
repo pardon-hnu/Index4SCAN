@@ -1,0 +1,17 @@
+./test amazon GS-Index construct > res/construct/amazon/gs-index.txt 
+./test dblp GS-Index construct > res/construct/dblp/gs-index.txt 
+./test youtube GS-Index construct > res/construct/youtube/gs-index.txt 
+./test skitter GS-Index construct > res/construct/skitter/gs-index.txt 
+./test pokec GS-Index construct > res/construct/pokec/gs-index.txt 
+./test topcats GS-Index construct > res/construct/topcats/gs-index.txt 
+./test livejournal1 GS-Index construct > res/construct/livejournal1/gs-index.txt 
+./test livejournal2 GS-Index construct > res/construct/livejournal2/gs-index.txt 
+./test orkut1 GS-Index construct > res/construct/orkut1/gs-index.txt 
+./test orkut2 GS-Index construct > res/construct/orkut2/gs-index.txt 
+./test indochina GS-Index construct > res/construct/indochina/gs-index.txt 
+./test uk2002 GS-Index construct > res/construct/uk2002/gs-index.txt 
+./test webbase GS-Index construct > res/construct/webbase/gs-index.txt 
+./test uk2005 GS-Index construct > res/construct/uk2005/gs-index.txt 
+./test it2004 GS-Index construct > res/construct/it2004/gs-index.txt 
+./test friendster GS-Index construct > res/construct/friendster/gs-index.txt 
+./test sk2005 GS-Index construct > res/construct/sk2005/gs-index.txt 

@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: livejournal2 filepath: /home/hnu/Disk0/ParDon/graph/livejournal2.txt
+graph size: 4846609
+edge size: 42851237
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 12.4722 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 46.7128 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 1.88017 s.
+[PRINT TIME] total building time: 61.0652
+[PRINT SPAEC]: total space cost: 784.8 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

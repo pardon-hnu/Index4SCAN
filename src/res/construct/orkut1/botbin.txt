@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: orkut1 filepath: /home/hnu/Disk0/ParDon/graph/orkut1.txt
+graph size: 2997166
+edge size: 106349209
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 25.6452 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 194.868 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 1.13326 s.
+[PRINT TIME] total building time: 221.646
+[PRINT SPAEC]: total space cost: 1681.48 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: uk2005 filepath: /home/hnu/Disk0/ParDon/graph/uk2005.txt
+graph size: 39454463
+edge size: 783027125
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 178.208 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 749.532 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 24.9809 s.
+[PRINT TIME] total building time: 952.721
+[PRINT SPAEC]: total space cost: 13682.1 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

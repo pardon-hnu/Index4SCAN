@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: friendster filepath: /home/hnu/Disk0/ParDon/graph/friendster.txt
+graph size: 65608366
+edge size: 1806067135
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 742.671 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 6167.67 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 39.081 s.
+[PRINT TIME] total building time: 6949.42
+[PRINT SPAEC]: total space cost: 28530.4 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

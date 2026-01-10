@@ -1,0 +1,16 @@
+[LOAD GRAPH] start!!! graph: livejournal1 filepath: /home/hnu/Disk0/ParDon/graph/livejournal1.txt
+graph size: 3997962
+edge size: 34681190
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] begin constructing neighbor order!!!
+reserve vector 
+construct neighbor order 
+[COSNTRUCT INDEX] finishi construting no !!!
+[TIME COST] 28.8419 s.
+[CONSTRUCT INDEX] begin constructing core order !!!
+[CONSTRUCT INDEX] finish constructing co !!!
+[TIME COST] 3.34808 s.
+[PRINT TIME] total building time: 32.19
+[PRINT SPAEC]: total space cost: 1058.39 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

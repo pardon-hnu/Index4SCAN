@@ -1,0 +1,26 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: skitter filepath: /home/hnu/Disk0/ParDon/graph/skitter.txt
+graph size: 1696415
+edge size: 11095298
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 11.4688 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 0.1642 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 1.9409 s.
+[PRINT NODE NUM] total point (leaf node): 681
+[PRINT CLUSTER SLICE]: total core componets: 786499
+[PRINT CLUSTER SLICE]: average core componets per PPT: 1154.92
+[PRINT TIME] total building time: 13.5739
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 3.29375.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 1.64687.MB
+[PRINT PPT SPACE]: total space cost: 21.3003.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

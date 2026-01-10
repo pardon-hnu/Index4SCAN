@@ -1,0 +1,5132 @@
+[LOAD GRAPH] start!!! graph: youtube filepath: /home/hnu/Disk0/ParDon/graph/youtube.txt
+graph size: 1134890
+edge size: 2987624
+[LOAD GRAPH] success!!!
+[LOAD INDEX] start loading gs index !!!!
+[LOAD INDEX] finish loading gs index !!!!
+epsilon: 0.8 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00301705 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000474275 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000113388 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1155e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.016e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.513e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.83e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.351e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.26e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.95e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.46e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.22e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.18e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.8 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.27e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00285167 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000445259 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000102212 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7514e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.721e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.459e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.773e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.352e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.18e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.82e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.43e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.15e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.71e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.79 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.39e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0029291 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000428025 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000101962 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.9342e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.495e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.202e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.348e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.252e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.364e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.99e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.49e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.66e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.96e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.78 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.45e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00289594 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000442785 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00011068 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.4958e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.925e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.168e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.669e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.973e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.884e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.04e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.71e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.41e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.87e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.77 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.21e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00288196 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000443085 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000108913 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.4219e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0106e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.289e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.313e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.417e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.333e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.146e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.4e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.03e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.73e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.76 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.1e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00538063 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00113419 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000113396 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9173e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4622e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.464e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.161e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.521e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.365e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.586e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.49e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.12e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.37e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.75 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.99e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00519498 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00107128 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000114067 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9464e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4908e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.241e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.351e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.415e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.74e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.43e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.44e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.94e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.74 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.32e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00522862 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00106183 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00011301 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8229e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4874e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.71e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.577e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.646e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.494e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.48e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.97e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.55e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.69e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.73 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.95e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00516959 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00105777 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000118266 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.1699e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6052e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.983e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.623e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.126e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.337e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.465e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.82e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.24e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.72 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.21e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0053374 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00114622 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000156873 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.765e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7334e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2853e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.074e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.542e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.233e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.809e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.21e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.6e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.03e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.71 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.08e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00540312 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00119876 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000182548 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.3181e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1672e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4049e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.013e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.297e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.789e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.685e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.699e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.58e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.73e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.7 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.21e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00579634 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.001292 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00018318 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.8131e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1621e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4271e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.949e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.122e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.609e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.614e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.599e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.72e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.96e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.69 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00547189 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00125195 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000174943 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.4238e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.2232e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4842e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0424e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.122e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.104e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.624e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.339e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.68e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.01e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.68 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.66e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00542241 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0011828 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000209318 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.0354e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1968e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4782e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0189e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.969e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.205e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.933e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.359e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.17e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.56e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.67 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.09e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0244679 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00146367 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000273621 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.9641e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.118e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5242e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1896e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.037e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.232e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.412e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.402e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.14e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.24e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.66 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.22e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0243734 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00146606 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000269449 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.9249e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.2213e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5809e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1689e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.398e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.283e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.504e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.336e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.86e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.65 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0240838 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00144461 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000267281 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.171e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.2528e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6883e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1915e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.198e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.105e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.425e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.58e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.34e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.79e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.64 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.77e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0238728 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00149898 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000276104 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.6285e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.6508e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8164e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2396e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.152e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.403e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.966e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.767e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.02e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.63 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.39e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0256301 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00172182 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000372192 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000109403 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2384e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.2193e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2629e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.604e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.108e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.933e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.519e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.76e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.93e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.62 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.24e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.024474 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00160074 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000326303 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000109209 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.6398e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.3804e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4022e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.057e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.82e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.168e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.628e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.12e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.4e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.61 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.35e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0266271 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00252077 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000407131 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000129716 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.3055e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.7609e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5888e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1473e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.542e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.481e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.041e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.19e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.6 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.26e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0265676 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00244638 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00040473 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000137137 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.935e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.2425e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8987e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.424e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.019e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.737e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.933e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.97e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.47e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.59 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.25e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0263271 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00246768 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000404828 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000138123 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.9081e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.3431e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.0287e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.3905e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.256e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.027e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.163e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.59e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.48e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.58 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.12e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0269749 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00281782 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000584185 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000177168 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.9278e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.7183e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1692e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4885e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.555e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.243e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.178e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.77e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.03e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.57 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.31e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0285193 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00318099 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000583364 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000174938 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.0485e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.6992e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.286e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5179e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.087e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.668e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.11e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.67e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.95e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.56 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.22e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0273135 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00305652 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000588131 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000199638 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.9385e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.932e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.3751e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6005e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.115e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.469e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.09e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.317e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.98e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.55 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.17e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.027095 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00291049 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000608149 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000207775 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.83e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.4112e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.574e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6577e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0203e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.37e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.253e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.04e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.11e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.54 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0267708 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00293275 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000653585 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000221786 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.8654e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.1266e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9126e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7673e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1023e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.181e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.613e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.272e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.06e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.53 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.21e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0269452 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00292959 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000628575 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000222903 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.8358e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.0773e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9514e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8328e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0918e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.074e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.222e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.259e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.97e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.52 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.27e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0266317 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00294758 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000621794 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000220746 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.9383e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.0641e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.0031e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.0637e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2487e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.648e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.538e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.251e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.58e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.51 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.22e-07 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0491978 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00919996 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00141102 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000402062 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000167859 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.1865e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.1135e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.4609e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5791e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.511e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.994e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.419e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.397e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.5 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.323e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0468525 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00862585 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0013047 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000376484 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000152118 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.0283e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.8682e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.3357e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4475e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.52e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.557e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.176e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.358e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.49 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.15e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0464038 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00854731 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00124784 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000351379 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000146186 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.0721e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.0531e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.4292e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5519e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.168e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.647e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.92e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.097e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.48 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.725e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0462917 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00857507 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00332055 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000402055 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000170409 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.5674e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2208e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8115e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7648e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.791e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.475e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.742e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.19e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.47 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.844e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0539253 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00971602 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00148424 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000411832 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000183274 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.5939e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.4971e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9409e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.0512e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1396e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.856e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.13e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.78e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.46 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.729e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0481255 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00956556 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00149155 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000416716 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000179637 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.1995e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.9993e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8928e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.051e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2329e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.935e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.484e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.793e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.45 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.852e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0474798 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00915776 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.001536 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000460855 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000196419 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.825e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.5001e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.3014e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1154e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1991e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.985e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.85e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.831e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.44 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.849e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0470053 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00930801 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00158435 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000468238 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000206023 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00010496 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.7873e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.4951e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1358e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2268e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.559e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.585e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.617e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.43 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.872e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0484625 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.010069 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00187614 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000556689 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000270244 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000118059 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.2998e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.8735e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.426e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4466e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.205e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.484e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.884e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.42 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.133e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0486949 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0104135 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00192916 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00062782 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000285296 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00012782 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.9778e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.2699e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.7284e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6142e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0264e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.675e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.564e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.41 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.834e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0660158 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.017835 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00381864 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000806578 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000301948 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000141874 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.8295e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.7344e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8749e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6647e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0287e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.093e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.55e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.4 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.166e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0656121 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0180791 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00394424 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000832738 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000304064 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000141186 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.6196e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3298e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.6786e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7098e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.073e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.26e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.507e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.39 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.225e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0672922 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0226486 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00488287 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00117875 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000344463 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000162241 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.4853e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.6616e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.2422e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8997e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2039e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.213e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.709e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.38 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.545e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0744233 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0238456 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0060836 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00150701 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000416911 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000177755 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000106159 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.2689e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.5334e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.0283e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4448e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.311e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.994e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.37 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.56e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0696438 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0204876 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00488522 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00110485 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000409651 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00018627 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.8829e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.463e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.4156e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.3396e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4555e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.723e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.734e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.36 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.493e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0670971 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0195587 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00470443 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00121063 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000460184 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000210645 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000107768 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.2704e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.7264e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.5364e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6816e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1095e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.5e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.35 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.697e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0673515 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0193553 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00462523 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00116341 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000469588 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000206 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000115701 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.7215e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.1329e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8823e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8265e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1988e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.923e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.34 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.547e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0794796 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0268619 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00808463 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00220131 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000710848 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000261881 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000135088 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.8404e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.4004e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9525e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.8744e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.26e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.843e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.33 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.663e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0795749 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.027318 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00845012 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00241665 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000690769 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000297937 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000138887 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.228e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.4747e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.0986e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.9076e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.3365e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.54e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.32 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.575e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.078879 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.027111 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00794872 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00224651 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000684525 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000287554 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000148117 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.3935e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.0207e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.3221e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.0187e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.4544e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.24e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.31 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.379e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0796746 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0282889 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00876644 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00253229 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000805996 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000333399 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000172787 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000105197 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.6169e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.6587e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.2554e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6753e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.024e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.3 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.875e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0800273 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0288808 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0091785 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00271784 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000842042 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0003547 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000193358 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00011278 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.6482e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.1232e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.6011e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6611e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0966e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.29 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.164e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0892635 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0343083 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0122967 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00430757 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00140941 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000471968 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000238051 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000123339 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.263e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3579e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.73e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.9514e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1042e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.28 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.95e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.089125 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.03543 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0130494 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00475832 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00158465 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000556784 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000256388 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000140712 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.631e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.2948e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.1117e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1146e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1677e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.27 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.971e-06 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0925337 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0356367 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0133183 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00465486 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00155935 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000537802 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000267511 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000153834 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.8247e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.3173e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.2049e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.22e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.3352e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.26 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.0507e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0979521 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0417663 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0181594 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00681005 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00257617 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000847661 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000345612 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000182746 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000109305 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.0978e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.9283e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.5475e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.5834e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.25 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.1622e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0956444 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.041475 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0181604 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00699319 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00267792 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000857147 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000354622 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000190073 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00011634 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.3001e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3632e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9732e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.9186e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.24 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.2894e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0972125 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0426021 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0194182 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00776663 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00291041 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00101606 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000455136 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000235977 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000143408 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.1064e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.6264e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.7433e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.5217e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.23 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.7301e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.104751 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0485297 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0222221 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00950555 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00406867 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00163014 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000675419 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000294039 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000168581 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000104595 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.7375e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.3232e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8291e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.22 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1218e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.105243 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.048832 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0237982 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00991288 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00411767 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00159377 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00069461 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000307148 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000184719 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000115526 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.687e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.2154e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.8663e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.21 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.8183e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.110366 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.054232 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0274968 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.01208 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00533096 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00217588 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0010001 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000456676 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000230006 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000142135 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000101361 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.4965e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.9298e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+epsilon: 0.2 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.9516e-05 s.
+[WRITE LABELS] start !!!
+[WRITE LABELS] finish !!!
+[PRINT TIME] total clustering time: 3.95462
+[PRINT TIME] average clustering time: 0.0046307

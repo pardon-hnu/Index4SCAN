@@ -1,0 +1,217 @@
+[LOAD GRAPH] start!!! graph: orkut2 filepath: /home/hnu/Disk0/ParDon/graph/orkut2.txt
+graph size: 3072441
+edge size: 117185083
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 258.966 s.
+[CONSTRUCT FOREST] start
+[CONSTRUCT FOREST] now construct 99 th tree
+[CONSTRUCT FOREST] now construct 98 th tree
+[CONSTRUCT FOREST] now construct 97 th tree
+[CONSTRUCT FOREST] now construct 96 th tree
+[CONSTRUCT FOREST] now construct 95 th tree
+[CONSTRUCT FOREST] now construct 94 th tree
+[CONSTRUCT FOREST] now construct 93 th tree
+[CONSTRUCT FOREST] now construct 92 th tree
+[CONSTRUCT FOREST] now construct 91 th tree
+[CONSTRUCT FOREST] now construct 90 th tree
+[CONSTRUCT FOREST] now construct 89 th tree
+[CONSTRUCT FOREST] now construct 88 th tree
+[CONSTRUCT FOREST] now construct 87 th tree
+[CONSTRUCT FOREST] now construct 86 th tree
+[CONSTRUCT FOREST] now construct 85 th tree
+[CONSTRUCT FOREST] now construct 84 th tree
+[CONSTRUCT FOREST] now construct 83 th tree
+[CONSTRUCT FOREST] now construct 82 th tree
+[CONSTRUCT FOREST] now construct 81 th tree
+[CONSTRUCT FOREST] now construct 80 th tree
+[CONSTRUCT FOREST] now construct 79 th tree
+[CONSTRUCT FOREST] now construct 78 th tree
+[CONSTRUCT FOREST] now construct 77 th tree
+[CONSTRUCT FOREST] now construct 76 th tree
+[CONSTRUCT FOREST] now construct 75 th tree
+[CONSTRUCT FOREST] now construct 74 th tree
+[CONSTRUCT FOREST] now construct 73 th tree
+[CONSTRUCT FOREST] now construct 72 th tree
+[CONSTRUCT FOREST] now construct 71 th tree
+[CONSTRUCT FOREST] now construct 70 th tree
+[CONSTRUCT FOREST] now construct 69 th tree
+[CONSTRUCT FOREST] now construct 68 th tree
+[CONSTRUCT FOREST] now construct 67 th tree
+[CONSTRUCT FOREST] now construct 66 th tree
+[CONSTRUCT FOREST] now construct 65 th tree
+[CONSTRUCT FOREST] now construct 64 th tree
+[CONSTRUCT FOREST] now construct 63 th tree
+[CONSTRUCT FOREST] now construct 62 th tree
+[CONSTRUCT FOREST] now construct 61 th tree
+[CONSTRUCT FOREST] now construct 60 th tree
+[CONSTRUCT FOREST] now construct 59 th tree
+[CONSTRUCT FOREST] now construct 58 th tree
+[CONSTRUCT FOREST] now construct 57 th tree
+[CONSTRUCT FOREST] now construct 56 th tree
+[CONSTRUCT FOREST] now construct 55 th tree
+[CONSTRUCT FOREST] now construct 54 th tree
+[CONSTRUCT FOREST] now construct 53 th tree
+[CONSTRUCT FOREST] now construct 52 th tree
+[CONSTRUCT FOREST] now construct 51 th tree
+[CONSTRUCT FOREST] now construct 50 th tree
+[CONSTRUCT FOREST] now construct 49 th tree
+[CONSTRUCT FOREST] now construct 48 th tree
+[CONSTRUCT FOREST] now construct 47 th tree
+[CONSTRUCT FOREST] now construct 46 th tree
+[CONSTRUCT FOREST] now construct 45 th tree
+[CONSTRUCT FOREST] now construct 44 th tree
+[CONSTRUCT FOREST] now construct 43 th tree
+[CONSTRUCT FOREST] now construct 42 th tree
+[CONSTRUCT FOREST] now construct 41 th tree
+[CONSTRUCT FOREST] now construct 40 th tree
+[CONSTRUCT FOREST] now construct 39 th tree
+[CONSTRUCT FOREST] now construct 38 th tree
+[CONSTRUCT FOREST] now construct 37 th tree
+[CONSTRUCT FOREST] now construct 36 th tree
+[CONSTRUCT FOREST] now construct 35 th tree
+[CONSTRUCT FOREST] now construct 34 th tree
+[CONSTRUCT FOREST] now construct 33 th tree
+[CONSTRUCT FOREST] now construct 32 th tree
+[CONSTRUCT FOREST] now construct 31 th tree
+[CONSTRUCT FOREST] now construct 30 th tree
+[CONSTRUCT FOREST] now construct 29 th tree
+[CONSTRUCT FOREST] now construct 28 th tree
+[CONSTRUCT FOREST] now construct 27 th tree
+[CONSTRUCT FOREST] now construct 26 th tree
+[CONSTRUCT FOREST] now construct 25 th tree
+[CONSTRUCT FOREST] now construct 24 th tree
+[CONSTRUCT FOREST] now construct 23 th tree
+[CONSTRUCT FOREST] now construct 22 th tree
+[CONSTRUCT FOREST] now construct 21 th tree
+[CONSTRUCT FOREST] now construct 20 th tree
+[CONSTRUCT FOREST] now construct 19 th tree
+[CONSTRUCT FOREST] now construct 18 th tree
+[CONSTRUCT FOREST] now construct 17 th tree
+[CONSTRUCT FOREST] now construct 16 th tree
+[CONSTRUCT FOREST] now construct 15 th tree
+[CONSTRUCT FOREST] now construct 14 th tree
+[CONSTRUCT FOREST] now construct 13 th tree
+[CONSTRUCT FOREST] now construct 12 th tree
+[CONSTRUCT FOREST] now construct 11 th tree
+[CONSTRUCT FOREST] now construct 10 th tree
+[CONSTRUCT FOREST] now construct 9 th tree
+[CONSTRUCT FOREST] now construct 8 th tree
+[CONSTRUCT FOREST] now construct 7 th tree
+[CONSTRUCT FOREST] now construct 6 th tree
+[CONSTRUCT FOREST] now construct 5 th tree
+[CONSTRUCT FOREST] now construct 4 th tree
+[CONSTRUCT FOREST] now construct 3 th tree
+[CONSTRUCT FOREST] now construct 2 th tree
+[CONSTRUCT FOREST] now construct 1 th tree
+[CONSTRUCT FOREST] finishi! time cost: 272.562
+==================================================================
+[PRINT NDDE NUM] each node num of forest is :
+0 th tree node num: 0
+1 th tree node num: 3025
+2 th tree node num: 4451
+3 th tree node num: 7760
+4 th tree node num: 14416
+5 th tree node num: 26065
+6 th tree node num: 40951
+7 th tree node num: 59275
+8 th tree node num: 77558
+9 th tree node num: 98300
+10 th tree node num: 117810
+11 th tree node num: 141865
+12 th tree node num: 165935
+13 th tree node num: 195103
+14 th tree node num: 224711
+15 th tree node num: 256530
+16 th tree node num: 288872
+17 th tree node num: 319917
+18 th tree node num: 349468
+19 th tree node num: 373273
+20 th tree node num: 391535
+21 th tree node num: 403398
+22 th tree node num: 407763
+23 th tree node num: 406006
+24 th tree node num: 397391
+25 th tree node num: 388998
+26 th tree node num: 367093
+27 th tree node num: 346576
+28 th tree node num: 325614
+29 th tree node num: 303222
+30 th tree node num: 283397
+31 th tree node num: 260123
+32 th tree node num: 240936
+33 th tree node num: 222572
+34 th tree node num: 202033
+35 th tree node num: 186012
+36 th tree node num: 169494
+37 th tree node num: 154096
+38 th tree node num: 140116
+39 th tree node num: 126923
+40 th tree node num: 117767
+41 th tree node num: 104069
+42 th tree node num: 94036
+43 th tree node num: 84224
+44 th tree node num: 76994
+45 th tree node num: 69424
+46 th tree node num: 62097
+47 th tree node num: 55973
+48 th tree node num: 50517
+49 th tree node num: 45876
+50 th tree node num: 43861
+51 th tree node num: 35638
+52 th tree node num: 32797
+53 th tree node num: 29386
+54 th tree node num: 26542
+55 th tree node num: 24046
+56 th tree node num: 21595
+57 th tree node num: 19656
+58 th tree node num: 17387
+59 th tree node num: 15764
+60 th tree node num: 14902
+61 th tree node num: 12734
+62 th tree node num: 11533
+63 th tree node num: 10369
+64 th tree node num: 9467
+65 th tree node num: 8730
+66 th tree node num: 8175
+67 th tree node num: 6741
+68 th tree node num: 6490
+69 th tree node num: 6045
+70 th tree node num: 5740
+71 th tree node num: 5203
+72 th tree node num: 4658
+73 th tree node num: 4301
+74 th tree node num: 4033
+75 th tree node num: 3957
+76 th tree node num: 3084
+77 th tree node num: 2895
+78 th tree node num: 2665
+79 th tree node num: 2531
+80 th tree node num: 2478
+81 th tree node num: 1955
+82 th tree node num: 1839
+83 th tree node num: 1791
+84 th tree node num: 1510
+85 th tree node num: 1426
+86 th tree node num: 1234
+87 th tree node num: 1201
+88 th tree node num: 1079
+89 th tree node num: 985
+90 th tree node num: 967
+91 th tree node num: 868
+92 th tree node num: 851
+93 th tree node num: 826
+94 th tree node num: 808
+95 th tree node num: 795
+96 th tree node num: 783
+97 th tree node num: 774
+98 th tree node num: 774
+99 th tree node num: 772
+[PRINT NODE NUM] total node num of forest is 9674201
+[PRINT NDDE NUM] average node num of each tree is 96742
+[PRINT TIME] total building time: 531.528
+[PRINT SPACE INFORMATION] core vertices space cost: 231.593.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 2027.8.MB
+[PRINT SPACE]: total space cost: 2407 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

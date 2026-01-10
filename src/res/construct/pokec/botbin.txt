@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: pokec filepath: /home/hnu/Disk0/ParDon/graph/pokec.txt
+graph size: 1632803
+edge size: 22301964
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 5.69863 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 21.942 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 0.437768 s.
+[PRINT TIME] total building time: 28.0784
+[PRINT SPAEC]: total space cost: 368.376 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,16 @@
+[LOAD GRAPH] start!!! graph: amazon filepath: /home/hnu/Disk0/ParDon/graph/amazon.txt
+graph size: 334863
+edge size: 925872
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] begin constructing neighbor order!!!
+reserve vector 
+construct neighbor order 
+[COSNTRUCT INDEX] finishi construting no !!!
+[TIME COST] 0.213387 s.
+[CONSTRUCT INDEX] begin constructing core order !!!
+[CONSTRUCT INDEX] finish constructing co !!!
+[TIME COST] 0.0876014 s.
+[PRINT TIME] total building time: 0.300988
+[PRINT SPAEC]: total space cost: 28.2554 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

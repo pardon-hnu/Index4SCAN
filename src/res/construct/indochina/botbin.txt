@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: indochina filepath: /home/hnu/Disk0/ParDon/graph/indochina.txt
+graph size: 7414758
+edge size: 150984819
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 28.9846 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 179.634 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 4.06107 s.
+[PRINT TIME] total building time: 212.679
+[PRINT SPAEC]: total space cost: 2600.11 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

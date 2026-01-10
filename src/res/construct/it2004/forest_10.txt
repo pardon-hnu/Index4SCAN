@@ -1,0 +1,37 @@
+[LOAD GRAPH] start!!! graph: it2004 filepath: /home/hnu/Disk0/ParDon/graph/it2004.txt
+graph size: 41290648
+edge size: 1027474947
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 1278.12 s.
+[CONSTRUCT FOREST] start
+[CONSTRUCT FOREST] now construct 9 th tree
+[CONSTRUCT FOREST] now construct 8 th tree
+[CONSTRUCT FOREST] now construct 7 th tree
+[CONSTRUCT FOREST] now construct 6 th tree
+[CONSTRUCT FOREST] now construct 5 th tree
+[CONSTRUCT FOREST] now construct 4 th tree
+[CONSTRUCT FOREST] now construct 3 th tree
+[CONSTRUCT FOREST] now construct 2 th tree
+[CONSTRUCT FOREST] now construct 1 th tree
+[CONSTRUCT FOREST] finishi! time cost: 652.636
+==================================================================
+[PRINT NDDE NUM] each node num of forest is :
+0 th tree node num: 0
+1 th tree node num: 3497427
+2 th tree node num: 4631680
+3 th tree node num: 4856812
+4 th tree node num: 4959428
+5 th tree node num: 4857813
+6 th tree node num: 4463831
+7 th tree node num: 3926981
+8 th tree node num: 3325140
+9 th tree node num: 2106877
+[PRINT NODE NUM] total node num of forest is 36625989
+[PRINT NDDE NUM] average node num of each tree is 3.6626e+06
+[PRINT TIME] total building time: 1930.75
+[PRINT SPACE INFORMATION] core vertices space cost: 699.596.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 1090.59.MB
+[PRINT SPACE]: total space cost: 2349.05 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

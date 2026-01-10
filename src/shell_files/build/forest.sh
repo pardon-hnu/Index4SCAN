@@ -1,0 +1,17 @@
+./test amazon FOREST construct > res/construct/amazon/forest_10.txt 
+./test dblp FOREST construct > res/construct/dblp/forest_10.txt 
+./test youtube FOREST construct > res/construct/youtube/forest_10.txt 
+./test skitter FOREST construct > res/construct/skitter/forest_10.txt 
+./test pokec FOREST construct > res/construct/pokec/forest_10.txt 
+./test topcats FOREST construct > res/construct/topcats/forest_10.txt 
+./test livejournal1 FOREST construct > res/construct/livejournal1/forest_10.txt 
+./test livejournal2 FOREST construct > res/construct/livejournal2/forest_10.txt 
+./test orkut1 FOREST construct > res/construct/orkut1/forest_10.txt 
+./test orkut2 FOREST construct > res/construct/orkut2/forest_10.txt 
+./test indochina FOREST construct > res/construct/indochina/forest_10.txt 
+./test uk2002 FOREST construct > res/construct/uk2002/forest_10.txt 
+./test webbase FOREST construct > res/construct/webbase/forest_10.txt 
+./test uk2005 FOREST construct > res/construct/uk2005/forest_10.txt 
+./test it2004 FOREST construct > res/construct/it2004/forest_10.txt 
+./test friendster FOREST construct > res/construct/friendster/forest_10.txt 
+./test sk2005 FOREST construct > res/construct/sk2005/forest_10.txt 

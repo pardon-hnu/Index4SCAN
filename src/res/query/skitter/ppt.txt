@@ -1,0 +1,5137 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: skitter filepath: /home/hnu/Disk0/ParDon/graph/skitter.txt
+graph size: 1696415
+edge size: 11095298
+[LOAD GRAPH] success!!!
+[LOAD INDEX] start !!!!
+ppt num: 681 table num: 681
+[LOAD INDEX] finish !!!!
+epsilon: 0.8 mu: 2
+[QUERY] now query epsilon: 0.8 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000699447 s.
+[EVALUATION] ari index score: 0.995941
+epsilon: 0.8 mu: 3
+[QUERY] now query epsilon: 0.8 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.6154e-05 s.
+[EVALUATION] ari index score: 0.995876
+epsilon: 0.8 mu: 4
+[QUERY] now query epsilon: 0.8 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.9045e-05 s.
+[EVALUATION] ari index score: 0.997324
+epsilon: 0.8 mu: 5
+[QUERY] now query epsilon: 0.8 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.2847e-05 s.
+[EVALUATION] ari index score: 0.997183
+epsilon: 0.8 mu: 6
+[QUERY] now query epsilon: 0.8 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.253e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 7
+[QUERY] now query epsilon: 0.8 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.132e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 8
+[QUERY] now query epsilon: 0.8 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.997e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 9
+[QUERY] now query epsilon: 0.8 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.121e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 10
+[QUERY] now query epsilon: 0.8 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.65e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 11
+[QUERY] now query epsilon: 0.8 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.238e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 12
+[QUERY] now query epsilon: 0.8 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.496e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 13
+[QUERY] now query epsilon: 0.8 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.821e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.8 mu: 14
+[QUERY] now query epsilon: 0.8 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.767e-06 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 15
+[QUERY] now query epsilon: 0.8 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.499e-06 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.79 mu: 2
+[QUERY] now query epsilon: 0.79 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00151798 s.
+[EVALUATION] ari index score: 0.970618
+epsilon: 0.79 mu: 3
+[QUERY] now query epsilon: 0.79 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000226105 s.
+[EVALUATION] ari index score: 0.979845
+epsilon: 0.79 mu: 4
+[QUERY] now query epsilon: 0.79 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.5232e-05 s.
+[EVALUATION] ari index score: 0.983962
+epsilon: 0.79 mu: 5
+[QUERY] now query epsilon: 0.79 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5125e-05 s.
+[EVALUATION] ari index score: 0.981413
+epsilon: 0.79 mu: 6
+[QUERY] now query epsilon: 0.79 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1785e-05 s.
+[EVALUATION] ari index score: 0.983262
+epsilon: 0.79 mu: 7
+[QUERY] now query epsilon: 0.79 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3942e-05 s.
+[EVALUATION] ari index score: 0.983827
+epsilon: 0.79 mu: 8
+[QUERY] now query epsilon: 0.79 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0193e-05 s.
+[EVALUATION] ari index score: 0.979261
+epsilon: 0.79 mu: 9
+[QUERY] now query epsilon: 0.79 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.185e-06 s.
+[EVALUATION] ari index score: 0.986272
+epsilon: 0.79 mu: 10
+[QUERY] now query epsilon: 0.79 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.904e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.79 mu: 11
+[QUERY] now query epsilon: 0.79 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.099e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.79 mu: 12
+[QUERY] now query epsilon: 0.79 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.191e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.79 mu: 13
+[QUERY] now query epsilon: 0.79 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.286e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.79 mu: 14
+[QUERY] now query epsilon: 0.79 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.955e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.79 mu: 15
+[QUERY] now query epsilon: 0.79 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.603e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 2
+[QUERY] now query epsilon: 0.78 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00143332 s.
+[EVALUATION] ari index score: 0.971107
+epsilon: 0.78 mu: 3
+[QUERY] now query epsilon: 0.78 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000218444 s.
+[EVALUATION] ari index score: 0.980585
+epsilon: 0.78 mu: 4
+[QUERY] now query epsilon: 0.78 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.2656e-05 s.
+[EVALUATION] ari index score: 0.978049
+epsilon: 0.78 mu: 5
+[QUERY] now query epsilon: 0.78 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5218e-05 s.
+[EVALUATION] ari index score: 0.96609
+epsilon: 0.78 mu: 6
+[QUERY] now query epsilon: 0.78 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0515e-05 s.
+[EVALUATION] ari index score: 0.984759
+epsilon: 0.78 mu: 7
+[QUERY] now query epsilon: 0.78 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3823e-05 s.
+[EVALUATION] ari index score: 0.985426
+epsilon: 0.78 mu: 8
+[QUERY] now query epsilon: 0.78 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0108e-05 s.
+[EVALUATION] ari index score: 0.980387
+epsilon: 0.78 mu: 9
+[QUERY] now query epsilon: 0.78 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.274e-06 s.
+[EVALUATION] ari index score: 0.988353
+epsilon: 0.78 mu: 10
+[QUERY] now query epsilon: 0.78 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.911e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 11
+[QUERY] now query epsilon: 0.78 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.289e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 12
+[QUERY] now query epsilon: 0.78 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.38e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 13
+[QUERY] now query epsilon: 0.78 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.134e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 14
+[QUERY] now query epsilon: 0.78 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.829e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.78 mu: 15
+[QUERY] now query epsilon: 0.78 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.7e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 2
+[QUERY] now query epsilon: 0.77 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00136407 s.
+[EVALUATION] ari index score: 0.971159
+epsilon: 0.77 mu: 3
+[QUERY] now query epsilon: 0.77 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000216801 s.
+[EVALUATION] ari index score: 0.98214
+epsilon: 0.77 mu: 4
+[QUERY] now query epsilon: 0.77 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000132392 s.
+[EVALUATION] ari index score: 0.983102
+epsilon: 0.77 mu: 5
+[QUERY] now query epsilon: 0.77 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3701e-05 s.
+[EVALUATION] ari index score: 0.96567
+epsilon: 0.77 mu: 6
+[QUERY] now query epsilon: 0.77 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.08e-05 s.
+[EVALUATION] ari index score: 0.972447
+epsilon: 0.77 mu: 7
+[QUERY] now query epsilon: 0.77 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.446e-05 s.
+[EVALUATION] ari index score: 0.986131
+epsilon: 0.77 mu: 8
+[QUERY] now query epsilon: 0.77 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.338e-06 s.
+[EVALUATION] ari index score: 0.981048
+epsilon: 0.77 mu: 9
+[QUERY] now query epsilon: 0.77 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.889e-06 s.
+[EVALUATION] ari index score: 0.989641
+epsilon: 0.77 mu: 10
+[QUERY] now query epsilon: 0.77 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.78e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 11
+[QUERY] now query epsilon: 0.77 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.769e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 12
+[QUERY] now query epsilon: 0.77 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.216e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 13
+[QUERY] now query epsilon: 0.77 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.718e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 14
+[QUERY] now query epsilon: 0.77 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.214e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.77 mu: 15
+[QUERY] now query epsilon: 0.77 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.99e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 2
+[QUERY] now query epsilon: 0.76 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00138992 s.
+[EVALUATION] ari index score: 0.970707
+epsilon: 0.76 mu: 3
+[QUERY] now query epsilon: 0.76 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000219349 s.
+[EVALUATION] ari index score: 0.976513
+epsilon: 0.76 mu: 4
+[QUERY] now query epsilon: 0.76 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.0834e-05 s.
+[EVALUATION] ari index score: 0.983501
+epsilon: 0.76 mu: 5
+[QUERY] now query epsilon: 0.76 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.504e-05 s.
+[EVALUATION] ari index score: 0.96631
+epsilon: 0.76 mu: 6
+[QUERY] now query epsilon: 0.76 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0312e-05 s.
+[EVALUATION] ari index score: 0.975008
+epsilon: 0.76 mu: 7
+[QUERY] now query epsilon: 0.76 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3403e-05 s.
+[EVALUATION] ari index score: 0.986035
+epsilon: 0.76 mu: 8
+[QUERY] now query epsilon: 0.76 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0406e-05 s.
+[EVALUATION] ari index score: 0.981311
+epsilon: 0.76 mu: 9
+[QUERY] now query epsilon: 0.76 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.17e-06 s.
+[EVALUATION] ari index score: 0.991743
+epsilon: 0.76 mu: 10
+[QUERY] now query epsilon: 0.76 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.277e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 11
+[QUERY] now query epsilon: 0.76 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.675e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 12
+[QUERY] now query epsilon: 0.76 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.684e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 13
+[QUERY] now query epsilon: 0.76 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.963e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 14
+[QUERY] now query epsilon: 0.76 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.554e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.76 mu: 15
+[QUERY] now query epsilon: 0.76 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.592e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 2
+[QUERY] now query epsilon: 0.75 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00142514 s.
+[EVALUATION] ari index score: 0.976658
+epsilon: 0.75 mu: 3
+[QUERY] now query epsilon: 0.75 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000233335 s.
+[EVALUATION] ari index score: 0.986088
+epsilon: 0.75 mu: 4
+[QUERY] now query epsilon: 0.75 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.5434e-05 s.
+[EVALUATION] ari index score: 0.990341
+epsilon: 0.75 mu: 5
+[QUERY] now query epsilon: 0.75 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.6105e-05 s.
+[EVALUATION] ari index score: 0.97748
+epsilon: 0.75 mu: 6
+[QUERY] now query epsilon: 0.75 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1892e-05 s.
+[EVALUATION] ari index score: 0.969238
+epsilon: 0.75 mu: 7
+[QUERY] now query epsilon: 0.75 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.5489e-05 s.
+[EVALUATION] ari index score: 0.987678
+epsilon: 0.75 mu: 8
+[QUERY] now query epsilon: 0.75 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.993e-06 s.
+[EVALUATION] ari index score: 0.983233
+epsilon: 0.75 mu: 9
+[QUERY] now query epsilon: 0.75 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.435e-06 s.
+[EVALUATION] ari index score: 0.992434
+epsilon: 0.75 mu: 10
+[QUERY] now query epsilon: 0.75 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.894e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 11
+[QUERY] now query epsilon: 0.75 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.314e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 12
+[QUERY] now query epsilon: 0.75 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.476e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 13
+[QUERY] now query epsilon: 0.75 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.671e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 14
+[QUERY] now query epsilon: 0.75 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.942e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.75 mu: 15
+[QUERY] now query epsilon: 0.75 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.847e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 2
+[QUERY] now query epsilon: 0.74 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00153002 s.
+[EVALUATION] ari index score: 0.975943
+epsilon: 0.74 mu: 3
+[QUERY] now query epsilon: 0.74 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000237159 s.
+[EVALUATION] ari index score: 0.98643
+epsilon: 0.74 mu: 4
+[QUERY] now query epsilon: 0.74 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.6159e-05 s.
+[EVALUATION] ari index score: 0.987923
+epsilon: 0.74 mu: 5
+[QUERY] now query epsilon: 0.74 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4968e-05 s.
+[EVALUATION] ari index score: 0.985517
+epsilon: 0.74 mu: 6
+[QUERY] now query epsilon: 0.74 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0947e-05 s.
+[EVALUATION] ari index score: 0.979668
+epsilon: 0.74 mu: 7
+[QUERY] now query epsilon: 0.74 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.4816e-05 s.
+[EVALUATION] ari index score: 0.985094
+epsilon: 0.74 mu: 8
+[QUERY] now query epsilon: 0.74 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.422e-06 s.
+[EVALUATION] ari index score: 0.980844
+epsilon: 0.74 mu: 9
+[QUERY] now query epsilon: 0.74 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.733e-06 s.
+[EVALUATION] ari index score: 0.992614
+epsilon: 0.74 mu: 10
+[QUERY] now query epsilon: 0.74 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.681e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 11
+[QUERY] now query epsilon: 0.74 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.61e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 12
+[QUERY] now query epsilon: 0.74 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.345e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 13
+[QUERY] now query epsilon: 0.74 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.533e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 14
+[QUERY] now query epsilon: 0.74 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.269e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.74 mu: 15
+[QUERY] now query epsilon: 0.74 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.766e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 2
+[QUERY] now query epsilon: 0.73 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00142306 s.
+[EVALUATION] ari index score: 0.976041
+epsilon: 0.73 mu: 3
+[QUERY] now query epsilon: 0.73 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000225105 s.
+[EVALUATION] ari index score: 0.986055
+epsilon: 0.73 mu: 4
+[QUERY] now query epsilon: 0.73 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.602e-05 s.
+[EVALUATION] ari index score: 0.989199
+epsilon: 0.73 mu: 5
+[QUERY] now query epsilon: 0.73 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4336e-05 s.
+[EVALUATION] ari index score: 0.982487
+epsilon: 0.73 mu: 6
+[QUERY] now query epsilon: 0.73 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1548e-05 s.
+[EVALUATION] ari index score: 0.991032
+epsilon: 0.73 mu: 7
+[QUERY] now query epsilon: 0.73 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.356e-05 s.
+[EVALUATION] ari index score: 0.990026
+epsilon: 0.73 mu: 8
+[QUERY] now query epsilon: 0.73 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0156e-05 s.
+[EVALUATION] ari index score: 0.97765
+epsilon: 0.73 mu: 9
+[QUERY] now query epsilon: 0.73 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.046e-06 s.
+[EVALUATION] ari index score: 0.993287
+epsilon: 0.73 mu: 10
+[QUERY] now query epsilon: 0.73 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.647e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 11
+[QUERY] now query epsilon: 0.73 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.196e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 12
+[QUERY] now query epsilon: 0.73 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.732e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 13
+[QUERY] now query epsilon: 0.73 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.502e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 14
+[QUERY] now query epsilon: 0.73 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.107e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.73 mu: 15
+[QUERY] now query epsilon: 0.73 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.998e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 2
+[QUERY] now query epsilon: 0.72 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00138633 s.
+[EVALUATION] ari index score: 0.977333
+epsilon: 0.72 mu: 3
+[QUERY] now query epsilon: 0.72 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000223954 s.
+[EVALUATION] ari index score: 0.984832
+epsilon: 0.72 mu: 4
+[QUERY] now query epsilon: 0.72 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.2988e-05 s.
+[EVALUATION] ari index score: 0.991159
+epsilon: 0.72 mu: 5
+[QUERY] now query epsilon: 0.72 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5631e-05 s.
+[EVALUATION] ari index score: 0.984461
+epsilon: 0.72 mu: 6
+[QUERY] now query epsilon: 0.72 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0481e-05 s.
+[EVALUATION] ari index score: 0.991931
+epsilon: 0.72 mu: 7
+[QUERY] now query epsilon: 0.72 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.4115e-05 s.
+[EVALUATION] ari index score: 0.9916
+epsilon: 0.72 mu: 8
+[QUERY] now query epsilon: 0.72 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.586e-06 s.
+[EVALUATION] ari index score: 0.980753
+epsilon: 0.72 mu: 9
+[QUERY] now query epsilon: 0.72 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.677e-06 s.
+[EVALUATION] ari index score: 0.994002
+epsilon: 0.72 mu: 10
+[QUERY] now query epsilon: 0.72 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.163e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 11
+[QUERY] now query epsilon: 0.72 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.704e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 12
+[QUERY] now query epsilon: 0.72 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.254e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 13
+[QUERY] now query epsilon: 0.72 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.821e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 14
+[QUERY] now query epsilon: 0.72 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.398e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.72 mu: 15
+[QUERY] now query epsilon: 0.72 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.575e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 2
+[QUERY] now query epsilon: 0.71 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00140583 s.
+[EVALUATION] ari index score: 0.978207
+epsilon: 0.71 mu: 3
+[QUERY] now query epsilon: 0.71 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000224692 s.
+[EVALUATION] ari index score: 0.983948
+epsilon: 0.71 mu: 4
+[QUERY] now query epsilon: 0.71 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.3022e-05 s.
+[EVALUATION] ari index score: 0.991135
+epsilon: 0.71 mu: 5
+[QUERY] now query epsilon: 0.71 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5052e-05 s.
+[EVALUATION] ari index score: 0.984711
+epsilon: 0.71 mu: 6
+[QUERY] now query epsilon: 0.71 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0736e-05 s.
+[EVALUATION] ari index score: 0.991524
+epsilon: 0.71 mu: 7
+[QUERY] now query epsilon: 0.71 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.4266e-05 s.
+[EVALUATION] ari index score: 0.991915
+epsilon: 0.71 mu: 8
+[QUERY] now query epsilon: 0.71 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0254e-05 s.
+[EVALUATION] ari index score: 0.984884
+epsilon: 0.71 mu: 9
+[QUERY] now query epsilon: 0.71 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.278e-06 s.
+[EVALUATION] ari index score: 0.994776
+epsilon: 0.71 mu: 10
+[QUERY] now query epsilon: 0.71 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.801e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 11
+[QUERY] now query epsilon: 0.71 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.998e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 12
+[QUERY] now query epsilon: 0.71 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.496e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 13
+[QUERY] now query epsilon: 0.71 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.451e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 14
+[QUERY] now query epsilon: 0.71 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.925e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.71 mu: 15
+[QUERY] now query epsilon: 0.71 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.342e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 2
+[QUERY] now query epsilon: 0.7 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00140229 s.
+[EVALUATION] ari index score: 0.983244
+epsilon: 0.7 mu: 3
+[QUERY] now query epsilon: 0.7 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000226127 s.
+[EVALUATION] ari index score: 0.993525
+epsilon: 0.7 mu: 4
+[QUERY] now query epsilon: 0.7 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.3723e-05 s.
+[EVALUATION] ari index score: 0.99412
+epsilon: 0.7 mu: 5
+[QUERY] now query epsilon: 0.7 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.9087e-05 s.
+[EVALUATION] ari index score: 0.988787
+epsilon: 0.7 mu: 6
+[QUERY] now query epsilon: 0.7 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1841e-05 s.
+[EVALUATION] ari index score: 0.987846
+epsilon: 0.7 mu: 7
+[QUERY] now query epsilon: 0.7 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.5349e-05 s.
+[EVALUATION] ari index score: 0.989718
+epsilon: 0.7 mu: 8
+[QUERY] now query epsilon: 0.7 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.1415e-05 s.
+[EVALUATION] ari index score: 0.98738
+epsilon: 0.7 mu: 9
+[QUERY] now query epsilon: 0.7 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.618e-06 s.
+[EVALUATION] ari index score: 0.995776
+epsilon: 0.7 mu: 10
+[QUERY] now query epsilon: 0.7 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.114e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 11
+[QUERY] now query epsilon: 0.7 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.903e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 12
+[QUERY] now query epsilon: 0.7 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.579e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 13
+[QUERY] now query epsilon: 0.7 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.251e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 14
+[QUERY] now query epsilon: 0.7 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.991e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.7 mu: 15
+[QUERY] now query epsilon: 0.7 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.889e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.69 mu: 2
+[QUERY] now query epsilon: 0.69 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00374697 s.
+[EVALUATION] ari index score: 0.942271
+epsilon: 0.69 mu: 3
+[QUERY] now query epsilon: 0.69 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000720097 s.
+[EVALUATION] ari index score: 0.925618
+epsilon: 0.69 mu: 4
+[QUERY] now query epsilon: 0.69 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000178077 s.
+[EVALUATION] ari index score: 0.889933
+epsilon: 0.69 mu: 5
+[QUERY] now query epsilon: 0.69 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0515e-05 s.
+[EVALUATION] ari index score: 0.896846
+epsilon: 0.69 mu: 6
+[QUERY] now query epsilon: 0.69 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.832e-05 s.
+[EVALUATION] ari index score: 0.87291
+epsilon: 0.69 mu: 7
+[QUERY] now query epsilon: 0.69 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3878e-05 s.
+[EVALUATION] ari index score: 0.87572
+epsilon: 0.69 mu: 8
+[QUERY] now query epsilon: 0.69 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4551e-05 s.
+[EVALUATION] ari index score: 0.853816
+epsilon: 0.69 mu: 9
+[QUERY] now query epsilon: 0.69 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.7105e-05 s.
+[EVALUATION] ari index score: 0.805624
+epsilon: 0.69 mu: 10
+[QUERY] now query epsilon: 0.69 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.307e-05 s.
+[EVALUATION] ari index score: 0.788421
+epsilon: 0.69 mu: 11
+[QUERY] now query epsilon: 0.69 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.1073e-05 s.
+[EVALUATION] ari index score: 0.736736
+epsilon: 0.69 mu: 12
+[QUERY] now query epsilon: 0.69 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.995e-06 s.
+[EVALUATION] ari index score: 0.653953
+epsilon: 0.69 mu: 13
+[QUERY] now query epsilon: 0.69 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.319e-06 s.
+[EVALUATION] ari index score: 0.94054
+epsilon: 0.69 mu: 14
+[QUERY] now query epsilon: 0.69 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.915e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.69 mu: 15
+[QUERY] now query epsilon: 0.69 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.986e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.68 mu: 2
+[QUERY] now query epsilon: 0.68 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00363491 s.
+[EVALUATION] ari index score: 0.960104
+epsilon: 0.68 mu: 3
+[QUERY] now query epsilon: 0.68 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000734252 s.
+[EVALUATION] ari index score: 0.96735
+epsilon: 0.68 mu: 4
+[QUERY] now query epsilon: 0.68 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000175498 s.
+[EVALUATION] ari index score: 0.957209
+epsilon: 0.68 mu: 5
+[QUERY] now query epsilon: 0.68 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.1434e-05 s.
+[EVALUATION] ari index score: 0.95318
+epsilon: 0.68 mu: 6
+[QUERY] now query epsilon: 0.68 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.0422e-05 s.
+[EVALUATION] ari index score: 0.871444
+epsilon: 0.68 mu: 7
+[QUERY] now query epsilon: 0.68 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.6211e-05 s.
+[EVALUATION] ari index score: 0.867428
+epsilon: 0.68 mu: 8
+[QUERY] now query epsilon: 0.68 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.2839e-05 s.
+[EVALUATION] ari index score: 0.847314
+epsilon: 0.68 mu: 9
+[QUERY] now query epsilon: 0.68 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.7428e-05 s.
+[EVALUATION] ari index score: 0.812265
+epsilon: 0.68 mu: 10
+[QUERY] now query epsilon: 0.68 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.2823e-05 s.
+[EVALUATION] ari index score: 0.789677
+epsilon: 0.68 mu: 11
+[QUERY] now query epsilon: 0.68 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0169e-05 s.
+[EVALUATION] ari index score: 0.704459
+epsilon: 0.68 mu: 12
+[QUERY] now query epsilon: 0.68 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.137e-06 s.
+[EVALUATION] ari index score: 0.670983
+epsilon: 0.68 mu: 13
+[QUERY] now query epsilon: 0.68 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.961e-06 s.
+[EVALUATION] ari index score: 0.626234
+epsilon: 0.68 mu: 14
+[QUERY] now query epsilon: 0.68 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.498e-06 s.
+[EVALUATION] ari index score: 0.547376
+epsilon: 0.68 mu: 15
+[QUERY] now query epsilon: 0.68 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.955e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.67 mu: 2
+[QUERY] now query epsilon: 0.67 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00365356 s.
+[EVALUATION] ari index score: 0.960976
+epsilon: 0.67 mu: 3
+[QUERY] now query epsilon: 0.67 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000711268 s.
+[EVALUATION] ari index score: 0.961043
+epsilon: 0.67 mu: 4
+[QUERY] now query epsilon: 0.67 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000180224 s.
+[EVALUATION] ari index score: 0.943022
+epsilon: 0.67 mu: 5
+[QUERY] now query epsilon: 0.67 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.9864e-05 s.
+[EVALUATION] ari index score: 0.954789
+epsilon: 0.67 mu: 6
+[QUERY] now query epsilon: 0.67 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.1713e-05 s.
+[EVALUATION] ari index score: 0.867155
+epsilon: 0.67 mu: 7
+[QUERY] now query epsilon: 0.67 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4034e-05 s.
+[EVALUATION] ari index score: 0.87153
+epsilon: 0.67 mu: 8
+[QUERY] now query epsilon: 0.67 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.3991e-05 s.
+[EVALUATION] ari index score: 0.848082
+epsilon: 0.67 mu: 9
+[QUERY] now query epsilon: 0.67 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6455e-05 s.
+[EVALUATION] ari index score: 0.811986
+epsilon: 0.67 mu: 10
+[QUERY] now query epsilon: 0.67 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3251e-05 s.
+[EVALUATION] ari index score: 0.804026
+epsilon: 0.67 mu: 11
+[QUERY] now query epsilon: 0.67 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0598e-05 s.
+[EVALUATION] ari index score: 0.731119
+epsilon: 0.67 mu: 12
+[QUERY] now query epsilon: 0.67 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.423e-06 s.
+[EVALUATION] ari index score: 0.676256
+epsilon: 0.67 mu: 13
+[QUERY] now query epsilon: 0.67 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.077e-06 s.
+[EVALUATION] ari index score: 0.633329
+epsilon: 0.67 mu: 14
+[QUERY] now query epsilon: 0.67 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.321e-06 s.
+[EVALUATION] ari index score: 0.535565
+epsilon: 0.67 mu: 15
+[QUERY] now query epsilon: 0.67 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.32e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.66 mu: 2
+[QUERY] now query epsilon: 0.66 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00358023 s.
+[EVALUATION] ari index score: 0.97678
+epsilon: 0.66 mu: 3
+[QUERY] now query epsilon: 0.66 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000766127 s.
+[EVALUATION] ari index score: 0.984795
+epsilon: 0.66 mu: 4
+[QUERY] now query epsilon: 0.66 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000182428 s.
+[EVALUATION] ari index score: 0.963905
+epsilon: 0.66 mu: 5
+[QUERY] now query epsilon: 0.66 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.2499e-05 s.
+[EVALUATION] ari index score: 0.981595
+epsilon: 0.66 mu: 6
+[QUERY] now query epsilon: 0.66 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.0139e-05 s.
+[EVALUATION] ari index score: 0.884888
+epsilon: 0.66 mu: 7
+[QUERY] now query epsilon: 0.66 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3583e-05 s.
+[EVALUATION] ari index score: 0.854731
+epsilon: 0.66 mu: 8
+[QUERY] now query epsilon: 0.66 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4153e-05 s.
+[EVALUATION] ari index score: 0.85111
+epsilon: 0.66 mu: 9
+[QUERY] now query epsilon: 0.66 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8904e-05 s.
+[EVALUATION] ari index score: 0.824565
+epsilon: 0.66 mu: 10
+[QUERY] now query epsilon: 0.66 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3492e-05 s.
+[EVALUATION] ari index score: 0.803611
+epsilon: 0.66 mu: 11
+[QUERY] now query epsilon: 0.66 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.59e-06 s.
+[EVALUATION] ari index score: 0.762697
+epsilon: 0.66 mu: 12
+[QUERY] now query epsilon: 0.66 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.126e-06 s.
+[EVALUATION] ari index score: 0.70936
+epsilon: 0.66 mu: 13
+[QUERY] now query epsilon: 0.66 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.501e-06 s.
+[EVALUATION] ari index score: 0.622241
+epsilon: 0.66 mu: 14
+[QUERY] now query epsilon: 0.66 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.818e-06 s.
+[EVALUATION] ari index score: 0.664668
+epsilon: 0.66 mu: 15
+[QUERY] now query epsilon: 0.66 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.308e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.65 mu: 2
+[QUERY] now query epsilon: 0.65 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00384086 s.
+[EVALUATION] ari index score: 0.977268
+epsilon: 0.65 mu: 3
+[QUERY] now query epsilon: 0.65 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00079814 s.
+[EVALUATION] ari index score: 0.985493
+epsilon: 0.65 mu: 4
+[QUERY] now query epsilon: 0.65 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000188165 s.
+[EVALUATION] ari index score: 0.977734
+epsilon: 0.65 mu: 5
+[QUERY] now query epsilon: 0.65 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.5799e-05 s.
+[EVALUATION] ari index score: 0.983015
+epsilon: 0.65 mu: 6
+[QUERY] now query epsilon: 0.65 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2168e-05 s.
+[EVALUATION] ari index score: 0.98485
+epsilon: 0.65 mu: 7
+[QUERY] now query epsilon: 0.65 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4283e-05 s.
+[EVALUATION] ari index score: 0.989613
+epsilon: 0.65 mu: 8
+[QUERY] now query epsilon: 0.65 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.5216e-05 s.
+[EVALUATION] ari index score: 0.985254
+epsilon: 0.65 mu: 9
+[QUERY] now query epsilon: 0.65 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.821e-05 s.
+[EVALUATION] ari index score: 0.986229
+epsilon: 0.65 mu: 10
+[QUERY] now query epsilon: 0.65 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.2873e-05 s.
+[EVALUATION] ari index score: 0.993017
+epsilon: 0.65 mu: 11
+[QUERY] now query epsilon: 0.65 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.1113e-05 s.
+[EVALUATION] ari index score: 0.779561
+epsilon: 0.65 mu: 12
+[QUERY] now query epsilon: 0.65 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.457e-06 s.
+[EVALUATION] ari index score: 0.747553
+epsilon: 0.65 mu: 13
+[QUERY] now query epsilon: 0.65 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.734e-06 s.
+[EVALUATION] ari index score: 0.645978
+epsilon: 0.65 mu: 14
+[QUERY] now query epsilon: 0.65 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.555e-06 s.
+[EVALUATION] ari index score: 0.655892
+epsilon: 0.65 mu: 15
+[QUERY] now query epsilon: 0.65 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.811e-06 s.
+[EVALUATION] ari index score: 0.557254
+epsilon: 0.64 mu: 2
+[QUERY] now query epsilon: 0.64 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00366069 s.
+[EVALUATION] ari index score: 0.977564
+epsilon: 0.64 mu: 3
+[QUERY] now query epsilon: 0.64 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00073102 s.
+[EVALUATION] ari index score: 0.986093
+epsilon: 0.64 mu: 4
+[QUERY] now query epsilon: 0.64 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000177554 s.
+[EVALUATION] ari index score: 0.978538
+epsilon: 0.64 mu: 5
+[QUERY] now query epsilon: 0.64 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.1334e-05 s.
+[EVALUATION] ari index score: 0.983569
+epsilon: 0.64 mu: 6
+[QUERY] now query epsilon: 0.64 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.0645e-05 s.
+[EVALUATION] ari index score: 0.985722
+epsilon: 0.64 mu: 7
+[QUERY] now query epsilon: 0.64 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3941e-05 s.
+[EVALUATION] ari index score: 0.990518
+epsilon: 0.64 mu: 8
+[QUERY] now query epsilon: 0.64 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4762e-05 s.
+[EVALUATION] ari index score: 0.987364
+epsilon: 0.64 mu: 9
+[QUERY] now query epsilon: 0.64 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.957e-05 s.
+[EVALUATION] ari index score: 0.98709
+epsilon: 0.64 mu: 10
+[QUERY] now query epsilon: 0.64 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.2974e-05 s.
+[EVALUATION] ari index score: 0.994712
+epsilon: 0.64 mu: 11
+[QUERY] now query epsilon: 0.64 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0308e-05 s.
+[EVALUATION] ari index score: 0.99118
+epsilon: 0.64 mu: 12
+[QUERY] now query epsilon: 0.64 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.147e-06 s.
+[EVALUATION] ari index score: 0.756399
+epsilon: 0.64 mu: 13
+[QUERY] now query epsilon: 0.64 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.574e-06 s.
+[EVALUATION] ari index score: 0.684118
+epsilon: 0.64 mu: 14
+[QUERY] now query epsilon: 0.64 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.641e-06 s.
+[EVALUATION] ari index score: 0.661368
+epsilon: 0.64 mu: 15
+[QUERY] now query epsilon: 0.64 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.281e-06 s.
+[EVALUATION] ari index score: 0.530527
+epsilon: 0.63 mu: 2
+[QUERY] now query epsilon: 0.63 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00368666 s.
+[EVALUATION] ari index score: 0.978067
+epsilon: 0.63 mu: 3
+[QUERY] now query epsilon: 0.63 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000735749 s.
+[EVALUATION] ari index score: 0.986646
+epsilon: 0.63 mu: 4
+[QUERY] now query epsilon: 0.63 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000176983 s.
+[EVALUATION] ari index score: 0.978368
+epsilon: 0.63 mu: 5
+[QUERY] now query epsilon: 0.63 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.1284e-05 s.
+[EVALUATION] ari index score: 0.983848
+epsilon: 0.63 mu: 6
+[QUERY] now query epsilon: 0.63 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.0626e-05 s.
+[EVALUATION] ari index score: 0.985961
+epsilon: 0.63 mu: 7
+[QUERY] now query epsilon: 0.63 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2768e-05 s.
+[EVALUATION] ari index score: 0.990307
+epsilon: 0.63 mu: 8
+[QUERY] now query epsilon: 0.63 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.457e-05 s.
+[EVALUATION] ari index score: 0.988262
+epsilon: 0.63 mu: 9
+[QUERY] now query epsilon: 0.63 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8357e-05 s.
+[EVALUATION] ari index score: 0.989107
+epsilon: 0.63 mu: 10
+[QUERY] now query epsilon: 0.63 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3716e-05 s.
+[EVALUATION] ari index score: 0.994896
+epsilon: 0.63 mu: 11
+[QUERY] now query epsilon: 0.63 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0127e-05 s.
+[EVALUATION] ari index score: 0.992235
+epsilon: 0.63 mu: 12
+[QUERY] now query epsilon: 0.63 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.513e-06 s.
+[EVALUATION] ari index score: 0.990501
+epsilon: 0.63 mu: 13
+[QUERY] now query epsilon: 0.63 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.911e-06 s.
+[EVALUATION] ari index score: 0.984539
+epsilon: 0.63 mu: 14
+[QUERY] now query epsilon: 0.63 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.795e-06 s.
+[EVALUATION] ari index score: 0.662352
+epsilon: 0.63 mu: 15
+[QUERY] now query epsilon: 0.63 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.568e-06 s.
+[EVALUATION] ari index score: 0.534598
+epsilon: 0.62 mu: 2
+[QUERY] now query epsilon: 0.62 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00358612 s.
+[EVALUATION] ari index score: 0.978845
+epsilon: 0.62 mu: 3
+[QUERY] now query epsilon: 0.62 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000765806 s.
+[EVALUATION] ari index score: 0.987545
+epsilon: 0.62 mu: 4
+[QUERY] now query epsilon: 0.62 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000190465 s.
+[EVALUATION] ari index score: 0.980469
+epsilon: 0.62 mu: 5
+[QUERY] now query epsilon: 0.62 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.6629e-05 s.
+[EVALUATION] ari index score: 0.985132
+epsilon: 0.62 mu: 6
+[QUERY] now query epsilon: 0.62 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2993e-05 s.
+[EVALUATION] ari index score: 0.987014
+epsilon: 0.62 mu: 7
+[QUERY] now query epsilon: 0.62 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3849e-05 s.
+[EVALUATION] ari index score: 0.9911
+epsilon: 0.62 mu: 8
+[QUERY] now query epsilon: 0.62 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.5394e-05 s.
+[EVALUATION] ari index score: 0.989714
+epsilon: 0.62 mu: 9
+[QUERY] now query epsilon: 0.62 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.7308e-05 s.
+[EVALUATION] ari index score: 0.989856
+epsilon: 0.62 mu: 10
+[QUERY] now query epsilon: 0.62 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.3712e-05 s.
+[EVALUATION] ari index score: 0.995559
+epsilon: 0.62 mu: 11
+[QUERY] now query epsilon: 0.62 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0903e-05 s.
+[EVALUATION] ari index score: 0.993028
+epsilon: 0.62 mu: 12
+[QUERY] now query epsilon: 0.62 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.291e-06 s.
+[EVALUATION] ari index score: 0.99161
+epsilon: 0.62 mu: 13
+[QUERY] now query epsilon: 0.62 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.516e-06 s.
+[EVALUATION] ari index score: 0.987858
+epsilon: 0.62 mu: 14
+[QUERY] now query epsilon: 0.62 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.692e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.62 mu: 15
+[QUERY] now query epsilon: 0.62 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.399e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.61 mu: 2
+[QUERY] now query epsilon: 0.61 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00362022 s.
+[EVALUATION] ari index score: 0.979309
+epsilon: 0.61 mu: 3
+[QUERY] now query epsilon: 0.61 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000754093 s.
+[EVALUATION] ari index score: 0.988057
+epsilon: 0.61 mu: 4
+[QUERY] now query epsilon: 0.61 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000181264 s.
+[EVALUATION] ari index score: 0.980508
+epsilon: 0.61 mu: 5
+[QUERY] now query epsilon: 0.61 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.4198e-05 s.
+[EVALUATION] ari index score: 0.986366
+epsilon: 0.61 mu: 6
+[QUERY] now query epsilon: 0.61 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2842e-05 s.
+[EVALUATION] ari index score: 0.987672
+epsilon: 0.61 mu: 7
+[QUERY] now query epsilon: 0.61 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3794e-05 s.
+[EVALUATION] ari index score: 0.99162
+epsilon: 0.61 mu: 8
+[QUERY] now query epsilon: 0.61 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.3382e-05 s.
+[EVALUATION] ari index score: 0.990545
+epsilon: 0.61 mu: 9
+[QUERY] now query epsilon: 0.61 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6739e-05 s.
+[EVALUATION] ari index score: 0.991261
+epsilon: 0.61 mu: 10
+[QUERY] now query epsilon: 0.61 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.2916e-05 s.
+[EVALUATION] ari index score: 0.996175
+epsilon: 0.61 mu: 11
+[QUERY] now query epsilon: 0.61 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.0775e-05 s.
+[EVALUATION] ari index score: 0.994113
+epsilon: 0.61 mu: 12
+[QUERY] now query epsilon: 0.61 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.206e-06 s.
+[EVALUATION] ari index score: 0.993075
+epsilon: 0.61 mu: 13
+[QUERY] now query epsilon: 0.61 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.314e-06 s.
+[EVALUATION] ari index score: 0.990294
+epsilon: 0.61 mu: 14
+[QUERY] now query epsilon: 0.61 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.518e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.61 mu: 15
+[QUERY] now query epsilon: 0.61 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.981e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.6 mu: 2
+[QUERY] now query epsilon: 0.6 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00365096 s.
+[EVALUATION] ari index score: 0.981658
+epsilon: 0.6 mu: 3
+[QUERY] now query epsilon: 0.6 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000751578 s.
+[EVALUATION] ari index score: 0.993685
+epsilon: 0.6 mu: 4
+[QUERY] now query epsilon: 0.6 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00018017 s.
+[EVALUATION] ari index score: 0.988232
+epsilon: 0.6 mu: 5
+[QUERY] now query epsilon: 0.6 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.2613e-05 s.
+[EVALUATION] ari index score: 0.989651
+epsilon: 0.6 mu: 6
+[QUERY] now query epsilon: 0.6 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.0866e-05 s.
+[EVALUATION] ari index score: 0.991734
+epsilon: 0.6 mu: 7
+[QUERY] now query epsilon: 0.6 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.3092e-05 s.
+[EVALUATION] ari index score: 0.996127
+epsilon: 0.6 mu: 8
+[QUERY] now query epsilon: 0.6 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4438e-05 s.
+[EVALUATION] ari index score: 0.995128
+epsilon: 0.6 mu: 9
+[QUERY] now query epsilon: 0.6 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8721e-05 s.
+[EVALUATION] ari index score: 0.99657
+epsilon: 0.6 mu: 10
+[QUERY] now query epsilon: 0.6 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.306e-05 s.
+[EVALUATION] ari index score: 0.99631
+epsilon: 0.6 mu: 11
+[QUERY] now query epsilon: 0.6 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.1564e-05 s.
+[EVALUATION] ari index score: 0.994554
+epsilon: 0.6 mu: 12
+[QUERY] now query epsilon: 0.6 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.365e-06 s.
+[EVALUATION] ari index score: 0.99332
+epsilon: 0.6 mu: 13
+[QUERY] now query epsilon: 0.6 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.685e-06 s.
+[EVALUATION] ari index score: 0.990789
+epsilon: 0.6 mu: 14
+[QUERY] now query epsilon: 0.6 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.756e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.6 mu: 15
+[QUERY] now query epsilon: 0.6 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.787e-06 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.59 mu: 2
+[QUERY] now query epsilon: 0.59 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00833769 s.
+[EVALUATION] ari index score: 0.954949
+epsilon: 0.59 mu: 3
+[QUERY] now query epsilon: 0.59 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00223608 s.
+[EVALUATION] ari index score: 0.97157
+epsilon: 0.59 mu: 4
+[QUERY] now query epsilon: 0.59 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000530908 s.
+[EVALUATION] ari index score: 0.963565
+epsilon: 0.59 mu: 5
+[QUERY] now query epsilon: 0.59 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00020206 s.
+[EVALUATION] ari index score: 0.956514
+epsilon: 0.59 mu: 6
+[QUERY] now query epsilon: 0.59 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000115663 s.
+[EVALUATION] ari index score: 0.964547
+epsilon: 0.59 mu: 7
+[QUERY] now query epsilon: 0.59 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.9807e-05 s.
+[EVALUATION] ari index score: 0.972271
+epsilon: 0.59 mu: 8
+[QUERY] now query epsilon: 0.59 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.288e-05 s.
+[EVALUATION] ari index score: 0.981367
+epsilon: 0.59 mu: 9
+[QUERY] now query epsilon: 0.59 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.1449e-05 s.
+[EVALUATION] ari index score: 0.984599
+epsilon: 0.59 mu: 10
+[QUERY] now query epsilon: 0.59 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.0363e-05 s.
+[EVALUATION] ari index score: 0.983773
+epsilon: 0.59 mu: 11
+[QUERY] now query epsilon: 0.59 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4987e-05 s.
+[EVALUATION] ari index score: 0.998309
+epsilon: 0.59 mu: 12
+[QUERY] now query epsilon: 0.59 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.076e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.59 mu: 13
+[QUERY] now query epsilon: 0.59 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.9288e-05 s.
+[EVALUATION] ari index score: 0.998015
+epsilon: 0.59 mu: 14
+[QUERY] now query epsilon: 0.59 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.7254e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.59 mu: 15
+[QUERY] now query epsilon: 0.59 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.514e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.58 mu: 2
+[QUERY] now query epsilon: 0.58 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00812134 s.
+[EVALUATION] ari index score: 0.954949
+epsilon: 0.58 mu: 3
+[QUERY] now query epsilon: 0.58 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00220009 s.
+[EVALUATION] ari index score: 0.97157
+epsilon: 0.58 mu: 4
+[QUERY] now query epsilon: 0.58 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000538404 s.
+[EVALUATION] ari index score: 0.963565
+epsilon: 0.58 mu: 5
+[QUERY] now query epsilon: 0.58 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000201206 s.
+[EVALUATION] ari index score: 0.956514
+epsilon: 0.58 mu: 6
+[QUERY] now query epsilon: 0.58 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000118885 s.
+[EVALUATION] ari index score: 0.964547
+epsilon: 0.58 mu: 7
+[QUERY] now query epsilon: 0.58 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.5823e-05 s.
+[EVALUATION] ari index score: 0.972271
+epsilon: 0.58 mu: 8
+[QUERY] now query epsilon: 0.58 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.416e-05 s.
+[EVALUATION] ari index score: 0.981367
+epsilon: 0.58 mu: 9
+[QUERY] now query epsilon: 0.58 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.8921e-05 s.
+[EVALUATION] ari index score: 0.984599
+epsilon: 0.58 mu: 10
+[QUERY] now query epsilon: 0.58 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.0504e-05 s.
+[EVALUATION] ari index score: 0.983773
+epsilon: 0.58 mu: 11
+[QUERY] now query epsilon: 0.58 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4361e-05 s.
+[EVALUATION] ari index score: 0.998309
+epsilon: 0.58 mu: 12
+[QUERY] now query epsilon: 0.58 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0132e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.58 mu: 13
+[QUERY] now query epsilon: 0.58 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8052e-05 s.
+[EVALUATION] ari index score: 0.998015
+epsilon: 0.58 mu: 14
+[QUERY] now query epsilon: 0.58 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.709e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.58 mu: 15
+[QUERY] now query epsilon: 0.58 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.628e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.57 mu: 2
+[QUERY] now query epsilon: 0.57 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00841486 s.
+[EVALUATION] ari index score: 0.956489
+epsilon: 0.57 mu: 3
+[QUERY] now query epsilon: 0.57 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00223048 s.
+[EVALUATION] ari index score: 0.974451
+epsilon: 0.57 mu: 4
+[QUERY] now query epsilon: 0.57 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000532281 s.
+[EVALUATION] ari index score: 0.96749
+epsilon: 0.57 mu: 5
+[QUERY] now query epsilon: 0.57 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00020431 s.
+[EVALUATION] ari index score: 0.958034
+epsilon: 0.57 mu: 6
+[QUERY] now query epsilon: 0.57 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00011491 s.
+[EVALUATION] ari index score: 0.963681
+epsilon: 0.57 mu: 7
+[QUERY] now query epsilon: 0.57 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.6457e-05 s.
+[EVALUATION] ari index score: 0.968604
+epsilon: 0.57 mu: 8
+[QUERY] now query epsilon: 0.57 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.3326e-05 s.
+[EVALUATION] ari index score: 0.981825
+epsilon: 0.57 mu: 9
+[QUERY] now query epsilon: 0.57 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.7765e-05 s.
+[EVALUATION] ari index score: 0.984665
+epsilon: 0.57 mu: 10
+[QUERY] now query epsilon: 0.57 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.1429e-05 s.
+[EVALUATION] ari index score: 0.982131
+epsilon: 0.57 mu: 11
+[QUERY] now query epsilon: 0.57 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.5579e-05 s.
+[EVALUATION] ari index score: 0.998497
+epsilon: 0.57 mu: 12
+[QUERY] now query epsilon: 0.57 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0617e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.57 mu: 13
+[QUERY] now query epsilon: 0.57 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8191e-05 s.
+[EVALUATION] ari index score: 0.998175
+epsilon: 0.57 mu: 14
+[QUERY] now query epsilon: 0.57 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8231e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.57 mu: 15
+[QUERY] now query epsilon: 0.57 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.5981e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.56 mu: 2
+[QUERY] now query epsilon: 0.56 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00809152 s.
+[EVALUATION] ari index score: 0.956359
+epsilon: 0.56 mu: 3
+[QUERY] now query epsilon: 0.56 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00234508 s.
+[EVALUATION] ari index score: 0.974506
+epsilon: 0.56 mu: 4
+[QUERY] now query epsilon: 0.56 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000532027 s.
+[EVALUATION] ari index score: 0.968875
+epsilon: 0.56 mu: 5
+[QUERY] now query epsilon: 0.56 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000203822 s.
+[EVALUATION] ari index score: 0.961011
+epsilon: 0.56 mu: 6
+[QUERY] now query epsilon: 0.56 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00011314 s.
+[EVALUATION] ari index score: 0.965822
+epsilon: 0.56 mu: 7
+[QUERY] now query epsilon: 0.56 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.863e-05 s.
+[EVALUATION] ari index score: 0.973289
+epsilon: 0.56 mu: 8
+[QUERY] now query epsilon: 0.56 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2247e-05 s.
+[EVALUATION] ari index score: 0.981753
+epsilon: 0.56 mu: 9
+[QUERY] now query epsilon: 0.56 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.8282e-05 s.
+[EVALUATION] ari index score: 0.98461
+epsilon: 0.56 mu: 10
+[QUERY] now query epsilon: 0.56 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.1011e-05 s.
+[EVALUATION] ari index score: 0.9821
+epsilon: 0.56 mu: 11
+[QUERY] now query epsilon: 0.56 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4836e-05 s.
+[EVALUATION] ari index score: 0.985171
+epsilon: 0.56 mu: 12
+[QUERY] now query epsilon: 0.56 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1576e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.56 mu: 13
+[QUERY] now query epsilon: 0.56 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8241e-05 s.
+[EVALUATION] ari index score: 0.998335
+epsilon: 0.56 mu: 14
+[QUERY] now query epsilon: 0.56 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6557e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.56 mu: 15
+[QUERY] now query epsilon: 0.56 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.5156e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.55 mu: 2
+[QUERY] now query epsilon: 0.55 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0081788 s.
+[EVALUATION] ari index score: 0.957533
+epsilon: 0.55 mu: 3
+[QUERY] now query epsilon: 0.55 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00223464 s.
+[EVALUATION] ari index score: 0.974202
+epsilon: 0.55 mu: 4
+[QUERY] now query epsilon: 0.55 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000533734 s.
+[EVALUATION] ari index score: 0.96661
+epsilon: 0.55 mu: 5
+[QUERY] now query epsilon: 0.55 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000203003 s.
+[EVALUATION] ari index score: 0.962811
+epsilon: 0.55 mu: 6
+[QUERY] now query epsilon: 0.55 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000114592 s.
+[EVALUATION] ari index score: 0.965049
+epsilon: 0.55 mu: 7
+[QUERY] now query epsilon: 0.55 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0207e-05 s.
+[EVALUATION] ari index score: 0.960234
+epsilon: 0.55 mu: 8
+[QUERY] now query epsilon: 0.55 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.49e-05 s.
+[EVALUATION] ari index score: 0.96736
+epsilon: 0.55 mu: 9
+[QUERY] now query epsilon: 0.55 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.7968e-05 s.
+[EVALUATION] ari index score: 0.984478
+epsilon: 0.55 mu: 10
+[QUERY] now query epsilon: 0.55 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.0127e-05 s.
+[EVALUATION] ari index score: 0.982205
+epsilon: 0.55 mu: 11
+[QUERY] now query epsilon: 0.55 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4522e-05 s.
+[EVALUATION] ari index score: 0.986398
+epsilon: 0.55 mu: 12
+[QUERY] now query epsilon: 0.55 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0254e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.55 mu: 13
+[QUERY] now query epsilon: 0.55 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.9583e-05 s.
+[EVALUATION] ari index score: 0.998537
+epsilon: 0.55 mu: 14
+[QUERY] now query epsilon: 0.55 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6853e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.55 mu: 15
+[QUERY] now query epsilon: 0.55 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6298e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.54 mu: 2
+[QUERY] now query epsilon: 0.54 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00834024 s.
+[EVALUATION] ari index score: 0.959353
+epsilon: 0.54 mu: 3
+[QUERY] now query epsilon: 0.54 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00253616 s.
+[EVALUATION] ari index score: 0.974759
+epsilon: 0.54 mu: 4
+[QUERY] now query epsilon: 0.54 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000608586 s.
+[EVALUATION] ari index score: 0.967656
+epsilon: 0.54 mu: 5
+[QUERY] now query epsilon: 0.54 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00021952 s.
+[EVALUATION] ari index score: 0.96488
+epsilon: 0.54 mu: 6
+[QUERY] now query epsilon: 0.54 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000120435 s.
+[EVALUATION] ari index score: 0.962942
+epsilon: 0.54 mu: 7
+[QUERY] now query epsilon: 0.54 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0115e-05 s.
+[EVALUATION] ari index score: 0.960779
+epsilon: 0.54 mu: 8
+[QUERY] now query epsilon: 0.54 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.56e-05 s.
+[EVALUATION] ari index score: 0.96756
+epsilon: 0.54 mu: 9
+[QUERY] now query epsilon: 0.54 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.2234e-05 s.
+[EVALUATION] ari index score: 0.984668
+epsilon: 0.54 mu: 10
+[QUERY] now query epsilon: 0.54 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.1332e-05 s.
+[EVALUATION] ari index score: 0.982211
+epsilon: 0.54 mu: 11
+[QUERY] now query epsilon: 0.54 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4929e-05 s.
+[EVALUATION] ari index score: 0.983929
+epsilon: 0.54 mu: 12
+[QUERY] now query epsilon: 0.54 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1274e-05 s.
+[EVALUATION] ari index score: 0.984486
+epsilon: 0.54 mu: 13
+[QUERY] now query epsilon: 0.54 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.9063e-05 s.
+[EVALUATION] ari index score: 0.998639
+epsilon: 0.54 mu: 14
+[QUERY] now query epsilon: 0.54 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6785e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.54 mu: 15
+[QUERY] now query epsilon: 0.54 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6391e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.53 mu: 2
+[QUERY] now query epsilon: 0.53 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00863467 s.
+[EVALUATION] ari index score: 0.966974
+epsilon: 0.53 mu: 3
+[QUERY] now query epsilon: 0.53 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00223793 s.
+[EVALUATION] ari index score: 0.985254
+epsilon: 0.53 mu: 4
+[QUERY] now query epsilon: 0.53 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000534089 s.
+[EVALUATION] ari index score: 0.981885
+epsilon: 0.53 mu: 5
+[QUERY] now query epsilon: 0.53 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000205754 s.
+[EVALUATION] ari index score: 0.983818
+epsilon: 0.53 mu: 6
+[QUERY] now query epsilon: 0.53 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000114163 s.
+[EVALUATION] ari index score: 0.970932
+epsilon: 0.53 mu: 7
+[QUERY] now query epsilon: 0.53 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.3268e-05 s.
+[EVALUATION] ari index score: 0.979726
+epsilon: 0.53 mu: 8
+[QUERY] now query epsilon: 0.53 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.6683e-05 s.
+[EVALUATION] ari index score: 0.993268
+epsilon: 0.53 mu: 9
+[QUERY] now query epsilon: 0.53 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.9675e-05 s.
+[EVALUATION] ari index score: 0.996583
+epsilon: 0.53 mu: 10
+[QUERY] now query epsilon: 0.53 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.0293e-05 s.
+[EVALUATION] ari index score: 0.996207
+epsilon: 0.53 mu: 11
+[QUERY] now query epsilon: 0.53 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.396e-05 s.
+[EVALUATION] ari index score: 0.998899
+epsilon: 0.53 mu: 12
+[QUERY] now query epsilon: 0.53 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1632e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.53 mu: 13
+[QUERY] now query epsilon: 0.53 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8855e-05 s.
+[EVALUATION] ari index score: 0.998863
+epsilon: 0.53 mu: 14
+[QUERY] now query epsilon: 0.53 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1519e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.53 mu: 15
+[QUERY] now query epsilon: 0.53 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6229e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.52 mu: 2
+[QUERY] now query epsilon: 0.52 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00854137 s.
+[EVALUATION] ari index score: 0.966974
+epsilon: 0.52 mu: 3
+[QUERY] now query epsilon: 0.52 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00228345 s.
+[EVALUATION] ari index score: 0.985254
+epsilon: 0.52 mu: 4
+[QUERY] now query epsilon: 0.52 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000539696 s.
+[EVALUATION] ari index score: 0.981885
+epsilon: 0.52 mu: 5
+[QUERY] now query epsilon: 0.52 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000204948 s.
+[EVALUATION] ari index score: 0.983818
+epsilon: 0.52 mu: 6
+[QUERY] now query epsilon: 0.52 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000116602 s.
+[EVALUATION] ari index score: 0.970932
+epsilon: 0.52 mu: 7
+[QUERY] now query epsilon: 0.52 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.4552e-05 s.
+[EVALUATION] ari index score: 0.979726
+epsilon: 0.52 mu: 8
+[QUERY] now query epsilon: 0.52 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.4536e-05 s.
+[EVALUATION] ari index score: 0.993268
+epsilon: 0.52 mu: 9
+[QUERY] now query epsilon: 0.52 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.829e-05 s.
+[EVALUATION] ari index score: 0.996583
+epsilon: 0.52 mu: 10
+[QUERY] now query epsilon: 0.52 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.9893e-05 s.
+[EVALUATION] ari index score: 0.996207
+epsilon: 0.52 mu: 11
+[QUERY] now query epsilon: 0.52 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4815e-05 s.
+[EVALUATION] ari index score: 0.998899
+epsilon: 0.52 mu: 12
+[QUERY] now query epsilon: 0.52 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.0711e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.52 mu: 13
+[QUERY] now query epsilon: 0.52 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.9291e-05 s.
+[EVALUATION] ari index score: 0.998863
+epsilon: 0.52 mu: 14
+[QUERY] now query epsilon: 0.52 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6976e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.52 mu: 15
+[QUERY] now query epsilon: 0.52 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.5437e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.51 mu: 2
+[QUERY] now query epsilon: 0.51 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00822891 s.
+[EVALUATION] ari index score: 0.96763
+epsilon: 0.51 mu: 3
+[QUERY] now query epsilon: 0.51 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00225085 s.
+[EVALUATION] ari index score: 0.985482
+epsilon: 0.51 mu: 4
+[QUERY] now query epsilon: 0.51 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000535375 s.
+[EVALUATION] ari index score: 0.982839
+epsilon: 0.51 mu: 5
+[QUERY] now query epsilon: 0.51 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000215824 s.
+[EVALUATION] ari index score: 0.983075
+epsilon: 0.51 mu: 6
+[QUERY] now query epsilon: 0.51 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000117104 s.
+[EVALUATION] ari index score: 0.973637
+epsilon: 0.51 mu: 7
+[QUERY] now query epsilon: 0.51 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.4705e-05 s.
+[EVALUATION] ari index score: 0.981018
+epsilon: 0.51 mu: 8
+[QUERY] now query epsilon: 0.51 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2848e-05 s.
+[EVALUATION] ari index score: 0.993191
+epsilon: 0.51 mu: 9
+[QUERY] now query epsilon: 0.51 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.827e-05 s.
+[EVALUATION] ari index score: 0.99681
+epsilon: 0.51 mu: 10
+[QUERY] now query epsilon: 0.51 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.9935e-05 s.
+[EVALUATION] ari index score: 0.996382
+epsilon: 0.51 mu: 11
+[QUERY] now query epsilon: 0.51 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.358e-05 s.
+[EVALUATION] ari index score: 0.998942
+epsilon: 0.51 mu: 12
+[QUERY] now query epsilon: 0.51 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.2321e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.51 mu: 13
+[QUERY] now query epsilon: 0.51 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.9583e-05 s.
+[EVALUATION] ari index score: 0.998929
+epsilon: 0.51 mu: 14
+[QUERY] now query epsilon: 0.51 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6649e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.51 mu: 15
+[QUERY] now query epsilon: 0.51 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.6967e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.5 mu: 2
+[QUERY] now query epsilon: 0.5 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00820812 s.
+[EVALUATION] ari index score: 0.976096
+epsilon: 0.5 mu: 3
+[QUERY] now query epsilon: 0.5 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00235214 s.
+[EVALUATION] ari index score: 0.991901
+epsilon: 0.5 mu: 4
+[QUERY] now query epsilon: 0.5 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00055866 s.
+[EVALUATION] ari index score: 0.988746
+epsilon: 0.5 mu: 5
+[QUERY] now query epsilon: 0.5 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000209532 s.
+[EVALUATION] ari index score: 0.988452
+epsilon: 0.5 mu: 6
+[QUERY] now query epsilon: 0.5 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000137999 s.
+[EVALUATION] ari index score: 0.982269
+epsilon: 0.5 mu: 7
+[QUERY] now query epsilon: 0.5 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.5824e-05 s.
+[EVALUATION] ari index score: 0.985336
+epsilon: 0.5 mu: 8
+[QUERY] now query epsilon: 0.5 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.4108e-05 s.
+[EVALUATION] ari index score: 0.992427
+epsilon: 0.5 mu: 9
+[QUERY] now query epsilon: 0.5 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.9744e-05 s.
+[EVALUATION] ari index score: 0.996771
+epsilon: 0.5 mu: 10
+[QUERY] now query epsilon: 0.5 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.9663e-05 s.
+[EVALUATION] ari index score: 0.996355
+epsilon: 0.5 mu: 11
+[QUERY] now query epsilon: 0.5 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.4454e-05 s.
+[EVALUATION] ari index score: 0.99906
+epsilon: 0.5 mu: 12
+[QUERY] now query epsilon: 0.5 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 2.1427e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.5 mu: 13
+[QUERY] now query epsilon: 0.5 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.8941e-05 s.
+[EVALUATION] ari index score: 0.998986
+epsilon: 0.5 mu: 14
+[QUERY] now query epsilon: 0.5 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.7837e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.5 mu: 15
+[QUERY] now query epsilon: 0.5 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 1.708e-05 s.
+[EVALUATION] ari index score: 1
+epsilon: 0.49 mu: 2
+[QUERY] now query epsilon: 0.49 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0148833 s.
+[EVALUATION] ari index score: 0.924973
+epsilon: 0.49 mu: 3
+[QUERY] now query epsilon: 0.49 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00523307 s.
+[EVALUATION] ari index score: 0.954943
+epsilon: 0.49 mu: 4
+[QUERY] now query epsilon: 0.49 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00150867 s.
+[EVALUATION] ari index score: 0.963859
+epsilon: 0.49 mu: 5
+[QUERY] now query epsilon: 0.49 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000546118 s.
+[EVALUATION] ari index score: 0.963894
+epsilon: 0.49 mu: 6
+[QUERY] now query epsilon: 0.49 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000283233 s.
+[EVALUATION] ari index score: 0.966255
+epsilon: 0.49 mu: 7
+[QUERY] now query epsilon: 0.49 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00017215 s.
+[EVALUATION] ari index score: 0.959385
+epsilon: 0.49 mu: 8
+[QUERY] now query epsilon: 0.49 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000114332 s.
+[EVALUATION] ari index score: 0.957767
+epsilon: 0.49 mu: 9
+[QUERY] now query epsilon: 0.49 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.2434e-05 s.
+[EVALUATION] ari index score: 0.95566
+epsilon: 0.49 mu: 10
+[QUERY] now query epsilon: 0.49 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.8808e-05 s.
+[EVALUATION] ari index score: 0.966212
+epsilon: 0.49 mu: 11
+[QUERY] now query epsilon: 0.49 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.3289e-05 s.
+[EVALUATION] ari index score: 0.97963
+epsilon: 0.49 mu: 12
+[QUERY] now query epsilon: 0.49 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.3349e-05 s.
+[EVALUATION] ari index score: 0.981121
+epsilon: 0.49 mu: 13
+[QUERY] now query epsilon: 0.49 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.8558e-05 s.
+[EVALUATION] ari index score: 0.989182
+epsilon: 0.49 mu: 14
+[QUERY] now query epsilon: 0.49 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5595e-05 s.
+[EVALUATION] ari index score: 0.985541
+epsilon: 0.49 mu: 15
+[QUERY] now query epsilon: 0.49 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4572e-05 s.
+[EVALUATION] ari index score: 0.979073
+epsilon: 0.48 mu: 2
+[QUERY] now query epsilon: 0.48 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0149156 s.
+[EVALUATION] ari index score: 0.92469
+epsilon: 0.48 mu: 3
+[QUERY] now query epsilon: 0.48 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00526641 s.
+[EVALUATION] ari index score: 0.954205
+epsilon: 0.48 mu: 4
+[QUERY] now query epsilon: 0.48 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00154769 s.
+[EVALUATION] ari index score: 0.962187
+epsilon: 0.48 mu: 5
+[QUERY] now query epsilon: 0.48 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000552509 s.
+[EVALUATION] ari index score: 0.964448
+epsilon: 0.48 mu: 6
+[QUERY] now query epsilon: 0.48 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000290182 s.
+[EVALUATION] ari index score: 0.965343
+epsilon: 0.48 mu: 7
+[QUERY] now query epsilon: 0.48 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000180804 s.
+[EVALUATION] ari index score: 0.954823
+epsilon: 0.48 mu: 8
+[QUERY] now query epsilon: 0.48 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000115355 s.
+[EVALUATION] ari index score: 0.945944
+epsilon: 0.48 mu: 9
+[QUERY] now query epsilon: 0.48 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.5989e-05 s.
+[EVALUATION] ari index score: 0.950564
+epsilon: 0.48 mu: 10
+[QUERY] now query epsilon: 0.48 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.6811e-05 s.
+[EVALUATION] ari index score: 0.960595
+epsilon: 0.48 mu: 11
+[QUERY] now query epsilon: 0.48 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.2266e-05 s.
+[EVALUATION] ari index score: 0.974039
+epsilon: 0.48 mu: 12
+[QUERY] now query epsilon: 0.48 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.4716e-05 s.
+[EVALUATION] ari index score: 0.980665
+epsilon: 0.48 mu: 13
+[QUERY] now query epsilon: 0.48 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.7398e-05 s.
+[EVALUATION] ari index score: 0.989337
+epsilon: 0.48 mu: 14
+[QUERY] now query epsilon: 0.48 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.587e-05 s.
+[EVALUATION] ari index score: 0.985759
+epsilon: 0.48 mu: 15
+[QUERY] now query epsilon: 0.48 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2314e-05 s.
+[EVALUATION] ari index score: 0.979165
+epsilon: 0.47 mu: 2
+[QUERY] now query epsilon: 0.47 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0151991 s.
+[EVALUATION] ari index score: 0.924132
+epsilon: 0.47 mu: 3
+[QUERY] now query epsilon: 0.47 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00533354 s.
+[EVALUATION] ari index score: 0.952977
+epsilon: 0.47 mu: 4
+[QUERY] now query epsilon: 0.47 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00149779 s.
+[EVALUATION] ari index score: 0.957987
+epsilon: 0.47 mu: 5
+[QUERY] now query epsilon: 0.47 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000597392 s.
+[EVALUATION] ari index score: 0.95727
+epsilon: 0.47 mu: 6
+[QUERY] now query epsilon: 0.47 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000274966 s.
+[EVALUATION] ari index score: 0.966398
+epsilon: 0.47 mu: 7
+[QUERY] now query epsilon: 0.47 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000178418 s.
+[EVALUATION] ari index score: 0.956666
+epsilon: 0.47 mu: 8
+[QUERY] now query epsilon: 0.47 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000115751 s.
+[EVALUATION] ari index score: 0.953976
+epsilon: 0.47 mu: 9
+[QUERY] now query epsilon: 0.47 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.711e-05 s.
+[EVALUATION] ari index score: 0.950294
+epsilon: 0.47 mu: 10
+[QUERY] now query epsilon: 0.47 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.5834e-05 s.
+[EVALUATION] ari index score: 0.960143
+epsilon: 0.47 mu: 11
+[QUERY] now query epsilon: 0.47 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.3598e-05 s.
+[EVALUATION] ari index score: 0.973741
+epsilon: 0.47 mu: 12
+[QUERY] now query epsilon: 0.47 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.3649e-05 s.
+[EVALUATION] ari index score: 0.981859
+epsilon: 0.47 mu: 13
+[QUERY] now query epsilon: 0.47 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.7321e-05 s.
+[EVALUATION] ari index score: 0.989885
+epsilon: 0.47 mu: 14
+[QUERY] now query epsilon: 0.47 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5071e-05 s.
+[EVALUATION] ari index score: 0.986405
+epsilon: 0.47 mu: 15
+[QUERY] now query epsilon: 0.47 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2313e-05 s.
+[EVALUATION] ari index score: 0.980387
+epsilon: 0.46 mu: 2
+[QUERY] now query epsilon: 0.46 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0147486 s.
+[EVALUATION] ari index score: 0.927884
+epsilon: 0.46 mu: 3
+[QUERY] now query epsilon: 0.46 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00529004 s.
+[EVALUATION] ari index score: 0.958325
+epsilon: 0.46 mu: 4
+[QUERY] now query epsilon: 0.46 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00151684 s.
+[EVALUATION] ari index score: 0.964695
+epsilon: 0.46 mu: 5
+[QUERY] now query epsilon: 0.46 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00055405 s.
+[EVALUATION] ari index score: 0.970266
+epsilon: 0.46 mu: 6
+[QUERY] now query epsilon: 0.46 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000277031 s.
+[EVALUATION] ari index score: 0.967546
+epsilon: 0.46 mu: 7
+[QUERY] now query epsilon: 0.46 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000176474 s.
+[EVALUATION] ari index score: 0.955693
+epsilon: 0.46 mu: 8
+[QUERY] now query epsilon: 0.46 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000113485 s.
+[EVALUATION] ari index score: 0.955372
+epsilon: 0.46 mu: 9
+[QUERY] now query epsilon: 0.46 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.3876e-05 s.
+[EVALUATION] ari index score: 0.959527
+epsilon: 0.46 mu: 10
+[QUERY] now query epsilon: 0.46 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.7376e-05 s.
+[EVALUATION] ari index score: 0.967941
+epsilon: 0.46 mu: 11
+[QUERY] now query epsilon: 0.46 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.1683e-05 s.
+[EVALUATION] ari index score: 0.974913
+epsilon: 0.46 mu: 12
+[QUERY] now query epsilon: 0.46 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.3781e-05 s.
+[EVALUATION] ari index score: 0.977542
+epsilon: 0.46 mu: 13
+[QUERY] now query epsilon: 0.46 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.9523e-05 s.
+[EVALUATION] ari index score: 0.989908
+epsilon: 0.46 mu: 14
+[QUERY] now query epsilon: 0.46 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5418e-05 s.
+[EVALUATION] ari index score: 0.986368
+epsilon: 0.46 mu: 15
+[QUERY] now query epsilon: 0.46 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2165e-05 s.
+[EVALUATION] ari index score: 0.980268
+epsilon: 0.45 mu: 2
+[QUERY] now query epsilon: 0.45 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0148264 s.
+[EVALUATION] ari index score: 0.930354
+epsilon: 0.45 mu: 3
+[QUERY] now query epsilon: 0.45 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00525799 s.
+[EVALUATION] ari index score: 0.959116
+epsilon: 0.45 mu: 4
+[QUERY] now query epsilon: 0.45 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00150624 s.
+[EVALUATION] ari index score: 0.962904
+epsilon: 0.45 mu: 5
+[QUERY] now query epsilon: 0.45 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000568128 s.
+[EVALUATION] ari index score: 0.972274
+epsilon: 0.45 mu: 6
+[QUERY] now query epsilon: 0.45 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000292591 s.
+[EVALUATION] ari index score: 0.969229
+epsilon: 0.45 mu: 7
+[QUERY] now query epsilon: 0.45 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000183296 s.
+[EVALUATION] ari index score: 0.956357
+epsilon: 0.45 mu: 8
+[QUERY] now query epsilon: 0.45 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000120496 s.
+[EVALUATION] ari index score: 0.950321
+epsilon: 0.45 mu: 9
+[QUERY] now query epsilon: 0.45 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.5534e-05 s.
+[EVALUATION] ari index score: 0.960501
+epsilon: 0.45 mu: 10
+[QUERY] now query epsilon: 0.45 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.9401e-05 s.
+[EVALUATION] ari index score: 0.966955
+epsilon: 0.45 mu: 11
+[QUERY] now query epsilon: 0.45 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.5097e-05 s.
+[EVALUATION] ari index score: 0.982055
+epsilon: 0.45 mu: 12
+[QUERY] now query epsilon: 0.45 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.6862e-05 s.
+[EVALUATION] ari index score: 0.983734
+epsilon: 0.45 mu: 13
+[QUERY] now query epsilon: 0.45 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.0203e-05 s.
+[EVALUATION] ari index score: 0.990216
+epsilon: 0.45 mu: 14
+[QUERY] now query epsilon: 0.45 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.1283e-05 s.
+[EVALUATION] ari index score: 0.986793
+epsilon: 0.45 mu: 15
+[QUERY] now query epsilon: 0.45 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5356e-05 s.
+[EVALUATION] ari index score: 0.980778
+epsilon: 0.44 mu: 2
+[QUERY] now query epsilon: 0.44 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0152914 s.
+[EVALUATION] ari index score: 0.935401
+epsilon: 0.44 mu: 3
+[QUERY] now query epsilon: 0.44 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0054126 s.
+[EVALUATION] ari index score: 0.963836
+epsilon: 0.44 mu: 4
+[QUERY] now query epsilon: 0.44 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00158266 s.
+[EVALUATION] ari index score: 0.965004
+epsilon: 0.44 mu: 5
+[QUERY] now query epsilon: 0.44 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000590839 s.
+[EVALUATION] ari index score: 0.972316
+epsilon: 0.44 mu: 6
+[QUERY] now query epsilon: 0.44 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000284296 s.
+[EVALUATION] ari index score: 0.977062
+epsilon: 0.44 mu: 7
+[QUERY] now query epsilon: 0.44 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000177535 s.
+[EVALUATION] ari index score: 0.970294
+epsilon: 0.44 mu: 8
+[QUERY] now query epsilon: 0.44 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000118329 s.
+[EVALUATION] ari index score: 0.962352
+epsilon: 0.44 mu: 9
+[QUERY] now query epsilon: 0.44 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.6569e-05 s.
+[EVALUATION] ari index score: 0.965566
+epsilon: 0.44 mu: 10
+[QUERY] now query epsilon: 0.44 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.6925e-05 s.
+[EVALUATION] ari index score: 0.971206
+epsilon: 0.44 mu: 11
+[QUERY] now query epsilon: 0.44 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.5586e-05 s.
+[EVALUATION] ari index score: 0.98291
+epsilon: 0.44 mu: 12
+[QUERY] now query epsilon: 0.44 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.6195e-05 s.
+[EVALUATION] ari index score: 0.984355
+epsilon: 0.44 mu: 13
+[QUERY] now query epsilon: 0.44 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.9069e-05 s.
+[EVALUATION] ari index score: 0.990451
+epsilon: 0.44 mu: 14
+[QUERY] now query epsilon: 0.44 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.8722e-05 s.
+[EVALUATION] ari index score: 0.987077
+epsilon: 0.44 mu: 15
+[QUERY] now query epsilon: 0.44 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2459e-05 s.
+[EVALUATION] ari index score: 0.981079
+epsilon: 0.43 mu: 2
+[QUERY] now query epsilon: 0.43 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0151475 s.
+[EVALUATION] ari index score: 0.938031
+epsilon: 0.43 mu: 3
+[QUERY] now query epsilon: 0.43 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00537096 s.
+[EVALUATION] ari index score: 0.966168
+epsilon: 0.43 mu: 4
+[QUERY] now query epsilon: 0.43 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00154361 s.
+[EVALUATION] ari index score: 0.966416
+epsilon: 0.43 mu: 5
+[QUERY] now query epsilon: 0.43 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000585528 s.
+[EVALUATION] ari index score: 0.975002
+epsilon: 0.43 mu: 6
+[QUERY] now query epsilon: 0.43 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000323527 s.
+[EVALUATION] ari index score: 0.978557
+epsilon: 0.43 mu: 7
+[QUERY] now query epsilon: 0.43 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000181251 s.
+[EVALUATION] ari index score: 0.973071
+epsilon: 0.43 mu: 8
+[QUERY] now query epsilon: 0.43 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000117429 s.
+[EVALUATION] ari index score: 0.962995
+epsilon: 0.43 mu: 9
+[QUERY] now query epsilon: 0.43 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.4236e-05 s.
+[EVALUATION] ari index score: 0.967612
+epsilon: 0.43 mu: 10
+[QUERY] now query epsilon: 0.43 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.4691e-05 s.
+[EVALUATION] ari index score: 0.972864
+epsilon: 0.43 mu: 11
+[QUERY] now query epsilon: 0.43 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.3975e-05 s.
+[EVALUATION] ari index score: 0.983795
+epsilon: 0.43 mu: 12
+[QUERY] now query epsilon: 0.43 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.3143e-05 s.
+[EVALUATION] ari index score: 0.985393
+epsilon: 0.43 mu: 13
+[QUERY] now query epsilon: 0.43 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.0017e-05 s.
+[EVALUATION] ari index score: 0.991517
+epsilon: 0.43 mu: 14
+[QUERY] now query epsilon: 0.43 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5779e-05 s.
+[EVALUATION] ari index score: 0.988077
+epsilon: 0.43 mu: 15
+[QUERY] now query epsilon: 0.43 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4428e-05 s.
+[EVALUATION] ari index score: 0.982302
+epsilon: 0.42 mu: 2
+[QUERY] now query epsilon: 0.42 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0149807 s.
+[EVALUATION] ari index score: 0.946182
+epsilon: 0.42 mu: 3
+[QUERY] now query epsilon: 0.42 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00555547 s.
+[EVALUATION] ari index score: 0.973745
+epsilon: 0.42 mu: 4
+[QUERY] now query epsilon: 0.42 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00153668 s.
+[EVALUATION] ari index score: 0.971671
+epsilon: 0.42 mu: 5
+[QUERY] now query epsilon: 0.42 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000563509 s.
+[EVALUATION] ari index score: 0.978999
+epsilon: 0.42 mu: 6
+[QUERY] now query epsilon: 0.42 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000281314 s.
+[EVALUATION] ari index score: 0.978778
+epsilon: 0.42 mu: 7
+[QUERY] now query epsilon: 0.42 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000191582 s.
+[EVALUATION] ari index score: 0.976623
+epsilon: 0.42 mu: 8
+[QUERY] now query epsilon: 0.42 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00011904 s.
+[EVALUATION] ari index score: 0.972486
+epsilon: 0.42 mu: 9
+[QUERY] now query epsilon: 0.42 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.234e-05 s.
+[EVALUATION] ari index score: 0.96847
+epsilon: 0.42 mu: 10
+[QUERY] now query epsilon: 0.42 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.308e-05 s.
+[EVALUATION] ari index score: 0.9744
+epsilon: 0.42 mu: 11
+[QUERY] now query epsilon: 0.42 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.1614e-05 s.
+[EVALUATION] ari index score: 0.984093
+epsilon: 0.42 mu: 12
+[QUERY] now query epsilon: 0.42 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.3217e-05 s.
+[EVALUATION] ari index score: 0.986426
+epsilon: 0.42 mu: 13
+[QUERY] now query epsilon: 0.42 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.8477e-05 s.
+[EVALUATION] ari index score: 0.992213
+epsilon: 0.42 mu: 14
+[QUERY] now query epsilon: 0.42 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4779e-05 s.
+[EVALUATION] ari index score: 0.988821
+epsilon: 0.42 mu: 15
+[QUERY] now query epsilon: 0.42 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2433e-05 s.
+[EVALUATION] ari index score: 0.983714
+epsilon: 0.41 mu: 2
+[QUERY] now query epsilon: 0.41 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0149153 s.
+[EVALUATION] ari index score: 0.951567
+epsilon: 0.41 mu: 3
+[QUERY] now query epsilon: 0.41 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00553472 s.
+[EVALUATION] ari index score: 0.977927
+epsilon: 0.41 mu: 4
+[QUERY] now query epsilon: 0.41 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00153599 s.
+[EVALUATION] ari index score: 0.978126
+epsilon: 0.41 mu: 5
+[QUERY] now query epsilon: 0.41 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000560441 s.
+[EVALUATION] ari index score: 0.982395
+epsilon: 0.41 mu: 6
+[QUERY] now query epsilon: 0.41 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000279526 s.
+[EVALUATION] ari index score: 0.979218
+epsilon: 0.41 mu: 7
+[QUERY] now query epsilon: 0.41 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000173761 s.
+[EVALUATION] ari index score: 0.977476
+epsilon: 0.41 mu: 8
+[QUERY] now query epsilon: 0.41 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000119643 s.
+[EVALUATION] ari index score: 0.97347
+epsilon: 0.41 mu: 9
+[QUERY] now query epsilon: 0.41 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.5256e-05 s.
+[EVALUATION] ari index score: 0.969469
+epsilon: 0.41 mu: 10
+[QUERY] now query epsilon: 0.41 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.6122e-05 s.
+[EVALUATION] ari index score: 0.974924
+epsilon: 0.41 mu: 11
+[QUERY] now query epsilon: 0.41 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 5.3128e-05 s.
+[EVALUATION] ari index score: 0.984716
+epsilon: 0.41 mu: 12
+[QUERY] now query epsilon: 0.41 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.4006e-05 s.
+[EVALUATION] ari index score: 0.986423
+epsilon: 0.41 mu: 13
+[QUERY] now query epsilon: 0.41 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.88e-05 s.
+[EVALUATION] ari index score: 0.992817
+epsilon: 0.41 mu: 14
+[QUERY] now query epsilon: 0.41 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.5742e-05 s.
+[EVALUATION] ari index score: 0.990038
+epsilon: 0.41 mu: 15
+[QUERY] now query epsilon: 0.41 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.4385e-05 s.
+[EVALUATION] ari index score: 0.985277
+epsilon: 0.4 mu: 2
+[QUERY] now query epsilon: 0.4 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0150919 s.
+[EVALUATION] ari index score: 0.962626
+epsilon: 0.4 mu: 3
+[QUERY] now query epsilon: 0.4 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00557493 s.
+[EVALUATION] ari index score: 0.98741
+epsilon: 0.4 mu: 4
+[QUERY] now query epsilon: 0.4 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00164983 s.
+[EVALUATION] ari index score: 0.987498
+epsilon: 0.4 mu: 5
+[QUERY] now query epsilon: 0.4 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000575295 s.
+[EVALUATION] ari index score: 0.987715
+epsilon: 0.4 mu: 6
+[QUERY] now query epsilon: 0.4 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000282892 s.
+[EVALUATION] ari index score: 0.983775
+epsilon: 0.4 mu: 7
+[QUERY] now query epsilon: 0.4 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000174548 s.
+[EVALUATION] ari index score: 0.979876
+epsilon: 0.4 mu: 8
+[QUERY] now query epsilon: 0.4 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000118174 s.
+[EVALUATION] ari index score: 0.974871
+epsilon: 0.4 mu: 9
+[QUERY] now query epsilon: 0.4 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.4114e-05 s.
+[EVALUATION] ari index score: 0.972311
+epsilon: 0.4 mu: 10
+[QUERY] now query epsilon: 0.4 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.5006e-05 s.
+[EVALUATION] ari index score: 0.976752
+epsilon: 0.4 mu: 11
+[QUERY] now query epsilon: 0.4 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.0456e-05 s.
+[EVALUATION] ari index score: 0.985834
+epsilon: 0.4 mu: 12
+[QUERY] now query epsilon: 0.4 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.7511e-05 s.
+[EVALUATION] ari index score: 0.987344
+epsilon: 0.4 mu: 13
+[QUERY] now query epsilon: 0.4 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 4.1281e-05 s.
+[EVALUATION] ari index score: 0.993313
+epsilon: 0.4 mu: 14
+[QUERY] now query epsilon: 0.4 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.6111e-05 s.
+[EVALUATION] ari index score: 0.991429
+epsilon: 0.4 mu: 15
+[QUERY] now query epsilon: 0.4 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 3.2195e-05 s.
+[EVALUATION] ari index score: 0.987053
+epsilon: 0.39 mu: 2
+[QUERY] now query epsilon: 0.39 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0276681 s.
+[EVALUATION] ari index score: 0.814603
+epsilon: 0.39 mu: 3
+[QUERY] now query epsilon: 0.39 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0134458 s.
+[EVALUATION] ari index score: 0.853615
+epsilon: 0.39 mu: 4
+[QUERY] now query epsilon: 0.39 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0047901 s.
+[EVALUATION] ari index score: 0.845083
+epsilon: 0.39 mu: 5
+[QUERY] now query epsilon: 0.39 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00199991 s.
+[EVALUATION] ari index score: 0.891852
+epsilon: 0.39 mu: 6
+[QUERY] now query epsilon: 0.39 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00099967 s.
+[EVALUATION] ari index score: 0.930154
+epsilon: 0.39 mu: 7
+[QUERY] now query epsilon: 0.39 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000548206 s.
+[EVALUATION] ari index score: 0.939794
+epsilon: 0.39 mu: 8
+[QUERY] now query epsilon: 0.39 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00032994 s.
+[EVALUATION] ari index score: 0.955612
+epsilon: 0.39 mu: 9
+[QUERY] now query epsilon: 0.39 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000249914 s.
+[EVALUATION] ari index score: 0.959172
+epsilon: 0.39 mu: 10
+[QUERY] now query epsilon: 0.39 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000169793 s.
+[EVALUATION] ari index score: 0.962124
+epsilon: 0.39 mu: 11
+[QUERY] now query epsilon: 0.39 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000132633 s.
+[EVALUATION] ari index score: 0.974377
+epsilon: 0.39 mu: 12
+[QUERY] now query epsilon: 0.39 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000129644 s.
+[EVALUATION] ari index score: 0.971107
+epsilon: 0.39 mu: 13
+[QUERY] now query epsilon: 0.39 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.1525e-05 s.
+[EVALUATION] ari index score: 0.969148
+epsilon: 0.39 mu: 14
+[QUERY] now query epsilon: 0.39 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0861e-05 s.
+[EVALUATION] ari index score: 0.968557
+epsilon: 0.39 mu: 15
+[QUERY] now query epsilon: 0.39 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.3626e-05 s.
+[EVALUATION] ari index score: 0.966026
+epsilon: 0.38 mu: 2
+[QUERY] now query epsilon: 0.38 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0272171 s.
+[EVALUATION] ari index score: 0.822705
+epsilon: 0.38 mu: 3
+[QUERY] now query epsilon: 0.38 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0136453 s.
+[EVALUATION] ari index score: 0.861696
+epsilon: 0.38 mu: 4
+[QUERY] now query epsilon: 0.38 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00477608 s.
+[EVALUATION] ari index score: 0.851567
+epsilon: 0.38 mu: 5
+[QUERY] now query epsilon: 0.38 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00199025 s.
+[EVALUATION] ari index score: 0.882674
+epsilon: 0.38 mu: 6
+[QUERY] now query epsilon: 0.38 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000980868 s.
+[EVALUATION] ari index score: 0.92346
+epsilon: 0.38 mu: 7
+[QUERY] now query epsilon: 0.38 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000549486 s.
+[EVALUATION] ari index score: 0.942525
+epsilon: 0.38 mu: 8
+[QUERY] now query epsilon: 0.38 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000346752 s.
+[EVALUATION] ari index score: 0.964094
+epsilon: 0.38 mu: 9
+[QUERY] now query epsilon: 0.38 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000229341 s.
+[EVALUATION] ari index score: 0.960733
+epsilon: 0.38 mu: 10
+[QUERY] now query epsilon: 0.38 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000169032 s.
+[EVALUATION] ari index score: 0.964765
+epsilon: 0.38 mu: 11
+[QUERY] now query epsilon: 0.38 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000137539 s.
+[EVALUATION] ari index score: 0.973674
+epsilon: 0.38 mu: 12
+[QUERY] now query epsilon: 0.38 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000109403 s.
+[EVALUATION] ari index score: 0.973384
+epsilon: 0.38 mu: 13
+[QUERY] now query epsilon: 0.38 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.0641e-05 s.
+[EVALUATION] ari index score: 0.971827
+epsilon: 0.38 mu: 14
+[QUERY] now query epsilon: 0.38 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.4293e-05 s.
+[EVALUATION] ari index score: 0.971494
+epsilon: 0.38 mu: 15
+[QUERY] now query epsilon: 0.38 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.9794e-05 s.
+[EVALUATION] ari index score: 0.968408
+epsilon: 0.37 mu: 2
+[QUERY] now query epsilon: 0.37 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0271092 s.
+[EVALUATION] ari index score: 0.831871
+epsilon: 0.37 mu: 3
+[QUERY] now query epsilon: 0.37 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0135447 s.
+[EVALUATION] ari index score: 0.868556
+epsilon: 0.37 mu: 4
+[QUERY] now query epsilon: 0.37 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00482558 s.
+[EVALUATION] ari index score: 0.862594
+epsilon: 0.37 mu: 5
+[QUERY] now query epsilon: 0.37 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00207152 s.
+[EVALUATION] ari index score: 0.882097
+epsilon: 0.37 mu: 6
+[QUERY] now query epsilon: 0.37 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000991643 s.
+[EVALUATION] ari index score: 0.922585
+epsilon: 0.37 mu: 7
+[QUERY] now query epsilon: 0.37 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000547592 s.
+[EVALUATION] ari index score: 0.943372
+epsilon: 0.37 mu: 8
+[QUERY] now query epsilon: 0.37 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000336833 s.
+[EVALUATION] ari index score: 0.963401
+epsilon: 0.37 mu: 9
+[QUERY] now query epsilon: 0.37 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000228317 s.
+[EVALUATION] ari index score: 0.959527
+epsilon: 0.37 mu: 10
+[QUERY] now query epsilon: 0.37 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00017437 s.
+[EVALUATION] ari index score: 0.964261
+epsilon: 0.37 mu: 11
+[QUERY] now query epsilon: 0.37 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00013527 s.
+[EVALUATION] ari index score: 0.970002
+epsilon: 0.37 mu: 12
+[QUERY] now query epsilon: 0.37 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000116794 s.
+[EVALUATION] ari index score: 0.973782
+epsilon: 0.37 mu: 13
+[QUERY] now query epsilon: 0.37 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.1773e-05 s.
+[EVALUATION] ari index score: 0.972072
+epsilon: 0.37 mu: 14
+[QUERY] now query epsilon: 0.37 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.3047e-05 s.
+[EVALUATION] ari index score: 0.972613
+epsilon: 0.37 mu: 15
+[QUERY] now query epsilon: 0.37 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.0759e-05 s.
+[EVALUATION] ari index score: 0.969376
+epsilon: 0.36 mu: 2
+[QUERY] now query epsilon: 0.36 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0274449 s.
+[EVALUATION] ari index score: 0.83975
+epsilon: 0.36 mu: 3
+[QUERY] now query epsilon: 0.36 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0136722 s.
+[EVALUATION] ari index score: 0.875123
+epsilon: 0.36 mu: 4
+[QUERY] now query epsilon: 0.36 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00478947 s.
+[EVALUATION] ari index score: 0.867833
+epsilon: 0.36 mu: 5
+[QUERY] now query epsilon: 0.36 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00204962 s.
+[EVALUATION] ari index score: 0.879023
+epsilon: 0.36 mu: 6
+[QUERY] now query epsilon: 0.36 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000986529 s.
+[EVALUATION] ari index score: 0.926416
+epsilon: 0.36 mu: 7
+[QUERY] now query epsilon: 0.36 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00056045 s.
+[EVALUATION] ari index score: 0.944061
+epsilon: 0.36 mu: 8
+[QUERY] now query epsilon: 0.36 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000337017 s.
+[EVALUATION] ari index score: 0.963007
+epsilon: 0.36 mu: 9
+[QUERY] now query epsilon: 0.36 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000229697 s.
+[EVALUATION] ari index score: 0.963887
+epsilon: 0.36 mu: 10
+[QUERY] now query epsilon: 0.36 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000171392 s.
+[EVALUATION] ari index score: 0.968092
+epsilon: 0.36 mu: 11
+[QUERY] now query epsilon: 0.36 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000134231 s.
+[EVALUATION] ari index score: 0.977654
+epsilon: 0.36 mu: 12
+[QUERY] now query epsilon: 0.36 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000108738 s.
+[EVALUATION] ari index score: 0.97093
+epsilon: 0.36 mu: 13
+[QUERY] now query epsilon: 0.36 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000110309 s.
+[EVALUATION] ari index score: 0.973692
+epsilon: 0.36 mu: 14
+[QUERY] now query epsilon: 0.36 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0354e-05 s.
+[EVALUATION] ari index score: 0.973061
+epsilon: 0.36 mu: 15
+[QUERY] now query epsilon: 0.36 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.9605e-05 s.
+[EVALUATION] ari index score: 0.969834
+epsilon: 0.35 mu: 2
+[QUERY] now query epsilon: 0.35 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0269533 s.
+[EVALUATION] ari index score: 0.863728
+epsilon: 0.35 mu: 3
+[QUERY] now query epsilon: 0.35 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0137239 s.
+[EVALUATION] ari index score: 0.901112
+epsilon: 0.35 mu: 4
+[QUERY] now query epsilon: 0.35 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00476853 s.
+[EVALUATION] ari index score: 0.900556
+epsilon: 0.35 mu: 5
+[QUERY] now query epsilon: 0.35 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00202898 s.
+[EVALUATION] ari index score: 0.906163
+epsilon: 0.35 mu: 6
+[QUERY] now query epsilon: 0.35 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0010246 s.
+[EVALUATION] ari index score: 0.917786
+epsilon: 0.35 mu: 7
+[QUERY] now query epsilon: 0.35 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000559267 s.
+[EVALUATION] ari index score: 0.944062
+epsilon: 0.35 mu: 8
+[QUERY] now query epsilon: 0.35 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000357402 s.
+[EVALUATION] ari index score: 0.961604
+epsilon: 0.35 mu: 9
+[QUERY] now query epsilon: 0.35 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000232053 s.
+[EVALUATION] ari index score: 0.968208
+epsilon: 0.35 mu: 10
+[QUERY] now query epsilon: 0.35 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000185952 s.
+[EVALUATION] ari index score: 0.96724
+epsilon: 0.35 mu: 11
+[QUERY] now query epsilon: 0.35 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000134403 s.
+[EVALUATION] ari index score: 0.977871
+epsilon: 0.35 mu: 12
+[QUERY] now query epsilon: 0.35 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000109373 s.
+[EVALUATION] ari index score: 0.97602
+epsilon: 0.35 mu: 13
+[QUERY] now query epsilon: 0.35 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.1259e-05 s.
+[EVALUATION] ari index score: 0.974541
+epsilon: 0.35 mu: 14
+[QUERY] now query epsilon: 0.35 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.2264e-05 s.
+[EVALUATION] ari index score: 0.973
+epsilon: 0.35 mu: 15
+[QUERY] now query epsilon: 0.35 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.9759e-05 s.
+[EVALUATION] ari index score: 0.971701
+epsilon: 0.34 mu: 2
+[QUERY] now query epsilon: 0.34 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0270197 s.
+[EVALUATION] ari index score: 0.866743
+epsilon: 0.34 mu: 3
+[QUERY] now query epsilon: 0.34 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0137725 s.
+[EVALUATION] ari index score: 0.901217
+epsilon: 0.34 mu: 4
+[QUERY] now query epsilon: 0.34 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00494707 s.
+[EVALUATION] ari index score: 0.900017
+epsilon: 0.34 mu: 5
+[QUERY] now query epsilon: 0.34 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00204215 s.
+[EVALUATION] ari index score: 0.908187
+epsilon: 0.34 mu: 6
+[QUERY] now query epsilon: 0.34 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00102246 s.
+[EVALUATION] ari index score: 0.920056
+epsilon: 0.34 mu: 7
+[QUERY] now query epsilon: 0.34 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000569227 s.
+[EVALUATION] ari index score: 0.947708
+epsilon: 0.34 mu: 8
+[QUERY] now query epsilon: 0.34 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000344789 s.
+[EVALUATION] ari index score: 0.964143
+epsilon: 0.34 mu: 9
+[QUERY] now query epsilon: 0.34 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000241511 s.
+[EVALUATION] ari index score: 0.965786
+epsilon: 0.34 mu: 10
+[QUERY] now query epsilon: 0.34 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000172202 s.
+[EVALUATION] ari index score: 0.968158
+epsilon: 0.34 mu: 11
+[QUERY] now query epsilon: 0.34 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000133974 s.
+[EVALUATION] ari index score: 0.978445
+epsilon: 0.34 mu: 12
+[QUERY] now query epsilon: 0.34 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000116357 s.
+[EVALUATION] ari index score: 0.976297
+epsilon: 0.34 mu: 13
+[QUERY] now query epsilon: 0.34 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.3678e-05 s.
+[EVALUATION] ari index score: 0.975962
+epsilon: 0.34 mu: 14
+[QUERY] now query epsilon: 0.34 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.0747e-05 s.
+[EVALUATION] ari index score: 0.97499
+epsilon: 0.34 mu: 15
+[QUERY] now query epsilon: 0.34 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 6.923e-05 s.
+[EVALUATION] ari index score: 0.97309
+epsilon: 0.33 mu: 2
+[QUERY] now query epsilon: 0.33 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0270175 s.
+[EVALUATION] ari index score: 0.895013
+epsilon: 0.33 mu: 3
+[QUERY] now query epsilon: 0.33 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0136037 s.
+[EVALUATION] ari index score: 0.924079
+epsilon: 0.33 mu: 4
+[QUERY] now query epsilon: 0.33 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00491176 s.
+[EVALUATION] ari index score: 0.922343
+epsilon: 0.33 mu: 5
+[QUERY] now query epsilon: 0.33 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00208053 s.
+[EVALUATION] ari index score: 0.939213
+epsilon: 0.33 mu: 6
+[QUERY] now query epsilon: 0.33 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00102313 s.
+[EVALUATION] ari index score: 0.929738
+epsilon: 0.33 mu: 7
+[QUERY] now query epsilon: 0.33 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000567437 s.
+[EVALUATION] ari index score: 0.958866
+epsilon: 0.33 mu: 8
+[QUERY] now query epsilon: 0.33 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000355724 s.
+[EVALUATION] ari index score: 0.968136
+epsilon: 0.33 mu: 9
+[QUERY] now query epsilon: 0.33 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000276266 s.
+[EVALUATION] ari index score: 0.965755
+epsilon: 0.33 mu: 10
+[QUERY] now query epsilon: 0.33 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000175064 s.
+[EVALUATION] ari index score: 0.97069
+epsilon: 0.33 mu: 11
+[QUERY] now query epsilon: 0.33 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000133079 s.
+[EVALUATION] ari index score: 0.978297
+epsilon: 0.33 mu: 12
+[QUERY] now query epsilon: 0.33 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000108503 s.
+[EVALUATION] ari index score: 0.978084
+epsilon: 0.33 mu: 13
+[QUERY] now query epsilon: 0.33 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.3534e-05 s.
+[EVALUATION] ari index score: 0.976615
+epsilon: 0.33 mu: 14
+[QUERY] now query epsilon: 0.33 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.1006e-05 s.
+[EVALUATION] ari index score: 0.975144
+epsilon: 0.33 mu: 15
+[QUERY] now query epsilon: 0.33 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.0277e-05 s.
+[EVALUATION] ari index score: 0.974589
+epsilon: 0.32 mu: 2
+[QUERY] now query epsilon: 0.32 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0270116 s.
+[EVALUATION] ari index score: 0.901529
+epsilon: 0.32 mu: 3
+[QUERY] now query epsilon: 0.32 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.013584 s.
+[EVALUATION] ari index score: 0.929727
+epsilon: 0.32 mu: 4
+[QUERY] now query epsilon: 0.32 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00485605 s.
+[EVALUATION] ari index score: 0.925814
+epsilon: 0.32 mu: 5
+[QUERY] now query epsilon: 0.32 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00218416 s.
+[EVALUATION] ari index score: 0.944098
+epsilon: 0.32 mu: 6
+[QUERY] now query epsilon: 0.32 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00103493 s.
+[EVALUATION] ari index score: 0.930959
+epsilon: 0.32 mu: 7
+[QUERY] now query epsilon: 0.32 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000570442 s.
+[EVALUATION] ari index score: 0.960302
+epsilon: 0.32 mu: 8
+[QUERY] now query epsilon: 0.32 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000353634 s.
+[EVALUATION] ari index score: 0.972884
+epsilon: 0.32 mu: 9
+[QUERY] now query epsilon: 0.32 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000233285 s.
+[EVALUATION] ari index score: 0.969415
+epsilon: 0.32 mu: 10
+[QUERY] now query epsilon: 0.32 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000173075 s.
+[EVALUATION] ari index score: 0.970568
+epsilon: 0.32 mu: 11
+[QUERY] now query epsilon: 0.32 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000132381 s.
+[EVALUATION] ari index score: 0.979195
+epsilon: 0.32 mu: 12
+[QUERY] now query epsilon: 0.32 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000111699 s.
+[EVALUATION] ari index score: 0.978938
+epsilon: 0.32 mu: 13
+[QUERY] now query epsilon: 0.32 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.3564e-05 s.
+[EVALUATION] ari index score: 0.978312
+epsilon: 0.32 mu: 14
+[QUERY] now query epsilon: 0.32 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.159e-05 s.
+[EVALUATION] ari index score: 0.974948
+epsilon: 0.32 mu: 15
+[QUERY] now query epsilon: 0.32 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.2057e-05 s.
+[EVALUATION] ari index score: 0.975434
+epsilon: 0.31 mu: 2
+[QUERY] now query epsilon: 0.31 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0276088 s.
+[EVALUATION] ari index score: 0.914193
+epsilon: 0.31 mu: 3
+[QUERY] now query epsilon: 0.31 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0137762 s.
+[EVALUATION] ari index score: 0.940419
+epsilon: 0.31 mu: 4
+[QUERY] now query epsilon: 0.31 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00490248 s.
+[EVALUATION] ari index score: 0.940478
+epsilon: 0.31 mu: 5
+[QUERY] now query epsilon: 0.31 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00210751 s.
+[EVALUATION] ari index score: 0.9602
+epsilon: 0.31 mu: 6
+[QUERY] now query epsilon: 0.31 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00106196 s.
+[EVALUATION] ari index score: 0.963187
+epsilon: 0.31 mu: 7
+[QUERY] now query epsilon: 0.31 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000575531 s.
+[EVALUATION] ari index score: 0.9716
+epsilon: 0.31 mu: 8
+[QUERY] now query epsilon: 0.31 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000341611 s.
+[EVALUATION] ari index score: 0.974719
+epsilon: 0.31 mu: 9
+[QUERY] now query epsilon: 0.31 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000232202 s.
+[EVALUATION] ari index score: 0.974762
+epsilon: 0.31 mu: 10
+[QUERY] now query epsilon: 0.31 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000173437 s.
+[EVALUATION] ari index score: 0.971926
+epsilon: 0.31 mu: 11
+[QUERY] now query epsilon: 0.31 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000135182 s.
+[EVALUATION] ari index score: 0.979185
+epsilon: 0.31 mu: 12
+[QUERY] now query epsilon: 0.31 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000108031 s.
+[EVALUATION] ari index score: 0.979859
+epsilon: 0.31 mu: 13
+[QUERY] now query epsilon: 0.31 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.6771e-05 s.
+[EVALUATION] ari index score: 0.979964
+epsilon: 0.31 mu: 14
+[QUERY] now query epsilon: 0.31 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.2668e-05 s.
+[EVALUATION] ari index score: 0.979911
+epsilon: 0.31 mu: 15
+[QUERY] now query epsilon: 0.31 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.1619e-05 s.
+[EVALUATION] ari index score: 0.977383
+epsilon: 0.3 mu: 2
+[QUERY] now query epsilon: 0.3 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0271341 s.
+[EVALUATION] ari index score: 0.956618
+epsilon: 0.3 mu: 3
+[QUERY] now query epsilon: 0.3 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0136445 s.
+[EVALUATION] ari index score: 0.980814
+epsilon: 0.3 mu: 4
+[QUERY] now query epsilon: 0.3 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00499473 s.
+[EVALUATION] ari index score: 0.981771
+epsilon: 0.3 mu: 5
+[QUERY] now query epsilon: 0.3 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00226875 s.
+[EVALUATION] ari index score: 0.981641
+epsilon: 0.3 mu: 6
+[QUERY] now query epsilon: 0.3 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00109542 s.
+[EVALUATION] ari index score: 0.981787
+epsilon: 0.3 mu: 7
+[QUERY] now query epsilon: 0.3 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000587423 s.
+[EVALUATION] ari index score: 0.980986
+epsilon: 0.3 mu: 8
+[QUERY] now query epsilon: 0.3 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000345241 s.
+[EVALUATION] ari index score: 0.980575
+epsilon: 0.3 mu: 9
+[QUERY] now query epsilon: 0.3 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000253936 s.
+[EVALUATION] ari index score: 0.978985
+epsilon: 0.3 mu: 10
+[QUERY] now query epsilon: 0.3 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0001773 s.
+[EVALUATION] ari index score: 0.980737
+epsilon: 0.3 mu: 11
+[QUERY] now query epsilon: 0.3 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000140582 s.
+[EVALUATION] ari index score: 0.982482
+epsilon: 0.3 mu: 12
+[QUERY] now query epsilon: 0.3 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000112044 s.
+[EVALUATION] ari index score: 0.981642
+epsilon: 0.3 mu: 13
+[QUERY] now query epsilon: 0.3 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 9.4593e-05 s.
+[EVALUATION] ari index score: 0.981784
+epsilon: 0.3 mu: 14
+[QUERY] now query epsilon: 0.3 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 8.6606e-05 s.
+[EVALUATION] ari index score: 0.982226
+epsilon: 0.3 mu: 15
+[QUERY] now query epsilon: 0.3 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 7.2308e-05 s.
+[EVALUATION] ari index score: 0.978812
+epsilon: 0.29 mu: 2
+[QUERY] now query epsilon: 0.29 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0487527 s.
+[EVALUATION] ari index score: 0.253017
+epsilon: 0.29 mu: 3
+[QUERY] now query epsilon: 0.29 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0311492 s.
+[EVALUATION] ari index score: 0.327323
+epsilon: 0.29 mu: 4
+[QUERY] now query epsilon: 0.29 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0151561 s.
+[EVALUATION] ari index score: 0.501238
+epsilon: 0.29 mu: 5
+[QUERY] now query epsilon: 0.29 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00843683 s.
+[EVALUATION] ari index score: 0.615161
+epsilon: 0.29 mu: 6
+[QUERY] now query epsilon: 0.29 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00476844 s.
+[EVALUATION] ari index score: 0.662893
+epsilon: 0.29 mu: 7
+[QUERY] now query epsilon: 0.29 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0028713 s.
+[EVALUATION] ari index score: 0.69633
+epsilon: 0.29 mu: 8
+[QUERY] now query epsilon: 0.29 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00182589 s.
+[EVALUATION] ari index score: 0.721304
+epsilon: 0.29 mu: 9
+[QUERY] now query epsilon: 0.29 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00123735 s.
+[EVALUATION] ari index score: 0.774828
+epsilon: 0.29 mu: 10
+[QUERY] now query epsilon: 0.29 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000922511 s.
+[EVALUATION] ari index score: 0.785889
+epsilon: 0.29 mu: 11
+[QUERY] now query epsilon: 0.29 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000617494 s.
+[EVALUATION] ari index score: 0.784564
+epsilon: 0.29 mu: 12
+[QUERY] now query epsilon: 0.29 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000466033 s.
+[EVALUATION] ari index score: 0.787271
+epsilon: 0.29 mu: 13
+[QUERY] now query epsilon: 0.29 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000360306 s.
+[EVALUATION] ari index score: 0.795168
+epsilon: 0.29 mu: 14
+[QUERY] now query epsilon: 0.29 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000289403 s.
+[EVALUATION] ari index score: 0.816332
+epsilon: 0.29 mu: 15
+[QUERY] now query epsilon: 0.29 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000249521 s.
+[EVALUATION] ari index score: 0.839948
+epsilon: 0.28 mu: 2
+[QUERY] now query epsilon: 0.28 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0485472 s.
+[EVALUATION] ari index score: 0.265604
+epsilon: 0.28 mu: 3
+[QUERY] now query epsilon: 0.28 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0312684 s.
+[EVALUATION] ari index score: 0.331481
+epsilon: 0.28 mu: 4
+[QUERY] now query epsilon: 0.28 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0161546 s.
+[EVALUATION] ari index score: 0.501955
+epsilon: 0.28 mu: 5
+[QUERY] now query epsilon: 0.28 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00840043 s.
+[EVALUATION] ari index score: 0.601782
+epsilon: 0.28 mu: 6
+[QUERY] now query epsilon: 0.28 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00480776 s.
+[EVALUATION] ari index score: 0.662986
+epsilon: 0.28 mu: 7
+[QUERY] now query epsilon: 0.28 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00307728 s.
+[EVALUATION] ari index score: 0.696809
+epsilon: 0.28 mu: 8
+[QUERY] now query epsilon: 0.28 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00192824 s.
+[EVALUATION] ari index score: 0.708389
+epsilon: 0.28 mu: 9
+[QUERY] now query epsilon: 0.28 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00121151 s.
+[EVALUATION] ari index score: 0.76694
+epsilon: 0.28 mu: 10
+[QUERY] now query epsilon: 0.28 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000836559 s.
+[EVALUATION] ari index score: 0.774274
+epsilon: 0.28 mu: 11
+[QUERY] now query epsilon: 0.28 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000607932 s.
+[EVALUATION] ari index score: 0.786042
+epsilon: 0.28 mu: 12
+[QUERY] now query epsilon: 0.28 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000465585 s.
+[EVALUATION] ari index score: 0.800608
+epsilon: 0.28 mu: 13
+[QUERY] now query epsilon: 0.28 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000359616 s.
+[EVALUATION] ari index score: 0.791593
+epsilon: 0.28 mu: 14
+[QUERY] now query epsilon: 0.28 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000289798 s.
+[EVALUATION] ari index score: 0.802009
+epsilon: 0.28 mu: 15
+[QUERY] now query epsilon: 0.28 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000245846 s.
+[EVALUATION] ari index score: 0.817709
+epsilon: 0.27 mu: 2
+[QUERY] now query epsilon: 0.27 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0489861 s.
+[EVALUATION] ari index score: 0.276845
+epsilon: 0.27 mu: 3
+[QUERY] now query epsilon: 0.27 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0310962 s.
+[EVALUATION] ari index score: 0.337774
+epsilon: 0.27 mu: 4
+[QUERY] now query epsilon: 0.27 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0160719 s.
+[EVALUATION] ari index score: 0.502993
+epsilon: 0.27 mu: 5
+[QUERY] now query epsilon: 0.27 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00842136 s.
+[EVALUATION] ari index score: 0.590306
+epsilon: 0.27 mu: 6
+[QUERY] now query epsilon: 0.27 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00502903 s.
+[EVALUATION] ari index score: 0.65443
+epsilon: 0.27 mu: 7
+[QUERY] now query epsilon: 0.27 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00296759 s.
+[EVALUATION] ari index score: 0.734386
+epsilon: 0.27 mu: 8
+[QUERY] now query epsilon: 0.27 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00190724 s.
+[EVALUATION] ari index score: 0.722932
+epsilon: 0.27 mu: 9
+[QUERY] now query epsilon: 0.27 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00122278 s.
+[EVALUATION] ari index score: 0.760066
+epsilon: 0.27 mu: 10
+[QUERY] now query epsilon: 0.27 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000829117 s.
+[EVALUATION] ari index score: 0.781312
+epsilon: 0.27 mu: 11
+[QUERY] now query epsilon: 0.27 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000627834 s.
+[EVALUATION] ari index score: 0.786851
+epsilon: 0.27 mu: 12
+[QUERY] now query epsilon: 0.27 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000460203 s.
+[EVALUATION] ari index score: 0.811135
+epsilon: 0.27 mu: 13
+[QUERY] now query epsilon: 0.27 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000355196 s.
+[EVALUATION] ari index score: 0.814444
+epsilon: 0.27 mu: 14
+[QUERY] now query epsilon: 0.27 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000303622 s.
+[EVALUATION] ari index score: 0.829108
+epsilon: 0.27 mu: 15
+[QUERY] now query epsilon: 0.27 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000246089 s.
+[EVALUATION] ari index score: 0.845698
+epsilon: 0.26 mu: 2
+[QUERY] now query epsilon: 0.26 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0489542 s.
+[EVALUATION] ari index score: 0.286212
+epsilon: 0.26 mu: 3
+[QUERY] now query epsilon: 0.26 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0296461 s.
+[EVALUATION] ari index score: 0.341324
+epsilon: 0.26 mu: 4
+[QUERY] now query epsilon: 0.26 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0163339 s.
+[EVALUATION] ari index score: 0.50029
+epsilon: 0.26 mu: 5
+[QUERY] now query epsilon: 0.26 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00836602 s.
+[EVALUATION] ari index score: 0.582734
+epsilon: 0.26 mu: 6
+[QUERY] now query epsilon: 0.26 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00499206 s.
+[EVALUATION] ari index score: 0.639292
+epsilon: 0.26 mu: 7
+[QUERY] now query epsilon: 0.26 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00299106 s.
+[EVALUATION] ari index score: 0.724128
+epsilon: 0.26 mu: 8
+[QUERY] now query epsilon: 0.26 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00185594 s.
+[EVALUATION] ari index score: 0.747152
+epsilon: 0.26 mu: 9
+[QUERY] now query epsilon: 0.26 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00127307 s.
+[EVALUATION] ari index score: 0.780376
+epsilon: 0.26 mu: 10
+[QUERY] now query epsilon: 0.26 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000872358 s.
+[EVALUATION] ari index score: 0.797722
+epsilon: 0.26 mu: 11
+[QUERY] now query epsilon: 0.26 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000612201 s.
+[EVALUATION] ari index score: 0.821331
+epsilon: 0.26 mu: 12
+[QUERY] now query epsilon: 0.26 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000474132 s.
+[EVALUATION] ari index score: 0.840648
+epsilon: 0.26 mu: 13
+[QUERY] now query epsilon: 0.26 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000360442 s.
+[EVALUATION] ari index score: 0.849578
+epsilon: 0.26 mu: 14
+[QUERY] now query epsilon: 0.26 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00031693 s.
+[EVALUATION] ari index score: 0.871351
+epsilon: 0.26 mu: 15
+[QUERY] now query epsilon: 0.26 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000240752 s.
+[EVALUATION] ari index score: 0.890766
+epsilon: 0.25 mu: 2
+[QUERY] now query epsilon: 0.25 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0491632 s.
+[EVALUATION] ari index score: 0.323971
+epsilon: 0.25 mu: 3
+[QUERY] now query epsilon: 0.25 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0301872 s.
+[EVALUATION] ari index score: 0.375157
+epsilon: 0.25 mu: 4
+[QUERY] now query epsilon: 0.25 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0161172 s.
+[EVALUATION] ari index score: 0.520118
+epsilon: 0.25 mu: 5
+[QUERY] now query epsilon: 0.25 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00847602 s.
+[EVALUATION] ari index score: 0.588079
+epsilon: 0.25 mu: 6
+[QUERY] now query epsilon: 0.25 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00508329 s.
+[EVALUATION] ari index score: 0.642774
+epsilon: 0.25 mu: 7
+[QUERY] now query epsilon: 0.25 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00306179 s.
+[EVALUATION] ari index score: 0.720472
+epsilon: 0.25 mu: 8
+[QUERY] now query epsilon: 0.25 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00198673 s.
+[EVALUATION] ari index score: 0.744118
+epsilon: 0.25 mu: 9
+[QUERY] now query epsilon: 0.25 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00127433 s.
+[EVALUATION] ari index score: 0.772164
+epsilon: 0.25 mu: 10
+[QUERY] now query epsilon: 0.25 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000871753 s.
+[EVALUATION] ari index score: 0.793391
+epsilon: 0.25 mu: 11
+[QUERY] now query epsilon: 0.25 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000625566 s.
+[EVALUATION] ari index score: 0.811402
+epsilon: 0.25 mu: 12
+[QUERY] now query epsilon: 0.25 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000475102 s.
+[EVALUATION] ari index score: 0.828873
+epsilon: 0.25 mu: 13
+[QUERY] now query epsilon: 0.25 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000364538 s.
+[EVALUATION] ari index score: 0.842684
+epsilon: 0.25 mu: 14
+[QUERY] now query epsilon: 0.25 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000299062 s.
+[EVALUATION] ari index score: 0.861021
+epsilon: 0.25 mu: 15
+[QUERY] now query epsilon: 0.25 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00023986 s.
+[EVALUATION] ari index score: 0.882201
+epsilon: 0.24 mu: 2
+[QUERY] now query epsilon: 0.24 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0494093 s.
+[EVALUATION] ari index score: 0.349295
+epsilon: 0.24 mu: 3
+[QUERY] now query epsilon: 0.24 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0301752 s.
+[EVALUATION] ari index score: 0.399863
+epsilon: 0.24 mu: 4
+[QUERY] now query epsilon: 0.24 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.016387 s.
+[EVALUATION] ari index score: 0.540595
+epsilon: 0.24 mu: 5
+[QUERY] now query epsilon: 0.24 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00849485 s.
+[EVALUATION] ari index score: 0.599332
+epsilon: 0.24 mu: 6
+[QUERY] now query epsilon: 0.24 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00513095 s.
+[EVALUATION] ari index score: 0.652482
+epsilon: 0.24 mu: 7
+[QUERY] now query epsilon: 0.24 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00315341 s.
+[EVALUATION] ari index score: 0.735212
+epsilon: 0.24 mu: 8
+[QUERY] now query epsilon: 0.24 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00192296 s.
+[EVALUATION] ari index score: 0.765729
+epsilon: 0.24 mu: 9
+[QUERY] now query epsilon: 0.24 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00132247 s.
+[EVALUATION] ari index score: 0.800847
+epsilon: 0.24 mu: 10
+[QUERY] now query epsilon: 0.24 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000873906 s.
+[EVALUATION] ari index score: 0.836901
+epsilon: 0.24 mu: 11
+[QUERY] now query epsilon: 0.24 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000624924 s.
+[EVALUATION] ari index score: 0.857179
+epsilon: 0.24 mu: 12
+[QUERY] now query epsilon: 0.24 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000467798 s.
+[EVALUATION] ari index score: 0.844437
+epsilon: 0.24 mu: 13
+[QUERY] now query epsilon: 0.24 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000359195 s.
+[EVALUATION] ari index score: 0.844477
+epsilon: 0.24 mu: 14
+[QUERY] now query epsilon: 0.24 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000334239 s.
+[EVALUATION] ari index score: 0.856508
+epsilon: 0.24 mu: 15
+[QUERY] now query epsilon: 0.24 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000251335 s.
+[EVALUATION] ari index score: 0.87969
+epsilon: 0.23 mu: 2
+[QUERY] now query epsilon: 0.23 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.049831 s.
+[EVALUATION] ari index score: 0.39525
+epsilon: 0.23 mu: 3
+[QUERY] now query epsilon: 0.23 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0301103 s.
+[EVALUATION] ari index score: 0.44212
+epsilon: 0.23 mu: 4
+[QUERY] now query epsilon: 0.23 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0192414 s.
+[EVALUATION] ari index score: 0.593416
+epsilon: 0.23 mu: 5
+[QUERY] now query epsilon: 0.23 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00854307 s.
+[EVALUATION] ari index score: 0.650611
+epsilon: 0.23 mu: 6
+[QUERY] now query epsilon: 0.23 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00499416 s.
+[EVALUATION] ari index score: 0.682436
+epsilon: 0.23 mu: 7
+[QUERY] now query epsilon: 0.23 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00312736 s.
+[EVALUATION] ari index score: 0.760806
+epsilon: 0.23 mu: 8
+[QUERY] now query epsilon: 0.23 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00194957 s.
+[EVALUATION] ari index score: 0.790526
+epsilon: 0.23 mu: 9
+[QUERY] now query epsilon: 0.23 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00125051 s.
+[EVALUATION] ari index score: 0.82017
+epsilon: 0.23 mu: 10
+[QUERY] now query epsilon: 0.23 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000878816 s.
+[EVALUATION] ari index score: 0.838351
+epsilon: 0.23 mu: 11
+[QUERY] now query epsilon: 0.23 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000621335 s.
+[EVALUATION] ari index score: 0.844422
+epsilon: 0.23 mu: 12
+[QUERY] now query epsilon: 0.23 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000492933 s.
+[EVALUATION] ari index score: 0.871474
+epsilon: 0.23 mu: 13
+[QUERY] now query epsilon: 0.23 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000356426 s.
+[EVALUATION] ari index score: 0.880034
+epsilon: 0.23 mu: 14
+[QUERY] now query epsilon: 0.23 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000286051 s.
+[EVALUATION] ari index score: 0.859891
+epsilon: 0.23 mu: 15
+[QUERY] now query epsilon: 0.23 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000239778 s.
+[EVALUATION] ari index score: 0.883703
+epsilon: 0.22 mu: 2
+[QUERY] now query epsilon: 0.22 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0487672 s.
+[EVALUATION] ari index score: 0.500052
+epsilon: 0.22 mu: 3
+[QUERY] now query epsilon: 0.22 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0297929 s.
+[EVALUATION] ari index score: 0.545887
+epsilon: 0.22 mu: 4
+[QUERY] now query epsilon: 0.22 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0161723 s.
+[EVALUATION] ari index score: 0.695975
+epsilon: 0.22 mu: 5
+[QUERY] now query epsilon: 0.22 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00904026 s.
+[EVALUATION] ari index score: 0.715889
+epsilon: 0.22 mu: 6
+[QUERY] now query epsilon: 0.22 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00500951 s.
+[EVALUATION] ari index score: 0.731832
+epsilon: 0.22 mu: 7
+[QUERY] now query epsilon: 0.22 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00317386 s.
+[EVALUATION] ari index score: 0.811182
+epsilon: 0.22 mu: 8
+[QUERY] now query epsilon: 0.22 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0019497 s.
+[EVALUATION] ari index score: 0.842839
+epsilon: 0.22 mu: 9
+[QUERY] now query epsilon: 0.22 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00130043 s.
+[EVALUATION] ari index score: 0.873186
+epsilon: 0.22 mu: 10
+[QUERY] now query epsilon: 0.22 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00091084 s.
+[EVALUATION] ari index score: 0.889012
+epsilon: 0.22 mu: 11
+[QUERY] now query epsilon: 0.22 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00064052 s.
+[EVALUATION] ari index score: 0.882649
+epsilon: 0.22 mu: 12
+[QUERY] now query epsilon: 0.22 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00047443 s.
+[EVALUATION] ari index score: 0.881796
+epsilon: 0.22 mu: 13
+[QUERY] now query epsilon: 0.22 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000361896 s.
+[EVALUATION] ari index score: 0.894609
+epsilon: 0.22 mu: 14
+[QUERY] now query epsilon: 0.22 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000293234 s.
+[EVALUATION] ari index score: 0.871165
+epsilon: 0.22 mu: 15
+[QUERY] now query epsilon: 0.22 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0002423 s.
+[EVALUATION] ari index score: 0.8876
+epsilon: 0.21 mu: 2
+[QUERY] now query epsilon: 0.21 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0490075 s.
+[EVALUATION] ari index score: 0.593626
+epsilon: 0.21 mu: 3
+[QUERY] now query epsilon: 0.21 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0306126 s.
+[EVALUATION] ari index score: 0.63713
+epsilon: 0.21 mu: 4
+[QUERY] now query epsilon: 0.21 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0163873 s.
+[EVALUATION] ari index score: 0.785574
+epsilon: 0.21 mu: 5
+[QUERY] now query epsilon: 0.21 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00918534 s.
+[EVALUATION] ari index score: 0.791308
+epsilon: 0.21 mu: 6
+[QUERY] now query epsilon: 0.21 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00510487 s.
+[EVALUATION] ari index score: 0.803705
+epsilon: 0.21 mu: 7
+[QUERY] now query epsilon: 0.21 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0031812 s.
+[EVALUATION] ari index score: 0.878147
+epsilon: 0.21 mu: 8
+[QUERY] now query epsilon: 0.21 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00201573 s.
+[EVALUATION] ari index score: 0.887673
+epsilon: 0.21 mu: 9
+[QUERY] now query epsilon: 0.21 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00129577 s.
+[EVALUATION] ari index score: 0.897827
+epsilon: 0.21 mu: 10
+[QUERY] now query epsilon: 0.21 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000947397 s.
+[EVALUATION] ari index score: 0.905384
+epsilon: 0.21 mu: 11
+[QUERY] now query epsilon: 0.21 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0031623 s.
+[EVALUATION] ari index score: 0.899819
+epsilon: 0.21 mu: 12
+[QUERY] now query epsilon: 0.21 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000485179 s.
+[EVALUATION] ari index score: 0.905149
+epsilon: 0.21 mu: 13
+[QUERY] now query epsilon: 0.21 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000372046 s.
+[EVALUATION] ari index score: 0.906718
+epsilon: 0.21 mu: 14
+[QUERY] now query epsilon: 0.21 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000299156 s.
+[EVALUATION] ari index score: 0.915629
+epsilon: 0.21 mu: 15
+[QUERY] now query epsilon: 0.21 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000244373 s.
+[EVALUATION] ari index score: 0.92014
+epsilon: 0.2 mu: 2
+[QUERY] now query epsilon: 0.2 mu: 2
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0490409 s.
+[EVALUATION] ari index score: 0.896734
+epsilon: 0.2 mu: 3
+[QUERY] now query epsilon: 0.2 mu: 3
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0305244 s.
+[EVALUATION] ari index score: 0.885214
+epsilon: 0.2 mu: 4
+[QUERY] now query epsilon: 0.2 mu: 4
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.0159284 s.
+[EVALUATION] ari index score: 0.921668
+epsilon: 0.2 mu: 5
+[QUERY] now query epsilon: 0.2 mu: 5
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00882083 s.
+[EVALUATION] ari index score: 0.92961
+epsilon: 0.2 mu: 6
+[QUERY] now query epsilon: 0.2 mu: 6
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00507486 s.
+[EVALUATION] ari index score: 0.936414
+epsilon: 0.2 mu: 7
+[QUERY] now query epsilon: 0.2 mu: 7
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00317637 s.
+[EVALUATION] ari index score: 0.931404
+epsilon: 0.2 mu: 8
+[QUERY] now query epsilon: 0.2 mu: 8
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00201299 s.
+[EVALUATION] ari index score: 0.953367
+epsilon: 0.2 mu: 9
+[QUERY] now query epsilon: 0.2 mu: 9
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.00131592 s.
+[EVALUATION] ari index score: 0.933566
+epsilon: 0.2 mu: 10
+[QUERY] now query epsilon: 0.2 mu: 10
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000893209 s.
+[EVALUATION] ari index score: 0.957572
+epsilon: 0.2 mu: 11
+[QUERY] now query epsilon: 0.2 mu: 11
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000663504 s.
+[EVALUATION] ari index score: 0.957501
+epsilon: 0.2 mu: 12
+[QUERY] now query epsilon: 0.2 mu: 12
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000480909 s.
+[EVALUATION] ari index score: 0.949326
+epsilon: 0.2 mu: 13
+[QUERY] now query epsilon: 0.2 mu: 13
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000369784 s.
+[EVALUATION] ari index score: 0.955018
+epsilon: 0.2 mu: 14
+[QUERY] now query epsilon: 0.2 mu: 14
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000297106 s.
+[EVALUATION] ari index score: 0.965512
+epsilon: 0.2 mu: 15
+[QUERY] now query epsilon: 0.2 mu: 15
+[CLUSTER] start query clusters from table
+[CLUSTER] finish clustering
+[TIME COST] 0.000244414 s.
+[EVALUATION] ari index score: 0.943448
+[PRINT TIME] total clustering time: 2.1158
+[PRINT TIME] average clustering time: 0.00247752
+[PRINT ARI] average ARI score: 0.921904

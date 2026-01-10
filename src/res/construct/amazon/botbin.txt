@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: amazon filepath: /home/hnu/Disk0/ParDon/graph/amazon.txt
+graph size: 334863
+edge size: 925872
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 0.243271 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 0.302119 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 0.10486 s.
+[PRINT TIME] total building time: 0.65025
+[PRINT SPAEC]: total space cost: 27.8852 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

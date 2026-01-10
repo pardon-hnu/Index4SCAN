@@ -1,0 +1,37 @@
+[LOAD GRAPH] start!!! graph: amazon filepath: /home/hnu/Disk0/ParDon/graph/amazon.txt
+graph size: 334863
+edge size: 925872
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 0.54539 s.
+[CONSTRUCT FOREST] start
+[CONSTRUCT FOREST] now construct 9 th tree
+[CONSTRUCT FOREST] now construct 8 th tree
+[CONSTRUCT FOREST] now construct 7 th tree
+[CONSTRUCT FOREST] now construct 6 th tree
+[CONSTRUCT FOREST] now construct 5 th tree
+[CONSTRUCT FOREST] now construct 4 th tree
+[CONSTRUCT FOREST] now construct 3 th tree
+[CONSTRUCT FOREST] now construct 2 th tree
+[CONSTRUCT FOREST] now construct 1 th tree
+[CONSTRUCT FOREST] finishi! time cost: 1.71392
+==================================================================
+[PRINT NDDE NUM] each node num of forest is :
+0 th tree node num: 0
+1 th tree node num: 47413
+2 th tree node num: 84843
+3 th tree node num: 120945
+4 th tree node num: 105088
+5 th tree node num: 82427
+6 th tree node num: 52166
+7 th tree node num: 30297
+8 th tree node num: 17334
+9 th tree node num: 6157
+[PRINT NODE NUM] total node num of forest is 546670
+[PRINT NDDE NUM] average node num of each tree is 54667
+[PRINT TIME] total building time: 2.25931
+[PRINT SPACE INFORMATION] core vertices space cost: 5.60135.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 6.60588.MB
+[PRINT SPACE]: total space cost: 20.5487 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

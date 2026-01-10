@@ -1,0 +1,26 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: indochina filepath: /home/hnu/Disk0/ParDon/graph/indochina.txt
+graph size: 7414758
+edge size: 150984819
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 208.619 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 1.09845 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 35.9328 s.
+[PRINT NODE NUM] total point (leaf node): 4436
+[PRINT CLUSTER SLICE]: total core componets: 3087961
+[PRINT CLUSTER SLICE]: average core componets per PPT: 696.114
+[PRINT TIME] total building time: 245.65
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 15.5712.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 7.78562.MB
+[PRINT PPT SPACE]: total space cost: 133.509.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

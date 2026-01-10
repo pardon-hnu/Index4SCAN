@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: sk2005 filepath: /home/hnu/Disk0/ParDon/graph/sk2005.txt
+graph size: 50636059
+edge size: 1810063330
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 210.802 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 1649.81 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 19.9538 s.
+[PRINT TIME] total building time: 1880.56
+[PRINT SPAEC]: total space cost: 29709.3 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

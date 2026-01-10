@@ -1,0 +1,26 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: dblp filepath: /home/hnu/Disk0/ParDon/graph/dblp.txt
+graph size: 317080
+edge size: 1049866
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 0.572991 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 0.0592772 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 0.775341 s.
+[PRINT NODE NUM] total point (leaf node): 713
+[PRINT CLUSTER SLICE]: total core componets: 290751
+[PRINT CLUSTER SLICE]: average core componets per PPT: 407.785
+[PRINT TIME] total building time: 1.40761
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 1.29966.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 0.64983.MB
+[PRINT PPT SPACE]: total space cost: 8.94886.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

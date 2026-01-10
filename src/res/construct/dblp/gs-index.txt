@@ -1,0 +1,16 @@
+[LOAD GRAPH] start!!! graph: dblp filepath: /home/hnu/Disk0/ParDon/graph/dblp.txt
+graph size: 317080
+edge size: 1049866
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] begin constructing neighbor order!!!
+reserve vector 
+construct neighbor order 
+[COSNTRUCT INDEX] finishi construting no !!!
+[TIME COST] 0.254955 s.
+[CONSTRUCT INDEX] begin constructing core order !!!
+[CONSTRUCT INDEX] finish constructing co !!!
+[TIME COST] 0.0988924 s.
+[PRINT TIME] total building time: 0.353847
+[PRINT SPAEC]: total space cost: 32.0394 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,17 @@
+./test amazon PPT construct > res/construct/amazon/ppt_10.txt 
+./test dblp PPT construct > res/construct/dblp/ppt_10.txt 
+./test youtube PPT construct > res/construct/youtube/ppt_10.txt 
+./test skitter PPT construct > res/construct/skitter/ppt_10.txt 
+./test pokec PPT construct > res/construct/pokec/ppt_10.txt 
+./test topcats PPT construct > res/construct/topcats/ppt_10.txt 
+./test livejournal1 PPT construct > res/construct/livejournal1/ppt_10.txt 
+./test livejournal2 PPT construct > res/construct/livejournal2/ppt_10.txt 
+./test orkut1 PPT construct > res/construct/orkut1/ppt_10.txt 
+./test orkut2 PPT construct > res/construct/orkut2/ppt_10.txt 
+./test indochina PPT construct > res/construct/indochina/ppt_10.txt 
+./test uk2002 PPT construct > res/construct/uk2002/ppt_10.txt 
+./test webbase PPT construct > res/construct/webbase/ppt_10.txt 
+./test uk2005 PPT construct > res/construct/uk2005/ppt_10.txt 
+./test it2004 PPT construct > res/construct/it2004/ppt_10.txt 
+./test friendster PPT construct > res/construct/friendster/ppt_10.txt 
+./test sk2005 PPT construct > res/construct/sk2005/ppt_10.txt 

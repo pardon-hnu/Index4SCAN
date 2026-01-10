@@ -1,0 +1,26 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: friendster filepath: /home/hnu/Disk0/ParDon/graph/friendster.txt
+graph size: 65608366
+edge size: 1806067135
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 6910.34 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 5.57562 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 106.487 s.
+[PRINT NODE NUM] total point (leaf node): 840
+[PRINT CLUSTER SLICE]: total core componets: 14591915
+[PRINT CLUSTER SLICE]: average core componets per PPT: 17371.3
+[PRINT TIME] total building time: 7022.4
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 54.0257.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 27.0129.MB
+[PRINT PPT SPACE]: total space cost: 434.583.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

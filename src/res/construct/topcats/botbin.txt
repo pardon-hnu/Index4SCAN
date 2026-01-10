@@ -1,0 +1,17 @@
+[LOAD GRAPH] start!!! graph: topcats filepath: /home/hnu/Disk0/ParDon/graph/topcats.txt
+graph size: 1791489
+edge size: 28511807
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] start building BOTTOM-K-SKETCH
+[CONSTRUCT INDEX] finish building BOTTOM-K-SKETCH
+[TIME COST] 4.99467 s.
+[CONSTRUCT INDEX] start building Neighbor Order
+[CONSTRUCT INDEX] finish building Neighbor Order
+[TIME COST] 30.6025 s.
+[CONSTRUCT INDEX] start building bucket index
+[CONSTRUCT INDEX] finish building bucket index
+[TIME COST] 0.479885 s.
+[PRINT TIME] total building time: 36.0771
+[PRINT SPAEC]: total space cost: 471.425 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

@@ -1,0 +1,37 @@
+[LOAD GRAPH] start!!! graph: topcats filepath: /home/hnu/Disk0/ParDon/graph/topcats.txt
+graph size: 1791489
+edge size: 28511807
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 35.5972 s.
+[CONSTRUCT FOREST] start
+[CONSTRUCT FOREST] now construct 9 th tree
+[CONSTRUCT FOREST] now construct 8 th tree
+[CONSTRUCT FOREST] now construct 7 th tree
+[CONSTRUCT FOREST] now construct 6 th tree
+[CONSTRUCT FOREST] now construct 5 th tree
+[CONSTRUCT FOREST] now construct 4 th tree
+[CONSTRUCT FOREST] now construct 3 th tree
+[CONSTRUCT FOREST] now construct 2 th tree
+[CONSTRUCT FOREST] now construct 1 th tree
+[CONSTRUCT FOREST] finishi! time cost: 4.28214
+==================================================================
+[PRINT NDDE NUM] each node num of forest is :
+0 th tree node num: 0
+1 th tree node num: 204242
+2 th tree node num: 362231
+3 th tree node num: 220690
+4 th tree node num: 123564
+5 th tree node num: 71972
+6 th tree node num: 37240
+7 th tree node num: 19324
+8 th tree node num: 9754
+9 th tree node num: 4151
+[PRINT NODE NUM] total node num of forest is 1053168
+[PRINT NDDE NUM] average node num of each tree is 105317
+[PRINT TIME] total building time: 39.8793
+[PRINT SPACE INFORMATION] core vertices space cost: 11.3787.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 13.0185.MB
+[PRINT SPACE]: total space cost: 40.4673 MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!

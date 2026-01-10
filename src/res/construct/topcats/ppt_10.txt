@@ -1,0 +1,26 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: topcats filepath: /home/hnu/Disk0/ParDon/graph/topcats.txt
+graph size: 1791489
+edge size: 28511807
+[LOAD GRAPH] success!!!
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 35.5972 s.
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 0.173299 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 1.92701 s.
+[PRINT NODE NUM] total point (leaf node): 748
+[PRINT CLUSTER SLICE]: total core componets: 781166
+[PRINT CLUSTER SLICE]: average core componets per PPT: 1044.34
+[PRINT TIME] total building time: 37.6975
+[PRINT SPACE INFORMATION] core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] non core vertices space cost: 0.MB
+[PRINT SPACE INFORMATION] edges space cost: 3.6003.MB
+[PRINT SPACE INFORMATION] connectivity space cost: 1.80015.MB
+[PRINT PPT SPACE]: total space cost: 23.4957.MB
+[STORE INDEX] start !!!!
+[STORE INDEX] finish !!!!
