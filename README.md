@@ -1,5 +1,5 @@
 # Two space-efficient indexes for high-speed structural graph clustering
-> this respository is used for the paper "Advancing Structural Graph Clustering: Space-Efficient Indexes for High-Speed Queries"
+> this repository is used for the paper "Advancing Structural Graph Clustering: Space-Efficient Indexes for High-Speed Queries"
 
 ## file structure
 ```
