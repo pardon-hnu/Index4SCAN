@@ -3,22 +3,22 @@
 
 ## file structure
 ```
-    ---datasets: consits of two toy graph, hiv and example. Example is the example graph in paper.
-    ---src: source code
-    ------example: the result of example, used in paper
-    ------HeadFile: all head files
-    ---------global: head files of global definitions and SCAN 
-    ---------index: four indexes 
-    ---------util: utils
-    ------Index: storage of all indexes
-    ------res: experiment results, used in paper
-    ------Result: clustering results
-    ---------lables: written by labels (binary file)
-    ---------result: written by cluster sets
-    ------shell_files: shell files for experiment in paper
-    ------main.cpp
-    ------makefile
-    ------other auxiliary files
+---datasets: consits of two toy graph, hiv and example. Example is the example graph in paper.
+---src: source code
+------example: the result of example, used in paper
+------HeadFile: all head files
+---------global: head files of global definitions and SCAN 
+---------index: four indexes 
+---------util: utils
+------Index: storage of all indexes
+------res: experiment results, used in paper
+------Result: clustering results
+---------lables: written by labels (binary file)
+---------result: written by cluster sets
+------shell_files: shell files for experiment in paper
+------main.cpp
+------makefile
+------other auxiliary files
 ```
 
 ## compile
