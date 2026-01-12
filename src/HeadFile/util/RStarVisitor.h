@@ -18,7 +18,7 @@
  #ifndef RSTARVISITOR_H
  #define RSTARVISITOR_H
  
- #include "RStarBoundingBox.h"
+ #include <util/RStarBoundingBox.h>
  
  /**
 	\file

@@ -1,7 +1,7 @@
 # =======================
 # Compiler & Flags
 # =======================
-CXX      := g++
+CXX      := g++-9
 CXXFLAGS := -O3 -std=c++17 -Wall -Wextra -march=native
 INCLUDES := -IHeadFile
 

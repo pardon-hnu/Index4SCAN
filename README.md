@@ -46,9 +46,7 @@ Method:
             format_id:  the data structure of organizing PPT
                 -1: SortSet
                 -2: Table
-                -3: PST
-                -4: KD
-                -5: RStar
+                -3: RStar
 Pattern:
     construct: index construction and storage
     query: a single query, following parameters: [epsilon] [mu]

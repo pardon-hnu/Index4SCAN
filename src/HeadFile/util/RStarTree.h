@@ -41,7 +41,7 @@
 #include <sstream>
 #include <fstream>
 
-#include "RStarBoundingBox.h"
+#include <util/RStarBoundingBox.h>
 
 // R* tree parameters
 #define RTREE_REINSERT_P 0.30
@@ -210,17 +210,16 @@ public:
 		for decent performance.
 	*/
 	template <typename Acceptor, typename Visitor>
-	Visitor Query(const Acceptor &accept, Visitor visitor)
+	Visitor Query(const Acceptor &accept, Visitor visitor,vector<int> &ppt_ids)
 	{
 		if (m_root)
 		{	
-			QueryFunctor<Acceptor, Visitor> query(accept, visitor);
+			QueryFunctor<Acceptor, Visitor> query(accept, visitor,ppt_ids);
 			query(m_root);
 		}
 		
 		return visitor;
 	}
-
 	
 	/**
 		\brief Removes item(s) from the tree. 
@@ -598,18 +597,22 @@ protected:
 	// visits a node if necessary
 	template <typename Acceptor, typename Visitor>
 	struct VisitFunctor {
-	
+
 		const Acceptor &accept;
 		Visitor &visit;
-		
-		explicit VisitFunctor(const Acceptor &a, Visitor &v) : accept(a), visit(v) {}
-	
-		void operator()( BoundedItem * item ) 
+		vector<int> &ppt_ids;   // ⭐ 作为成员
+
+		VisitFunctor(const Acceptor &a, Visitor &v, vector<int> &ids)
+			: accept(a), visit(v), ppt_ids(ids) {}
+
+		void operator()(BoundedItem * item)
 		{
 			Leaf * leaf = static_cast<Leaf*>(item);
-		
-			if (accept(leaf))
+
+			if (accept(leaf)) {
 				visit(leaf);
+				ppt_ids.push_back(leaf->leaf);
+			}
 		}
 	};
 	
@@ -619,23 +622,28 @@ protected:
 	struct QueryFunctor  {
 		const Acceptor &accept;
 		Visitor &visitor;
-		
+		vector<int> &ppt_ids;
+
 		explicit QueryFunctor(const Acceptor &a, Visitor &v) : accept(a), visitor(v) {}
 	
+    	QueryFunctor(const Acceptor &a, Visitor &v, vector<int> &ids)
+        : accept(a), visitor(v), ppt_ids(ids) {}
+
 		void operator()(BoundedItem * item)
 		{
 			Node * node = static_cast<Node*>(item);
-		
+
 			if (visitor.ContinueVisiting && accept(node))
 			{
 				if (node->hasLeaves)
-					for_each(node->items.begin(), node->items.end(), VisitFunctor<Acceptor, Visitor>(accept, visitor));
+					for_each(node->items.begin(), node->items.end(),
+							VisitFunctor<Acceptor, Visitor>(accept, visitor, ppt_ids));
 				else
 					for_each(node->items.begin(), node->items.end(), *this);
 			}
 		}
 	};
-	
+
 	
 	/****************************************************************
 	 * Used to remove items from the tree

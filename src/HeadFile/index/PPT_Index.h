@@ -16,8 +16,36 @@
 #include <index/Index.h>
 #include <index/PPT.h>
 #include <util/RandList.h>
-using namespace std;
+#include <util/RStarTree.h>
 // #define CHECK_RESULT
+// #define TEST_STRUCTURE
+// #define TEST_CORRECTNESS
+typedef RStarTree<int, 2, 32, 64> 			RTree;
+typedef RTree::BoundingBox BoundingBox;
+BoundingBox bounds(int x, int y, int w, int h)
+{
+	BoundingBox bb;
+	
+	bb.edges[0].first  = x;
+	bb.edges[0].second = x + w;
+	
+	bb.edges[1].first  = y;
+	bb.edges[1].second = y + h;
+	
+	return bb;
+}
+struct Visitor {
+	int count;
+	bool ContinueVisiting;
+	
+	Visitor() : count(0), ContinueVisiting(true) {};
+	
+	void operator()(const RTree::Leaf * const leaf) 
+	{
+		count++;
+	}
+};
+
 bool cmp_order_space_index(pair<float,int> x,pair<float,int> y)
 {
 	return x.first>y.first;
@@ -48,6 +76,7 @@ class SCAN_PPT_Index : public SCAN_Index
         vector<vector<int>> ppt_matrix;  // PPT[i][j]!=-1 :  there exist a PPT(i,j+2)
 
         vector<vector<int>> table_ppts;
+        RTree r_star_tree;
 
         int traverse_node_num=0;
         int traverse_core_num=0;
@@ -62,6 +91,7 @@ class SCAN_PPT_Index : public SCAN_Index
         double edge_space=0.0;
         double connectivity_space=0.0;
         double total_ari=0.0;
+        double total_collection_ppt_time=0.0;
         int query_count=0;
         vector<int> temp_label;
         UnionFind uf;
@@ -71,9 +101,7 @@ class SCAN_PPT_Index : public SCAN_Index
             map<int,string> formats = {
                 {-1,"SortSet"},
                 {-2,"Table"},
-                {-3,"PST"},
-                {-4,"KD"},
-                {-5,"RStar"},
+                {-3,"RStar"},
             };
             this->format=formats[format_id];
             this->DELTA=DELTA;
@@ -718,7 +746,7 @@ class SCAN_PPT_Index : public SCAN_Index
             construct_ppt_vertex_map();
             construct_componets();
         }
-        void connect_vertices_after_search_index(int bucket, int mu, vector<int> &ppt_ids, UnionFind &uf) 
+        void connect_vertices_after_search_index(int bucket, int mu, vector<int> &ppt_ids) 
         {
             // const auto begin=std::chrono::steady_clock().now();  
             vector<int> all_cs_ids;
@@ -787,30 +815,109 @@ class SCAN_PPT_Index : public SCAN_Index
             // tms stage3_time=end3-end2;
             // cout<<"stage1 time: "<<stage1_time.count()<<" stage2 time: "<<stage2_time.count()<<" stage3 time: "<<stage3_time.count()<<endl;
         }
+        void query_from_sortset(int bucket,int mu)
+        {
+            cout<<"[CLUSTER] start query clusters from sorted set"<<endl;
+            const auto begin=std::chrono::steady_clock().now();
+            vector<int> ppt_ids;
+            ppt_ids.reserve(ppts.size());
+            for(auto &ppt:ppts)
+            {
+                if(ppt.epsilon<bucket) break;
+                if(ppt.mu>=mu)
+                {
+                    ppt_ids.push_back(ppt.id);
+                }
+            }
+            #ifdef TEST_CORRECTNESS
+                cout<<"[TEST] print collecting ppt: "<<endl;
+                for(auto id:ppt_ids)
+                {
+                    cout<<"ppt id: "<<id<<" epsilon: "<<ppts[id].epsilon<<" mu: "<<ppts[id].mu<<endl;
+                }
+            #endif
+            #ifdef TEST_STRUCTURE
+                const auto end=std::chrono::steady_clock().now();
+                tms collection_time=end-begin;
+                cout<<"[TEST] finish collecting PPT"<<endl;
+                cout<<"[TIME COST] "<<collection_time.count()<<" s."<<endl;
+                total_collection_ppt_time+=collection_time.count();
+            #else
+                connect_vertices_after_search_index(bucket,mu,ppt_ids);
+                const auto end=std::chrono::steady_clock().now();
+                tms cluster_time=end-begin;
+                cout<<"[CLUSTER] finish clustering"<<endl;
+                cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
+                total_cluster_time+=cluster_time.count();
+            #endif
+        }
         void query_from_table(int bucket,int mu)
         {
             cout<<"[CLUSTER] start query clusters from table"<<endl;
             const auto begin=std::chrono::steady_clock().now();
             vector<int> ppt_ids;
             ppt_ids.reserve(ppts.size());
-            for(int i=table_ppts.size()-1;i>0;--i)
+            for(int i=table_ppts.size()-1;i>=bucket;--i)
             {
-                if(bucket>i) break;
-                for(int j=0;j<table_ppts[i].size();j++)
+                const auto& vec = table_ppts[i];
+                for (int ppt_id : vec)
                 {
-                    // traverse_node_num++;
-                    int ppt_id=table_ppts[i][j];
-                    if(ppts[ppt_id].mu<mu) break;
+                    if (ppts[ppt_id].mu < mu) break;
                     ppt_ids.push_back(ppt_id);
-                    // cout<<"now ppt id: "<<ppt_id<<" epsilon: "<<ppts[ppt_id].epsilon<<" mu: "<<ppts[ppt_id].mu<<endl;
                 }
             }
-            connect_vertices_after_search_index(bucket,mu,ppt_ids,uf);
-            const auto end=std::chrono::steady_clock().now();
-            tms cluster_time=end-begin;
-            cout<<"[CLUSTER] finish clustering"<<endl;
-            cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
-            total_cluster_time+=cluster_time.count();
+            #ifdef TEST_CORRECTNESS
+                cout<<"[TEST] print collecting ppt: "<<endl;
+                for(auto id:ppt_ids)
+                {
+                    cout<<"ppt id: "<<id<<" epsilon: "<<ppts[id].epsilon<<" mu: "<<ppts[id].mu<<endl;
+                }
+            #endif
+            #ifdef TEST_STRUCTURE
+                const auto end=std::chrono::steady_clock().now();
+                tms collection_time=end-begin;
+                cout<<"[TEST] finish collecting PPT"<<endl;
+                cout<<"[TIME COST] "<<collection_time.count()<<" s."<<endl;
+                total_collection_ppt_time+=collection_time.count();
+            #else
+                connect_vertices_after_search_index(bucket,mu,ppt_ids);
+                const auto end=std::chrono::steady_clock().now();
+                tms cluster_time=end-begin;
+                cout<<"[CLUSTER] finish clustering"<<endl;
+                cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
+                total_cluster_time+=cluster_time.count();
+            #endif
+        }
+        void query_from_r_star_tree(int bucket,int mu)
+        {
+            cout<<"[CLUSTER] start query clusters from table"<<endl;
+            const auto begin=std::chrono::steady_clock().now();
+            vector<int> ppt_ids;
+            ppt_ids.reserve(ppts.size());
+            
+            auto bound=bounds(bucket,mu,DELTA,dmax);
+            r_star_tree.Query(RTree::AcceptEnclosing(bound),Visitor(),ppt_ids);
+            #ifdef TEST_CORRECTNESS
+                cout<<"[TEST] print collecting ppt: "<<endl;
+                for(auto id:ppt_ids)
+                {
+                    cout<<"ppt id: "<<id<<" epsilon: "<<ppts[id].epsilon<<" mu: "<<ppts[id].mu<<endl;
+                }
+            #endif
+            #ifdef TEST_STRUCTURE
+                const auto end=std::chrono::steady_clock().now();
+                tms collection_time=end-begin;
+                cout<<"[TEST] finish collecting PPT"<<endl;
+                cout<<"[TIME COST] "<<collection_time.count()<<" s."<<endl;
+                total_collection_ppt_time+=collection_time.count();
+            #else
+                connect_vertices_after_search_index(bucket,mu,ppt_ids);
+                const auto end=std::chrono::steady_clock().now();
+                tms cluster_time=end-begin;
+                cout<<"[CLUSTER] finish clustering"<<endl;
+                cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
+                total_cluster_time+=cluster_time.count();
+            #endif
         }
         int locate(int epsilon)
         {
@@ -1087,15 +1194,11 @@ class SCAN_PPT_Index : public SCAN_Index
                 int bucket=locate(eps);
                 if(format=="SortSet")
                 {
-
+                    query_from_sortset(bucket,mu);
                 }
                 if(format=="Table")
                 {
                     query_from_table(bucket,mu);
-                }
-                else if(format=="PST")
-                {
-
                 }
                 else if(format=="KD")
                 {
@@ -1103,7 +1206,7 @@ class SCAN_PPT_Index : public SCAN_Index
                 }
                 else if(format=="RStar")
                 {
-
+                    query_from_r_star_tree(bucket,mu);
                 }
                 else
                 {
@@ -1263,6 +1366,10 @@ class SCAN_PPT_Index : public SCAN_Index
             #ifdef EVALUATION_CLUSTERING_QUALITY
                 cout<<"[PRINT ARI] average ARI score: "<<total_ari/double(query_count)<<endl;
             #endif
+            #ifdef TEST_STRUCTURE
+                cout<<"[PRINT TIME] total collection time: "<<total_collection_ppt_time<<endl;
+                cout<<"[PRINT TIME] average collection time: "<<total_collection_ppt_time/double(query_count)<<endl;
+            #endif
         }
         void print_neighbor_order()
         {
@@ -1294,10 +1401,10 @@ class SCAN_PPT_Index : public SCAN_Index
         }
         void print_index() override
         {
-            print_neighbor_order();
+            // print_neighbor_order();
             print_similarity_interval();
-            print_interval_num();
-            print_PPT_vertex_map();
+            // print_interval_num();
+            // print_PPT_vertex_map();
             print_all_PPT();
         }
         void load_index() override
@@ -1401,22 +1508,23 @@ class SCAN_PPT_Index : public SCAN_Index
                 }
                 
             }
-            else if(format=="PST")
-            {
-
-            }
             else if(format=="KD")
             {
 
             }
             else if(format=="RStar")
             {
-
+                sort(ppts.begin(),ppts.end(),cmp_ppt);
+                for(int i=0;i<ppts.size();i++)
+                {
+                    ppts[i].id=i;
+                }
+                for(auto &ppt:ppts)
+                {
+                    r_star_tree.Insert(ppt.id,bounds(ppt.epsilon,ppt.mu,0,0));
+                }
             }
-            else
-            {
-
-            }
+            else{}
             // cout<<"================================================="<<endl;
             // print_all_PPT();
             int ppt_num=ppts.size();
