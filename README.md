@@ -21,6 +21,8 @@
 ------main.cpp
 ------makefile
 ------other auxiliary files
+---VDStar: the source code provided by author of VD-STAR (KDD)
+---VDStarNoT: the source code provided by author of VD-STAR (KDD)
 ```
 
 ## compile
