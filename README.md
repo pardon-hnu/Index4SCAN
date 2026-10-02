@@ -1,7 +1,9 @@
 # Two space-efficient indexes for high-speed structural graph clustering
+
 > this repository is used for the paper "Advancing Structural Graph Clustering: Space-Efficient Indexes for High-Speed Queries"
 
 ## file structure
+
 ```
 ---datasets: consits of two toy graph, hiv and example. Example is the example graph in paper.
 ---src: source code
@@ -22,12 +24,14 @@
 ```
 
 ## compile
+
 ```shell
 cd src
 make
 ```
 
 ## run
+
 ```shell
 ./main [Dataset] [Method] [Pattern] [Parameter 1]...[Parameter n]
 
@@ -52,8 +56,12 @@ Pattern:
     query: a single query, following parameters: [epsilon] [mu]
     exp-query: query under varing parameters
     test: the pattern for testing 
+    update: update, following parameters: ["insert" or "remove"] [u] [v] [0: rebuild 1: local reconstruction]
+    exp-update: update under 1024 times ["insert" or "remove"] [0: rebuild 1: local reconstruction]
 ```
+
 ## Example:
+
 ```shell
     cd src
     make

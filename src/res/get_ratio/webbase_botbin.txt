@@ -1,0 +1,601 @@
+[LOAD GRAPH] start!!! graph: webbase filepath: /home/hnu/Disk0/ParDon/graph/webbase.txt
+graph size: 118142155
+edge size: 868338910
+[LOAD GRAPH] success!!!
+[LOAD INDEX] start !!!!
+[LOAD INDEX] finish !!!!
+[PRINT SPACE INFORMATION] neighbor order space cost: 13043.4.MB
+[PRINT SPACE INFORMATION] bucket index space cost: 4140.47.MB
+[PRINT SPACE INFORMATION] graph space cost: 6521.68.MB
+epsilon: 0.8 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.39682 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.12613 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.28953 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.86004 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.52154 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.26817 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.04113 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.83484 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.68198 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.51684 s.
+[EVALUATION] ari index score: 1.56227e-21
+epsilon: 0.8 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.37106 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.27523 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.20117 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.8 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[8]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.10922 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.22439 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.21145 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.97479 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.40746 s.
+[EVALUATION] ari index score: -3.44341e-22
+epsilon: 0.7 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.07601 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.70283 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.41852 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.1881 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.98541 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.79633 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.63294 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.49512 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.38357 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.7 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[7]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.28718 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.89592 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.4955 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.92474 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.1793 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.66695 s.
+[EVALUATION] ari index score: -5.4846e-22
+epsilon: 0.6 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.27604 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.94635 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.67084 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.41774 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.16553 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.01934 s.
+[EVALUATION] ari index score: 1.24129e-21
+epsilon: 0.6 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.85227 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.67138 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.6 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[6]
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.55992 s.
+[EVALUATION] ari index score: -2.40718e-21
+epsilon: 0.5 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 10.7014 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 11.0111 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.61204 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.94603 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.61138 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.10456 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.70788 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.39411 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.06597 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.81228 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.56801 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.3645 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.71501 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.5 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[5]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.40407 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 17.8816 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 11.5532 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.01283 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.38661 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.69149 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.24328 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.51211 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.27811 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.57768 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.13156 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.21888 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.95755 s.
+[EVALUATION] ari index score: -1.41588e-21
+epsilon: 0.4 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.70063 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.4 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[4]
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.5284 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 15.1092 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 11.2027 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.12788 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.81572 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.48119 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.21805 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.818 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.07341 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.60467 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.29797 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.94148 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.62396 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.43864 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.3 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[3]
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.17884 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 2
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 16.9527 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 3
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 13.8181 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 4
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 18.0236 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 5
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 14.9468 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 6
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.91794 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 7
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.40467 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 8
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.90152 s.
+[EVALUATION] ari index score: 2.26913e-21
+epsilon: 0.2 mu: 9
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.57844 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 10
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.10545 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 11
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.67299 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 12
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.26844 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 13
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.91579 s.
+[EVALUATION] ari index score: 0
+epsilon: 0.2 mu: 14
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.56298 s.
+[EVALUATION] ari index score: 2.6172e-21
+epsilon: 0.2 mu: 15
+[CLUSTER] clustering with BOTBIN start !!!
+search from bucket[2]
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.29511 s.
+[EVALUATION] ari index score: 0
+[PRINT TIME] total clustering time: 504.008
+[PRINT TIME] total bfs time: 462.374
+[PRINT TIME] average clustering time: 5.14294
+[PRINT ARI] average ARI score: 3.03472e-23

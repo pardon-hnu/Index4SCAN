@@ -104,6 +104,32 @@ int main(int argc, char * argv[])
 		SCAN worker(dataset,method,parameters);
 		worker.index_test();
 	}
+	else if(pattern=="update")
+	{
+		string update_type=argv[4];
+		int u=atoi(argv[5]);
+		int v=atoi(argv[6]);
+		int update_way=atoi(argv[7]);
+		for(int i=8;i<argc;i++)
+		{
+			string parameter=argv[i];
+			parameters.push_back(parameter);
+		}
+		SCAN worker(dataset,method,parameters);
+		worker.update(update_type,u,v,update_way);
+	}
+	else if(pattern=="exp-update")
+	{
+		string update_type=argv[4];
+		int update_way=atoi(argv[5]);
+		for(int i=6;i<argc;i++)
+		{
+			string parameter=argv[i];
+			parameters.push_back(parameter);
+		}
+		SCAN worker(dataset,method,parameters);
+		worker.batch_update(update_type, update_way);
+	}
 	else
 	{
 		cout<<"error!!! no such pattern of parameters"<<endl;

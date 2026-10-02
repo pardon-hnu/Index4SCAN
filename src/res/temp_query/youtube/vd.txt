@@ -1,0 +1,208 @@
+Start to parse the arguments
+The input parameters are:
+
+graph	/home/hnu/Disk0/ParDon/graph/youtube.txt
+Arguments parsed.
+[LOAD GRAPH] start!!! filepath: /home/hnu/Disk0/ParDon/graph/youtube.txt
+graph size: 1134890
+edge size: 2987624
+[LOAD GRAPH] success!!!
+Graph generation finished with 1134890 vertices and 2987624 edges.
+Start to insert edges and construct index!!!
+Total time used after inserting construct index: 7.934471999 
+Query with epsilon = 0.80 and mu = 2 takes 0.135851000 seconds.
+obtain cores takes *0.125728999* seconds.
+Query with epsilon = 0.80 and mu = 3 takes 0.101589000 seconds.
+obtain cores takes *0.093905000* seconds.
+Query with epsilon = 0.80 and mu = 4 takes 0.085839001 seconds.
+obtain cores takes *0.079582000* seconds.
+Query with epsilon = 0.80 and mu = 5 takes 0.075645000 seconds.
+obtain cores takes *0.070250000* seconds.
+Query with epsilon = 0.80 and mu = 6 takes 0.068174001 seconds.
+obtain cores takes *0.063383001* seconds.
+Query with epsilon = 0.80 and mu = 7 takes 0.062899000 seconds.
+obtain cores takes *0.058447000* seconds.
+Query with epsilon = 0.80 and mu = 8 takes 0.059045000 seconds.
+obtain cores takes *0.054744000* seconds.
+Query with epsilon = 0.80 and mu = 9 takes 0.055625000 seconds.
+obtain cores takes *0.051313000* seconds.
+Query with epsilon = 0.80 and mu = 10 takes 0.053856000 seconds.
+obtain cores takes *0.049764000* seconds.
+Query with epsilon = 0.80 and mu = 11 takes 0.051148000 seconds.
+obtain cores takes *0.047100000* seconds.
+Query with epsilon = 0.80 and mu = 12 takes 0.058230000 seconds.
+obtain cores takes *0.054230000* seconds.
+Query with epsilon = 0.80 and mu = 13 takes 0.047922000 seconds.
+obtain cores takes *0.043957001* seconds.
+Query with epsilon = 0.80 and mu = 14 takes 0.046573000 seconds.
+obtain cores takes *0.042611000* seconds.
+Query with epsilon = 0.80 and mu = 15 takes 0.045279999 seconds.
+obtain cores takes *0.041338000* seconds.
+Query with epsilon = 0.70 and mu = 2 takes 0.130282000 seconds.
+obtain cores takes *0.115444000* seconds.
+Query with epsilon = 0.70 and mu = 3 takes 0.103734001 seconds.
+obtain cores takes *0.092837000* seconds.
+Query with epsilon = 0.70 and mu = 4 takes 0.087130000 seconds.
+obtain cores takes *0.078912000* seconds.
+Query with epsilon = 0.70 and mu = 5 takes 0.076011000 seconds.
+obtain cores takes *0.069385001* seconds.
+Query with epsilon = 0.70 and mu = 6 takes 0.068289001 seconds.
+obtain cores takes *0.062638001* seconds.
+Query with epsilon = 0.70 and mu = 7 takes 0.062496000 seconds.
+obtain cores takes *0.057453000* seconds.
+Query with epsilon = 0.70 and mu = 8 takes 0.058120999 seconds.
+obtain cores takes *0.053452000* seconds.
+Query with epsilon = 0.70 and mu = 9 takes 0.064671000 seconds.
+obtain cores takes *0.060238999* seconds.
+Query with epsilon = 0.70 and mu = 10 takes 0.053096000 seconds.
+obtain cores takes *0.048490000* seconds.
+Query with epsilon = 0.70 and mu = 11 takes 0.050950999 seconds.
+obtain cores takes *0.046774000* seconds.
+Query with epsilon = 0.70 and mu = 12 takes 0.048803000 seconds.
+obtain cores takes *0.044694000* seconds.
+Query with epsilon = 0.70 and mu = 13 takes 0.047256000 seconds.
+obtain cores takes *0.043120001* seconds.
+Query with epsilon = 0.70 and mu = 14 takes 0.046155000 seconds.
+obtain cores takes *0.042133000* seconds.
+Query with epsilon = 0.70 and mu = 15 takes 0.045008000 seconds.
+obtain cores takes *0.041013001* seconds.
+Query with epsilon = 0.60 and mu = 2 takes 0.160219000 seconds.
+obtain cores takes *0.122967999* seconds.
+Query with epsilon = 0.60 and mu = 3 takes 0.121854000 seconds.
+obtain cores takes *0.098045999* seconds.
+Query with epsilon = 0.60 and mu = 4 takes 0.098357000 seconds.
+obtain cores takes *0.082222001* seconds.
+Query with epsilon = 0.60 and mu = 5 takes 0.093033000 seconds.
+obtain cores takes *0.081073000* seconds.
+Query with epsilon = 0.60 and mu = 6 takes 0.073296000 seconds.
+obtain cores takes *0.064286999* seconds.
+Query with epsilon = 0.60 and mu = 7 takes 0.065799000 seconds.
+obtain cores takes *0.058381000* seconds.
+Query with epsilon = 0.60 and mu = 8 takes 0.060396000 seconds.
+obtain cores takes *0.054155000* seconds.
+Query with epsilon = 0.60 and mu = 9 takes 0.056504000 seconds.
+obtain cores takes *0.050966000* seconds.
+Query with epsilon = 0.60 and mu = 10 takes 0.054405000 seconds.
+obtain cores takes *0.048968000* seconds.
+Query with epsilon = 0.60 and mu = 11 takes 0.051331000 seconds.
+obtain cores takes *0.046506000* seconds.
+Query with epsilon = 0.60 and mu = 12 takes 0.049182001 seconds.
+obtain cores takes *0.044576000* seconds.
+Query with epsilon = 0.60 and mu = 13 takes 0.047519000 seconds.
+obtain cores takes *0.043026000* seconds.
+Query with epsilon = 0.60 and mu = 14 takes 0.046265000 seconds.
+obtain cores takes *0.041890001* seconds.
+Query with epsilon = 0.60 and mu = 15 takes 0.045098000 seconds.
+obtain cores takes *0.040705000* seconds.
+Query with epsilon = 0.50 and mu = 2 takes 0.218121001 seconds.
+obtain cores takes *0.139058000* seconds.
+Query with epsilon = 0.50 and mu = 3 takes 0.151558000 seconds.
+obtain cores takes *0.108770001* seconds.
+Query with epsilon = 0.50 and mu = 4 takes 0.117900999 seconds.
+obtain cores takes *0.089024000* seconds.
+Query with epsilon = 0.50 and mu = 5 takes 0.095918000 seconds.
+obtain cores takes *0.076047000* seconds.
+Query with epsilon = 0.50 and mu = 6 takes 0.082351000 seconds.
+obtain cores takes *0.067481000* seconds.
+Query with epsilon = 0.50 and mu = 7 takes 0.073192000 seconds.
+obtain cores takes *0.060705001* seconds.
+Query with epsilon = 0.50 and mu = 8 takes 0.065998999 seconds.
+obtain cores takes *0.056744000* seconds.
+Query with epsilon = 0.50 and mu = 9 takes 0.060335000 seconds.
+obtain cores takes *0.052408000* seconds.
+Query with epsilon = 0.50 and mu = 10 takes 0.066165000 seconds.
+obtain cores takes *0.049358000* seconds.
+Query with epsilon = 0.50 and mu = 11 takes 0.053463001 seconds.
+obtain cores takes *0.047324000* seconds.
+Query with epsilon = 0.50 and mu = 12 takes 0.050795000 seconds.
+obtain cores takes *0.045105000* seconds.
+Query with epsilon = 0.50 and mu = 13 takes 0.048686000 seconds.
+obtain cores takes *0.043323000* seconds.
+Query with epsilon = 0.50 and mu = 14 takes 0.047165999 seconds.
+obtain cores takes *0.041985000* seconds.
+Query with epsilon = 0.50 and mu = 15 takes 0.045770000 seconds.
+obtain cores takes *0.040721999* seconds.
+Query with epsilon = 0.40 and mu = 2 takes 0.241539001 seconds.
+obtain cores takes *0.154595000* seconds.
+Query with epsilon = 0.40 and mu = 3 takes 0.184773000 seconds.
+obtain cores takes *0.121386000* seconds.
+Query with epsilon = 0.40 and mu = 4 takes 0.153410000 seconds.
+obtain cores takes *0.108154000* seconds.
+Query with epsilon = 0.40 and mu = 5 takes 0.114362000 seconds.
+obtain cores takes *0.083442000* seconds.
+Query with epsilon = 0.40 and mu = 6 takes 0.095659000 seconds.
+obtain cores takes *0.072823000* seconds.
+Query with epsilon = 0.40 and mu = 7 takes 0.081721000 seconds.
+obtain cores takes *0.064366000* seconds.
+Query with epsilon = 0.40 and mu = 8 takes 0.071938000 seconds.
+obtain cores takes *0.058395999* seconds.
+Query with epsilon = 0.40 and mu = 9 takes 0.065129000 seconds.
+obtain cores takes *0.053969000* seconds.
+Query with epsilon = 0.40 and mu = 10 takes 0.060486000 seconds.
+obtain cores takes *0.050894001* seconds.
+Query with epsilon = 0.40 and mu = 11 takes 0.056879001 seconds.
+obtain cores takes *0.048306000* seconds.
+Query with epsilon = 0.40 and mu = 12 takes 0.053940999 seconds.
+obtain cores takes *0.046286000* seconds.
+Query with epsilon = 0.40 and mu = 13 takes 0.051183000 seconds.
+obtain cores takes *0.044285000* seconds.
+Query with epsilon = 0.40 and mu = 14 takes 0.058958001 seconds.
+obtain cores takes *0.052337000* seconds.
+Query with epsilon = 0.40 and mu = 15 takes 0.048210000 seconds.
+obtain cores takes *0.042119000* seconds.
+Query with epsilon = 0.30 and mu = 2 takes 0.281648000 seconds.
+obtain cores takes *0.172646000* seconds.
+Query with epsilon = 0.30 and mu = 3 takes 0.222739000 seconds.
+obtain cores takes *0.139625000* seconds.
+Query with epsilon = 0.30 and mu = 4 takes 0.176930000 seconds.
+obtain cores takes *0.113802001* seconds.
+Query with epsilon = 0.30 and mu = 5 takes 0.151562000 seconds.
+obtain cores takes *0.104858000* seconds.
+Query with epsilon = 0.30 and mu = 6 takes 0.119070000 seconds.
+obtain cores takes *0.082737001* seconds.
+Query with epsilon = 0.30 and mu = 7 takes 0.100527000 seconds.
+obtain cores takes *0.071909999* seconds.
+Query with epsilon = 0.30 and mu = 8 takes 0.087351000 seconds.
+obtain cores takes *0.064715000* seconds.
+Query with epsilon = 0.30 and mu = 9 takes 0.078348000 seconds.
+obtain cores takes *0.059758999* seconds.
+Query with epsilon = 0.30 and mu = 10 takes 0.072326000 seconds.
+obtain cores takes *0.056600000* seconds.
+Query with epsilon = 0.30 and mu = 11 takes 0.065274999 seconds.
+obtain cores takes *0.051810000* seconds.
+Query with epsilon = 0.30 and mu = 12 takes 0.060894000 seconds.
+obtain cores takes *0.048928000* seconds.
+Query with epsilon = 0.30 and mu = 13 takes 0.066957001 seconds.
+obtain cores takes *0.056248000* seconds.
+Query with epsilon = 0.30 and mu = 14 takes 0.054746000 seconds.
+obtain cores takes *0.045144000* seconds.
+Query with epsilon = 0.30 and mu = 15 takes 0.051915000 seconds.
+obtain cores takes *0.043086000* seconds.
+Query with epsilon = 0.20 and mu = 2 takes 0.348146000 seconds.
+obtain cores takes *0.214938000* seconds.
+Query with epsilon = 0.20 and mu = 3 takes 0.301433001 seconds.
+obtain cores takes *0.179217000* seconds.
+Query with epsilon = 0.20 and mu = 4 takes 0.249267000 seconds.
+obtain cores takes *0.154495999* seconds.
+Query with epsilon = 0.20 and mu = 5 takes 0.211867000 seconds.
+obtain cores takes *0.132120000* seconds.
+Query with epsilon = 0.20 and mu = 6 takes 0.185047001 seconds.
+obtain cores takes *0.116033000* seconds.
+Query with epsilon = 0.20 and mu = 7 takes 0.171146000 seconds.
+obtain cores takes *0.111971000* seconds.
+Query with epsilon = 0.20 and mu = 8 takes 0.141368001 seconds.
+obtain cores takes *0.090971000* seconds.
+Query with epsilon = 0.20 and mu = 9 takes 0.125085000 seconds.
+obtain cores takes *0.082707000* seconds.
+Query with epsilon = 0.20 and mu = 10 takes 0.110815000 seconds.
+obtain cores takes *0.073995000* seconds.
+Query with epsilon = 0.20 and mu = 11 takes 0.099894000 seconds.
+obtain cores takes *0.068153000* seconds.
+Query with epsilon = 0.20 and mu = 12 takes 0.091226000 seconds.
+obtain cores takes *0.063580001* seconds.
+Query with epsilon = 0.20 and mu = 13 takes 0.084499000 seconds.
+obtain cores takes *0.059622999* seconds.
+Query with epsilon = 0.20 and mu = 14 takes 0.089364000 seconds.
+obtain cores takes *0.066365000* seconds.
+Query with epsilon = 0.20 and mu = 15 takes 0.074113999 seconds.
+obtain cores takes *0.054153999* seconds.

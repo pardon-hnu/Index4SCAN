@@ -1,0 +1,401 @@
+[LOAD GRAPH] start!!! graph: amazon filepath: /home/hnu/Disk0/ParDon/graph/amazon.txt
+graph size: 334863
+edge size: 925872
+[LOAD GRAPH] success!!!
+[LOAD INDEX] start loading gs index !!!!
+[LOAD INDEX] finish loading gs index !!!!
+epsilon: 0.8 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0100819 s.
+epsilon: 0.8 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00363319 s.
+epsilon: 0.8 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00136038 s.
+epsilon: 0.8 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000299431 s.
+epsilon: 0.8 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.1125e-05 s.
+epsilon: 0.8 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.569e-06 s.
+epsilon: 0.8 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.49e-07 s.
+epsilon: 0.8 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.23e-07 s.
+epsilon: 0.8 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 9.9e-08 s.
+epsilon: 0.8 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.47e-07 s.
+epsilon: 0.8 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.97e-07 s.
+epsilon: 0.8 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.12e-07 s.
+epsilon: 0.8 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.33e-07 s.
+epsilon: 0.8 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.35e-07 s.
+epsilon: 0.7 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0147024 s.
+epsilon: 0.7 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00639949 s.
+epsilon: 0.7 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00262625 s.
+epsilon: 0.7 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000997046 s.
+epsilon: 0.7 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000386964 s.
+epsilon: 0.7 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000100694 s.
+epsilon: 0.7 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.6055e-05 s.
+epsilon: 0.7 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 7.31e-07 s.
+epsilon: 0.7 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.42e-07 s.
+epsilon: 0.7 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.34e-07 s.
+epsilon: 0.7 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.9e-07 s.
+epsilon: 0.7 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.33e-07 s.
+epsilon: 0.7 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.15e-07 s.
+epsilon: 0.7 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.6e-07 s.
+epsilon: 0.6 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0243275 s.
+epsilon: 0.6 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0123127 s.
+epsilon: 0.6 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00599662 s.
+epsilon: 0.6 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00279712 s.
+epsilon: 0.6 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00112465 s.
+epsilon: 0.6 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000428053 s.
+epsilon: 0.6 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00014065 s.
+epsilon: 0.6 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 4.0499e-05 s.
+epsilon: 0.6 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.569e-06 s.
+epsilon: 0.6 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.43e-07 s.
+epsilon: 0.6 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.78e-07 s.
+epsilon: 0.6 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.35e-07 s.
+epsilon: 0.6 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.14e-07 s.
+epsilon: 0.6 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.78e-07 s.
+epsilon: 0.5 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0339847 s.
+epsilon: 0.5 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0251752 s.
+epsilon: 0.5 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0163387 s.
+epsilon: 0.5 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00890946 s.
+epsilon: 0.5 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00422431 s.
+epsilon: 0.5 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00162466 s.
+epsilon: 0.5 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000727017 s.
+epsilon: 0.5 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000269105 s.
+epsilon: 0.5 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 8.8748e-05 s.
+epsilon: 0.5 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.913e-05 s.
+epsilon: 0.5 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.846e-06 s.
+epsilon: 0.5 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.69e-07 s.
+epsilon: 0.5 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 2.73e-07 s.
+epsilon: 0.5 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 3.39e-07 s.
+epsilon: 0.4 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0522434 s.
+epsilon: 0.4 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0404535 s.
+epsilon: 0.4 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0272325 s.
+epsilon: 0.4 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0160044 s.
+epsilon: 0.4 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00965946 s.
+epsilon: 0.4 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00496277 s.
+epsilon: 0.4 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0022294 s.
+epsilon: 0.4 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000941019 s.
+epsilon: 0.4 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000430319 s.
+epsilon: 0.4 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000181409 s.
+epsilon: 0.4 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.3354e-05 s.
+epsilon: 0.4 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.9184e-05 s.
+epsilon: 0.4 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 6.964e-06 s.
+epsilon: 0.4 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 1.979e-06 s.
+epsilon: 0.3 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0627488 s.
+epsilon: 0.3 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0587547 s.
+epsilon: 0.3 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0447695 s.
+epsilon: 0.3 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0333853 s.
+epsilon: 0.3 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0230617 s.
+epsilon: 0.3 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.012424 s.
+epsilon: 0.3 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00737642 s.
+epsilon: 0.3 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00396163 s.
+epsilon: 0.3 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00189401 s.
+epsilon: 0.3 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000997804 s.
+epsilon: 0.3 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000492069 s.
+epsilon: 0.3 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000242198 s.
+epsilon: 0.3 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000116508 s.
+epsilon: 0.3 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 5.8574e-05 s.
+epsilon: 0.2 mu: 2
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.103812 s.
+epsilon: 0.2 mu: 3
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0895598 s.
+epsilon: 0.2 mu: 4
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0692209 s.
+epsilon: 0.2 mu: 5
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0500175 s.
+epsilon: 0.2 mu: 6
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0390669 s.
+epsilon: 0.2 mu: 7
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0246549 s.
+epsilon: 0.2 mu: 8
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0169275 s.
+epsilon: 0.2 mu: 9
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0111701 s.
+epsilon: 0.2 mu: 10
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00681383 s.
+epsilon: 0.2 mu: 11
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00403089 s.
+epsilon: 0.2 mu: 12
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00255721 s.
+epsilon: 0.2 mu: 13
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.00161684 s.
+epsilon: 0.2 mu: 14
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.0011368 s.
+epsilon: 0.2 mu: 15
+[CLUSTER] clustering with GS-index start !!!
+[CLSUTER] finish clustering!!!
+[TIME COST] 0.000694916 s.
+[PRINT TIME] total clustering time: 1.00524
+[PRINT TIME] total bfs time: 0.903458
+[PRINT TIME] average clustering time: 0.0102576

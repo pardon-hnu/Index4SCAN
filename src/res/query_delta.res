@@ -1,4 +1,7 @@
 ==== Parsed Results of orkut2 ====
+ average gs time: 0.0804744
+average botbin time: 0.113901
+
 -------------------delta: 5-------------------
  average forest ari: 0.690126
  average forest time: 0.023984
@@ -25,6 +28,8 @@
  average ppt ari: 0.941127
  average ppt time: 0.0237771
 ==== Parsed Results of uk2002 ====
+average gs time: 2.91607
+average botbin time: 2.2121
 -------------------delta: 5-------------------
  average forest ari: 0.768249
  average forest time: 0.470148

@@ -160,4 +160,41 @@ class SCAN
             }
             index->print_cluster_time();
         }
+        void update(string update_type, int u, int v, int update_way)
+        {
+            index->update_graph(update_type, u, v);
+            index->update(update_type, u, v, update_way);
+            index->print_update_time();
+        }
+        void batch_update(string update_type, int update_way)
+        {
+            string update_edges_file =
+                "updates/" + dataset + "/" +
+                update_type + "_1024.txt";
+
+            ifstream read_edges(update_edges_file);
+            int update_num;
+            read_edges >> update_num;
+            update_num=min(update_num,UPDATE_EDGE_NUM);
+            for (int i = 0; i < update_num; ++i)
+            {
+                int u;
+                int v;
+                read_edges >> u >> v;
+                cout<<"now "<<update_type<<" edge ("<<u<<","<<v<<")"<<endl;
+                cout<<"[UPDATE] update graph "<<endl;
+                index->update_graph(update_type, u, v);
+                index->update(update_type, u, v, update_way);
+#if 0
+                // Verification way 3 previously stopped after three updates.
+                // Current experiments expose only rebuild and entry maintenance.
+                if(update_way==3&&i>=2)
+                {//correctness validation, test single update and 3 times 
+                    break;
+                }
+#endif
+            }
+            read_edges.close();
+            index->print_update_time();
+        }
 };

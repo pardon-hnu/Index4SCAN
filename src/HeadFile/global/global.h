@@ -9,34 +9,42 @@ using namespace std;
 #define INF -1
 #define FAST_CONSTRUCT
 #define EVALUATION_CLUSTERING_QUALITY
+#define UPDATE_EDGE_NUM 100
+// #define PPT_UPDATE_PROFILE
+
+#ifdef PPT_UPDATE_PROFILE
+#define PPT_PROFILE(...) __VA_ARGS__
+#else
+#define PPT_PROFILE(...)
+#endif
 map<string, string> dataset_2_SCAN_file = {
 	//tiny graphs
-	{"example","../datasets/example.txt"},
+	// {"example","../datasets/example.txt"},
 	{"hiv","../datasets/hiv.txt"},
-	{"dolphins","../datasets/dolphins.txt"},
-	{"contiguous","../datasets/contiguous.txt"},
-	{"club","../datasets/zachary_karate_club.txt"},
-	{"tribes","/home/hnu/Disk0/ParDon/graph/Tribes.txt"},
+	// {"dolphins","../datasets/dolphins.txt"},
+	// {"contiguous","../datasets/contiguous.txt"},
+	// {"club","../datasets/zachary_karate_club.txt"},
+	// {"tribes","/home/hnu/Disk0/ParDon/graph/Tribes.txt"},
 	//real graphs
 	{"amazon","/home/hnu/Disk0/ParDon/graph/amazon.txt"},
-	{"dblp","/home/hnu/Disk0/ParDon/graph/dblp.txt"},
+	// {"dblp","/home/hnu/Disk0/ParDon/graph/dblp.txt"},
 	{"youtube","/home/hnu/Disk0/ParDon/graph/youtube.txt"},
 	{"skitter","/home/hnu/Disk0/ParDon/graph/skitter.txt"},
 	{"pokec","/home/hnu/Disk0/ParDon/graph/pokec.txt"},
 	{"topcats","/home/hnu/Disk0/ParDon/graph/topcats.txt"},
 	{"livejournal1","/home/hnu/Disk0/ParDon/graph/livejournal1.txt"},
-	{"livejournal2","/home/hnu/Disk0/ParDon/graph/livejournal2.txt"},
-	{"orkut1","/home/hnu/Disk0/ParDon/graph/orkut1.txt"},
+	// {"livejournal2","/home/hnu/Disk0/ParDon/graph/livejournal2.txt"},
+	// {"orkut1","/home/hnu/Disk0/ParDon/graph/orkut1.txt"},
 	{"orkut2","/home/hnu/Disk0/ParDon/graph/orkut2.txt"},
 	{"indochina","/home/hnu/Disk0/ParDon/graph/indochina.txt"},
 	{"uk2002","/home/hnu/Disk0/ParDon/graph/uk2002.txt"},
 	//real graphs with billion-scale directed edges
-	{"webbase","/home/hnu/Disk0/ParDon/graph/webbase.txt"},
+	// {"webbase","/home/hnu/Disk0/ParDon/graph/webbase.txt"},
 	{"uk2005","/home/hnu/Disk0/ParDon/graph/uk2005.txt"},
 	//real graphs with billon-scale undirected edges
 	{"it2004","/home/hnu/Disk0/ParDon/graph/it2004.txt"},
 	{"friendster","/home/hnu/Disk0/ParDon/graph/friendster.txt"},
-	{"sk2005","/home/hnu/Disk0/ParDon/graph/sk2005.txt"}
+	// {"sk2005","/home/hnu/Disk0/ParDon/graph/sk2005.txt"}
 };
 
 static inline int64_t comb2(int64_t x) {

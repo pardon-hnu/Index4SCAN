@@ -1,0 +1,603 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: uk2005 filepath: /home/hnu/Disk0/ParDon/graph/uk2005.txt
+graph size: 39454463
+edge size: 783027125
+[LOAD GRAPH] success!!!
+now remove edge (4693825,4694000)
+[UPDATE] update graph 
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 927.74 s.
+[LOAD INDEX] start !!!!
+read path: ./Index/uk2005/ppts_10.txt
+ppt num: 5274
+[LOAD INDEX] finish !!!!
+[UPDATE ADAPTIVE] affected PPT: 4359 affected work: 370137511 full work: 370137511 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 8.5288 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 261.868 s.
+[UPDATE] update time : 287.841
+now remove edge (12718164,13043497)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.14e-07
+now remove edge (8075460,8075475)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 71 affected work: 84612639 full work: 370137511 ratio: 0.228598
+[UPDATE] update time : 39.2641
+now remove edge (16581197,16581262)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 55 affected work: 84612639 full work: 370137511 ratio: 0.228598
+[UPDATE] update time : 39.9038
+now remove edge (3448104,5799887)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 84612638 full work: 370137510 ratio: 0.228598
+[UPDATE] update time : 30.5162
+now remove edge (14004757,19877742)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 61 affected work: 159904865 full work: 370137526 ratio: 0.432015
+[UPDATE] update time : 85.5643
+now remove edge (4221971,4237170)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 46 affected work: 108844633 full work: 370137541 ratio: 0.294065
+[UPDATE] update time : 61.4477
+now remove edge (26421588,26421610)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 203 affected work: 329213386 full work: 370137537 ratio: 0.889435
+[UPDATE] update time : 206.411
+now remove edge (16756647,16756648)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 88 affected work: 205254997 full work: 370137535 ratio: 0.554537
+[UPDATE] update time : 106.906
+now remove edge (7046090,23555946)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 18 affected work: 95162736 full work: 370137535 ratio: 0.257101
+[UPDATE] update time : 50.7643
+now remove edge (5577057,5582424)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 14 affected work: 99222213 full work: 370137561 ratio: 0.268068
+[UPDATE] update time : 69.4326
+now remove edge (4908215,4972248)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 435 affected work: 205255009 full work: 370137561 ratio: 0.554537
+[UPDATE] update time : 120.382
+now remove edge (7722450,14084063)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 238 affected work: 151122655 full work: 370137561 ratio: 0.408288
+[UPDATE] update time : 86.44
+now remove edge (12828387,12828463)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 186 affected work: 205255021 full work: 370137573 ratio: 0.554537
+[UPDATE] update time : 119.314
+now remove edge (19028218,19335944)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 41 affected work: 249953904 full work: 370137571 ratio: 0.6753
+[UPDATE] update time : 131.466
+now remove edge (5544986,5545462)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 51 affected work: 95162744 full work: 370137571 ratio: 0.257101
+[UPDATE] update time : 59.4462
+now remove edge (8074734,20459617)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 141 affected work: 138745007 full work: 370137571 ratio: 0.374847
+[UPDATE] update time : 97.5669
+now remove edge (10502099,10502273)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 12 affected work: 31289842 full work: 370137577 ratio: 0.0845357
+[UPDATE] update time : 23.995
+now remove edge (3009049,3016925)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3784 affected work: 370137577 full work: 370137577 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 10.6575 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 208.886 s.
+[UPDATE] update time : 234.474
+now remove edge (5646733,11466632)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 449 affected work: 288202529 full work: 370137577 ratio: 0.778636
+[UPDATE] update time : 154.107
+now remove edge (8947785,8947817)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1522 affected work: 370137583 full work: 370137583 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.70056 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 227.592 s.
+[UPDATE] update time : 243.884
+now remove edge (5863391,12497695)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 46 affected work: 104237569 full work: 370137583 ratio: 0.281618
+[UPDATE] update time : 61.467
+now remove edge (8500684,8500753)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 82 affected work: 95162747 full work: 370137583 ratio: 0.257101
+[UPDATE] update time : 60.6942
+now remove edge (36635474,39050326)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 151122667 full work: 370137581 ratio: 0.408288
+[UPDATE] update time : 61.9752
+now remove edge (26704868,31332661)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 75 affected work: 278363383 full work: 370137584 ratio: 0.752054
+[UPDATE] update time : 148.991
+now remove edge (23937631,23937652)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 384 affected work: 370137632 full work: 370137632 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.87192 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 209.693 s.
+[UPDATE] update time : 224.612
+now remove edge (6030292,6030372)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1088 affected work: 370137641 full work: 370137641 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.17322 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 204.743 s.
+[UPDATE] update time : 215.368
+now remove edge (13921693,13921697)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 84612663 full work: 370137640 ratio: 0.228598
+[UPDATE] update time : 35.3285
+now remove edge (7401611,16061506)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 382 affected work: 370137644 full work: 370137644 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 8.10602 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 221.764 s.
+[UPDATE] update time : 237.936
+now remove edge (20746399,23798550)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 26 affected work: 112501071 full work: 370137651 ratio: 0.303944
+[UPDATE] update time : 74.1694
+now remove edge (3004082,8401338)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 36 affected work: 111729997 full work: 370137651 ratio: 0.301861
+[UPDATE] update time : 53.1486
+now remove edge (1145393,1168666)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 111 affected work: 205255075 full work: 370137653 ratio: 0.554537
+[UPDATE] update time : 98.8379
+now remove edge (3153883,3182257)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.56e-07
+now remove edge (1256086,1267612)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1899 affected work: 370137653 full work: 370137653 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 8.31062 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 203.551 s.
+[UPDATE] update time : 218.158
+now remove edge (3087645,3087863)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3745 affected work: 370137663 full work: 370137663 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.73313 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 200.357 s.
+[UPDATE] update time : 210.52
+now remove edge (11985848,11986224)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.98e-07
+now remove edge (15455019,15455061)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 85 affected work: 101950981 full work: 370137663 ratio: 0.275441
+[UPDATE] update time : 52.0064
+now remove edge (7318934,7319049)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3566 affected work: 370137691 full work: 370137691 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.72909 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 200.889 s.
+[UPDATE] update time : 211.655
+now remove edge (9809206,9809286)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 192 affected work: 162947328 full work: 370137699 ratio: 0.440234
+[UPDATE] update time : 88.1387
+now remove edge (453220,1732517)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 22 affected work: 151122715 full work: 370137699 ratio: 0.408288
+[UPDATE] update time : 85.5657
+now remove edge (19837790,21423188)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 54132380 full work: 370137696 ratio: 0.146249
+[UPDATE] update time : 22.6959
+now remove edge (6431852,6432078)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 704 affected work: 370137698 full work: 370137698 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.83042 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.749 s.
+[UPDATE] update time : 213.114
+now remove edge (11049264,24036655)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.62e-07
+now remove edge (5354122,22811915)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 473 affected work: 250475069 full work: 370137698 ratio: 0.676708
+[UPDATE] update time : 126.441
+now remove edge (2458595,9164646)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 48 affected work: 175354706 full work: 370137713 ratio: 0.473755
+[UPDATE] update time : 89.1427
+now remove edge (9786935,21998936)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 17 affected work: 244834949 full work: 370137711 ratio: 0.66147
+[UPDATE] update time : 119.024
+now remove edge (6942792,26950454)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.13e-07
+now remove edge (2832887,4317242)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 387 affected work: 151122756 full work: 370137747 ratio: 0.408288
+[UPDATE] update time : 90.997
+now remove edge (5229163,5230262)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 113 affected work: 370137708 full work: 370137708 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.10852 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 198.991 s.
+[UPDATE] update time : 213.934
+now remove edge (3253043,22658342)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.62e-07
+now remove edge (25410063,25410134)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 30 affected work: 210359607 full work: 370137724 ratio: 0.568328
+[UPDATE] update time : 91.9296
+now remove edge (13999702,16131990)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 351 affected work: 84612924 full work: 370137919 ratio: 0.228598
+[UPDATE] update time : 37.9712
+now remove edge (1141233,1154425)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 588 affected work: 205255340 full work: 370137920 ratio: 0.554537
+[UPDATE] update time : 103.191
+now remove edge (8641583,8641595)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 5.28e-07
+now remove edge (14566913,22177291)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.39e-07
+now remove edge (5783020,18411178)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 7.3e-08
+now remove edge (4653826,18834309)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2305 affected work: 329213768 full work: 370137927 ratio: 0.889435
+[UPDATE] update time : 231.867
+now remove edge (14579563,25178925)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 31 affected work: 125537081 full work: 370137918 ratio: 0.339163
+[UPDATE] update time : 64.2226
+now remove edge (7465146,7465148)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 217 affected work: 370137918 full work: 370137918 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.93798 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.934 s.
+[UPDATE] update time : 217.583
+now remove edge (4693912,4694119)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4359 affected work: 370137918 full work: 370137918 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.15568 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 198.239 s.
+[UPDATE] update time : 208.654
+now remove edge (13179879,13179951)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 22 affected work: 151122961 full work: 370137916 ratio: 0.408288
+[UPDATE] update time : 60.564
+now remove edge (11731709,20915446)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 464 affected work: 359587829 full work: 370137916 ratio: 0.971497
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.6571 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 198.907 s.
+[UPDATE] update time : 209.231
+now remove edge (4512780,16909756)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 6.63e-07
+now remove edge (8332407,8332624)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 163 affected work: 151122961 full work: 370137916 ratio: 0.408288
+[UPDATE] update time : 71.2478
+now remove edge (3427285,33576135)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.57e-07
+now remove edge (5066924,18425857)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1641 affected work: 370137919 full work: 370137919 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.56243 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 204.232 s.
+[UPDATE] update time : 214.81
+now remove edge (3079200,7724437)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 462 affected work: 250475314 full work: 370137919 ratio: 0.676708
+[UPDATE] update time : 125.476
+now remove edge (17153022,21231141)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 70 affected work: 138745305 full work: 370137919 ratio: 0.374848
+[UPDATE] update time : 66.0348
+now remove edge (8676286,8676348)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1788 affected work: 370137919 full work: 370137919 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.73656 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.102 s.
+[UPDATE] update time : 211.511
+now remove edge (5544805,5545439)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 190 affected work: 161673051 full work: 370137919 ratio: 0.436791
+[UPDATE] update time : 86.0169
+now remove edge (6605057,6605210)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4112 affected work: 370137919 full work: 370137919 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.58318 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 198.159 s.
+[UPDATE] update time : 209.441
+now remove edge (29650250,32267580)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 30 affected work: 57968955 full work: 370137909 ratio: 0.156614
+[UPDATE] update time : 30.0847
+now remove edge (15152916,15153043)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.71e-07
+now remove edge (9821068,9821309)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 397 affected work: 285062047 full work: 370137926 ratio: 0.770151
+[UPDATE] update time : 197.415
+now remove edge (6123785,7309995)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3897 affected work: 370137926 full work: 370137926 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.25941 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.451 s.
+[UPDATE] update time : 212.97
+now remove edge (8313987,8314008)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 324 affected work: 370137926 full work: 370137926 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.70047 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 197.88 s.
+[UPDATE] update time : 207.845
+now remove edge (2552791,2554417)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3180 affected work: 370137924 full work: 370137924 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.73105 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 198.663 s.
+[UPDATE] update time : 208.64
+now remove edge (22991827,24562200)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 28 affected work: 167560452 full work: 370137919 ratio: 0.452697
+[UPDATE] update time : 72.5516
+now remove edge (13079405,13079407)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 829 affected work: 370137919 full work: 370137919 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.54676 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 196.987 s.
+[UPDATE] update time : 207.386
+now remove edge (24218525,29018690)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 439 affected work: 370137927 full work: 370137927 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.69676 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.559 s.
+[UPDATE] update time : 209.51
+now remove edge (23378694,37095379)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 13 affected work: 288202873 full work: 370137925 ratio: 0.778636
+[UPDATE] update time : 116.131
+now remove edge (2935428,5304294)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 125 affected work: 84612926 full work: 370137925 ratio: 0.228598
+[UPDATE] update time : 38.6008
+now remove edge (6399099,6399127)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3459 affected work: 370137925 full work: 370137925 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.57918 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 253.838 s.
+[UPDATE] update time : 266.904
+now remove edge (22363098,22363159)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 54046658 full work: 370137924 ratio: 0.146018
+[UPDATE] update time : 27.2489
+now remove edge (16930687,16930689)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 21 affected work: 84612926 full work: 370137924 ratio: 0.228598
+[UPDATE] update time : 34.5858
+now remove edge (911662,1476751)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 85 affected work: 84612926 full work: 370137924 ratio: 0.228598
+[UPDATE] update time : 39.4286
+now remove edge (9444137,22424647)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 13 affected work: 84612925 full work: 370137923 ratio: 0.228598
+[UPDATE] update time : 33.3524
+now remove edge (6238724,10026161)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 36 affected work: 84612925 full work: 370137923 ratio: 0.228598
+[UPDATE] update time : 37.7059
+now remove edge (1250428,1353791)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 899 affected work: 370137923 full work: 370137923 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 8.14056 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 201.384 s.
+[UPDATE] update time : 214.239
+now remove edge (2553187,2554295)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 68 affected work: 84612928 full work: 370137926 ratio: 0.228598
+[UPDATE] update time : 38.0182
+now remove edge (25388092,29768419)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.4e-07
+now remove edge (20429989,20430040)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 22 affected work: 151122965 full work: 370137926 ratio: 0.408288
+[UPDATE] update time : 61.9245
+now remove edge (9701809,24602432)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 10 affected work: 99914427 full work: 370137923 ratio: 0.269938
+[UPDATE] update time : 53.5807
+now remove edge (9489673,9489679)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4370 affected work: 370137923 full work: 370137923 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.69357 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 199.428 s.
+[UPDATE] update time : 210.888
+now remove edge (2551356,2560998)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 109 affected work: 103827715 full work: 370138196 ratio: 0.280511
+[UPDATE] update time : 54.4566
+now remove edge (2351662,2362029)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.58e-07
+now remove edge (5603816,10742427)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2582 affected work: 370138196 full work: 370138196 ratio: 1
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.97009 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 236.362 s.
+[UPDATE] update time : 248.709
+now remove edge (21863192,21863198)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 98 affected work: 362455540 full work: 370138219 ratio: 0.979244
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.79527 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 197.687 s.
+[UPDATE] update time : 208.773
+now remove edge (927741,3271937)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 84612963 full work: 370138217 ratio: 0.228598
+[UPDATE] update time : 30.2277
+now remove edge (11819996,11820065) 
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 87 affected work: 103931387 full work: 370138224 ratio: 0.280791
+[UPDATE] update time : 53.054
+[PRINT TIME] average update time: 105.87

@@ -1,0 +1,498 @@
+parameters.size()=0
+
+[INFORMATION] current ppt index's format: Table
+[LOAD GRAPH] start!!! graph: friendster filepath: /home/hnu/Disk0/ParDon/graph/friendster.txt
+graph size: 65608366
+edge size: 1806067135
+[LOAD GRAPH] success!!!
+now insert edge (14493573,50654781)
+[UPDATE] update graph 
+[CONSTRUCT INDEX] finish loading Neighbor Order
+[TIME COST] 6910.34 s.
+[LOAD INDEX] start !!!!
+read path: ./Index/friendster/ppts_10.txt
+ppt num: 840
+[LOAD INDEX] finish !!!!
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 6.03e-07
+now insert edge (27290336,63511897)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 62742362 full work: 80249711 ratio: 0.781839
+[UPDATE] update time : 90.0387
+now insert edge (63622952,64532575)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1 affected work: 44826410 full work: 80249713 ratio: 0.558587
+[UPDATE] update time : 37.2415
+now insert edge (5874129,46718324)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.41e-07
+now insert edge (1302550,31669758)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 44826410 full work: 80249713 ratio: 0.558587
+[UPDATE] update time : 43.8545
+now insert edge (41090094,65253801)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 812123 full work: 80249711 ratio: 0.0101199
+[UPDATE] update time : 2.39105
+now insert edge (13092453,52303777)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 8 affected work: 44826410 full work: 80249711 ratio: 0.558587
+[UPDATE] update time : 46.5356
+now insert edge (19187246,60242875)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 44826411 full work: 80249712 ratio: 0.558587
+[UPDATE] update time : 43.5539
+now insert edge (4825860,36887169)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.25e-07
+now insert edge (50314834,51752998)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.71e-07
+now insert edge (19986569,41755295)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 12481268 full work: 80249710 ratio: 0.15553
+[UPDATE] update time : 17.6125
+now insert edge (26252227,44790903)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.34e-07
+now insert edge (19556460,35681900)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.01e-07
+now insert edge (57379623,59078164)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1 affected work: 44826413 full work: 80249712 ratio: 0.558587
+[UPDATE] update time : 36.7446
+now insert edge (3183238,54994460)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1 affected work: 44826415 full work: 80249714 ratio: 0.558587
+[UPDATE] update time : 36.224
+now insert edge (29408476,54053424)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826416 full work: 80249715 ratio: 0.558587
+[UPDATE] update time : 39.3671
+now insert edge (12279020,37127936)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826415 full work: 80249714 ratio: 0.558587
+[UPDATE] update time : 43.7357
+now insert edge (20788778,24032960)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 1893603 full work: 80249712 ratio: 0.0235964
+[UPDATE] update time : 4.47976
+now insert edge (19989158,45889616)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 17915953 full work: 80249710 ratio: 0.223253
+[UPDATE] update time : 25.3585
+now insert edge (5260483,61012857)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.37e-07
+now insert edge (1193800,2021480)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 8.5e-08
+now insert edge (8022037,8880127)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 5.61e-07
+now insert edge (4944122,15323542)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.41e-07
+now insert edge (42480328,61910540)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 77919418 full work: 80249720 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.96491 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.7649 s.
+[UPDATE] update time : 116.639
+now insert edge (15589647,56468872)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 77919428 full work: 80249730 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 7.21477 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.3958 s.
+[UPDATE] update time : 100.073
+now insert edge (57231793,63887028)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 75223659 full work: 80249738 ratio: 0.93737
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 5.10362 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 88.8833 s.
+[UPDATE] update time : 97.6636
+now insert edge (9856429,45816004)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 11 affected work: 75223655 full work: 80249734 ratio: 0.93737
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 5.11852 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.0013 s.
+[UPDATE] update time : 97.6124
+now insert edge (3098748,37045289)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 6.89e-07
+now insert edge (2205113,31085727)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 17915959 full work: 80249734 ratio: 0.223253
+[UPDATE] update time : 24.7865
+now insert edge (45102276,64452800)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.17e-07
+now insert edge (44124683,58106490)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 9.2e-08
+now insert edge (45124933,50171609)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 70746201 full work: 80249739 ratio: 0.881575
+[UPDATE] update time : 65.3625
+now insert edge (33437098,34378677)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 42806524 full work: 80249740 ratio: 0.533416
+[UPDATE] update time : 47.848
+now insert edge (1821542,30858055)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.4e-07
+now insert edge (17008109,48403481)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.25e-07
+now insert edge (33568690,39333833)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.13e-07
+now insert edge (24400834,37958907)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 9.5e-08
+now insert edge (19413151,32386821)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.62e-07
+now insert edge (13689712,60517011)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 70746208 full work: 80249746 ratio: 0.881575
+[UPDATE] update time : 67.5761
+now insert edge (5245802,29792771)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 69915626 full work: 80249748 ratio: 0.871225
+[UPDATE] update time : 71.4932
+now insert edge (10967635,62107134)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 77919456 full work: 80249758 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.76657 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 88.3152 s.
+[UPDATE] update time : 103.003
+now insert edge (20599569,38999145)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 47 affected work: 44826430 full work: 80249758 ratio: 0.558586
+[UPDATE] update time : 43.6954
+now insert edge (1519927,30943701)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.82e-07
+now insert edge (16459361,60018408)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 7.5e-08
+now insert edge (5761105,13941030)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 8 affected work: 62742394 full work: 80249756 ratio: 0.781839
+[UPDATE] update time : 59.6995
+now insert edge (13388848,19650866)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 8.18e-07
+now insert edge (17883402,44337101)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 77919464 full work: 80249766 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.65797 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.1234 s.
+[UPDATE] update time : 101.295
+now insert edge (7178388,49044921)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 5.6e-07
+now insert edge (52552975,56465759)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 2.1e-07
+now insert edge (5573466,27893632)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.59e-07
+now insert edge (11230318,24852311)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.4e-07
+now insert edge (63151059,64484794)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 4061221 full work: 80249764 ratio: 0.0506073
+[UPDATE] update time : 6.41961
+now insert edge (158396,6068358)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.25e-07
+now insert edge (26397814,30241099)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.21e-07
+now insert edge (3331963,16773861)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 8.1e-08
+now insert edge (42267378,43069980)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 1 affected work: 44826433 full work: 80249766 ratio: 0.558586
+[UPDATE] update time : 30.7738
+now insert edge (30605443,46018864)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 70746230 full work: 80249772 ratio: 0.881575
+[UPDATE] update time : 60.7373
+now insert edge (24589567,58850197)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 5.36e-07
+now insert edge (4118266,43734168)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.28e-07
+now insert edge (25647525,44510901)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 29 affected work: 44826434 full work: 80249771 ratio: 0.558586
+[UPDATE] update time : 46.4857
+now insert edge (14643329,39485361)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.18e-07
+now insert edge (38820413,54894288)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826435 full work: 80249772 ratio: 0.558586
+[UPDATE] update time : 37.2694
+now insert edge (6397719,47170456)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 12481287 full work: 80249770 ratio: 0.155531
+[UPDATE] update time : 14.8891
+now insert edge (47659103,52509801)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.19e-07
+now insert edge (42105941,43644476)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 44826435 full work: 80249770 ratio: 0.558586
+[UPDATE] update time : 41.6449
+now insert edge (15543772,16645711)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 29 affected work: 44826435 full work: 80249770 ratio: 0.558586
+[UPDATE] update time : 49.8923
+now insert edge (38912203,60196743)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 17915968 full work: 80249768 ratio: 0.223253
+[UPDATE] update time : 22.6573
+now insert edge (11114544,31971983)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 77919478 full work: 80249778 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.97451 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.0622 s.
+[UPDATE] update time : 104.218
+now insert edge (22549914,50247799)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 11 affected work: 79284923 full work: 80249781 ratio: 0.987977
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 5.46486 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 88.3016 s.
+[UPDATE] update time : 97.3454
+now insert edge (28941776,35287418)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 9 affected work: 44826437 full work: 80249781 ratio: 0.558586
+[UPDATE] update time : 40.9202
+now insert edge (2956567,24372603)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.04e-07
+now insert edge (18955681,33365766)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 7173244 full work: 80249779 ratio: 0.0893865
+[UPDATE] update time : 8.29342
+now insert edge (30935191,60213957)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 75223709 full work: 80249787 ratio: 0.93737
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.52045 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 88.4641 s.
+[UPDATE] update time : 99.718
+now insert edge (17673083,25522552)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 12481295 full work: 80249785 ratio: 0.155531
+[UPDATE] update time : 13.6493
+now insert edge (43175656,46647411)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.76e-07
+now insert edge (7076398,46827038)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 13 affected work: 59487666 full work: 80249781 ratio: 0.741281
+[UPDATE] update time : 58.7692
+now insert edge (10984450,47094706)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826439 full work: 80249782 ratio: 0.558586
+[UPDATE] update time : 38.173
+now insert edge (4941726,54144411)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 77919494 full work: 80249792 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.79642 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 89.0035 s.
+[UPDATE] update time : 100.318
+now insert edge (7065210,49651090)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826442 full work: 80249793 ratio: 0.558586
+[UPDATE] update time : 35.9276
+now insert edge (18451348,49943511)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 36 affected work: 62742416 full work: 80249793 ratio: 0.781839
+[UPDATE] update time : 71.8342
+now insert edge (43769231,56540648)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 6.89e-07
+now insert edge (5630016,48908544)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 8.3e-08
+now insert edge (12379678,60494774)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 7 affected work: 62943079 full work: 80249812 ratio: 0.784339
+[UPDATE] update time : 58.4132
+now insert edge (18735200,60093070)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.73e-07
+now insert edge (11101274,58852465)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 9.8e-08
+now insert edge (15121675,15359423)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 4 affected work: 44826445 full work: 80249811 ratio: 0.558586
+[UPDATE] update time : 39.282
+now insert edge (36388749,54286878)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 4.17e-07
+now insert edge (56340163,65446799)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 6 affected work: 77919518 full work: 80249821 ratio: 0.970962
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 4.84257 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 133.672 s.
+[UPDATE] update time : 151.673
+now insert edge (6177572,61521478)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 7 affected work: 44826446 full work: 80249820 ratio: 0.558586
+[UPDATE] update time : 59.0321
+now insert edge (39482660,60997989)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.76e-07
+now insert edge (32816311,63700705)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 1.27e-07
+now insert edge (47311696,56396825)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 3 affected work: 44826447 full work: 80249821 ratio: 0.558586
+[UPDATE] update time : 46.3853
+now insert edge (3861148,14519444)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.44e-07
+now insert edge (39687399,39847350)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 44826449 full work: 80249823 ratio: 0.558586
+[UPDATE] update time : 33.9061
+now insert edge (22304258,64389565)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 5 affected work: 70746261 full work: 80249820 ratio: 0.881575
+[UPDATE] update time : 64.9661
+now insert edge (27820059,61134051)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 44826451 full work: 80249822 ratio: 0.558586
+[UPDATE] update time : 36.739
+now insert edge (40286301,40476147)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.57e-07
+now insert edge (762411,58847547)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 8 affected work: 75223733 full work: 80249822 ratio: 0.937369
+[UPDATE ADAPTIVE] use full reconstruction
+[CONSTRUCT Index] start PPT decomposition
+[CONSTRUCT INDEX] finish PPT decomposition
+[TIME COST] 6.21471 s.
+[CONSTRUCT INDEX] start building componets
+[CONSTRUCT INDEX] finish building componets
+[TIME COST] 91.1325 s.
+[UPDATE] update time : 105.518
+now insert edge (13386978,25612103)
+[UPDATE] update graph 
+[UPDATE] PPT membership does not change
+[UPDATE] update time : 3.8e-07
+now insert edge (2548130,61591665)
+[UPDATE] update graph 
+[UPDATE ADAPTIVE] affected PPT: 2 affected work: 4061226 full work: 80249820 ratio: 0.0506073
+[UPDATE] update time : 6.26493
+[PRINT TIME] average update time: 30.46

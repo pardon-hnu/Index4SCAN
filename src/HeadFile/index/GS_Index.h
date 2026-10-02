@@ -25,6 +25,7 @@ class GS_Index : public SCAN_Index{
         vector<vector<pair<int,int>>> neighbor_order;
         vector<vector<pair<int,int>>> core_order;
         int query_count=0;
+        double total_bfs_time=0.0;
     public:
         GS_Index(string dataset)
         {
@@ -184,12 +185,14 @@ class GS_Index : public SCAN_Index{
         {
             clear_cluster_result();
             cout<<"[CLUSTER] clustering with GS-index start !!!"<<endl;
+            double query_bfs_time=0.0;
             const auto begin=std::chrono::steady_clock().now();
             for(auto &core:core_order[mu-2])
             {
                 if(labels[core.first]!=-1) continue;
                 if(core.second<epsilon) break;
                 // cout<<"iterate vertex "<<core.first<<endl;
+                const auto bfs_begin=std::chrono::steady_clock().now();
                 queue<int> cluster;
                 unordered_set<int> cluster_set;
                 cluster.push(core.first);
@@ -221,9 +224,17 @@ class GS_Index : public SCAN_Index{
                     }
                 }
                 cluster_number++;
+                const auto bfs_end=std::chrono::steady_clock().now();
+                tms bfs_time=bfs_end-bfs_begin;
+                // cout<<"[TIME COST] "<<bfs_time.count()<<" s."<<endl;
+                query_bfs_time+=bfs_time.count();
             }
             const auto end=std::chrono::steady_clock().now();
             tms cluster_time=end-begin;
+            total_bfs_time+=query_bfs_time;
+            cout<<"[QUERY PROFILE] epsilon="<<double(epsilon)/PRECISION<<" mu="<<mu
+                <<" query_time_s="<<cluster_time.count()<<" bfs_time_s="<<query_bfs_time
+                <<" bfs_ratio="<<(cluster_time.count()>0.0 ? query_bfs_time/cluster_time.count() : 0.0)<<endl;
             cout<<"[CLSUTER] finish clustering!!!"<<endl;
             cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
             total_cluster_time+=cluster_time.count();
@@ -251,6 +262,9 @@ class GS_Index : public SCAN_Index{
         void print_cluster_time() override
         {
             cout<<"[PRINT TIME] total clustering time: "<<total_cluster_time<<endl;
+            cout<<"[PRINT TIME] total bfs time: "<<total_bfs_time<<endl;
+            cout<<"[PRINT TIME] average bfs time: "<<(query_count>0 ? total_bfs_time/query_count : 0.0)<<endl;
+            cout<<"[PRINT TIME] bfs ratio: "<<(total_cluster_time>0.0 ? total_bfs_time/total_cluster_time : 0.0)<<endl;
             cout<<"[PRINT TIME] average clustering time: "<<total_cluster_time/double(query_count)<<endl;
         }
         void print_index() override
@@ -378,4 +392,13 @@ class GS_Index : public SCAN_Index{
             read_index.close();
             cout<<"[LOAD INDEX] finish loading gs index !!!!"<<endl;
         }
+
+        void update(string update_type, int u, int v, int update_way) override
+        {
+            cout<<"[Error] current version of BOTBIN can not support update"<<endl;
+        }
+        void print_update_time() override
+        {
+            cout<<"[Error] current version of BOTBIN can not support update"<<endl;
+        }    
 };

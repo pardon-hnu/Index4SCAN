@@ -1,0 +1,306 @@
+Start to parse the arguments
+The input parameters are:
+
+graph	/home/hnu/Disk0/ParDon/graph/pokec.txt
+Arguments parsed.
+[LOAD GRAPH] start!!! filepath: /home/hnu/Disk0/ParDon/graph/pokec.txt
+graph size: 1632803
+edge size: 22301964
+[LOAD GRAPH] success!!!
+Graph generation finished with 1632803 vertices and 22301964 edges.
+Start to insert edges and construct index!!!
+Total time used after inserting construct index: 94.994267000 
+Query with epsilon = 0.80 and mu = 2 takes 0.601829000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 2 is 0.459474794 seconds.
+BFS time with epsilon = 0.80 and mu = 2 is 0.142354206 seconds.
+Query with epsilon = 0.80 and mu = 3 takes 0.533191999 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 3 is 0.411917105 seconds.
+BFS time with epsilon = 0.80 and mu = 3 is 0.121274894 seconds.
+Query with epsilon = 0.80 and mu = 4 takes 0.509057000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 4 is 0.391185150 seconds.
+BFS time with epsilon = 0.80 and mu = 4 is 0.117871851 seconds.
+Query with epsilon = 0.80 and mu = 5 takes 0.483109000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 5 is 0.369037070 seconds.
+BFS time with epsilon = 0.80 and mu = 5 is 0.114071930 seconds.
+Query with epsilon = 0.80 and mu = 6 takes 0.463421000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 6 is 0.352906009 seconds.
+BFS time with epsilon = 0.80 and mu = 6 is 0.110514991 seconds.
+Query with epsilon = 0.80 and mu = 7 takes 0.444521000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 7 is 0.335575892 seconds.
+BFS time with epsilon = 0.80 and mu = 7 is 0.108945108 seconds.
+Query with epsilon = 0.80 and mu = 8 takes 0.426871000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 8 is 0.321415900 seconds.
+BFS time with epsilon = 0.80 and mu = 8 is 0.105455100 seconds.
+Query with epsilon = 0.80 and mu = 9 takes 0.417277000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 9 is 0.313532862 seconds.
+BFS time with epsilon = 0.80 and mu = 9 is 0.103744138 seconds.
+Query with epsilon = 0.80 and mu = 10 takes 0.397891000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 10 is 0.297678132 seconds.
+BFS time with epsilon = 0.80 and mu = 10 is 0.100212868 seconds.
+Query with epsilon = 0.80 and mu = 11 takes 0.388165999 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 11 is 0.288786095 seconds.
+BFS time with epsilon = 0.80 and mu = 11 is 0.099379905 seconds.
+Query with epsilon = 0.80 and mu = 12 takes 0.377544000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 12 is 0.279106876 seconds.
+BFS time with epsilon = 0.80 and mu = 12 is 0.098437124 seconds.
+Query with epsilon = 0.80 and mu = 13 takes 0.365010000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 13 is 0.268662934 seconds.
+BFS time with epsilon = 0.80 and mu = 13 is 0.096347066 seconds.
+Query with epsilon = 0.80 and mu = 14 takes 0.355155000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 14 is 0.260431033 seconds.
+BFS time with epsilon = 0.80 and mu = 14 is 0.094723967 seconds.
+Query with epsilon = 0.80 and mu = 15 takes 0.345229000 seconds.
+Query time (excluding BFS) with epsilon = 0.80 and mu = 15 is 0.251331989 seconds.
+BFS time with epsilon = 0.80 and mu = 15 is 0.093897011 seconds.
+Query with epsilon = 0.70 and mu = 2 takes 0.559400000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 2 is 0.432061914 seconds.
+BFS time with epsilon = 0.70 and mu = 2 is 0.127338085 seconds.
+Query with epsilon = 0.70 and mu = 3 takes 0.533246000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 3 is 0.410988211 seconds.
+BFS time with epsilon = 0.70 and mu = 3 is 0.122257790 seconds.
+Query with epsilon = 0.70 and mu = 4 takes 0.508582001 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 4 is 0.389617115 seconds.
+BFS time with epsilon = 0.70 and mu = 4 is 0.118964885 seconds.
+Query with epsilon = 0.70 and mu = 5 takes 0.483556000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 5 is 0.368025936 seconds.
+BFS time with epsilon = 0.70 and mu = 5 is 0.115530063 seconds.
+Query with epsilon = 0.70 and mu = 6 takes 0.464574001 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 6 is 0.352103788 seconds.
+BFS time with epsilon = 0.70 and mu = 6 is 0.112470212 seconds.
+Query with epsilon = 0.70 and mu = 7 takes 0.449093000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 7 is 0.338973950 seconds.
+BFS time with epsilon = 0.70 and mu = 7 is 0.110119050 seconds.
+Query with epsilon = 0.70 and mu = 8 takes 0.493071000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 8 is 0.362800966 seconds.
+BFS time with epsilon = 0.70 and mu = 8 is 0.130270034 seconds.
+Query with epsilon = 0.70 and mu = 9 takes 0.442814000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 9 is 0.336706016 seconds.
+BFS time with epsilon = 0.70 and mu = 9 is 0.106107984 seconds.
+Query with epsilon = 0.70 and mu = 10 takes 0.418651000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 10 is 0.315215958 seconds.
+BFS time with epsilon = 0.70 and mu = 10 is 0.103435041 seconds.
+Query with epsilon = 0.70 and mu = 11 takes 0.399143000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 11 is 0.297206995 seconds.
+BFS time with epsilon = 0.70 and mu = 11 is 0.101936005 seconds.
+Query with epsilon = 0.70 and mu = 12 takes 0.384664000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 12 is 0.285163870 seconds.
+BFS time with epsilon = 0.70 and mu = 12 is 0.099500130 seconds.
+Query with epsilon = 0.70 and mu = 13 takes 0.373055000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 13 is 0.274409006 seconds.
+BFS time with epsilon = 0.70 and mu = 13 is 0.098645994 seconds.
+Query with epsilon = 0.70 and mu = 14 takes 0.360944999 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 14 is 0.265444038 seconds.
+BFS time with epsilon = 0.70 and mu = 14 is 0.095500962 seconds.
+Query with epsilon = 0.70 and mu = 15 takes 0.350621000 seconds.
+Query time (excluding BFS) with epsilon = 0.70 and mu = 15 is 0.255518056 seconds.
+BFS time with epsilon = 0.70 and mu = 15 is 0.095102943 seconds.
+Query with epsilon = 0.60 and mu = 2 takes 0.573460000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 2 is 0.437887949 seconds.
+BFS time with epsilon = 0.60 and mu = 2 is 0.135572051 seconds.
+Query with epsilon = 0.60 and mu = 3 takes 0.543991000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 3 is 0.414681879 seconds.
+BFS time with epsilon = 0.60 and mu = 3 is 0.129309122 seconds.
+Query with epsilon = 0.60 and mu = 4 takes 0.520419000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 4 is 0.395439176 seconds.
+BFS time with epsilon = 0.60 and mu = 4 is 0.124979824 seconds.
+Query with epsilon = 0.60 and mu = 5 takes 0.496148000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 5 is 0.376463024 seconds.
+BFS time with epsilon = 0.60 and mu = 5 is 0.119684976 seconds.
+Query with epsilon = 0.60 and mu = 6 takes 0.474907000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 6 is 0.357923857 seconds.
+BFS time with epsilon = 0.60 and mu = 6 is 0.116983143 seconds.
+Query with epsilon = 0.60 and mu = 7 takes 0.457636000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 7 is 0.343705785 seconds.
+BFS time with epsilon = 0.60 and mu = 7 is 0.113930215 seconds.
+Query with epsilon = 0.60 and mu = 8 takes 0.443956000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 8 is 0.332540968 seconds.
+BFS time with epsilon = 0.60 and mu = 8 is 0.111415032 seconds.
+Query with epsilon = 0.60 and mu = 9 takes 0.425993000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 9 is 0.315806943 seconds.
+BFS time with epsilon = 0.60 and mu = 9 is 0.110186057 seconds.
+Query with epsilon = 0.60 and mu = 10 takes 0.413550001 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 10 is 0.306588961 seconds.
+BFS time with epsilon = 0.60 and mu = 10 is 0.106961040 seconds.
+Query with epsilon = 0.60 and mu = 11 takes 0.397679000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 11 is 0.293592080 seconds.
+BFS time with epsilon = 0.60 and mu = 11 is 0.104086920 seconds.
+Query with epsilon = 0.60 and mu = 12 takes 0.385437001 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 12 is 0.281909009 seconds.
+BFS time with epsilon = 0.60 and mu = 12 is 0.103527992 seconds.
+Query with epsilon = 0.60 and mu = 13 takes 0.380157000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 13 is 0.278063963 seconds.
+BFS time with epsilon = 0.60 and mu = 13 is 0.102093037 seconds.
+Query with epsilon = 0.60 and mu = 14 takes 0.365542000 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 14 is 0.266022043 seconds.
+BFS time with epsilon = 0.60 and mu = 14 is 0.099519957 seconds.
+Query with epsilon = 0.60 and mu = 15 takes 0.359031999 seconds.
+Query time (excluding BFS) with epsilon = 0.60 and mu = 15 is 0.261233029 seconds.
+BFS time with epsilon = 0.60 and mu = 15 is 0.097798971 seconds.
+Query with epsilon = 0.50 and mu = 2 takes 0.596849999 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 2 is 0.443575005 seconds.
+BFS time with epsilon = 0.50 and mu = 2 is 0.153274994 seconds.
+Query with epsilon = 0.50 and mu = 3 takes 0.568427000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 3 is 0.423031906 seconds.
+BFS time with epsilon = 0.50 and mu = 3 is 0.145395095 seconds.
+Query with epsilon = 0.50 and mu = 4 takes 0.539585001 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 4 is 0.401463863 seconds.
+BFS time with epsilon = 0.50 and mu = 4 is 0.138121138 seconds.
+Query with epsilon = 0.50 and mu = 5 takes 0.519696000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 5 is 0.385407093 seconds.
+BFS time with epsilon = 0.50 and mu = 5 is 0.134288907 seconds.
+Query with epsilon = 0.50 and mu = 6 takes 0.498601000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 6 is 0.369385980 seconds.
+BFS time with epsilon = 0.50 and mu = 6 is 0.129215020 seconds.
+Query with epsilon = 0.50 and mu = 7 takes 0.473794000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 7 is 0.349099202 seconds.
+BFS time with epsilon = 0.50 and mu = 7 is 0.124694798 seconds.
+Query with epsilon = 0.50 and mu = 8 takes 0.493751000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 8 is 0.366448911 seconds.
+BFS time with epsilon = 0.50 and mu = 8 is 0.127302089 seconds.
+Query with epsilon = 0.50 and mu = 9 takes 0.485815000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 9 is 0.360465895 seconds.
+BFS time with epsilon = 0.50 and mu = 9 is 0.125349104 seconds.
+Query with epsilon = 0.50 and mu = 10 takes 0.454228000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 10 is 0.336567995 seconds.
+BFS time with epsilon = 0.50 and mu = 10 is 0.117660005 seconds.
+Query with epsilon = 0.50 and mu = 11 takes 0.419004000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 11 is 0.305033076 seconds.
+BFS time with epsilon = 0.50 and mu = 11 is 0.113970924 seconds.
+Query with epsilon = 0.50 and mu = 12 takes 0.426337000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 12 is 0.314162114 seconds.
+BFS time with epsilon = 0.50 and mu = 12 is 0.112174886 seconds.
+Query with epsilon = 0.50 and mu = 13 takes 0.391508000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 13 is 0.282380031 seconds.
+BFS time with epsilon = 0.50 and mu = 13 is 0.109127969 seconds.
+Query with epsilon = 0.50 and mu = 14 takes 0.380905000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 14 is 0.273729156 seconds.
+BFS time with epsilon = 0.50 and mu = 14 is 0.107175844 seconds.
+Query with epsilon = 0.50 and mu = 15 takes 0.373837000 seconds.
+Query time (excluding BFS) with epsilon = 0.50 and mu = 15 is 0.268532180 seconds.
+BFS time with epsilon = 0.50 and mu = 15 is 0.105304820 seconds.
+Query with epsilon = 0.40 and mu = 2 takes 0.653023001 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 2 is 0.469105131 seconds.
+BFS time with epsilon = 0.40 and mu = 2 is 0.183917870 seconds.
+Query with epsilon = 0.40 and mu = 3 takes 0.619663999 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 3 is 0.446869865 seconds.
+BFS time with epsilon = 0.40 and mu = 3 is 0.172794134 seconds.
+Query with epsilon = 0.40 and mu = 4 takes 0.588439000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 4 is 0.424254030 seconds.
+BFS time with epsilon = 0.40 and mu = 4 is 0.164184970 seconds.
+Query with epsilon = 0.40 and mu = 5 takes 0.551924000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 5 is 0.401093037 seconds.
+BFS time with epsilon = 0.40 and mu = 5 is 0.150830963 seconds.
+Query with epsilon = 0.40 and mu = 6 takes 0.525204999 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 6 is 0.379437014 seconds.
+BFS time with epsilon = 0.40 and mu = 6 is 0.145767986 seconds.
+Query with epsilon = 0.40 and mu = 7 takes 0.504620000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 7 is 0.362455909 seconds.
+BFS time with epsilon = 0.40 and mu = 7 is 0.142164091 seconds.
+Query with epsilon = 0.40 and mu = 8 takes 0.489236000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 8 is 0.351981929 seconds.
+BFS time with epsilon = 0.40 and mu = 8 is 0.137254071 seconds.
+Query with epsilon = 0.40 and mu = 9 takes 0.474085000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 9 is 0.334661031 seconds.
+BFS time with epsilon = 0.40 and mu = 9 is 0.139423969 seconds.
+Query with epsilon = 0.40 and mu = 10 takes 0.453629000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 10 is 0.323021075 seconds.
+BFS time with epsilon = 0.40 and mu = 10 is 0.130607925 seconds.
+Query with epsilon = 0.40 and mu = 11 takes 0.439981000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 11 is 0.311837967 seconds.
+BFS time with epsilon = 0.40 and mu = 11 is 0.128143033 seconds.
+Query with epsilon = 0.40 and mu = 12 takes 0.427163000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 12 is 0.302137840 seconds.
+BFS time with epsilon = 0.40 and mu = 12 is 0.125025161 seconds.
+Query with epsilon = 0.40 and mu = 13 takes 0.411432000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 13 is 0.290169057 seconds.
+BFS time with epsilon = 0.40 and mu = 13 is 0.121262942 seconds.
+Query with epsilon = 0.40 and mu = 14 takes 0.398295000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 14 is 0.278587927 seconds.
+BFS time with epsilon = 0.40 and mu = 14 is 0.119707073 seconds.
+Query with epsilon = 0.40 and mu = 15 takes 0.387283000 seconds.
+Query time (excluding BFS) with epsilon = 0.40 and mu = 15 is 0.269477028 seconds.
+BFS time with epsilon = 0.40 and mu = 15 is 0.117805972 seconds.
+Query with epsilon = 0.30 and mu = 2 takes 0.754619000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 2 is 0.519589195 seconds.
+BFS time with epsilon = 0.30 and mu = 2 is 0.235029805 seconds.
+Query with epsilon = 0.30 and mu = 3 takes 0.730558001 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 3 is 0.501998267 seconds.
+BFS time with epsilon = 0.30 and mu = 3 is 0.228559733 seconds.
+Query with epsilon = 0.30 and mu = 4 takes 0.683029001 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 4 is 0.468644995 seconds.
+BFS time with epsilon = 0.30 and mu = 4 is 0.214384005 seconds.
+Query with epsilon = 0.30 and mu = 5 takes 0.671496000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 5 is 0.463665940 seconds.
+BFS time with epsilon = 0.30 and mu = 5 is 0.207830060 seconds.
+Query with epsilon = 0.30 and mu = 6 takes 0.627398000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 6 is 0.426829029 seconds.
+BFS time with epsilon = 0.30 and mu = 6 is 0.200568971 seconds.
+Query with epsilon = 0.30 and mu = 7 takes 0.598653000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 7 is 0.405798097 seconds.
+BFS time with epsilon = 0.30 and mu = 7 is 0.192854903 seconds.
+Query with epsilon = 0.30 and mu = 8 takes 0.577254000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 8 is 0.390657822 seconds.
+BFS time with epsilon = 0.30 and mu = 8 is 0.186596178 seconds.
+Query with epsilon = 0.30 and mu = 9 takes 0.555434000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 9 is 0.373041137 seconds.
+BFS time with epsilon = 0.30 and mu = 9 is 0.182392863 seconds.
+Query with epsilon = 0.30 and mu = 10 takes 0.537686001 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 10 is 0.357198974 seconds.
+BFS time with epsilon = 0.30 and mu = 10 is 0.180487026 seconds.
+Query with epsilon = 0.30 and mu = 11 takes 0.516166000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 11 is 0.346333941 seconds.
+BFS time with epsilon = 0.30 and mu = 11 is 0.169832058 seconds.
+Query with epsilon = 0.30 and mu = 12 takes 0.497136001 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 12 is 0.330978107 seconds.
+BFS time with epsilon = 0.30 and mu = 12 is 0.166157894 seconds.
+Query with epsilon = 0.30 and mu = 13 takes 0.483415000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 13 is 0.320923996 seconds.
+BFS time with epsilon = 0.30 and mu = 13 is 0.162491004 seconds.
+Query with epsilon = 0.30 and mu = 14 takes 0.468378999 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 14 is 0.310522923 seconds.
+BFS time with epsilon = 0.30 and mu = 14 is 0.157856076 seconds.
+Query with epsilon = 0.30 and mu = 15 takes 0.452458000 seconds.
+Query time (excluding BFS) with epsilon = 0.30 and mu = 15 is 0.298776925 seconds.
+BFS time with epsilon = 0.30 and mu = 15 is 0.153681075 seconds.
+Query with epsilon = 0.20 and mu = 2 takes 1.179591000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 2 is 0.750298768 seconds.
+BFS time with epsilon = 0.20 and mu = 2 is 0.429292232 seconds.
+Query with epsilon = 0.20 and mu = 3 takes 1.137661000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 3 is 0.717005026 seconds.
+BFS time with epsilon = 0.20 and mu = 3 is 0.420655974 seconds.
+Query with epsilon = 0.20 and mu = 4 takes 1.115538000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 4 is 0.712913934 seconds.
+BFS time with epsilon = 0.20 and mu = 4 is 0.402624066 seconds.
+Query with epsilon = 0.20 and mu = 5 takes 1.044746000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 5 is 0.654365041 seconds.
+BFS time with epsilon = 0.20 and mu = 5 is 0.390380959 seconds.
+Query with epsilon = 0.20 and mu = 6 takes 1.000575000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 6 is 0.625883668 seconds.
+BFS time with epsilon = 0.20 and mu = 6 is 0.374691333 seconds.
+Query with epsilon = 0.20 and mu = 7 takes 0.966680001 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 7 is 0.599178110 seconds.
+BFS time with epsilon = 0.20 and mu = 7 is 0.367501890 seconds.
+Query with epsilon = 0.20 and mu = 8 takes 0.924195000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 8 is 0.576408931 seconds.
+BFS time with epsilon = 0.20 and mu = 8 is 0.347786069 seconds.
+Query with epsilon = 0.20 and mu = 9 takes 0.887999000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 9 is 0.549047940 seconds.
+BFS time with epsilon = 0.20 and mu = 9 is 0.338951060 seconds.
+Query with epsilon = 0.20 and mu = 10 takes 0.863129000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 10 is 0.527639004 seconds.
+BFS time with epsilon = 0.20 and mu = 10 is 0.335489996 seconds.
+Query with epsilon = 0.20 and mu = 11 takes 0.830600999 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 11 is 0.511565854 seconds.
+BFS time with epsilon = 0.20 and mu = 11 is 0.319035145 seconds.
+Query with epsilon = 0.20 and mu = 12 takes 0.807905000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 12 is 0.495421013 seconds.
+BFS time with epsilon = 0.20 and mu = 12 is 0.312483987 seconds.
+Query with epsilon = 0.20 and mu = 13 takes 0.780551000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 13 is 0.478766038 seconds.
+BFS time with epsilon = 0.20 and mu = 13 is 0.301784962 seconds.
+Query with epsilon = 0.20 and mu = 14 takes 0.765144001 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 14 is 0.465592033 seconds.
+BFS time with epsilon = 0.20 and mu = 14 is 0.299551968 seconds.
+Query with epsilon = 0.20 and mu = 15 takes 0.734742000 seconds.
+Query time (excluding BFS) with epsilon = 0.20 and mu = 15 is 0.448116995 seconds.
+BFS time with epsilon = 0.20 and mu = 15 is 0.286625004 seconds.

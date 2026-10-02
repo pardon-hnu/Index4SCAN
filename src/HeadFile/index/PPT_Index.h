@@ -46,6 +46,14 @@ struct Visitor {
 	}
 };
 
+struct ppt_update_edge_t
+{
+    int u;
+    int v;
+    int old_similarity;
+    int new_similarity;
+};
+
 bool cmp_order_space_index(pair<float,int> x,pair<float,int> y)
 {
 	return x.first>y.first;
@@ -71,8 +79,11 @@ class SCAN_PPT_Index : public SCAN_Index
         int ppt_max_id=0;
         unordered_map<pair<int,int>,int,PairHash> point2ppt;
         vector<vector<int>> vertex2ppt;
+        vector<vector<int>> vertex2cs;
+        vector<int> cs2ppt;
+        vector<int> free_update_cs_ids;
         
-        int * max_mu_under_epsilon; // when fix a certain epsilon, the max mu that (epsilon,mu) is in space.
+        int * max_mu_under_epsilon=nullptr; // when fix a certain epsilon, the max mu that (epsilon,mu) is in space.
         vector<vector<int>> ppt_matrix;  // PPT[i][j]!=-1 :  there exist a PPT(i,j+2)
 
         vector<vector<int>> table_ppts;
@@ -93,6 +104,30 @@ class SCAN_PPT_Index : public SCAN_Index
         double total_ari=0.0;
         double total_collection_ppt_time=0.0;
         int query_count=0;
+        int update_count=0;
+#ifdef PPT_UPDATE_PROFILE
+        double update_profile_select_time=0.0;
+        double update_profile_cleanup_time=0.0;
+        double update_profile_state_time=0.0;
+        double update_profile_uf1_time=0.0;
+        double update_profile_component_time=0.0;
+        double update_profile_uf2_time=0.0;
+        double update_profile_connectivity_time=0.0;
+        int update_profile_epsilon_num=0;
+        int update_profile_ppt_num=0;
+        long long update_profile_mu_num=0;
+        long long update_profile_subgraph_vertex_num=0;
+        long long update_profile_uf1_neighbor_num=0;
+        long long update_profile_cs_vertex_num=0;
+        long long update_profile_non_core_neighbor_num=0;
+        long long update_profile_uf2_cs_vertex_num=0;
+        long long update_profile_uf2_edge_num=0;
+        long long update_profile_connectivity_neighbor_num=0;
+        long long update_profile_new_edge_num=0;
+        long long update_profile_replace_edge_num=0;
+        long long update_profile_edge_num_before=0;
+        long long update_profile_edge_num_after=0;
+#endif
         vector<int> temp_label;
         UnionFind uf;
     public:
@@ -112,7 +147,7 @@ class SCAN_PPT_Index : public SCAN_Index
         }
         ~SCAN_PPT_Index()
         {
-
+            delete[] max_mu_under_epsilon;
         }
         void statistics_init()
         {
@@ -468,10 +503,34 @@ class SCAN_PPT_Index : public SCAN_Index
             cout<<"[TIME COST] "<<construct_time.count()<<" s."<<endl;
             total_build_time+=construct_time.count();
         }
-        void construct_componets()
+        void construct_componets(int max_update_epsilon=-1)
         {
             cout<<"[CONSTRUCT INDEX] start building componets"<<endl;
             const auto begin=std::chrono::steady_clock().now();
+            PPT_PROFILE(
+            long long profile_epsilon_num=0;
+            long long profile_mu_num=0;
+            long long profile_subgraph_vertex_num=0;
+            long long profile_uf1_neighbor_num=0;
+            long long profile_cs_vertex_num=0;
+            long long profile_non_core_neighbor_num=0;
+            long long profile_uf2_cs_vertex_num=0;
+            long long profile_uf2_edge_num=0;
+            long long profile_connectivity_neighbor_num=0;
+            long long profile_new_edge_num=0;
+            long long profile_replace_edge_num=0;
+            )
+            if(max_update_epsilon<0)
+            {
+                max_update_epsilon=DELTA-1;
+                cs2ppt.clear();
+                vertex2cs.clear();
+                vertex2cs.resize(n);
+                for(int vertex=0;vertex<n;vertex++)
+                {
+                    vertex2cs[vertex].resize(vertex2ppt[vertex].size(),-1);
+                }
+            }
             //init
             vector<int> pre_subgraph;
             pre_subgraph.reserve(n);
@@ -488,10 +547,11 @@ class SCAN_PPT_Index : public SCAN_Index
             UnionFind UF(n);            //the entire connectivity in dominate space
             UnionFind UF2(n);           //the connectivity in pre-level dominate space
 
-            for(int temp_eps=DELTA-1;temp_eps>=0;--temp_eps)
+            for(int temp_eps=max_update_epsilon;temp_eps>=0;--temp_eps)
             {
                 //if doesn't exist
                 if(!ppt_matrix[temp_eps].size()) continue;
+                PPT_PROFILE(profile_epsilon_num++;)
                 // cout<<"================================================================================="<<endl;
                 // cout<<"now temp_eps: "<<temp_eps<<endl;
 
@@ -515,6 +575,7 @@ class SCAN_PPT_Index : public SCAN_Index
                 // fix temp_eps, PPT(temp_eps,temp_mu+1) must dominate PPT(temp_eps,temp_mu);
                 for(int temp_mu=max_mu_under_epsilon[temp_eps];temp_mu>1;--temp_mu)
                 {
+                    PPT_PROFILE(profile_mu_num++;)
                     //if not construct mcr-tree
                     //if not such PPT (temp_eps,temp_mu)
                     // if(ppt_matrix[temp_eps][temp_mu-2]==-1) continue;
@@ -580,6 +641,7 @@ class SCAN_PPT_Index : public SCAN_Index
                             }
                         }
                     }
+                    PPT_PROFILE(profile_subgraph_vertex_num+=subgraph.size();)
 
                     // cout<<"dominate space: ";
                     // for(auto sp_id:dominate_space)
@@ -609,6 +671,7 @@ class SCAN_PPT_Index : public SCAN_Index
                         {
                             //sigma(v,nv)>=range and nv is in now subgraph and root(v)!=root(nv);
                             if(nv.first<temp_range) break;
+                            PPT_PROFILE(profile_uf1_neighbor_num++;)
                             if(vertex_bit_set[nv.second]&&UF.Find(v)!=UF.Find(nv.second))
                             {UF.Unite(v,nv.second);}
                         }
@@ -618,12 +681,31 @@ class SCAN_PPT_Index : public SCAN_Index
                     if(current_ppt_id!=-1)
                     {
                         unordered_map<int,vector<int>> root2vertex;
+                        PPT_PROFILE(profile_cs_vertex_num+=ppts[current_ppt_id].vertices.size();)
                         for(auto & v:ppts[current_ppt_id].vertices)
                         {root2vertex[UF.Find(v)].push_back(v);}
                         for(auto & item:root2vertex)
                         {
-                            ppts[current_ppt_id].componet_core_ids.push_back(cluster_slices.size());
+                            int cs_id=cluster_slices.size();
+                            ppts[current_ppt_id].componet_core_ids.push_back(cs_id);
                             cluster_slices.push_back(item.second);
+                            cs2ppt.push_back(current_ppt_id);
+
+                            for(auto vertex:item.second)
+                            {
+                                if(vertex2cs[vertex].size()<vertex2ppt[vertex].size())
+                                {
+                                    vertex2cs[vertex].resize(vertex2ppt[vertex].size(),-1);
+                                }
+                                for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                                {
+                                    if(vertex2ppt[vertex][i]==current_ppt_id)
+                                    {
+                                        vertex2cs[vertex][i]=cs_id;
+                                        break;
+                                    }
+                                }
+                            }
                         }
                         for(auto cs_id:ppts[current_ppt_id].componet_core_ids)
                         {
@@ -634,6 +716,7 @@ class SCAN_PPT_Index : public SCAN_Index
                                 for(auto & nv:neighbor_order[v])
                                 {
                                     if(nv.first<temp_range) break;
+                                    PPT_PROFILE(profile_non_core_neighbor_num++;)
                                     if(!vertex_bit_set[nv.second]&&!non_core_bit_set[nv.second])
                                     {
                                         // record.insert(nv.second);
@@ -653,6 +736,7 @@ class SCAN_PPT_Index : public SCAN_Index
                     {
                         for(auto cs_id:ppts[sp_id].componet_core_ids)
                         {
+                            PPT_PROFILE(profile_uf2_cs_vertex_num+=cluster_slices[cs_id].size();)
                             auto it = cluster_slices[cs_id].begin();
                             int firstVertex = *it;
                             vertex2currentcs[*it]=cs_id;
@@ -663,6 +747,7 @@ class SCAN_PPT_Index : public SCAN_Index
                                 it++;
                             }
                         }
+                        PPT_PROFILE(profile_uf2_edge_num+=ppts[sp_id].edges.size();)
                         for(auto & edge:ppts[sp_id].edges)
                         {UF2.Unite(edge.first, edge.second);}
                     }
@@ -677,6 +762,7 @@ class SCAN_PPT_Index : public SCAN_Index
                         for(auto & nv:neighbor_order[v])
                         {
                             if(nv.first<temp_range) break;
+                            PPT_PROFILE(profile_connectivity_neighbor_num++;)
                             // if(vertex2currentPPT.find(nv.second)==vertex2currentPPT.end()) continue;
                             if(vertex_bit_set[nv.second]&&UF2.Find(v)!=UF2.Find(nv.second))
                             {
@@ -690,12 +776,14 @@ class SCAN_PPT_Index : public SCAN_Index
                                     int edge_id=it->second;
                                     if(nv.first>ppts[v_ppt_id].connectivitys[edge_id])
                                     {
+                                        PPT_PROFILE(profile_replace_edge_num++;)
                                         ppts[v_ppt_id].edges[edge_id]=make_pair(v,nv.second);
                                         ppts[v_ppt_id].connectivitys[edge_id]=nv.first;
                                     }
                                 }
                                 else
                                 {
+                                    PPT_PROFILE(profile_new_edge_num++;)
                                     ppts[v_ppt_id].cs2edges[temp_cs_id]=ppts[v_ppt_id].edges.size();
                                     ppts[v_ppt_id].edges.push_back(make_pair(v,nv.second));
                                     ppts[v_ppt_id].connectivitys.push_back(nv.first);
@@ -709,6 +797,20 @@ class SCAN_PPT_Index : public SCAN_Index
             tms construct_time=end-begin;
             cout<<"[CONSTRUCT INDEX] finish building componets"<<endl;
             cout<<"[TIME COST] "<<construct_time.count()<<" s."<<endl;
+            PPT_PROFILE(
+            cout<<"[CONSTRUCT PROFILE] epsilon: "<<profile_epsilon_num
+                <<" mu: "<<profile_mu_num
+                <<" subgraph vertices: "<<profile_subgraph_vertex_num
+                <<" UF1 neighbor visits: "<<profile_uf1_neighbor_num<<endl;
+            cout<<"[CONSTRUCT PROFILE] CS vertices: "<<profile_cs_vertex_num
+                <<" non-core neighbor visits: "<<profile_non_core_neighbor_num
+                <<" UF2 CS vertices: "<<profile_uf2_cs_vertex_num
+                <<" UF2 edges: "<<profile_uf2_edge_num<<endl;
+            cout<<"[CONSTRUCT PROFILE] connectivity neighbor visits: "
+                <<profile_connectivity_neighbor_num
+                <<" new edges: "<<profile_new_edge_num
+                <<" replaced edges: "<<profile_replace_edge_num<<endl;
+            )
             total_build_time+=construct_time.count();
             for(auto & ppt:ppts)
             {
@@ -1528,6 +1630,7 @@ class SCAN_PPT_Index : public SCAN_Index
             // cout<<"================================================="<<endl;
             // print_all_PPT();
             int ppt_num=ppts.size();
+            restore_ppt_membership_for_update();
             cout<<"ppt num: "<<ppt_num<<endl;
             cout<<"[LOAD INDEX] finish !!!!"<<endl;
         }
@@ -1580,4 +1683,1793 @@ class SCAN_PPT_Index : public SCAN_Index
             write_index.close();
             cout<<"[STORE INDEX] finish !!!!"<<endl;
         }
+
+        int compute_similarity_exact_for_update(int u, int v)
+        {
+            int common_neighbor_num=2;
+            int i=0;
+            int j=0;
+            while(i<degree[u]&&j<degree[v])
+            {
+                if(graph[u][i]==graph[v][j])
+                {
+                    common_neighbor_num++;
+                    i++;
+                    j++;
+                }
+                else if(graph[u][i]>graph[v][j])
+                {
+                    i++;
+                }
+                else
+                {
+                    j++;
+                }
+            }
+
+            double similarity=double(common_neighbor_num)/
+                double(degree[u]+degree[v]+2-common_neighbor_num);
+            return int(similarity*PRECISION);
+        }
+
+        void clear_ppt_structure_for_update()
+        {
+            ppts.clear();
+            cluster_slices.clear();
+            non_cores.clear();
+            point2ppt.clear();
+            vertex2ppt.clear();
+            ppt_matrix.clear();
+            table_ppts.clear();
+            free_update_cs_ids.clear();
+            ppt_max_id=0;
+
+            delete[] max_mu_under_epsilon;
+            max_mu_under_epsilon=nullptr;
+
+            core_vertices_space=0.0;
+            non_core_vertices_space=0.0;
+            edge_space=0.0;
+            connectivity_space=0.0;
+            total_build_space=0.0;
+        }
+
+        void rebuild_ppt_structure_by_swap()
+        {
+            // Detach the old PPT index without releasing its memory first. The
+            // following construction therefore starts from fresh containers,
+            // while graph and neighbor_order remain shared by this index.
+            vector<PPT> old_ppts;
+            vector<vector<int>> old_cluster_slices;
+            vector<vector<int>> old_non_cores;
+            unordered_map<pair<int,int>,int,PairHash> old_point2ppt;
+            vector<vector<int>> old_vertex2ppt;
+            vector<vector<int>> old_vertex2cs;
+            vector<int> old_cs2ppt;
+            vector<int> old_free_update_cs_ids;
+            vector<vector<int>> old_ppt_matrix;
+            vector<vector<int>> old_table_ppts;
+            int *old_max_mu_under_epsilon=nullptr;
+
+            ppts.swap(old_ppts);
+            cluster_slices.swap(old_cluster_slices);
+            non_cores.swap(old_non_cores);
+            point2ppt.swap(old_point2ppt);
+            vertex2ppt.swap(old_vertex2ppt);
+            vertex2cs.swap(old_vertex2cs);
+            cs2ppt.swap(old_cs2ppt);
+            free_update_cs_ids.swap(old_free_update_cs_ids);
+            ppt_matrix.swap(old_ppt_matrix);
+            table_ppts.swap(old_table_ppts);
+            std::swap(max_mu_under_epsilon,old_max_mu_under_epsilon);
+
+            ppt_max_id=0;
+            core_vertices_space=0.0;
+            non_core_vertices_space=0.0;
+            edge_space=0.0;
+            connectivity_space=0.0;
+            total_build_space=0.0;
+
+            construct_ppt_vertex_map();
+            construct_componets();
+            prepare_query_structure_after_update();
+
+            // The temporary containers release the detached index here. This
+            // briefly keeps two PPT states, but does not duplicate the graph.
+            delete[] old_max_mu_under_epsilon;
+        }
+
+        void prepare_query_structure_after_update()
+        {
+            if(format=="SortSet")
+            {
+                sort(ppts.begin(),ppts.end(),cmp_ppt);
+                for(int i=0;i<(int)ppts.size();i++)
+                {
+                    ppts[i].id=i;
+                }
+            }
+            else if(format=="Table")
+            {
+                table_ppts.clear();
+                table_ppts.resize(DELTA);
+                for(int i=0;i<(int)ppts.size();i++)
+                {
+                    ppts[i].id=i;
+                    table_ppts[ppts[i].epsilon].push_back(i);
+                }
+                for(int i=0;i<DELTA;i++)
+                {
+                    sort(table_ppts[i].begin(),table_ppts[i].end(),[this](int a,int b)
+                    {
+                        return ppts[a].mu>ppts[b].mu;
+                    });
+                }
+            }
+        }
+
+        void update_similarity_graph_for_ppt(string update_type, int u, int v,
+                                             vector<int> &affected_vertices,
+                                             vector<vector<pair<int,int>>> &affected_mu_intervals)
+        {
+            int bucket_width=PRECISION/DELTA;
+            unordered_set<int> dirty_neighbor_order;
+            unordered_set<int> affected_vertex_set;
+            vector<ppt_update_edge_t> changed_edges;
+            dirty_neighbor_order.insert(u);
+            dirty_neighbor_order.insert(v);
+            affected_mu_intervals.clear();
+            affected_mu_intervals.resize(DELTA);
+
+            // The graph is already in its new state, while neighbor_order and
+            // interval_num still describe the state before this edge update.
+            int endpoints[2]={u,v};
+            for(int k=0;k<2;k++)
+            {
+                int endpoint=endpoints[k];
+                for(auto &item:neighbor_order[endpoint])
+                {
+                    int neighbor=item.second;
+                    if(neighbor==u||neighbor==v) continue;
+
+                    int old_similarity=item.first;
+                    int new_similarity=compute_similarity_exact_for_update(endpoint,neighbor);
+                    if(old_similarity==new_similarity) continue;
+
+                    int old_bucket=old_similarity/bucket_width;
+                    int new_bucket=new_similarity/bucket_width;
+                    if(old_bucket==DELTA) old_bucket=DELTA-1;
+                    if(new_bucket==DELTA) new_bucket=DELTA-1;
+                    if(old_bucket!=new_bucket)
+                    {
+                        interval_num[endpoint][old_bucket]--;
+                        interval_num[neighbor][old_bucket]--;
+                        interval_num[endpoint][new_bucket]++;
+                        interval_num[neighbor][new_bucket]++;
+                        affected_vertex_set.insert(endpoint);
+                        affected_vertex_set.insert(neighbor);
+                        changed_edges.push_back({endpoint,neighbor,old_similarity,new_similarity});
+                    }
+
+                    item.first=new_similarity;
+                    for(auto &reverse_item:neighbor_order[neighbor])
+                    {
+                        if(reverse_item.second==endpoint)
+                        {
+                            reverse_item.first=new_similarity;
+                            break;
+                        }
+                    }
+                    dirty_neighbor_order.insert(neighbor);
+                }
+            }
+
+            if(update_type=="insert")
+            {
+                int similarity=compute_similarity_exact_for_update(u,v);
+                int bucket=similarity/bucket_width;
+                if(bucket==DELTA) bucket=DELTA-1;
+
+                neighbor_order[u].push_back(make_pair(similarity,v));
+                neighbor_order[v].push_back(make_pair(similarity,u));
+                interval_num[u][bucket]++;
+                interval_num[v][bucket]++;
+                if(bucket>0)
+                {
+                    affected_vertex_set.insert(u);
+                    affected_vertex_set.insert(v);
+                    changed_edges.push_back({u,v,-1,similarity});
+                }
+            }
+            else
+            {
+                int position_u=-1;
+                int position_v=-1;
+                int old_similarity=-1;
+                for(int i=0;i<(int)neighbor_order[u].size();i++)
+                {
+                    if(neighbor_order[u][i].second==v)
+                    {
+                        position_u=i;
+                        old_similarity=neighbor_order[u][i].first;
+                        break;
+                    }
+                }
+                for(int i=0;i<(int)neighbor_order[v].size();i++)
+                {
+                    if(neighbor_order[v][i].second==u)
+                    {
+                        position_v=i;
+                        break;
+                    }
+                }
+
+                int bucket=old_similarity/bucket_width;
+                if(bucket==DELTA) bucket=DELTA-1;
+                interval_num[u][bucket]--;
+                interval_num[v][bucket]--;
+                if(bucket>0)
+                {
+                    affected_vertex_set.insert(u);
+                    affected_vertex_set.insert(v);
+                    changed_edges.push_back({u,v,old_similarity,-1});
+                }
+                neighbor_order[u].erase(neighbor_order[u].begin()+position_u);
+                neighbor_order[v].erase(neighbor_order[v].begin()+position_v);
+            }
+
+            for(auto vertex:dirty_neighbor_order)
+            {
+                sort(neighbor_order[vertex].begin(),neighbor_order[vertex].end(),cmp_order_space_index);
+            }
+
+            affected_vertices.assign(affected_vertex_set.begin(),affected_vertex_set.end());
+
+            // Aggregate CT deltas first. The same vertex may gain and lose
+            // different similarity edges at one epsilon, so sequentially
+            // changing its core state would expose an invalid intermediate PPT.
+            unordered_map<int,vector<int>> vertex_ct_delta;
+            for(auto &edge:changed_edges)
+            {
+                int old_bucket=0;
+                int new_bucket=0;
+                if(edge.old_similarity>=0)
+                {
+                    old_bucket=min(edge.old_similarity/bucket_width,DELTA-1);
+                }
+                if(edge.new_similarity>=0)
+                {
+                    new_bucket=min(edge.new_similarity/bucket_width,DELTA-1);
+                }
+
+                int begin_epsilon=min(old_bucket,new_bucket)+1;
+                int end_epsilon=max(old_bucket,new_bucket);
+                int change=new_bucket>old_bucket?1:-1;
+                int edge_vertices[2]={edge.u,edge.v};
+                for(int k=0;k<2;k++)
+                {
+                    int vertex=edge_vertices[k];
+                    if(vertex_ct_delta.find(vertex)==vertex_ct_delta.end())
+                    {
+                        vertex_ct_delta[vertex]=vector<int>(DELTA,0);
+                    }
+                    for(int epsilon=begin_epsilon;epsilon<=end_epsilon;epsilon++)
+                    {
+                        vertex_ct_delta[vertex][epsilon]+=change;
+                    }
+                }
+            }
+
+            for(auto &vertex_delta:vertex_ct_delta)
+            {
+                int vertex=vertex_delta.first;
+                int new_ct=1;
+                for(int epsilon=DELTA-1;epsilon>0;epsilon--)
+                {
+                    new_ct+=interval_num[vertex][epsilon];
+                    int delta=vertex_delta.second[epsilon];
+                    if(delta==0) continue;
+
+                    int old_ct=new_ct-delta;
+                    int begin_mu=min(old_ct,new_ct)+1;
+                    int end_mu=max(old_ct,new_ct);
+                    affected_mu_intervals[epsilon].push_back(
+                        make_pair(begin_mu,end_mu));
+                }
+            }
+
+            // An active-edge change may alter connectivity even when endpoint
+            // CT deltas cancel. Cover every mu for which both endpoints were
+            // core in either the old or the final state.
+            for(auto &edge:changed_edges)
+            {
+                int old_bucket=0;
+                int new_bucket=0;
+                if(edge.old_similarity>=0)
+                {
+                    old_bucket=min(edge.old_similarity/bucket_width,DELTA-1);
+                }
+                if(edge.new_similarity>=0)
+                {
+                    new_bucket=min(edge.new_similarity/bucket_width,DELTA-1);
+                }
+
+                int begin_epsilon=min(old_bucket,new_bucket)+1;
+                int end_epsilon=max(old_bucket,new_bucket);
+                for(int epsilon=begin_epsilon;epsilon<=end_epsilon;epsilon++)
+                {
+                    int new_ct_u=1;
+                    int new_ct_v=1;
+                    for(int bucket=epsilon;bucket<DELTA;bucket++)
+                    {
+                        new_ct_u+=interval_num[edge.u][bucket];
+                        new_ct_v+=interval_num[edge.v][bucket];
+                    }
+                    int delta_u=vertex_ct_delta[edge.u][epsilon];
+                    int delta_v=vertex_ct_delta[edge.v][epsilon];
+                    int old_ct_u=new_ct_u-delta_u;
+                    int old_ct_v=new_ct_v-delta_v;
+                    int max_mu=max(min(old_ct_u,old_ct_v),min(new_ct_u,new_ct_v));
+                    if(max_mu<2) continue;
+
+                    affected_mu_intervals[epsilon].push_back(
+                        make_pair(2,max_mu));
+                }
+            }
+
+            // Merge only overlapping intervals. Disjoint core and connectivity
+            // ranges remain separate so unrelated mu values are not rebuilt.
+            for(int epsilon=1;epsilon<DELTA;epsilon++)
+            {
+                vector<pair<int,int>> &intervals=affected_mu_intervals[epsilon];
+                if(intervals.empty()) continue;
+                sort(intervals.begin(),intervals.end());
+                int write_position=0;
+                for(int i=1;i<(int)intervals.size();i++)
+                {
+                    if(intervals[i].first<=intervals[write_position].second+1)
+                    {
+                        intervals[write_position].second=
+                            max(intervals[write_position].second,intervals[i].second);
+                    }
+                    else
+                    {
+                        write_position++;
+                        intervals[write_position]=intervals[i];
+                    }
+                }
+                intervals.resize(write_position+1);
+            }
+        }
+
+        void restore_ppt_membership_for_update()
+        {
+            free_update_cs_ids.clear();
+            point2ppt.clear();
+            vertex2ppt.clear();
+            vertex2ppt.resize(n);
+            vertex2cs.clear();
+            vertex2cs.resize(n);
+            cs2ppt.clear();
+            cs2ppt.resize(cluster_slices.size(),-1);
+            delete[] max_mu_under_epsilon;
+            max_mu_under_epsilon=new int[DELTA];
+            for(int epsilon=0;epsilon<DELTA;epsilon++)
+            {
+                max_mu_under_epsilon[epsilon]=1;
+            }
+
+            // The persistent file stores cluster slices instead of repeating
+            // PPT.vertices. Recover both directions and the two-dimensional
+            // navigation information before the first update.
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                PPT &ppt=ppts[ppt_id];
+                ppt.id=ppt_id;
+                ppt.vertices.clear();
+                point2ppt[make_pair(ppt.epsilon,ppt.mu)]=ppt_id;
+                max_mu_under_epsilon[ppt.epsilon]=
+                    max(max_mu_under_epsilon[ppt.epsilon],ppt.mu);
+
+                for(auto cs_id:ppt.componet_core_ids)
+                {
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        ppt.vertices.push_back(vertex);
+                        vertex2ppt[vertex].push_back(ppt_id);
+                        vertex2cs[vertex].push_back(cs_id);
+                    }
+                    cs2ppt[cs_id]=ppt_id;
+                }
+            }
+
+            ppt_matrix.clear();
+            ppt_matrix.resize(DELTA);
+            for(int epsilon=0;epsilon<DELTA;epsilon++)
+            {
+                ppt_matrix[epsilon].assign(
+                    max_mu_under_epsilon[epsilon]-1,-1);
+            }
+            for(auto &ppt:ppts)
+            {
+                ppt_matrix[ppt.epsilon][ppt.mu-2]=ppt.id;
+            }
+        }
+
+        void rebuild_ppt_maps_after_membership_update()
+        {
+            vector<PPT> new_ppts;
+            new_ppts.reserve(ppts.size());
+            for(auto &ppt:ppts)
+            {
+                if(ppt.vertices.empty())
+                {
+                    // Reuse slices owned by a disappeared PPT in later updates.
+                    for(auto cs_id:ppt.componet_core_ids)
+                    {
+                        if(cs_id<0||cs_id>=(int)cluster_slices.size()) continue;
+                        cluster_slices[cs_id].clear();
+                        non_cores[cs_id].clear();
+                        free_update_cs_ids.push_back(cs_id);
+                    }
+                    continue;
+                }
+                ppt.id=new_ppts.size();
+                new_ppts.push_back(move(ppt));
+            }
+            ppts=move(new_ppts);
+
+            point2ppt.clear();
+            vertex2ppt.clear();
+            vertex2cs.clear();
+            cs2ppt.clear();
+            vertex2ppt.resize(n);
+            vertex2cs.resize(n);
+            cs2ppt.resize(cluster_slices.size(),-1);
+            delete[] max_mu_under_epsilon;
+            max_mu_under_epsilon=new int[DELTA];
+            for(int i=0;i<DELTA;i++) max_mu_under_epsilon[i]=1;
+
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                PPT &ppt=ppts[ppt_id];
+                ppt.id=ppt_id;
+                point2ppt[make_pair(ppt.epsilon,ppt.mu)]=ppt_id;
+                max_mu_under_epsilon[ppt.epsilon]=
+                    max(max_mu_under_epsilon[ppt.epsilon],ppt.mu);
+                for(auto vertex:ppt.vertices)
+                {
+                    vertex2ppt[vertex].push_back(ppt_id);
+                    vertex2cs[vertex].push_back(-1);
+                }
+                for(auto cs_id:ppt.componet_core_ids)
+                {
+                    if(cs_id<0||cs_id>=(int)cluster_slices.size()) continue;
+                    cs2ppt[cs_id]=ppt_id;
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                        {
+                            if(vertex2ppt[vertex][i]==ppt_id)
+                            {
+                                vertex2cs[vertex][i]=cs_id;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            ppt_matrix.clear();
+            ppt_matrix.resize(DELTA);
+            for(int i=0;i<DELTA;i++)
+            {
+                ppt_matrix[i].assign(max_mu_under_epsilon[i]-1,-1);
+            }
+            for(auto &ppt:ppts)
+            {
+                ppt_matrix[ppt.epsilon][ppt.mu-2]=ppt.id;
+            }
+        }
+
+        bool update_affected_ppt_membership(
+            const vector<int> &affected_vertices,
+            vector<pair<int,int>> &membership_changed_points)
+        {
+            bool membership_changed=false;
+            vector<int> touched_ppt_ids;
+            vector<char> touched_epsilon(DELTA,0);
+            membership_changed_points.clear();
+            for(auto vertex:affected_vertices)
+            {
+                vector<pair<int,int>> old_points;
+                vector<pair<int,int>> new_points;
+                unordered_map<pair<int,int>,int,PairHash> old_point2cs;
+                for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                {
+                    int ppt_id=vertex2ppt[vertex][i];
+                    pair<int,int> point=make_pair(
+                        ppts[ppt_id].epsilon,ppts[ppt_id].mu);
+                    int cs_id=-1;
+                    if(i<(int)vertex2cs[vertex].size()) cs_id=vertex2cs[vertex][i];
+                    old_points.push_back(make_pair(ppts[ppt_id].epsilon,ppts[ppt_id].mu));
+                    old_point2cs[point]=cs_id;
+                }
+
+                int new_ct=1;
+                for(int bucket=DELTA-1;bucket>0;--bucket)
+                {
+                    new_ct+=interval_num[vertex][bucket];
+                    if(interval_num[vertex][bucket]!=0)
+                    {
+                        new_points.push_back(make_pair(bucket,new_ct));
+                    }
+                }
+
+                sort(old_points.begin(),old_points.end());
+                sort(new_points.begin(),new_points.end());
+                if(old_points==new_points) continue;
+                membership_changed=true;
+
+                int old_position=0;
+                int new_position=0;
+                while(old_position<(int)old_points.size()||
+                      new_position<(int)new_points.size())
+                {
+                    if(new_position==(int)new_points.size()||
+                       (old_position<(int)old_points.size()&&
+                        old_points[old_position]<new_points[new_position]))
+                    {
+                        membership_changed_points.push_back(old_points[old_position++]);
+                    }
+                    else if(old_position==(int)old_points.size()||
+                            new_points[new_position]<old_points[old_position])
+                    {
+                        membership_changed_points.push_back(new_points[new_position++]);
+                    }
+                    else
+                    {
+                        old_position++;
+                        new_position++;
+                    }
+                }
+
+                // Remove the vertex from every old PPT entry first. Its complete
+                // new staircase is then derived from the final interval counts.
+                for(auto ppt_id:vertex2ppt[vertex])
+                {
+                    vector<int> &vertices=ppts[ppt_id].vertices;
+                    auto position=find(vertices.begin(),vertices.end(),vertex);
+                    if(position!=vertices.end()) vertices.erase(position);
+                    touched_ppt_ids.push_back(ppt_id);
+                    touched_epsilon[ppts[ppt_id].epsilon]=1;
+                }
+
+                vertex2ppt[vertex].clear();
+                vertex2cs[vertex].clear();
+                for(auto point:new_points)
+                {
+                    auto ppt_it=point2ppt.find(point);
+                    int ppt_id;
+                    if(ppt_it==point2ppt.end())
+                    {
+                        PPT ppt;
+                        ppt.id=ppts.size();
+                        ppt.epsilon=point.first;
+                        ppt.mu=point.second;
+                        ppt.vertices.push_back(vertex);
+                        ppts.push_back(move(ppt));
+                        ppt_id=ppts.size()-1;
+                        point2ppt[point]=ppt_id;
+
+                        if((int)ppt_matrix[point.first].size()<point.second-1)
+                        {
+                            ppt_matrix[point.first].resize(point.second-1,-1);
+                        }
+                        ppt_matrix[point.first][point.second-2]=ppt_id;
+                    }
+                    else
+                    {
+                        ppt_id=ppt_it->second;
+                        ppts[ppt_id].vertices.push_back(vertex);
+                    }
+                    vertex2ppt[vertex].push_back(ppt_id);
+                    auto old_cs_it=old_point2cs.find(point);
+                    vertex2cs[vertex].push_back(
+                        old_cs_it==old_point2cs.end()?-1:old_cs_it->second);
+                    touched_ppt_ids.push_back(ppt_id);
+                    touched_epsilon[point.first]=1;
+                }
+            }
+
+            if(membership_changed)
+            {
+                // Keep PPT IDs stable. Only points touched by changed vertices
+                // update the point map and the two-dimensional navigation table.
+                sort(touched_ppt_ids.begin(),touched_ppt_ids.end());
+                touched_ppt_ids.erase(
+                    unique(touched_ppt_ids.begin(),touched_ppt_ids.end()),
+                    touched_ppt_ids.end());
+                for(auto ppt_id:touched_ppt_ids)
+                {
+                    PPT &ppt=ppts[ppt_id];
+                    pair<int,int> point=make_pair(ppt.epsilon,ppt.mu);
+                    if(!ppt.vertices.empty())
+                    {
+                        point2ppt[point]=ppt_id;
+                        ppt_matrix[ppt.epsilon][ppt.mu-2]=ppt_id;
+                        continue;
+                    }
+
+                    auto point_it=point2ppt.find(point);
+                    if(point_it!=point2ppt.end()&&point_it->second==ppt_id)
+                    {
+                        point2ppt.erase(point_it);
+                    }
+                    if(ppt.mu-2<(int)ppt_matrix[ppt.epsilon].size()&&
+                       ppt_matrix[ppt.epsilon][ppt.mu-2]==ppt_id)
+                    {
+                        ppt_matrix[ppt.epsilon][ppt.mu-2]=-1;
+                    }
+                }
+
+                for(int epsilon=1;epsilon<DELTA;epsilon++)
+                {
+                    if(!touched_epsilon[epsilon]) continue;
+                    int max_mu=ppt_matrix[epsilon].size()+1;
+                    while(max_mu>=2&&ppt_matrix[epsilon][max_mu-2]==-1)
+                    {
+                        max_mu--;
+                    }
+                    max_mu_under_epsilon[epsilon]=max_mu;
+                }
+            }
+            return membership_changed;
+        }
+
+        void prepare_affected_component_region(int max_affected_epsilon)
+        {
+            vector<vector<int>> old_cluster_slices=move(cluster_slices);
+            vector<vector<int>> old_non_cores=move(non_cores);
+            vector<int> old_cs2new_cs(old_cluster_slices.size(),-1);
+
+            cluster_slices.clear();
+            non_cores.clear();
+            cs2ppt.clear();
+
+            // Entries above the affected epsilon closure keep their slices.
+            // Entries inside the closure discard their component information
+            // and will be reconstructed in the original bottom-up order.
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                PPT &ppt=ppts[ppt_id];
+                if(ppt.epsilon<=max_affected_epsilon)
+                {
+                    ppt.componet_core_ids.clear();
+                    ppt.edges.clear();
+                    ppt.connectivitys.clear();
+                    ppt.cs2edges.clear();
+                    continue;
+                }
+
+                vector<int> new_component_ids;
+                for(auto old_cs_id:ppt.componet_core_ids)
+                {
+                    int new_cs_id=cluster_slices.size();
+                    old_cs2new_cs[old_cs_id]=new_cs_id;
+                    new_component_ids.push_back(new_cs_id);
+                    cluster_slices.push_back(move(old_cluster_slices[old_cs_id]));
+                    non_cores.push_back(move(old_non_cores[old_cs_id]));
+                    cs2ppt.push_back(ppt_id);
+                }
+                ppt.componet_core_ids=move(new_component_ids);
+
+                unordered_map<int,int> new_cs2edges;
+                for(auto &item:ppt.cs2edges)
+                {
+                    int old_cs_id=item.first;
+                    if(old_cs_id>=0&&old_cs_id<(int)old_cs2new_cs.size()&&
+                       old_cs2new_cs[old_cs_id]!=-1)
+                    {
+                        new_cs2edges[old_cs2new_cs[old_cs_id]]=item.second;
+                    }
+                }
+                ppt.cs2edges=move(new_cs2edges);
+            }
+
+            vertex2cs.clear();
+            vertex2cs.resize(n);
+            for(int vertex=0;vertex<n;vertex++)
+            {
+                vertex2cs[vertex].resize(vertex2ppt[vertex].size(),-1);
+            }
+            for(int cs_id=0;cs_id<(int)cluster_slices.size();cs_id++)
+            {
+                int ppt_id=cs2ppt[cs_id];
+                for(auto vertex:cluster_slices[cs_id])
+                {
+                    for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                    {
+                        if(vertex2ppt[vertex][i]==ppt_id)
+                        {
+                            vertex2cs[vertex][i]=cs_id;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        vector<int> collect_affected_ppt_ids(
+            const vector<vector<pair<int,int>>> &affected_mu_intervals,
+            const vector<pair<int,int>> &membership_changed_points)
+        {
+            vector<int> affected_ppt_ids;
+            affected_ppt_ids.reserve(ppts.size());
+            unordered_set<pair<int,int>,PairHash> membership_changed_set(
+                membership_changed_points.begin(),membership_changed_points.end());
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                PPT &ppt=ppts[ppt_id];
+                bool affected=membership_changed_set.find(
+                    make_pair(ppt.epsilon,ppt.mu))!=membership_changed_set.end();
+                for(auto interval:affected_mu_intervals[ppt.epsilon])
+                {
+                    if(affected) break;
+                    if(ppt.mu>=interval.first&&ppt.mu<=interval.second)
+                    {
+                        affected=true;
+                        break;
+                    }
+                }
+                if(affected) affected_ppt_ids.push_back(ppt_id);
+            }
+            return affected_ppt_ids;
+        }
+
+        void rebuild_affected_ppt_entries(
+            const vector<vector<pair<int,int>>> &affected_mu_intervals,
+            const vector<pair<int,int>> &membership_changed_points)
+        {
+            PPT_PROFILE(const auto select_begin=std::chrono::steady_clock().now();)
+            // Epsilon and mu are both selected precisely. The intervals were
+            // merged when changes were collected, but disjoint ranges and their
+            // lower bounds must remain intact.
+            vector<int> affected_ppt_ids=collect_affected_ppt_ids(
+                affected_mu_intervals,membership_changed_points);
+            sort(affected_ppt_ids.begin(),affected_ppt_ids.end(),[this](int a,int b)
+            {
+                if(ppts[a].epsilon!=ppts[b].epsilon)
+                {
+                    return ppts[a].epsilon>ppts[b].epsilon;
+                }
+                return ppts[a].mu>ppts[b].mu;
+            });
+
+            vector<char> affected_epsilon(DELTA,0);
+            vector<char> affected_ppt(ppts.size(),0);
+            for(auto ppt_id:affected_ppt_ids)
+            {
+                affected_ppt[ppt_id]=1;
+                affected_epsilon[ppts[ppt_id].epsilon]=1;
+            }
+            PPT_PROFILE(
+            const auto select_end=std::chrono::steady_clock().now();
+            update_profile_select_time+=tms(select_end-select_begin).count();
+            update_profile_ppt_num=affected_ppt_ids.size();
+            for(int epsilon=1;epsilon<DELTA;epsilon++)
+            {
+                if(affected_epsilon[epsilon]) update_profile_epsilon_num++;
+            }
+            )
+
+            // Discard only the output owned by affected entries. The update
+            // constructor below follows the original bottom-up code and reads
+            // every other entry as finalized dominate-space state.
+            PPT_PROFILE(const auto cleanup_begin=std::chrono::steady_clock().now();)
+            for(auto ppt_id:affected_ppt_ids)
+            {
+                PPT &ppt=ppts[ppt_id];
+                for(auto cs_id:ppt.componet_core_ids)
+                {
+                    if(cs_id<0||cs_id>=(int)cluster_slices.size()) continue;
+                    cluster_slices[cs_id].clear();
+                    non_cores[cs_id].clear();
+                    cs2ppt[cs_id]=-1;
+                    free_update_cs_ids.push_back(cs_id);
+                }
+                for(auto vertex:ppt.vertices)
+                {
+                    for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                    {
+                        if(vertex2ppt[vertex][i]!=ppt_id) continue;
+                        vertex2cs[vertex][i]=-1;
+                        break;
+                    }
+                }
+                ppt.componet_core_ids.clear();
+                ppt.edges.clear();
+                ppt.connectivitys.clear();
+                ppt.cs2edges.clear();
+            }
+            PPT_PROFILE(
+            const auto cleanup_end=std::chrono::steady_clock().now();
+            update_profile_cleanup_time+=tms(cleanup_end-cleanup_begin).count();
+            )
+
+            update_componets(affected_epsilon,affected_ppt);
+            return;
+
+            vector<vector<int>> ppts_by_epsilon(DELTA);
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                ppts_by_epsilon[ppts[ppt_id].epsilon].push_back(ppt_id);
+            }
+            vector<int> core_mark(n,0);
+            vector<int> non_core_mark(n,0);
+            vector<int> new_core_mark(n,0);
+            int core_stamp=0;
+            int non_core_stamp=0;
+            int new_core_stamp=0;
+            int shared_epsilon=-1;
+            int previous_mu=INT_MAX;
+            vector<int> core_vertices;
+            UnionFind core_uf(n);
+            UnionFind connectivity_uf(n);
+
+            for(auto ppt_id:affected_ppt_ids)
+            {
+                PPT &current_ppt=ppts[ppt_id];
+                int range=current_ppt.epsilon*(PRECISION/DELTA);
+                bool start_new_epsilon=shared_epsilon!=current_ppt.epsilon;
+
+                // Step 1: retire only this entry's old slices. Other entries
+                // remain available as finalized dominate-space components.
+                for(auto cs_id:current_ppt.componet_core_ids)
+                {
+                    if(cs_id<0||cs_id>=(int)cluster_slices.size()) continue;
+                    cluster_slices[cs_id].clear();
+                    non_cores[cs_id].clear();
+                    cs2ppt[cs_id]=-1;
+                    free_update_cs_ids.push_back(cs_id);
+                }
+                for(auto vertex:current_ppt.vertices)
+                {
+                    for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                    {
+                        if(vertex2ppt[vertex][i]==ppt_id)
+                        {
+                            vertex2cs[vertex][i]=-1;
+                            break;
+                        }
+                    }
+                }
+                current_ppt.componet_core_ids.clear();
+                current_ppt.edges.clear();
+                current_ppt.connectivitys.clear();
+                current_ppt.cs2edges.clear();
+
+                // Step 2: fixed epsilon is processed from large mu to small mu.
+                // The core set is monotone, so adjacent affected PPTs share one
+                // union-find and only newly admitted vertices scan their edges.
+                vector<int> new_core_vertices;
+                vector<int> newly_dominating_ppt_ids;
+                if(start_new_epsilon)
+                {
+                    shared_epsilon=current_ppt.epsilon;
+                    previous_mu=INT_MAX;
+                    core_stamp++;
+                    non_core_stamp++;
+                    core_vertices.clear();
+
+                    for(int epsilon=current_ppt.epsilon;epsilon<DELTA;epsilon++)
+                    {
+                        for(auto other_id:ppts_by_epsilon[epsilon])
+                        {
+                            if(ppts[other_id].mu<current_ppt.mu) break;
+                            newly_dominating_ppt_ids.push_back(other_id);
+                            for(auto vertex:ppts[other_id].vertices)
+                            {
+                                if(core_mark[vertex]==core_stamp) continue;
+                                core_mark[vertex]=core_stamp;
+                                core_vertices.push_back(vertex);
+                            }
+                        }
+                    }
+                    core_uf.Init(core_vertices);
+                    for(auto vertex:core_vertices)
+                    {
+                        for(auto &neighbor:neighbor_order[vertex])
+                        {
+                            if(neighbor.first<range) break;
+                            if(core_mark[neighbor.second]==core_stamp&&vertex<neighbor.second)
+                            {
+                                core_uf.Unite(vertex,neighbor.second);
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    for(int epsilon=current_ppt.epsilon;epsilon<DELTA;epsilon++)
+                    {
+                        for(auto other_id:ppts_by_epsilon[epsilon])
+                        {
+                            int other_mu=ppts[other_id].mu;
+                            if(other_mu>=previous_mu) continue;
+                            if(other_mu<current_ppt.mu) break;
+                            newly_dominating_ppt_ids.push_back(other_id);
+                            for(auto vertex:ppts[other_id].vertices)
+                            {
+                                if(core_mark[vertex]==core_stamp) continue;
+                                core_mark[vertex]=core_stamp;
+                                core_vertices.push_back(vertex);
+                                new_core_vertices.push_back(vertex);
+                            }
+                        }
+                    }
+                    core_uf.Init(new_core_vertices);
+                    for(auto vertex:new_core_vertices)
+                    {
+                        for(auto &neighbor:neighbor_order[vertex])
+                        {
+                            if(neighbor.first<range) break;
+                            if(core_mark[neighbor.second]==core_stamp)
+                            {
+                                core_uf.Unite(vertex,neighbor.second);
+                            }
+                        }
+                    }
+                }
+                previous_mu=current_ppt.mu;
+                new_core_stamp++;
+                for(auto vertex:new_core_vertices)
+                {
+                    new_core_mark[vertex]=new_core_stamp;
+                }
+
+                // Step 3: vertices owned by this PPT are partitioned according
+                // to their components in the complete dominate core graph.
+                unordered_map<int,vector<int>> root2vertices;
+                root2vertices.reserve(current_ppt.vertices.size());
+                for(auto vertex:current_ppt.vertices)
+                {
+                    root2vertices[core_uf.Find(vertex)].push_back(vertex);
+                }
+                for(auto &component:root2vertices)
+                {
+                    int cs_id;
+                    if(free_update_cs_ids.empty())
+                    {
+                        cs_id=cluster_slices.size();
+                        cluster_slices.push_back(vector<int>());
+                        non_cores.push_back(vector<int>());
+                        cs2ppt.push_back(-1);
+                    }
+                    else
+                    {
+                        cs_id=free_update_cs_ids.back();
+                        free_update_cs_ids.pop_back();
+                    }
+                    cluster_slices[cs_id]=move(component.second);
+                    non_cores[cs_id].clear();
+                    cs2ppt[cs_id]=ppt_id;
+                    current_ppt.componet_core_ids.push_back(cs_id);
+
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                        {
+                            if(vertex2ppt[vertex][i]==ppt_id)
+                            {
+                                vertex2cs[vertex][i]=cs_id;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // Step 4: pre_non_cores is also monotone while mu decreases.
+                // Inject only newly dominating PPTs; non-cores generated by the
+                // current entry remain marked for every following lower mu.
+                for(auto other_id:newly_dominating_ppt_ids)
+                {
+                    if(other_id==ppt_id) continue;
+                    for(auto cs_id:ppts[other_id].componet_core_ids)
+                    {
+                        for(auto vertex:non_cores[cs_id])
+                        {
+                            non_core_mark[vertex]=non_core_stamp;
+                        }
+                    }
+                }
+                for(auto cs_id:current_ppt.componet_core_ids)
+                {
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        for(auto &neighbor:neighbor_order[vertex])
+                        {
+                            if(neighbor.first<range) break;
+                            int other=neighbor.second;
+                            if(core_mark[other]==core_stamp||
+                               non_core_mark[other]==non_core_stamp)
+                            {
+                                continue;
+                            }
+                            non_core_mark[other]=non_core_stamp;
+                            non_cores[cs_id].push_back(other);
+                        }
+                    }
+                }
+
+                // Step 5: UF2 records connectivity already represented by the
+                // index. It is initialized once per epsilon and then advances
+                // with UF as mu decreases. Newly dominating unchanged PPTs are
+                // injected directly; the current rebuilt PPT contributes its
+                // new CS before missing cross-CS edges are selected.
+                if(start_new_epsilon)
+                {
+                    connectivity_uf.Init(core_vertices);
+                }
+                else
+                {
+                    connectivity_uf.Init(new_core_vertices);
+                }
+                for(auto other_id:newly_dominating_ppt_ids)
+                {
+                    for(auto cs_id:ppts[other_id].componet_core_ids)
+                    {
+                        if(cluster_slices[cs_id].empty()) continue;
+                        int first_vertex=cluster_slices[cs_id][0];
+                        for(int i=1;i<(int)cluster_slices[cs_id].size();i++)
+                        {
+                            connectivity_uf.Unite(first_vertex,cluster_slices[cs_id][i]);
+                        }
+                    }
+                    for(int edge_id=0;edge_id<(int)ppts[other_id].edges.size();edge_id++)
+                    {
+                        if(ppts[other_id].connectivitys[edge_id]<range) continue;
+                        auto &edge=ppts[other_id].edges[edge_id];
+                        connectivity_uf.Unite(edge.first,edge.second);
+                    }
+                }
+
+                vector<int> &candidate_vertices=
+                    start_new_epsilon?core_vertices:new_core_vertices;
+                for(auto vertex:candidate_vertices)
+                {
+                    for(auto &neighbor:neighbor_order[vertex])
+                    {
+                        if(neighbor.first<range) break;
+                        int other=neighbor.second;
+                        if(core_mark[other]!=core_stamp) continue;
+                        if(start_new_epsilon&&vertex>=other) continue;
+                        if(!start_new_epsilon&&
+                           new_core_mark[other]==new_core_stamp&&vertex>=other) continue;
+                        if(connectivity_uf.Find(vertex)==connectivity_uf.Find(other)) continue;
+
+                        connectivity_uf.Unite(vertex,other);
+                        current_ppt.edges.push_back(make_pair(vertex,other));
+                        current_ppt.connectivitys.push_back(neighbor.first);
+                    }
+                }
+            }
+        }
+
+        void update_componets(const vector<char> &affected_epsilon,
+                              const vector<char> &affected_ppt)
+        {
+            vector<int> min_affected_mu(DELTA,INT_MAX);
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                if(!affected_ppt[ppt_id]) continue;
+                min_affected_mu[ppts[ppt_id].epsilon]=min(
+                    min_affected_mu[ppts[ppt_id].epsilon],ppts[ppt_id].mu);
+            }
+
+            vector<int> pre_subgraph;
+            vector<int> pre_non_cores;
+            vector<bool> vertex_bit_set(n,false);
+            vector<bool> non_core_bit_set(n,false);
+            vector<int> vertex2currentPPT(n,-1);
+            vector<int> vertex2currentcs(n,-1);
+            UnionFind UF(n);
+            UnionFind UF2(n);
+
+            pre_subgraph.reserve(n);
+            pre_non_cores.reserve(n);
+
+            // Keep the original epsilon/mu bottom-up construction order, but
+            // enter only epsilon values containing an affected PPT entry.
+            for(int temp_eps=DELTA-1;temp_eps>0;--temp_eps)
+            {
+                if(!affected_epsilon[temp_eps]||ppt_matrix[temp_eps].empty()) continue;
+
+                PPT_PROFILE(const auto epsilon_state_begin=std::chrono::steady_clock().now();)
+                int temp_range=temp_eps*(PRECISION/DELTA);
+                UF.Init(pre_subgraph);
+                UF2.Init(pre_subgraph);
+                for(auto vertex:pre_subgraph)
+                {
+                    vertex_bit_set[vertex]=false;
+                    vertex2currentPPT[vertex]=-1;
+                    vertex2currentcs[vertex]=-1;
+                }
+                for(auto vertex:pre_non_cores)
+                {
+                    non_core_bit_set[vertex]=false;
+                }
+                pre_subgraph.clear();
+                pre_non_cores.clear();
+                PPT_PROFILE(
+                const auto epsilon_state_end=std::chrono::steady_clock().now();
+                update_profile_state_time+=
+                    tms(epsilon_state_end-epsilon_state_begin).count();
+                )
+
+                // Higher mu values establish the bottom-up state. Levels below
+                // the lowest affected PPT do not contribute to rebuilt entries.
+                // PPT entries and ppt_matrix only represent mu >= 2.
+                int min_update_mu=max(2,min_affected_mu[temp_eps]);
+                for(int temp_mu=max_mu_under_epsilon[temp_eps];
+                    temp_mu>=min_update_mu;--temp_mu)
+                {
+                    PPT_PROFILE(update_profile_mu_num++;)
+                    PPT_PROFILE(const auto state_begin=std::chrono::steady_clock().now();)
+                    vector<int> subgraph;
+                    vector<int> dominate_space;
+                    int current_ppt_id=ppt_matrix[temp_eps][temp_mu-2];
+                    if(current_ppt_id!=-1) dominate_space.push_back(current_ppt_id);
+
+                    for(int larger_eps=temp_eps+1;larger_eps<DELTA;larger_eps++)
+                    {
+                        if(max_mu_under_epsilon[larger_eps]<temp_mu) continue;
+                        int dominate_id=ppt_matrix[larger_eps][temp_mu-2];
+                        if(dominate_id!=-1) dominate_space.push_back(dominate_id);
+                    }
+
+                    if(temp_mu==max_mu_under_epsilon[temp_eps])
+                    {
+                        for(int larger_eps=temp_eps+1;larger_eps<DELTA;larger_eps++)
+                        {
+                            for(int larger_mu=temp_mu+1;
+                                larger_mu<=max_mu_under_epsilon[larger_eps];larger_mu++)
+                            {
+                                int dominate_id=ppt_matrix[larger_eps][larger_mu-2];
+                                if(dominate_id!=-1) dominate_space.push_back(dominate_id);
+                            }
+                        }
+                    }
+
+                    // This is the original incremental subgraph construction.
+                    for(auto dominate_id:dominate_space)
+                    {
+                        for(auto vertex:ppts[dominate_id].vertices)
+                        {
+                            if(vertex_bit_set[vertex]) continue;
+                            vertex_bit_set[vertex]=true;
+                            vertex2currentPPT[vertex]=dominate_id;
+                            pre_subgraph.push_back(vertex);
+                            subgraph.push_back(vertex);
+                        }
+                        for(auto cs_id:ppts[dominate_id].componet_core_ids)
+                        {
+                            for(auto vertex:non_cores[cs_id])
+                            {
+                                if(non_core_bit_set[vertex]) continue;
+                                non_core_bit_set[vertex]=true;
+                                pre_non_cores.push_back(vertex);
+                            }
+                        }
+                    }
+                    PPT_PROFILE(update_profile_subgraph_vertex_num+=subgraph.size();)
+                    PPT_PROFILE(
+                    const auto state_end=std::chrono::steady_clock().now();
+                    update_profile_state_time+=tms(state_end-state_begin).count();
+                    )
+
+                    PPT_PROFILE(const auto uf1_begin=std::chrono::steady_clock().now();)
+                    for(auto vertex:subgraph)
+                    {
+                        for(auto &neighbor:neighbor_order[vertex])
+                        {
+                            if(neighbor.first<temp_range) break;
+                            PPT_PROFILE(update_profile_uf1_neighbor_num++;)
+                            if(vertex_bit_set[neighbor.second]&&
+                               UF.Find(vertex)!=UF.Find(neighbor.second))
+                            {
+                                UF.Unite(vertex,neighbor.second);
+                            }
+                        }
+                    }
+                    PPT_PROFILE(
+                    const auto uf1_end=std::chrono::steady_clock().now();
+                    update_profile_uf1_time+=tms(uf1_end-uf1_begin).count();
+                    )
+
+                    // Only an affected real PPT produces new CS and non-cores.
+                    PPT_PROFILE(const auto component_begin=std::chrono::steady_clock().now();)
+                    if(current_ppt_id!=-1&&affected_ppt[current_ppt_id])
+                    {
+                        unordered_map<int,vector<int>> root2vertices;
+                        PPT_PROFILE(update_profile_cs_vertex_num+=ppts[current_ppt_id].vertices.size();)
+                        for(auto vertex:ppts[current_ppt_id].vertices)
+                        {
+                            root2vertices[UF.Find(vertex)].push_back(vertex);
+                        }
+                        for(auto &component:root2vertices)
+                        {
+                            int cs_id;
+                            if(free_update_cs_ids.empty())
+                            {
+                                cs_id=cluster_slices.size();
+                                cluster_slices.push_back(vector<int>());
+                                non_cores.push_back(vector<int>());
+                                cs2ppt.push_back(-1);
+                            }
+                            else
+                            {
+                                cs_id=free_update_cs_ids.back();
+                                free_update_cs_ids.pop_back();
+                            }
+                            cluster_slices[cs_id]=move(component.second);
+                            non_cores[cs_id].clear();
+                            cs2ppt[cs_id]=current_ppt_id;
+                            ppts[current_ppt_id].componet_core_ids.push_back(cs_id);
+
+                            for(auto vertex:cluster_slices[cs_id])
+                            {
+                                for(int i=0;i<(int)vertex2ppt[vertex].size();i++)
+                                {
+                                    if(vertex2ppt[vertex][i]!=current_ppt_id) continue;
+                                    vertex2cs[vertex][i]=cs_id;
+                                    break;
+                                }
+                            }
+                        }
+
+                        for(auto cs_id:ppts[current_ppt_id].componet_core_ids)
+                        {
+                            for(auto vertex:cluster_slices[cs_id])
+                            {
+                                for(auto &neighbor:neighbor_order[vertex])
+                                {
+                                    if(neighbor.first<temp_range) break;
+                                    PPT_PROFILE(update_profile_non_core_neighbor_num++;)
+                                    int other=neighbor.second;
+                                    if(vertex_bit_set[other]||non_core_bit_set[other]) continue;
+                                    non_core_bit_set[other]=true;
+                                    pre_non_cores.push_back(other);
+                                    non_cores[cs_id].push_back(other);
+                                }
+                            }
+                        }
+                    }
+                    PPT_PROFILE(
+                    const auto component_end=std::chrono::steady_clock().now();
+                    update_profile_component_time+=tms(component_end-component_begin).count();
+                    )
+
+                    // Existing unaffected PPTs and newly rebuilt PPTs both
+                    // contribute their stored representation to UF2.
+                    PPT_PROFILE(const auto uf2_begin=std::chrono::steady_clock().now();)
+                    for(auto dominate_id:dominate_space)
+                    {
+                        for(auto cs_id:ppts[dominate_id].componet_core_ids)
+                        {
+                            if(cluster_slices[cs_id].empty()) continue;
+                            PPT_PROFILE(update_profile_uf2_cs_vertex_num+=cluster_slices[cs_id].size();)
+                            int first_vertex=cluster_slices[cs_id][0];
+                            vertex2currentcs[first_vertex]=cs_id;
+                            for(int i=1;i<(int)cluster_slices[cs_id].size();i++)
+                            {
+                                vertex2currentcs[cluster_slices[cs_id][i]]=cs_id;
+                                UF2.Unite(first_vertex,cluster_slices[cs_id][i]);
+                            }
+                        }
+                        PPT_PROFILE(update_profile_uf2_edge_num+=ppts[dominate_id].edges.size();)
+                        for(int edge_id=0;
+                            edge_id<(int)ppts[dominate_id].edges.size();edge_id++)
+                        {
+                            if(ppts[dominate_id].connectivitys[edge_id]<temp_range)
+                            {
+                                continue;
+                            }
+                            auto &edge=ppts[dominate_id].edges[edge_id];
+                            UF2.Unite(edge.first,edge.second);
+                        }
+                    }
+                    PPT_PROFILE(
+                    const auto uf2_end=std::chrono::steady_clock().now();
+                    update_profile_uf2_time+=tms(uf2_end-uf2_begin).count();
+                    )
+
+                    PPT_PROFILE(const auto connectivity_begin=std::chrono::steady_clock().now();)
+                    for(auto vertex:subgraph)
+                    {
+                        int owner_ppt_id=vertex2currentPPT[vertex];
+                        for(auto &neighbor:neighbor_order[vertex])
+                        {
+                            if(neighbor.first<temp_range) break;
+                            PPT_PROFILE(update_profile_connectivity_neighbor_num++;)
+                            int other=neighbor.second;
+                            if(!vertex_bit_set[other]||
+                               UF2.Find(vertex)==UF2.Find(other)) continue;
+
+                            // UF2 already contains every retained index edge.
+                            // A remaining disconnection therefore needs a new
+                            // persistent connectivity edge. Store it under the
+                            // original bottom-up owner even when that PPT did
+                            // not need its CS/non-core entry reconstructed.
+                            UF2.Unite(vertex,other);
+                            int other_cs_id=vertex2currentcs[other];
+                            auto edge_it=ppts[owner_ppt_id].cs2edges.find(other_cs_id);
+                            if(edge_it==ppts[owner_ppt_id].cs2edges.end())
+                            {
+                                PPT_PROFILE(update_profile_new_edge_num++;)
+                                ppts[owner_ppt_id].cs2edges[other_cs_id]=
+                                    ppts[owner_ppt_id].edges.size();
+                                ppts[owner_ppt_id].edges.push_back(make_pair(vertex,other));
+                                ppts[owner_ppt_id].connectivitys.push_back(neighbor.first);
+                            }
+                            else
+                            {
+                                int edge_id=edge_it->second;
+                                if(neighbor.first<=ppts[owner_ppt_id].connectivitys[edge_id]) continue;
+                                PPT_PROFILE(update_profile_replace_edge_num++;)
+                                ppts[owner_ppt_id].edges[edge_id]=make_pair(vertex,other);
+                                ppts[owner_ppt_id].connectivitys[edge_id]=neighbor.first;
+                            }
+                        }
+                    }
+                    PPT_PROFILE(
+                    const auto connectivity_end=std::chrono::steady_clock().now();
+                    update_profile_connectivity_time+=
+                        tms(connectivity_end-connectivity_begin).count();
+                    )
+                }
+            }
+        }
+
+        vector<vector<int>> collect_clusters_for_update_check(
+            int bucket,int mu,bool include_non_cores)
+        {
+            vector<int> selected_ppts;
+            vector<int> selected_cs;
+            vector<int> core_mark(n,0);
+            vector<int> core_vertices;
+            UnionFind check_uf(n);
+
+            for(int ppt_id=0;ppt_id<(int)ppts.size();ppt_id++)
+            {
+                if(ppts[ppt_id].epsilon<bucket||ppts[ppt_id].mu<mu) continue;
+                selected_ppts.push_back(ppt_id);
+                for(auto cs_id:ppts[ppt_id].componet_core_ids)
+                {
+                    if(cluster_slices[cs_id].empty()) continue;
+                    selected_cs.push_back(cs_id);
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        if(core_mark[vertex]) continue;
+                        core_mark[vertex]=1;
+                        core_vertices.push_back(vertex);
+                    }
+                }
+            }
+
+            check_uf.Init(core_vertices);
+            // A core vertex can occur in slices of several selected PPTs. Use
+            // vertex IDs directly so this check is independent of whichever
+            // slice representative happens to be visited last by the query.
+            for(auto cs_id:selected_cs)
+            {
+                int representative=cluster_slices[cs_id][0];
+                for(int i=1;i<(int)cluster_slices[cs_id].size();i++)
+                {
+                    check_uf.Unite(representative,cluster_slices[cs_id][i]);
+                }
+            }
+            int range=bucket*(PRECISION/DELTA);
+            for(auto ppt_id:selected_ppts)
+            {
+                for(int edge_id=0;edge_id<(int)ppts[ppt_id].edges.size();edge_id++)
+                {
+                    if(ppts[ppt_id].connectivitys[edge_id]<range) continue;
+                    int u=ppts[ppt_id].edges[edge_id].first;
+                    int v=ppts[ppt_id].edges[edge_id].second;
+                    if(!core_mark[u]||!core_mark[v]) continue;
+                    check_uf.Unite(u,v);
+                }
+            }
+
+            unordered_map<int,vector<int>> root2cluster;
+            for(auto cs_id:selected_cs)
+            {
+                int root=check_uf.Find(cluster_slices[cs_id][0]);
+                vector<int> &cluster=root2cluster[root];
+                cluster.insert(cluster.end(),cluster_slices[cs_id].begin(),cluster_slices[cs_id].end());
+                if(include_non_cores)
+                {
+                    cluster.insert(cluster.end(),non_cores[cs_id].begin(),non_cores[cs_id].end());
+                }
+            }
+
+            vector<vector<int>> clusters;
+            for(auto &item:root2cluster)
+            {
+                vector<int> &cluster=item.second;
+                sort(cluster.begin(),cluster.end());
+                cluster.erase(unique(cluster.begin(),cluster.end()),cluster.end());
+                clusters.push_back(move(cluster));
+            }
+            sort(clusters.begin(),clusters.end());
+            return clusters;
+        }
+
+        vector<int> collect_non_cores_for_update_check(int bucket,int mu)
+        {
+            vector<int> result;
+            vector<int> core_mark(n,0);
+            for(auto &ppt:ppts)
+            {
+                if(ppt.epsilon<bucket||ppt.mu<mu) continue;
+                for(auto cs_id:ppt.componet_core_ids)
+                {
+                    for(auto vertex:cluster_slices[cs_id])
+                    {
+                        core_mark[vertex]=1;
+                    }
+                }
+            }
+            for(auto &ppt:ppts)
+            {
+                if(ppt.epsilon<bucket||ppt.mu<mu) continue;
+                for(auto cs_id:ppt.componet_core_ids)
+                {
+                    for(auto vertex:non_cores[cs_id])
+                    {
+                        // Query processing labels all selected core vertices
+                        // before considering non-cores. Stale/redundant border
+                        // occurrences therefore have no semantic effect.
+                        if(!core_mark[vertex]) result.push_back(vertex);
+                    }
+                }
+            }
+            sort(result.begin(),result.end());
+            result.erase(unique(result.begin(),result.end()),result.end());
+            return result;
+        }
+
+#if 0
+        // Verification mode is retained for debugging, but it is not exposed
+        // by the rebuild and entry-level maintenance experiments.
+        void verify_ppt_update_by_full_reconstruction()
+        {
+            vector<vector<vector<vector<int>>>> incremental_results(
+                DELTA,vector<vector<vector<int>>>(dmax+2));
+            vector<vector<vector<int>>> incremental_non_core_sets(
+                DELTA,vector<vector<int>>(dmax+2));
+            for(int bucket=1;bucket<DELTA;bucket++)
+            {
+                for(int mu=2;mu<=dmax+1;mu++)
+                {
+                    incremental_results[bucket][mu]=
+                        collect_clusters_for_update_check(bucket,mu,false);
+                    incremental_non_core_sets[bucket][mu]=
+                        collect_non_cores_for_update_check(bucket,mu);
+                }
+            }
+
+            // Keep the incremental index because subsequent updates must continue
+            // from the state produced by way 1 rather than from the oracle.
+            vector<PPT> incremental_ppts=move(ppts);
+            vector<vector<int>> incremental_cluster_slices=move(cluster_slices);
+            vector<vector<int>> incremental_non_cores=move(non_cores);
+            unordered_map<pair<int,int>,int,PairHash> incremental_point2ppt=move(point2ppt);
+            vector<vector<int>> incremental_vertex2ppt=move(vertex2ppt);
+            vector<vector<int>> incremental_vertex2cs=move(vertex2cs);
+            vector<int> incremental_cs2ppt=move(cs2ppt);
+            vector<int> incremental_free_cs_ids=move(free_update_cs_ids);
+            vector<vector<int>> incremental_ppt_matrix=move(ppt_matrix);
+            vector<vector<int>> incremental_table_ppts=move(table_ppts);
+            vector<int> incremental_max_mu(DELTA,1);
+            for(int i=0;i<DELTA;i++) incremental_max_mu[i]=max_mu_under_epsilon[i];
+            int incremental_ppt_max_id=ppt_max_id;
+
+            double old_total_build_time=total_build_time;
+            double old_total_build_space=total_build_space;
+            double old_core_vertices_space=core_vertices_space;
+            double old_non_core_vertices_space=non_core_vertices_space;
+            double old_edge_space=edge_space;
+            double old_connectivity_space=connectivity_space;
+
+            clear_ppt_structure_for_update();
+            construct_ppt_vertex_map();
+            construct_componets();
+            prepare_query_structure_after_update();
+
+            bool correct=true;
+            bool non_core_error=false;
+            int wrong_bucket=-1;
+            int wrong_mu=-1;
+            for(int bucket=1;bucket<DELTA&&correct;bucket++)
+            {
+                for(int mu=2;mu<=dmax+1;mu++)
+                {
+                    vector<vector<int>> rebuilt_result=
+                        collect_clusters_for_update_check(bucket,mu,false);
+                    if(incremental_results[bucket][mu]!=rebuilt_result)
+                    {
+                        correct=false;
+                        wrong_bucket=bucket;
+                        wrong_mu=mu;
+                        break;
+                    }
+                    vector<int> rebuilt_non_cores=
+                        collect_non_cores_for_update_check(bucket,mu);
+                    if(incremental_non_core_sets[bucket][mu]!=rebuilt_non_cores)
+                    {
+                        correct=false;
+                        non_core_error=true;
+                        wrong_bucket=bucket;
+                        wrong_mu=mu;
+                        break;
+                    }
+                }
+            }
+
+            clear_ppt_structure_for_update();
+            ppts=move(incremental_ppts);
+            cluster_slices=move(incremental_cluster_slices);
+            non_cores=move(incremental_non_cores);
+            point2ppt=move(incremental_point2ppt);
+            vertex2ppt=move(incremental_vertex2ppt);
+            vertex2cs=move(incremental_vertex2cs);
+            cs2ppt=move(incremental_cs2ppt);
+            free_update_cs_ids=move(incremental_free_cs_ids);
+            ppt_matrix=move(incremental_ppt_matrix);
+            table_ppts=move(incremental_table_ppts);
+            max_mu_under_epsilon=new int[DELTA];
+            for(int i=0;i<DELTA;i++) max_mu_under_epsilon[i]=incremental_max_mu[i];
+            ppt_max_id=incremental_ppt_max_id;
+
+            total_build_time=old_total_build_time;
+            total_build_space=old_total_build_space;
+            core_vertices_space=old_core_vertices_space;
+            non_core_vertices_space=old_non_core_vertices_space;
+            edge_space=old_edge_space;
+            connectivity_space=old_connectivity_space;
+
+            if(correct)
+            {
+                cout<<"[UPDATE CHECK] PPT way 1 passed"<<endl;
+            }
+            else
+            {
+                cout<<"[UPDATE CHECK ERROR] epsilon bucket "<<wrong_bucket
+                    <<" mu "<<wrong_mu
+                    <<(non_core_error?" non-core coverage":" core connectivity")<<endl;
+            }
+        }
+#endif
+
+        void update(string update_type, int u, int v, int update_way) override
+        {
+            PPT_PROFILE(const auto similarity_begin=std::chrono::steady_clock().now();)
+            if(neighbor_order.empty())
+            {
+                fast_construct_neighbor_order();
+            }
+
+            if(update_way==1&&ppts.empty())
+            {
+                load_index();
+            }
+
+            vector<int> affected_vertices;
+            vector<vector<pair<int,int>>> affected_mu_intervals;
+            update_similarity_graph_for_ppt(
+                update_type,u,v,affected_vertices,affected_mu_intervals);
+            PPT_PROFILE(
+            const auto similarity_end=std::chrono::steady_clock().now();
+            tms similarity_time=similarity_end-similarity_begin;
+            )
+
+            if(update_way==0)
+            {
+                // Rebuild the complete PPT layer from the final similarity
+                // graph, matching Forest way 0's reconstruction baseline.
+                const auto update_begin=std::chrono::steady_clock().now();
+                clear_ppt_structure_for_update();
+                construct_ppt_vertex_map();
+                construct_componets();
+                prepare_query_structure_after_update();
+
+                const auto update_end=std::chrono::steady_clock().now();
+                tms update_time=update_end-update_begin;
+                total_update_time+=update_time.count();
+                update_count++;
+                cout<<"[UPDATE] update time : "<<update_time.count()<<endl;
+                return;
+            }
+            else if(update_way==1)
+            {
+                // Recompute affected PPT memberships, then rebuild their safe
+                // downward dominance closure. Higher epsilon entries retain
+                // their old slices and do not repeat component construction.
+                const auto update_begin=std::chrono::steady_clock().now();
+                PPT_PROFILE(
+                update_profile_select_time=0.0;
+                update_profile_cleanup_time=0.0;
+                update_profile_state_time=0.0;
+                update_profile_uf1_time=0.0;
+                update_profile_component_time=0.0;
+                update_profile_uf2_time=0.0;
+                update_profile_connectivity_time=0.0;
+                update_profile_epsilon_num=0;
+                update_profile_ppt_num=0;
+                update_profile_mu_num=0;
+                update_profile_subgraph_vertex_num=0;
+                update_profile_uf1_neighbor_num=0;
+                update_profile_cs_vertex_num=0;
+                update_profile_non_core_neighbor_num=0;
+                update_profile_uf2_cs_vertex_num=0;
+                update_profile_uf2_edge_num=0;
+                update_profile_connectivity_neighbor_num=0;
+                update_profile_new_edge_num=0;
+                update_profile_replace_edge_num=0;
+                update_profile_edge_num_before=0;
+                update_profile_edge_num_after=0;
+                for(auto &ppt:ppts)
+                {
+                    update_profile_edge_num_before+=ppt.edges.size();
+                }
+                )
+                vector<pair<int,int>> membership_changed_points;
+                PPT_PROFILE(const auto membership_begin=std::chrono::steady_clock().now();)
+                update_affected_ppt_membership(
+                    affected_vertices,membership_changed_points);
+                PPT_PROFILE(
+                const auto membership_end=std::chrono::steady_clock().now();
+                tms membership_time=membership_end-membership_begin;
+                )
+                if(affected_vertices.empty())
+                {
+                    const auto update_end=std::chrono::steady_clock().now();
+                    tms update_time=update_end-update_begin;
+                    total_update_time+=update_time.count();
+                    update_count++;
+                    cout<<"[UPDATE] PPT membership does not change"<<endl;
+                    cout<<"[UPDATE] update time : "<<update_time.count()<<endl;
+                    return;
+                }
+
+                // Estimate the dominance-space work without scanning graph
+                // edges. When local reconstruction covers at least 90% of the
+                // full PPT membership work, rebuilding is usually cheaper.
+                PPT_PROFILE(const auto adaptive_begin=std::chrono::steady_clock().now();)
+                vector<int> estimated_min_mu(DELTA,INT_MAX);
+                vector<int> estimated_affected_ppts=collect_affected_ppt_ids(
+                    affected_mu_intervals,membership_changed_points);
+                for(auto ppt_id:estimated_affected_ppts)
+                {
+                    PPT &ppt=ppts[ppt_id];
+                    estimated_min_mu[ppt.epsilon]=min(
+                        estimated_min_mu[ppt.epsilon],ppt.mu);
+                }
+
+                long long estimated_affected_work=0;
+                long long estimated_full_work=0;
+                for(int epsilon=1;epsilon<DELTA;epsilon++)
+                {
+                    for(auto &ppt:ppts)
+                    {
+                        if(ppt.vertices.empty()||ppt.epsilon<epsilon) continue;
+                        estimated_full_work+=ppt.vertices.size();
+                        if(estimated_min_mu[epsilon]!=INT_MAX&&
+                           ppt.mu>=estimated_min_mu[epsilon])
+                        {
+                            estimated_affected_work+=ppt.vertices.size();
+                        }
+                    }
+                }
+                double estimated_work_ratio=estimated_full_work==0?0.0:
+                    double(estimated_affected_work)/double(estimated_full_work);
+                PPT_PROFILE(
+                const auto adaptive_end=std::chrono::steady_clock().now();
+                tms adaptive_time=adaptive_end-adaptive_begin;
+                )
+                cout<<"[UPDATE ADAPTIVE] affected PPT: "
+                    <<estimated_affected_ppts.size()
+                    <<" affected work: "<<estimated_affected_work
+                    <<" full work: "<<estimated_full_work
+                    <<" ratio: "<<estimated_work_ratio;
+#ifdef PPT_UPDATE_PROFILE
+                cout<<" time: "<<adaptive_time.count();
+#endif
+                cout<<endl;
+
+                if(estimated_work_ratio>=0.9)
+                {
+                    cout<<"[UPDATE ADAPTIVE] use full reconstruction"<<endl;
+                    rebuild_ppt_structure_by_swap();
+
+                    const auto update_end=std::chrono::steady_clock().now();
+                    tms update_time=update_end-update_begin;
+                    total_update_time+=update_time.count();
+                    update_count++;
+                    cout<<"[UPDATE] update time : "<<update_time.count()<<endl;
+                    return;
+                }
+                table_ppts.clear();
+                core_vertices_space=0.0;
+                non_core_vertices_space=0.0;
+                edge_space=0.0;
+                connectivity_space=0.0;
+                total_build_space=0.0;
+                rebuild_affected_ppt_entries(
+                    affected_mu_intervals,membership_changed_points);
+                PPT_PROFILE(
+                for(auto &ppt:ppts)
+                {
+                    update_profile_edge_num_after+=ppt.edges.size();
+                }
+                )
+                PPT_PROFILE(const auto query_begin=std::chrono::steady_clock().now();)
+                prepare_query_structure_after_update();
+                PPT_PROFILE(
+                const auto query_end=std::chrono::steady_clock().now();
+                tms query_time=query_end-query_begin;
+                )
+                const auto update_end=std::chrono::steady_clock().now();
+
+                tms update_time=update_end-update_begin;
+                total_update_time+=update_time.count();
+                update_count++;
+                cout<<"[UPDATE] update time : "<<update_time.count()<<endl;
+                PPT_PROFILE(
+                cout<<"[UPDATE PROFILE] similarity: "<<similarity_time.count()
+                    <<" membership/maps: "<<membership_time.count()
+                    <<" select affected PPT: "<<update_profile_select_time
+                    <<" cleanup entries: "<<update_profile_cleanup_time<<endl;
+                cout<<"[UPDATE PROFILE] component state: "<<update_profile_state_time
+                    <<" UF1 connectivity: "<<update_profile_uf1_time
+                    <<" rebuild CS/non-core: "<<update_profile_component_time
+                    <<" inject UF2: "<<update_profile_uf2_time
+                    <<" search connectivity: "<<update_profile_connectivity_time<<endl;
+                cout<<"[UPDATE PROFILE] query structure: "<<query_time.count()
+                    <<" affected epsilon: "<<update_profile_epsilon_num
+                    <<" affected PPT: "<<update_profile_ppt_num
+                    <<" processed mu: "<<update_profile_mu_num
+                    <<" added subgraph vertices: "<<update_profile_subgraph_vertex_num
+                    <<endl;
+                cout<<"[UPDATE WORK] UF1 neighbor visits: "
+                    <<update_profile_uf1_neighbor_num
+                    <<" CS vertices: "<<update_profile_cs_vertex_num
+                    <<" non-core neighbor visits: "
+                    <<update_profile_non_core_neighbor_num<<endl;
+                cout<<"[UPDATE WORK] UF2 CS vertices: "
+                    <<update_profile_uf2_cs_vertex_num
+                    <<" UF2 edges: "<<update_profile_uf2_edge_num
+                    <<" connectivity neighbor visits: "
+                    <<update_profile_connectivity_neighbor_num<<endl;
+                cout<<"[UPDATE WORK] new edges: "<<update_profile_new_edge_num
+                    <<" replaced edges: "<<update_profile_replace_edge_num
+                    <<" stored edges before: "<<update_profile_edge_num_before
+                    <<" after: "<<update_profile_edge_num_after<<endl;
+                )
+                return;
+            }
+            else
+            {
+                cout<<"[ERROR] no such update way !!!"<<endl;
+                return;
+            }
+        }
+        void print_update_time() override
+        {
+            if(update_count==0) return;
+            cout<<"[PRINT TIME] average update time: "
+                <<total_update_time/double(update_count)<<endl;
+        }    
 };

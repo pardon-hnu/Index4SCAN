@@ -41,6 +41,10 @@ class BOTBIN : public SCAN_Index
         vector<vector<pair<int, int>>> neighbor_order;
         double total_ari=0.0;
         int query_count=0;
+        double bucket_space=0.0;
+        double neighbor_order_space=0.0;
+        double graph_space=0.0;
+        double total_bfs_time=0.0;
     public:
         BOTBIN(string dataset,float rho=0.1,float failure_pb=0.001,int delta=10)
         {
@@ -224,6 +228,7 @@ class BOTBIN : public SCAN_Index
         {
             clear_cluster_result();
             cout<<"[CLUSTER] clustering with BOTBIN start !!!"<<endl;
+            double query_bfs_time=0.0;
             const auto begin=std::chrono::steady_clock().now();
             int locate_bucket=locate(epsilon);
             cout<<"search from bucket["<<locate_bucket<<"]"<<endl;
@@ -232,6 +237,7 @@ class BOTBIN : public SCAN_Index
                 if(labels[core.second]!=-1) continue;
                 if(core.first<mu-1) break;
                 // cout<<"begin cluster from core: "<<core.second<<endl;
+                const auto bfs_begin=std::chrono::steady_clock().now();
                 queue<int> cluster;
                 unordered_set<int> cluster_set;
                 cluster.push(core.second);
@@ -263,9 +269,18 @@ class BOTBIN : public SCAN_Index
                 }
                 // cout<<endl;
                 cluster_number++;
+                const auto bfs_end=std::chrono::steady_clock().now();
+                tms bfs_time=bfs_end-bfs_begin;
+                // cout<<"[TIME COST] "<<bfs_time.count()<<" s."<<endl;
+                // cout<<"cluster time: "<<bfs_time.count()<<" s."<<endl;
+                query_bfs_time+=bfs_time.count();
             }
             const auto end=std::chrono::steady_clock().now();
             tms cluster_time=end-begin;
+            total_bfs_time+=query_bfs_time;
+            cout<<"[QUERY PROFILE] epsilon="<<double(epsilon)/PRECISION<<" mu="<<mu
+                <<" query_time_s="<<cluster_time.count()<<" bfs_time_s="<<query_bfs_time
+                <<" bfs_ratio="<<(cluster_time.count()>0.0 ? query_bfs_time/cluster_time.count() : 0.0)<<endl;
             cout<<"[CLSUTER] finish clustering!!!"<<endl;
             cout<<"[TIME COST] "<<cluster_time.count()<<" s."<<endl;
             total_cluster_time+=cluster_time.count();
@@ -299,6 +314,8 @@ class BOTBIN : public SCAN_Index
             {
                 total_build_space+=item.size()*8;
             }
+            neighbor_order_space=total_build_space;
+            graph_space=total_build_space/2;
         }
         void construct_bucket_index()
         {
@@ -338,12 +355,28 @@ class BOTBIN : public SCAN_Index
             {
                 total_build_space+=item.size()*8;
             }
+            bucket_space=total_build_space-neighbor_order_space;
         }
         void construct() override
         {
             construct_bottom_k_sketch();
             construct_neighbor_order();
             construct_bucket_index();
+        }
+        void obtain_space_ratio()
+        {
+            for(auto &item:neighbor_order)
+            {
+                neighbor_order_space+=item.size()*8;
+            }
+            graph_space=neighbor_order_space/2;
+            for(auto &item:bucket)
+            {
+                bucket_space+=item.size()*8;
+            }
+            cout<<"[PRINT SPACE INFORMATION] neighbor order space cost: "<<(neighbor_order_space/1024)/1024<<".MB"<<endl;
+            cout<<"[PRINT SPACE INFORMATION] bucket index space cost: "<<(bucket_space/1024)/1024<<".MB"<<endl;
+            cout<<"[PRINT SPACE INFORMATION] graph space cost: "<<(graph_space/1024)/1024<<".MB"<<endl;
         }
         void query(float epsilon, int mu) override
         {
@@ -383,10 +416,16 @@ class BOTBIN : public SCAN_Index
         {
             cout<<"[PRINT TIME] total building time: "<<total_build_time<<endl;
             cout<<"[PRINT SPAEC]: total space cost: "<<(total_build_space/1024)/1024<<" MB"<<endl;
+            cout<<"[PRINT SPACE INFORMATION] neighbor order space cost: "<<(neighbor_order_space/1024)/1024<<".MB"<<endl;
+            cout<<"[PRINT SPACE INFORMATION] bucket index space cost: "<<(bucket_space/1024)/1024<<".MB"<<endl;
+            cout<<"[PRINT SPACE INFORMATION] graph space cost: "<<(graph_space/1024)/1024<<".MB"<<endl;
         }
         void print_cluster_time() override
         {
             cout<<"[PRINT TIME] total clustering time: "<<total_cluster_time<<endl;
+            cout<<"[PRINT TIME] total bfs time: "<<total_bfs_time<<endl;
+            cout<<"[PRINT TIME] average bfs time: "<<(query_count>0 ? total_bfs_time/query_count : 0.0)<<endl;
+            cout<<"[PRINT TIME] bfs ratio: "<<(total_cluster_time>0.0 ? total_bfs_time/total_cluster_time : 0.0)<<endl;
             cout<<"[PRINT TIME] average clustering time: "<<total_cluster_time/double(query_count)<<endl;
             #ifdef EVALUATION_CLUSTERING_QUALITY
                 cout<<"[PRINT ARI] average ARI score: "<<total_ari/double(query_count)<<endl;
@@ -509,5 +548,15 @@ class BOTBIN : public SCAN_Index
             }
             read_index.close();
             cout<<"[LOAD INDEX] finish !!!!"<<endl;
+            obtain_space_ratio();
         }
+
+        void update(string update_type, int u, int v, int update_way) override
+        {
+            cout<<"[Error] current version of BOTBIN can not support update"<<endl;
+        }
+        void print_update_time() override
+        {
+            cout<<"[Error] current version of BOTBIN can not support update"<<endl;
+        }    
 };

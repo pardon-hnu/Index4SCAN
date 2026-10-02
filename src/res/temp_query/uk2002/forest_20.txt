@@ -1,0 +1,6007 @@
+[LOAD GRAPH] start!!! graph: uk2002 filepath: /home/hnu/Disk0/ParDon/graph/uk2002.txt
+graph size: 18483186
+edge size: 261787258
+[LOAD GRAPH] success!!!
+[LOAD INDEX] start !!!!
+load tree 0 and it has 0 nodes 
+load tree 1 and it has 1313625 nodes 
+load tree 2 and it has 1931420 nodes 
+load tree 3 and it has 2293859 nodes 
+load tree 4 and it has 2467282 nodes 
+load tree 5 and it has 2547815 nodes 
+load tree 6 and it has 2539466 nodes 
+load tree 7 and it has 2500411 nodes 
+load tree 8 and it has 2517633 nodes 
+load tree 9 and it has 2397779 nodes 
+load tree 10 and it has 2399736 nodes 
+load tree 11 and it has 2198324 nodes 
+load tree 12 and it has 2124514 nodes 
+load tree 13 and it has 1987402 nodes 
+load tree 14 and it has 1805383 nodes 
+load tree 15 and it has 1670053 nodes 
+load tree 16 and it has 1440422 nodes 
+load tree 17 and it has 1191305 nodes 
+load tree 18 and it has 962942 nodes 
+load tree 19 and it has 684317 nodes 
+[LOAD INDEX] finish!
+epsilon: 0.8 mu: 2
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.373561 s.
+[QUERY] cluster number: 978729
+[EVALUATION] ari index score: 0.999892
+epsilon: 0.8 mu: 3
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.278042 s.
+[QUERY] cluster number: 531822
+[EVALUATION] ari index score: 0.999909
+epsilon: 0.8 mu: 4
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.221903 s.
+[QUERY] cluster number: 352176
+[EVALUATION] ari index score: 0.998277
+epsilon: 0.8 mu: 5
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.189642 s.
+[QUERY] cluster number: 258015
+[EVALUATION] ari index score: 0.998559
+epsilon: 0.8 mu: 6
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.156805 s.
+[QUERY] cluster number: 199078
+[EVALUATION] ari index score: 0.998717
+epsilon: 0.8 mu: 7
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.151142 s.
+[QUERY] cluster number: 157752
+[EVALUATION] ari index score: 0.999068
+epsilon: 0.8 mu: 8
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.156252 s.
+[QUERY] cluster number: 125689
+[EVALUATION] ari index score: 0.999173
+epsilon: 0.8 mu: 9
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.121512 s.
+[QUERY] cluster number: 101155
+[EVALUATION] ari index score: 0.999436
+epsilon: 0.8 mu: 10
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.115355 s.
+[QUERY] cluster number: 82293
+[EVALUATION] ari index score: 0.999482
+epsilon: 0.8 mu: 11
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.115505 s.
+[QUERY] cluster number: 68465
+[EVALUATION] ari index score: 0.999554
+epsilon: 0.8 mu: 12
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.111954 s.
+[QUERY] cluster number: 57097
+[EVALUATION] ari index score: 0.999674
+epsilon: 0.8 mu: 13
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.102736 s.
+[QUERY] cluster number: 48012
+[EVALUATION] ari index score: 0.999752
+epsilon: 0.8 mu: 14
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.10448 s.
+[QUERY] cluster number: 41024
+[EVALUATION] ari index score: 0.99985
+epsilon: 0.8 mu: 15
+[QUERY] Start
+search from 16 th tree
+[QUERY] finish
+[TIME COST] 0.0966282 s.
+[QUERY] cluster number: 35844
+[EVALUATION] ari index score: 0.999812
+epsilon: 0.79 mu: 2
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.459742 s.
+[QUERY] cluster number: 1080038
+[EVALUATION] ari index score: 0.904856
+epsilon: 0.79 mu: 3
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.347731 s.
+[QUERY] cluster number: 592011
+[EVALUATION] ari index score: 0.91261
+epsilon: 0.79 mu: 4
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.263047 s.
+[QUERY] cluster number: 393499
+[EVALUATION] ari index score: 0.913164
+epsilon: 0.79 mu: 5
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.221546 s.
+[QUERY] cluster number: 293276
+[EVALUATION] ari index score: 0.940681
+epsilon: 0.79 mu: 6
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.281181 s.
+[QUERY] cluster number: 227427
+[EVALUATION] ari index score: 0.954208
+epsilon: 0.79 mu: 7
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.266587 s.
+[QUERY] cluster number: 181055
+[EVALUATION] ari index score: 0.961052
+epsilon: 0.79 mu: 8
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.235671 s.
+[QUERY] cluster number: 144681
+[EVALUATION] ari index score: 0.974351
+epsilon: 0.79 mu: 9
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.22611 s.
+[QUERY] cluster number: 117007
+[EVALUATION] ari index score: 0.983663
+epsilon: 0.79 mu: 10
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.219351 s.
+[QUERY] cluster number: 95924
+[EVALUATION] ari index score: 0.988269
+epsilon: 0.79 mu: 11
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.201608 s.
+[QUERY] cluster number: 80037
+[EVALUATION] ari index score: 0.99192
+epsilon: 0.79 mu: 12
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.197724 s.
+[QUERY] cluster number: 66418
+[EVALUATION] ari index score: 0.99352
+epsilon: 0.79 mu: 13
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.194333 s.
+[QUERY] cluster number: 55826
+[EVALUATION] ari index score: 0.994309
+epsilon: 0.79 mu: 14
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.190814 s.
+[QUERY] cluster number: 47796
+[EVALUATION] ari index score: 0.9951
+epsilon: 0.79 mu: 15
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.18376 s.
+[QUERY] cluster number: 41647
+[EVALUATION] ari index score: 0.995785
+epsilon: 0.78 mu: 2
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.556521 s.
+[QUERY] cluster number: 1080038
+[EVALUATION] ari index score: 0.923768
+epsilon: 0.78 mu: 3
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.476571 s.
+[QUERY] cluster number: 592011
+[EVALUATION] ari index score: 0.929373
+epsilon: 0.78 mu: 4
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.3723 s.
+[QUERY] cluster number: 393499
+[EVALUATION] ari index score: 0.929821
+epsilon: 0.78 mu: 5
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.322949 s.
+[QUERY] cluster number: 293276
+[EVALUATION] ari index score: 0.94882
+epsilon: 0.78 mu: 6
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.281686 s.
+[QUERY] cluster number: 227427
+[EVALUATION] ari index score: 0.962137
+epsilon: 0.78 mu: 7
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.259461 s.
+[QUERY] cluster number: 181055
+[EVALUATION] ari index score: 0.966244
+epsilon: 0.78 mu: 8
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.24474 s.
+[QUERY] cluster number: 144681
+[EVALUATION] ari index score: 0.976984
+epsilon: 0.78 mu: 9
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.234524 s.
+[QUERY] cluster number: 117007
+[EVALUATION] ari index score: 0.983412
+epsilon: 0.78 mu: 10
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.215811 s.
+[QUERY] cluster number: 95924
+[EVALUATION] ari index score: 0.988757
+epsilon: 0.78 mu: 11
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.209376 s.
+[QUERY] cluster number: 80037
+[EVALUATION] ari index score: 0.992537
+epsilon: 0.78 mu: 12
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.20192 s.
+[QUERY] cluster number: 66418
+[EVALUATION] ari index score: 0.994344
+epsilon: 0.78 mu: 13
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.195179 s.
+[QUERY] cluster number: 55826
+[EVALUATION] ari index score: 0.994884
+epsilon: 0.78 mu: 14
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.193952 s.
+[QUERY] cluster number: 47796
+[EVALUATION] ari index score: 0.995448
+epsilon: 0.78 mu: 15
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.18076 s.
+[QUERY] cluster number: 41647
+[EVALUATION] ari index score: 0.99582
+epsilon: 0.77 mu: 2
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.556309 s.
+[QUERY] cluster number: 1080038
+[EVALUATION] ari index score: 0.944681
+epsilon: 0.77 mu: 3
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.469735 s.
+[QUERY] cluster number: 592011
+[EVALUATION] ari index score: 0.948346
+epsilon: 0.77 mu: 4
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.361314 s.
+[QUERY] cluster number: 393499
+[EVALUATION] ari index score: 0.943228
+epsilon: 0.77 mu: 5
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.311416 s.
+[QUERY] cluster number: 293276
+[EVALUATION] ari index score: 0.966069
+epsilon: 0.77 mu: 6
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.289259 s.
+[QUERY] cluster number: 227427
+[EVALUATION] ari index score: 0.970282
+epsilon: 0.77 mu: 7
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.256349 s.
+[QUERY] cluster number: 181055
+[EVALUATION] ari index score: 0.975018
+epsilon: 0.77 mu: 8
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.262588 s.
+[QUERY] cluster number: 144681
+[EVALUATION] ari index score: 0.979515
+epsilon: 0.77 mu: 9
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.233911 s.
+[QUERY] cluster number: 117007
+[EVALUATION] ari index score: 0.984124
+epsilon: 0.77 mu: 10
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.206667 s.
+[QUERY] cluster number: 95924
+[EVALUATION] ari index score: 0.989342
+epsilon: 0.77 mu: 11
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.202814 s.
+[QUERY] cluster number: 80037
+[EVALUATION] ari index score: 0.993027
+epsilon: 0.77 mu: 12
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.221493 s.
+[QUERY] cluster number: 66418
+[EVALUATION] ari index score: 0.994772
+epsilon: 0.77 mu: 13
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.195336 s.
+[QUERY] cluster number: 55826
+[EVALUATION] ari index score: 0.995277
+epsilon: 0.77 mu: 14
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.179227 s.
+[QUERY] cluster number: 47796
+[EVALUATION] ari index score: 0.995522
+epsilon: 0.77 mu: 15
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.258439 s.
+[QUERY] cluster number: 41647
+[EVALUATION] ari index score: 0.995621
+epsilon: 0.76 mu: 2
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.510949 s.
+[QUERY] cluster number: 1080038
+[EVALUATION] ari index score: 0.968721
+epsilon: 0.76 mu: 3
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.413268 s.
+[QUERY] cluster number: 592011
+[EVALUATION] ari index score: 0.970738
+epsilon: 0.76 mu: 4
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.311249 s.
+[QUERY] cluster number: 393499
+[EVALUATION] ari index score: 0.966338
+epsilon: 0.76 mu: 5
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.267743 s.
+[QUERY] cluster number: 293276
+[EVALUATION] ari index score: 0.979016
+epsilon: 0.76 mu: 6
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.246317 s.
+[QUERY] cluster number: 227427
+[EVALUATION] ari index score: 0.980354
+epsilon: 0.76 mu: 7
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.227024 s.
+[QUERY] cluster number: 181055
+[EVALUATION] ari index score: 0.983728
+epsilon: 0.76 mu: 8
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.212099 s.
+[QUERY] cluster number: 144681
+[EVALUATION] ari index score: 0.987752
+epsilon: 0.76 mu: 9
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.197147 s.
+[QUERY] cluster number: 117007
+[EVALUATION] ari index score: 0.988247
+epsilon: 0.76 mu: 10
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.178911 s.
+[QUERY] cluster number: 95924
+[EVALUATION] ari index score: 0.991304
+epsilon: 0.76 mu: 11
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.171122 s.
+[QUERY] cluster number: 80037
+[EVALUATION] ari index score: 0.992953
+epsilon: 0.76 mu: 12
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.173094 s.
+[QUERY] cluster number: 66418
+[EVALUATION] ari index score: 0.996227
+epsilon: 0.76 mu: 13
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.158816 s.
+[QUERY] cluster number: 55826
+[EVALUATION] ari index score: 0.996552
+epsilon: 0.76 mu: 14
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.160173 s.
+[QUERY] cluster number: 47796
+[EVALUATION] ari index score: 0.996581
+epsilon: 0.76 mu: 15
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.154415 s.
+[QUERY] cluster number: 41647
+[EVALUATION] ari index score: 0.996497
+epsilon: 0.75 mu: 2
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.511096 s.
+[QUERY] cluster number: 1080038
+[EVALUATION] ari index score: 0.9999
+epsilon: 0.75 mu: 3
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.402453 s.
+[QUERY] cluster number: 592011
+[EVALUATION] ari index score: 0.999917
+epsilon: 0.75 mu: 4
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.316752 s.
+[QUERY] cluster number: 393499
+[EVALUATION] ari index score: 0.996951
+epsilon: 0.75 mu: 5
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.275238 s.
+[QUERY] cluster number: 293276
+[EVALUATION] ari index score: 0.997105
+epsilon: 0.75 mu: 6
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.238118 s.
+[QUERY] cluster number: 227427
+[EVALUATION] ari index score: 0.997351
+epsilon: 0.75 mu: 7
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.221443 s.
+[QUERY] cluster number: 181055
+[EVALUATION] ari index score: 0.996909
+epsilon: 0.75 mu: 8
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.206422 s.
+[QUERY] cluster number: 144681
+[EVALUATION] ari index score: 0.997625
+epsilon: 0.75 mu: 9
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.190322 s.
+[QUERY] cluster number: 117007
+[EVALUATION] ari index score: 0.997847
+epsilon: 0.75 mu: 10
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.170233 s.
+[QUERY] cluster number: 95924
+[EVALUATION] ari index score: 0.997776
+epsilon: 0.75 mu: 11
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.161575 s.
+[QUERY] cluster number: 80037
+[EVALUATION] ari index score: 0.998312
+epsilon: 0.75 mu: 12
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.159426 s.
+[QUERY] cluster number: 66418
+[EVALUATION] ari index score: 0.998635
+epsilon: 0.75 mu: 13
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.156333 s.
+[QUERY] cluster number: 55826
+[EVALUATION] ari index score: 0.998832
+epsilon: 0.75 mu: 14
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.152733 s.
+[QUERY] cluster number: 47796
+[EVALUATION] ari index score: 0.998803
+epsilon: 0.75 mu: 15
+[QUERY] Start
+search from 15 th tree
+[QUERY] finish
+[TIME COST] 0.152141 s.
+[QUERY] cluster number: 41647
+[EVALUATION] ari index score: 0.998864
+epsilon: 0.74 mu: 2
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.653345 s.
+[QUERY] cluster number: 1099165
+[EVALUATION] ari index score: 0.886313
+epsilon: 0.74 mu: 3
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.537999 s.
+[QUERY] cluster number: 621707
+[EVALUATION] ari index score: 0.893918
+epsilon: 0.74 mu: 4
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.470688 s.
+[QUERY] cluster number: 421773
+[EVALUATION] ari index score: 0.898269
+epsilon: 0.74 mu: 5
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.296714 s.
+[QUERY] cluster number: 323858
+[EVALUATION] ari index score: 0.91015
+epsilon: 0.74 mu: 6
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.270082 s.
+[QUERY] cluster number: 254209
+[EVALUATION] ari index score: 0.928069
+epsilon: 0.74 mu: 7
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.245316 s.
+[QUERY] cluster number: 204623
+[EVALUATION] ari index score: 0.942944
+epsilon: 0.74 mu: 8
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.28927 s.
+[QUERY] cluster number: 164946
+[EVALUATION] ari index score: 0.946452
+epsilon: 0.74 mu: 9
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.240032 s.
+[QUERY] cluster number: 133806
+[EVALUATION] ari index score: 0.960054
+epsilon: 0.74 mu: 10
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.25315 s.
+[QUERY] cluster number: 109863
+[EVALUATION] ari index score: 0.966706
+epsilon: 0.74 mu: 11
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.165124 s.
+[QUERY] cluster number: 92286
+[EVALUATION] ari index score: 0.969586
+epsilon: 0.74 mu: 12
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.15204 s.
+[QUERY] cluster number: 76438
+[EVALUATION] ari index score: 0.975438
+epsilon: 0.74 mu: 13
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.15045 s.
+[QUERY] cluster number: 64403
+[EVALUATION] ari index score: 0.979394
+epsilon: 0.74 mu: 14
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.154348 s.
+[QUERY] cluster number: 55184
+[EVALUATION] ari index score: 0.98511
+epsilon: 0.74 mu: 15
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.142657 s.
+[QUERY] cluster number: 48233
+[EVALUATION] ari index score: 0.986819
+epsilon: 0.73 mu: 2
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.425245 s.
+[QUERY] cluster number: 1099165
+[EVALUATION] ari index score: 0.922119
+epsilon: 0.73 mu: 3
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.367011 s.
+[QUERY] cluster number: 621707
+[EVALUATION] ari index score: 0.927688
+epsilon: 0.73 mu: 4
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.282095 s.
+[QUERY] cluster number: 421773
+[EVALUATION] ari index score: 0.919944
+epsilon: 0.73 mu: 5
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.245031 s.
+[QUERY] cluster number: 323858
+[EVALUATION] ari index score: 0.92609
+epsilon: 0.73 mu: 6
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.222088 s.
+[QUERY] cluster number: 254209
+[EVALUATION] ari index score: 0.938426
+epsilon: 0.73 mu: 7
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.21054 s.
+[QUERY] cluster number: 204623
+[EVALUATION] ari index score: 0.953402
+epsilon: 0.73 mu: 8
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.190502 s.
+[QUERY] cluster number: 164946
+[EVALUATION] ari index score: 0.953229
+epsilon: 0.73 mu: 9
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.178247 s.
+[QUERY] cluster number: 133806
+[EVALUATION] ari index score: 0.962963
+epsilon: 0.73 mu: 10
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.169892 s.
+[QUERY] cluster number: 109863
+[EVALUATION] ari index score: 0.969798
+epsilon: 0.73 mu: 11
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.159465 s.
+[QUERY] cluster number: 92286
+[EVALUATION] ari index score: 0.975927
+epsilon: 0.73 mu: 12
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.156654 s.
+[QUERY] cluster number: 76438
+[EVALUATION] ari index score: 0.979003
+epsilon: 0.73 mu: 13
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.15425 s.
+[QUERY] cluster number: 64403
+[EVALUATION] ari index score: 0.981164
+epsilon: 0.73 mu: 14
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.15114 s.
+[QUERY] cluster number: 55184
+[EVALUATION] ari index score: 0.986276
+epsilon: 0.73 mu: 15
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.143171 s.
+[QUERY] cluster number: 48233
+[EVALUATION] ari index score: 0.988596
+epsilon: 0.72 mu: 2
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.426071 s.
+[QUERY] cluster number: 1099165
+[EVALUATION] ari index score: 0.946104
+epsilon: 0.72 mu: 3
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.370464 s.
+[QUERY] cluster number: 621707
+[EVALUATION] ari index score: 0.949657
+epsilon: 0.72 mu: 4
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.280639 s.
+[QUERY] cluster number: 421773
+[EVALUATION] ari index score: 0.943177
+epsilon: 0.72 mu: 5
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.251384 s.
+[QUERY] cluster number: 323858
+[EVALUATION] ari index score: 0.948028
+epsilon: 0.72 mu: 6
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.221259 s.
+[QUERY] cluster number: 254209
+[EVALUATION] ari index score: 0.95253
+epsilon: 0.72 mu: 7
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.206868 s.
+[QUERY] cluster number: 204623
+[EVALUATION] ari index score: 0.966656
+epsilon: 0.72 mu: 8
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.193444 s.
+[QUERY] cluster number: 164946
+[EVALUATION] ari index score: 0.969487
+epsilon: 0.72 mu: 9
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.180887 s.
+[QUERY] cluster number: 133806
+[EVALUATION] ari index score: 0.970777
+epsilon: 0.72 mu: 10
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.16744 s.
+[QUERY] cluster number: 109863
+[EVALUATION] ari index score: 0.976965
+epsilon: 0.72 mu: 11
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.161985 s.
+[QUERY] cluster number: 92286
+[EVALUATION] ari index score: 0.981764
+epsilon: 0.72 mu: 12
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.158202 s.
+[QUERY] cluster number: 76438
+[EVALUATION] ari index score: 0.984113
+epsilon: 0.72 mu: 13
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.155168 s.
+[QUERY] cluster number: 64403
+[EVALUATION] ari index score: 0.985731
+epsilon: 0.72 mu: 14
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.143427 s.
+[QUERY] cluster number: 55184
+[EVALUATION] ari index score: 0.989075
+epsilon: 0.72 mu: 15
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.142731 s.
+[QUERY] cluster number: 48233
+[EVALUATION] ari index score: 0.991455
+epsilon: 0.71 mu: 2
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.436207 s.
+[QUERY] cluster number: 1099165
+[EVALUATION] ari index score: 0.971939
+epsilon: 0.71 mu: 3
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.531823 s.
+[QUERY] cluster number: 621707
+[EVALUATION] ari index score: 0.973773
+epsilon: 0.71 mu: 4
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.33914 s.
+[QUERY] cluster number: 421773
+[EVALUATION] ari index score: 0.971782
+epsilon: 0.71 mu: 5
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.247653 s.
+[QUERY] cluster number: 323858
+[EVALUATION] ari index score: 0.973192
+epsilon: 0.71 mu: 6
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.226394 s.
+[QUERY] cluster number: 254209
+[EVALUATION] ari index score: 0.974181
+epsilon: 0.71 mu: 7
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.202755 s.
+[QUERY] cluster number: 204623
+[EVALUATION] ari index score: 0.983394
+epsilon: 0.71 mu: 8
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.192881 s.
+[QUERY] cluster number: 164946
+[EVALUATION] ari index score: 0.984222
+epsilon: 0.71 mu: 9
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.183004 s.
+[QUERY] cluster number: 133806
+[EVALUATION] ari index score: 0.981191
+epsilon: 0.71 mu: 10
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.175109 s.
+[QUERY] cluster number: 109863
+[EVALUATION] ari index score: 0.98855
+epsilon: 0.71 mu: 11
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.161915 s.
+[QUERY] cluster number: 92286
+[EVALUATION] ari index score: 0.991483
+epsilon: 0.71 mu: 12
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.154183 s.
+[QUERY] cluster number: 76438
+[EVALUATION] ari index score: 0.991876
+epsilon: 0.71 mu: 13
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.152966 s.
+[QUERY] cluster number: 64403
+[EVALUATION] ari index score: 0.993226
+epsilon: 0.71 mu: 14
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.146521 s.
+[QUERY] cluster number: 55184
+[EVALUATION] ari index score: 0.992724
+epsilon: 0.71 mu: 15
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.14367 s.
+[QUERY] cluster number: 48233
+[EVALUATION] ari index score: 0.994159
+epsilon: 0.7 mu: 2
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.471683 s.
+[QUERY] cluster number: 1099165
+[EVALUATION] ari index score: 0.999881
+epsilon: 0.7 mu: 3
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.366178 s.
+[QUERY] cluster number: 621707
+[EVALUATION] ari index score: 0.999896
+epsilon: 0.7 mu: 4
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.298232 s.
+[QUERY] cluster number: 421773
+[EVALUATION] ari index score: 0.997198
+epsilon: 0.7 mu: 5
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.255996 s.
+[QUERY] cluster number: 323858
+[EVALUATION] ari index score: 0.996352
+epsilon: 0.7 mu: 6
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.230277 s.
+[QUERY] cluster number: 254209
+[EVALUATION] ari index score: 0.996414
+epsilon: 0.7 mu: 7
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.203517 s.
+[QUERY] cluster number: 204623
+[EVALUATION] ari index score: 0.996138
+epsilon: 0.7 mu: 8
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.195716 s.
+[QUERY] cluster number: 164946
+[EVALUATION] ari index score: 0.996054
+epsilon: 0.7 mu: 9
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.18218 s.
+[QUERY] cluster number: 133806
+[EVALUATION] ari index score: 0.996403
+epsilon: 0.7 mu: 10
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.17391 s.
+[QUERY] cluster number: 109863
+[EVALUATION] ari index score: 0.995538
+epsilon: 0.7 mu: 11
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.161652 s.
+[QUERY] cluster number: 92286
+[EVALUATION] ari index score: 0.996217
+epsilon: 0.7 mu: 12
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.163151 s.
+[QUERY] cluster number: 76438
+[EVALUATION] ari index score: 0.997105
+epsilon: 0.7 mu: 13
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.154873 s.
+[QUERY] cluster number: 64403
+[EVALUATION] ari index score: 0.99717
+epsilon: 0.7 mu: 14
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.151876 s.
+[QUERY] cluster number: 55184
+[EVALUATION] ari index score: 0.997167
+epsilon: 0.7 mu: 15
+[QUERY] Start
+search from 14 th tree
+[QUERY] finish
+[TIME COST] 0.152819 s.
+[QUERY] cluster number: 48233
+[EVALUATION] ari index score: 0.996842
+epsilon: 0.69 mu: 2
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.711641 s.
+[QUERY] cluster number: 1168325
+[EVALUATION] ari index score: 0.909511
+epsilon: 0.69 mu: 3
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.396249 s.
+[QUERY] cluster number: 646384
+[EVALUATION] ari index score: 0.915896
+epsilon: 0.69 mu: 4
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.326744 s.
+[QUERY] cluster number: 446469
+[EVALUATION] ari index score: 0.908475
+epsilon: 0.69 mu: 5
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.29365 s.
+[QUERY] cluster number: 348515
+[EVALUATION] ari index score: 0.909013
+epsilon: 0.69 mu: 6
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.264325 s.
+[QUERY] cluster number: 280440
+[EVALUATION] ari index score: 0.919939
+epsilon: 0.69 mu: 7
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.254936 s.
+[QUERY] cluster number: 229156
+[EVALUATION] ari index score: 0.935386
+epsilon: 0.69 mu: 8
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.233809 s.
+[QUERY] cluster number: 185782
+[EVALUATION] ari index score: 0.949063
+epsilon: 0.69 mu: 9
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.22019 s.
+[QUERY] cluster number: 152190
+[EVALUATION] ari index score: 0.952609
+epsilon: 0.69 mu: 10
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.199966 s.
+[QUERY] cluster number: 126181
+[EVALUATION] ari index score: 0.957352
+epsilon: 0.69 mu: 11
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.201964 s.
+[QUERY] cluster number: 106181
+[EVALUATION] ari index score: 0.958518
+epsilon: 0.69 mu: 12
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.192879 s.
+[QUERY] cluster number: 88840
+[EVALUATION] ari index score: 0.970379
+epsilon: 0.69 mu: 13
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.192607 s.
+[QUERY] cluster number: 75380
+[EVALUATION] ari index score: 0.975567
+epsilon: 0.69 mu: 14
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.174978 s.
+[QUERY] cluster number: 64844
+[EVALUATION] ari index score: 0.976792
+epsilon: 0.69 mu: 15
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.174681 s.
+[QUERY] cluster number: 56604
+[EVALUATION] ari index score: 0.976762
+epsilon: 0.68 mu: 2
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.493751 s.
+[QUERY] cluster number: 1168325
+[EVALUATION] ari index score: 0.933825
+epsilon: 0.68 mu: 3
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.418044 s.
+[QUERY] cluster number: 646384
+[EVALUATION] ari index score: 0.938356
+epsilon: 0.68 mu: 4
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.319148 s.
+[QUERY] cluster number: 446469
+[EVALUATION] ari index score: 0.933444
+epsilon: 0.68 mu: 5
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.299954 s.
+[QUERY] cluster number: 348515
+[EVALUATION] ari index score: 0.930263
+epsilon: 0.68 mu: 6
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.267156 s.
+[QUERY] cluster number: 280440
+[EVALUATION] ari index score: 0.933675
+epsilon: 0.68 mu: 7
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.255928 s.
+[QUERY] cluster number: 229156
+[EVALUATION] ari index score: 0.946791
+epsilon: 0.68 mu: 8
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.22391 s.
+[QUERY] cluster number: 185782
+[EVALUATION] ari index score: 0.959608
+epsilon: 0.68 mu: 9
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.211934 s.
+[QUERY] cluster number: 152190
+[EVALUATION] ari index score: 0.960885
+epsilon: 0.68 mu: 10
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.204718 s.
+[QUERY] cluster number: 126181
+[EVALUATION] ari index score: 0.966583
+epsilon: 0.68 mu: 11
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.2073 s.
+[QUERY] cluster number: 106181
+[EVALUATION] ari index score: 0.969911
+epsilon: 0.68 mu: 12
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.184742 s.
+[QUERY] cluster number: 88840
+[EVALUATION] ari index score: 0.975525
+epsilon: 0.68 mu: 13
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.179201 s.
+[QUERY] cluster number: 75380
+[EVALUATION] ari index score: 0.981905
+epsilon: 0.68 mu: 14
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.185453 s.
+[QUERY] cluster number: 64844
+[EVALUATION] ari index score: 0.982837
+epsilon: 0.68 mu: 15
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.179769 s.
+[QUERY] cluster number: 56604
+[EVALUATION] ari index score: 0.982869
+epsilon: 0.67 mu: 2
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.483886 s.
+[QUERY] cluster number: 1168325
+[EVALUATION] ari index score: 0.951405
+epsilon: 0.67 mu: 3
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.410407 s.
+[QUERY] cluster number: 646384
+[EVALUATION] ari index score: 0.954409
+epsilon: 0.67 mu: 4
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.319452 s.
+[QUERY] cluster number: 446469
+[EVALUATION] ari index score: 0.95443
+epsilon: 0.67 mu: 5
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.298124 s.
+[QUERY] cluster number: 348515
+[EVALUATION] ari index score: 0.953329
+epsilon: 0.67 mu: 6
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.276058 s.
+[QUERY] cluster number: 280440
+[EVALUATION] ari index score: 0.948975
+epsilon: 0.67 mu: 7
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.2463 s.
+[QUERY] cluster number: 229156
+[EVALUATION] ari index score: 0.958772
+epsilon: 0.67 mu: 8
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.236006 s.
+[QUERY] cluster number: 185782
+[EVALUATION] ari index score: 0.96736
+epsilon: 0.67 mu: 9
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.22133 s.
+[QUERY] cluster number: 152190
+[EVALUATION] ari index score: 0.972124
+epsilon: 0.67 mu: 10
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.204156 s.
+[QUERY] cluster number: 126181
+[EVALUATION] ari index score: 0.974157
+epsilon: 0.67 mu: 11
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.192657 s.
+[QUERY] cluster number: 106181
+[EVALUATION] ari index score: 0.977381
+epsilon: 0.67 mu: 12
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.188567 s.
+[QUERY] cluster number: 88840
+[EVALUATION] ari index score: 0.978293
+epsilon: 0.67 mu: 13
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.183932 s.
+[QUERY] cluster number: 75380
+[EVALUATION] ari index score: 0.985923
+epsilon: 0.67 mu: 14
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.175437 s.
+[QUERY] cluster number: 64844
+[EVALUATION] ari index score: 0.986454
+epsilon: 0.67 mu: 15
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.174544 s.
+[QUERY] cluster number: 56604
+[EVALUATION] ari index score: 0.986272
+epsilon: 0.66 mu: 2
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.526556 s.
+[QUERY] cluster number: 1168325
+[EVALUATION] ari index score: 0.975486
+epsilon: 0.66 mu: 3
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.400751 s.
+[QUERY] cluster number: 646384
+[EVALUATION] ari index score: 0.976809
+epsilon: 0.66 mu: 4
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.336597 s.
+[QUERY] cluster number: 446469
+[EVALUATION] ari index score: 0.973145
+epsilon: 0.66 mu: 5
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.291815 s.
+[QUERY] cluster number: 348515
+[EVALUATION] ari index score: 0.970228
+epsilon: 0.66 mu: 6
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.269304 s.
+[QUERY] cluster number: 280440
+[EVALUATION] ari index score: 0.971804
+epsilon: 0.66 mu: 7
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.239708 s.
+[QUERY] cluster number: 229156
+[EVALUATION] ari index score: 0.977292
+epsilon: 0.66 mu: 8
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.232881 s.
+[QUERY] cluster number: 185782
+[EVALUATION] ari index score: 0.980012
+epsilon: 0.66 mu: 9
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.220833 s.
+[QUERY] cluster number: 152190
+[EVALUATION] ari index score: 0.982898
+epsilon: 0.66 mu: 10
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.204633 s.
+[QUERY] cluster number: 126181
+[EVALUATION] ari index score: 0.980634
+epsilon: 0.66 mu: 11
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.189648 s.
+[QUERY] cluster number: 106181
+[EVALUATION] ari index score: 0.984629
+epsilon: 0.66 mu: 12
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.186833 s.
+[QUERY] cluster number: 88840
+[EVALUATION] ari index score: 0.984018
+epsilon: 0.66 mu: 13
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.186322 s.
+[QUERY] cluster number: 75380
+[EVALUATION] ari index score: 0.989882
+epsilon: 0.66 mu: 14
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.171495 s.
+[QUERY] cluster number: 64844
+[EVALUATION] ari index score: 0.990581
+epsilon: 0.66 mu: 15
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.174879 s.
+[QUERY] cluster number: 56604
+[EVALUATION] ari index score: 0.989664
+epsilon: 0.65 mu: 2
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.497354 s.
+[QUERY] cluster number: 1168325
+[EVALUATION] ari index score: 0.999922
+epsilon: 0.65 mu: 3
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.406484 s.
+[QUERY] cluster number: 646384
+[EVALUATION] ari index score: 0.999932
+epsilon: 0.65 mu: 4
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.320287 s.
+[QUERY] cluster number: 446469
+[EVALUATION] ari index score: 0.997403
+epsilon: 0.65 mu: 5
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.289041 s.
+[QUERY] cluster number: 348515
+[EVALUATION] ari index score: 0.995805
+epsilon: 0.65 mu: 6
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.259661 s.
+[QUERY] cluster number: 280440
+[EVALUATION] ari index score: 0.995127
+epsilon: 0.65 mu: 7
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.252232 s.
+[QUERY] cluster number: 229156
+[EVALUATION] ari index score: 0.994644
+epsilon: 0.65 mu: 8
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.23011 s.
+[QUERY] cluster number: 185782
+[EVALUATION] ari index score: 0.994469
+epsilon: 0.65 mu: 9
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.216655 s.
+[QUERY] cluster number: 152190
+[EVALUATION] ari index score: 0.994615
+epsilon: 0.65 mu: 10
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.208278 s.
+[QUERY] cluster number: 126181
+[EVALUATION] ari index score: 0.993753
+epsilon: 0.65 mu: 11
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.193199 s.
+[QUERY] cluster number: 106181
+[EVALUATION] ari index score: 0.993762
+epsilon: 0.65 mu: 12
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.195279 s.
+[QUERY] cluster number: 88840
+[EVALUATION] ari index score: 0.993077
+epsilon: 0.65 mu: 13
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.181663 s.
+[QUERY] cluster number: 75380
+[EVALUATION] ari index score: 0.995135
+epsilon: 0.65 mu: 14
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.181997 s.
+[QUERY] cluster number: 64844
+[EVALUATION] ari index score: 0.99531
+epsilon: 0.65 mu: 15
+[QUERY] Start
+search from 13 th tree
+[QUERY] finish
+[TIME COST] 0.171065 s.
+[QUERY] cluster number: 56604
+[EVALUATION] ari index score: 0.994948
+epsilon: 0.64 mu: 2
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.771357 s.
+[QUERY] cluster number: 1181952
+[EVALUATION] ari index score: 0.892405
+epsilon: 0.64 mu: 3
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.447981 s.
+[QUERY] cluster number: 674744
+[EVALUATION] ari index score: 0.900118
+epsilon: 0.64 mu: 4
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.368534 s.
+[QUERY] cluster number: 467682
+[EVALUATION] ari index score: 0.892933
+epsilon: 0.64 mu: 5
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.328207 s.
+[QUERY] cluster number: 372369
+[EVALUATION] ari index score: 0.899886
+epsilon: 0.64 mu: 6
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.30107 s.
+[QUERY] cluster number: 302336
+[EVALUATION] ari index score: 0.903808
+epsilon: 0.64 mu: 7
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.288878 s.
+[QUERY] cluster number: 250365
+[EVALUATION] ari index score: 0.909555
+epsilon: 0.64 mu: 8
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.265204 s.
+[QUERY] cluster number: 209281
+[EVALUATION] ari index score: 0.911592
+epsilon: 0.64 mu: 9
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.259209 s.
+[QUERY] cluster number: 173418
+[EVALUATION] ari index score: 0.916239
+epsilon: 0.64 mu: 10
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.236089 s.
+[QUERY] cluster number: 143737
+[EVALUATION] ari index score: 0.926913
+epsilon: 0.64 mu: 11
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.22721 s.
+[QUERY] cluster number: 122302
+[EVALUATION] ari index score: 0.931088
+epsilon: 0.64 mu: 12
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.215901 s.
+[QUERY] cluster number: 102914
+[EVALUATION] ari index score: 0.929776
+epsilon: 0.64 mu: 13
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.223804 s.
+[QUERY] cluster number: 88266
+[EVALUATION] ari index score: 0.933938
+epsilon: 0.64 mu: 14
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.209606 s.
+[QUERY] cluster number: 76257
+[EVALUATION] ari index score: 0.936163
+epsilon: 0.64 mu: 15
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.197809 s.
+[QUERY] cluster number: 66924
+[EVALUATION] ari index score: 0.942684
+epsilon: 0.63 mu: 2
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.529143 s.
+[QUERY] cluster number: 1181952
+[EVALUATION] ari index score: 0.916017
+epsilon: 0.63 mu: 3
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.501838 s.
+[QUERY] cluster number: 674744
+[EVALUATION] ari index score: 0.922009
+epsilon: 0.63 mu: 4
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.368326 s.
+[QUERY] cluster number: 467682
+[EVALUATION] ari index score: 0.914724
+epsilon: 0.63 mu: 5
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.335076 s.
+[QUERY] cluster number: 372369
+[EVALUATION] ari index score: 0.920046
+epsilon: 0.63 mu: 6
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.301962 s.
+[QUERY] cluster number: 302336
+[EVALUATION] ari index score: 0.923657
+epsilon: 0.63 mu: 7
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.284624 s.
+[QUERY] cluster number: 250365
+[EVALUATION] ari index score: 0.926083
+epsilon: 0.63 mu: 8
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.268099 s.
+[QUERY] cluster number: 209281
+[EVALUATION] ari index score: 0.930688
+epsilon: 0.63 mu: 9
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.246417 s.
+[QUERY] cluster number: 173418
+[EVALUATION] ari index score: 0.931247
+epsilon: 0.63 mu: 10
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.249179 s.
+[QUERY] cluster number: 143737
+[EVALUATION] ari index score: 0.939249
+epsilon: 0.63 mu: 11
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.223792 s.
+[QUERY] cluster number: 122302
+[EVALUATION] ari index score: 0.943525
+epsilon: 0.63 mu: 12
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.215305 s.
+[QUERY] cluster number: 102914
+[EVALUATION] ari index score: 0.942573
+epsilon: 0.63 mu: 13
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.2141 s.
+[QUERY] cluster number: 88266
+[EVALUATION] ari index score: 0.940949
+epsilon: 0.63 mu: 14
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.203313 s.
+[QUERY] cluster number: 76257
+[EVALUATION] ari index score: 0.941672
+epsilon: 0.63 mu: 15
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.198755 s.
+[QUERY] cluster number: 66924
+[EVALUATION] ari index score: 0.946017
+epsilon: 0.62 mu: 2
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.533504 s.
+[QUERY] cluster number: 1181952
+[EVALUATION] ari index score: 0.944047
+epsilon: 0.62 mu: 3
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.447595 s.
+[QUERY] cluster number: 674744
+[EVALUATION] ari index score: 0.948536
+epsilon: 0.62 mu: 4
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.383077 s.
+[QUERY] cluster number: 467682
+[EVALUATION] ari index score: 0.936018
+epsilon: 0.62 mu: 5
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.332421 s.
+[QUERY] cluster number: 372369
+[EVALUATION] ari index score: 0.9414
+epsilon: 0.62 mu: 6
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.30562 s.
+[QUERY] cluster number: 302336
+[EVALUATION] ari index score: 0.943571
+epsilon: 0.62 mu: 7
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.284555 s.
+[QUERY] cluster number: 250365
+[EVALUATION] ari index score: 0.947916
+epsilon: 0.62 mu: 8
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.262195 s.
+[QUERY] cluster number: 209281
+[EVALUATION] ari index score: 0.951397
+epsilon: 0.62 mu: 9
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.257956 s.
+[QUERY] cluster number: 173418
+[EVALUATION] ari index score: 0.953255
+epsilon: 0.62 mu: 10
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.23303 s.
+[QUERY] cluster number: 143737
+[EVALUATION] ari index score: 0.956215
+epsilon: 0.62 mu: 11
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.233159 s.
+[QUERY] cluster number: 122302
+[EVALUATION] ari index score: 0.958401
+epsilon: 0.62 mu: 12
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.22329 s.
+[QUERY] cluster number: 102914
+[EVALUATION] ari index score: 0.956518
+epsilon: 0.62 mu: 13
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.209468 s.
+[QUERY] cluster number: 88266
+[EVALUATION] ari index score: 0.955657
+epsilon: 0.62 mu: 14
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.207091 s.
+[QUERY] cluster number: 76257
+[EVALUATION] ari index score: 0.955625
+epsilon: 0.62 mu: 15
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.199333 s.
+[QUERY] cluster number: 66924
+[EVALUATION] ari index score: 0.955683
+epsilon: 0.61 mu: 2
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.55304 s.
+[QUERY] cluster number: 1181952
+[EVALUATION] ari index score: 0.966172
+epsilon: 0.61 mu: 3
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.451526 s.
+[QUERY] cluster number: 674744
+[EVALUATION] ari index score: 0.969031
+epsilon: 0.61 mu: 4
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.366077 s.
+[QUERY] cluster number: 467682
+[EVALUATION] ari index score: 0.960612
+epsilon: 0.61 mu: 5
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.333662 s.
+[QUERY] cluster number: 372369
+[EVALUATION] ari index score: 0.962899
+epsilon: 0.61 mu: 6
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.317949 s.
+[QUERY] cluster number: 302336
+[EVALUATION] ari index score: 0.963514
+epsilon: 0.61 mu: 7
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.285303 s.
+[QUERY] cluster number: 250365
+[EVALUATION] ari index score: 0.965054
+epsilon: 0.61 mu: 8
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.268661 s.
+[QUERY] cluster number: 209281
+[EVALUATION] ari index score: 0.966825
+epsilon: 0.61 mu: 9
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.245674 s.
+[QUERY] cluster number: 173418
+[EVALUATION] ari index score: 0.970224
+epsilon: 0.61 mu: 10
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.236832 s.
+[QUERY] cluster number: 143737
+[EVALUATION] ari index score: 0.969736
+epsilon: 0.61 mu: 11
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.229609 s.
+[QUERY] cluster number: 122302
+[EVALUATION] ari index score: 0.970448
+epsilon: 0.61 mu: 12
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.227378 s.
+[QUERY] cluster number: 102914
+[EVALUATION] ari index score: 0.968641
+epsilon: 0.61 mu: 13
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.211937 s.
+[QUERY] cluster number: 88266
+[EVALUATION] ari index score: 0.965908
+epsilon: 0.61 mu: 14
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.206386 s.
+[QUERY] cluster number: 76257
+[EVALUATION] ari index score: 0.967212
+epsilon: 0.61 mu: 15
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.222338 s.
+[QUERY] cluster number: 66924
+[EVALUATION] ari index score: 0.964243
+epsilon: 0.6 mu: 2
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.52551 s.
+[QUERY] cluster number: 1181952
+[EVALUATION] ari index score: 0.9999
+epsilon: 0.6 mu: 3
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.471436 s.
+[QUERY] cluster number: 674744
+[EVALUATION] ari index score: 0.999911
+epsilon: 0.6 mu: 4
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.376339 s.
+[QUERY] cluster number: 467682
+[EVALUATION] ari index score: 0.996526
+epsilon: 0.6 mu: 5
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.338349 s.
+[QUERY] cluster number: 372369
+[EVALUATION] ari index score: 0.995226
+epsilon: 0.6 mu: 6
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.304543 s.
+[QUERY] cluster number: 302336
+[EVALUATION] ari index score: 0.994468
+epsilon: 0.6 mu: 7
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.291585 s.
+[QUERY] cluster number: 250365
+[EVALUATION] ari index score: 0.993744
+epsilon: 0.6 mu: 8
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.268404 s.
+[QUERY] cluster number: 209281
+[EVALUATION] ari index score: 0.993615
+epsilon: 0.6 mu: 9
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.251017 s.
+[QUERY] cluster number: 173418
+[EVALUATION] ari index score: 0.993073
+epsilon: 0.6 mu: 10
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.247459 s.
+[QUERY] cluster number: 143737
+[EVALUATION] ari index score: 0.992756
+epsilon: 0.6 mu: 11
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.230686 s.
+[QUERY] cluster number: 122302
+[EVALUATION] ari index score: 0.991866
+epsilon: 0.6 mu: 12
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.225823 s.
+[QUERY] cluster number: 102914
+[EVALUATION] ari index score: 0.991537
+epsilon: 0.6 mu: 13
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.220541 s.
+[QUERY] cluster number: 88266
+[EVALUATION] ari index score: 0.992372
+epsilon: 0.6 mu: 14
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.204209 s.
+[QUERY] cluster number: 76257
+[EVALUATION] ari index score: 0.992938
+epsilon: 0.6 mu: 15
+[QUERY] Start
+search from 12 th tree
+[QUERY] finish
+[TIME COST] 0.200559 s.
+[QUERY] cluster number: 66924
+[EVALUATION] ari index score: 0.99272
+epsilon: 0.59 mu: 2
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.834101 s.
+[QUERY] cluster number: 1155279
+[EVALUATION] ari index score: 0.922832
+epsilon: 0.59 mu: 3
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.489792 s.
+[QUERY] cluster number: 674917
+[EVALUATION] ari index score: 0.927466
+epsilon: 0.59 mu: 4
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.407541 s.
+[QUERY] cluster number: 481700
+[EVALUATION] ari index score: 0.920173
+epsilon: 0.59 mu: 5
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.363916 s.
+[QUERY] cluster number: 389633
+[EVALUATION] ari index score: 0.911811
+epsilon: 0.59 mu: 6
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.365791 s.
+[QUERY] cluster number: 322814
+[EVALUATION] ari index score: 0.912281
+epsilon: 0.59 mu: 7
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.315921 s.
+[QUERY] cluster number: 266152
+[EVALUATION] ari index score: 0.915508
+epsilon: 0.59 mu: 8
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.30904 s.
+[QUERY] cluster number: 225439
+[EVALUATION] ari index score: 0.917971
+epsilon: 0.59 mu: 9
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.278915 s.
+[QUERY] cluster number: 190380
+[EVALUATION] ari index score: 0.927502
+epsilon: 0.59 mu: 10
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.277097 s.
+[QUERY] cluster number: 160458
+[EVALUATION] ari index score: 0.932522
+epsilon: 0.59 mu: 11
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.27475 s.
+[QUERY] cluster number: 137969
+[EVALUATION] ari index score: 0.93901
+epsilon: 0.59 mu: 12
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.24977 s.
+[QUERY] cluster number: 116944
+[EVALUATION] ari index score: 0.94174
+epsilon: 0.59 mu: 13
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.246995 s.
+[QUERY] cluster number: 101241
+[EVALUATION] ari index score: 0.94602
+epsilon: 0.59 mu: 14
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.23763 s.
+[QUERY] cluster number: 88173
+[EVALUATION] ari index score: 0.952907
+epsilon: 0.59 mu: 15
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.240967 s.
+[QUERY] cluster number: 77878
+[EVALUATION] ari index score: 0.956236
+epsilon: 0.58 mu: 2
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.587433 s.
+[QUERY] cluster number: 1155279
+[EVALUATION] ari index score: 0.922832
+epsilon: 0.58 mu: 3
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.485949 s.
+[QUERY] cluster number: 674917
+[EVALUATION] ari index score: 0.927466
+epsilon: 0.58 mu: 4
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.401707 s.
+[QUERY] cluster number: 481700
+[EVALUATION] ari index score: 0.920173
+epsilon: 0.58 mu: 5
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.377905 s.
+[QUERY] cluster number: 389633
+[EVALUATION] ari index score: 0.911811
+epsilon: 0.58 mu: 6
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.347962 s.
+[QUERY] cluster number: 322814
+[EVALUATION] ari index score: 0.912281
+epsilon: 0.58 mu: 7
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.317771 s.
+[QUERY] cluster number: 266152
+[EVALUATION] ari index score: 0.915508
+epsilon: 0.58 mu: 8
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.30505 s.
+[QUERY] cluster number: 225439
+[EVALUATION] ari index score: 0.917971
+epsilon: 0.58 mu: 9
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.291734 s.
+[QUERY] cluster number: 190380
+[EVALUATION] ari index score: 0.927502
+epsilon: 0.58 mu: 10
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.26788 s.
+[QUERY] cluster number: 160458
+[EVALUATION] ari index score: 0.932522
+epsilon: 0.58 mu: 11
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.267472 s.
+[QUERY] cluster number: 137969
+[EVALUATION] ari index score: 0.93901
+epsilon: 0.58 mu: 12
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.250875 s.
+[QUERY] cluster number: 116944
+[EVALUATION] ari index score: 0.94174
+epsilon: 0.58 mu: 13
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.248472 s.
+[QUERY] cluster number: 101241
+[EVALUATION] ari index score: 0.94602
+epsilon: 0.58 mu: 14
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.232862 s.
+[QUERY] cluster number: 88173
+[EVALUATION] ari index score: 0.952907
+epsilon: 0.58 mu: 15
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.232557 s.
+[QUERY] cluster number: 77878
+[EVALUATION] ari index score: 0.956236
+epsilon: 0.57 mu: 2
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.583183 s.
+[QUERY] cluster number: 1155279
+[EVALUATION] ari index score: 0.944672
+epsilon: 0.57 mu: 3
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.485555 s.
+[QUERY] cluster number: 674917
+[EVALUATION] ari index score: 0.947738
+epsilon: 0.57 mu: 4
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.418384 s.
+[QUERY] cluster number: 481700
+[EVALUATION] ari index score: 0.943607
+epsilon: 0.57 mu: 5
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.380472 s.
+[QUERY] cluster number: 389633
+[EVALUATION] ari index score: 0.93751
+epsilon: 0.57 mu: 6
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.337324 s.
+[QUERY] cluster number: 322814
+[EVALUATION] ari index score: 0.936882
+epsilon: 0.57 mu: 7
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.32601 s.
+[QUERY] cluster number: 266152
+[EVALUATION] ari index score: 0.939617
+epsilon: 0.57 mu: 8
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.300002 s.
+[QUERY] cluster number: 225439
+[EVALUATION] ari index score: 0.940356
+epsilon: 0.57 mu: 9
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.280031 s.
+[QUERY] cluster number: 190380
+[EVALUATION] ari index score: 0.946214
+epsilon: 0.57 mu: 10
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.278277 s.
+[QUERY] cluster number: 160458
+[EVALUATION] ari index score: 0.94766
+epsilon: 0.57 mu: 11
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.277678 s.
+[QUERY] cluster number: 137969
+[EVALUATION] ari index score: 0.955838
+epsilon: 0.57 mu: 12
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.248018 s.
+[QUERY] cluster number: 116944
+[EVALUATION] ari index score: 0.959577
+epsilon: 0.57 mu: 13
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.245983 s.
+[QUERY] cluster number: 101241
+[EVALUATION] ari index score: 0.963016
+epsilon: 0.57 mu: 14
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.236076 s.
+[QUERY] cluster number: 88173
+[EVALUATION] ari index score: 0.96701
+epsilon: 0.57 mu: 15
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.239967 s.
+[QUERY] cluster number: 77878
+[EVALUATION] ari index score: 0.965543
+epsilon: 0.56 mu: 2
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.573124 s.
+[QUERY] cluster number: 1155279
+[EVALUATION] ari index score: 0.973558
+epsilon: 0.56 mu: 3
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.516612 s.
+[QUERY] cluster number: 674917
+[EVALUATION] ari index score: 0.974962
+epsilon: 0.56 mu: 4
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.420553 s.
+[QUERY] cluster number: 481700
+[EVALUATION] ari index score: 0.969636
+epsilon: 0.56 mu: 5
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.37339 s.
+[QUERY] cluster number: 389633
+[EVALUATION] ari index score: 0.966235
+epsilon: 0.56 mu: 6
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.340442 s.
+[QUERY] cluster number: 322814
+[EVALUATION] ari index score: 0.967643
+epsilon: 0.56 mu: 7
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.322764 s.
+[QUERY] cluster number: 266152
+[EVALUATION] ari index score: 0.966066
+epsilon: 0.56 mu: 8
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.30791 s.
+[QUERY] cluster number: 225439
+[EVALUATION] ari index score: 0.964957
+epsilon: 0.56 mu: 9
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.292103 s.
+[QUERY] cluster number: 190380
+[EVALUATION] ari index score: 0.968087
+epsilon: 0.56 mu: 10
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.271801 s.
+[QUERY] cluster number: 160458
+[EVALUATION] ari index score: 0.970178
+epsilon: 0.56 mu: 11
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.270335 s.
+[QUERY] cluster number: 137969
+[EVALUATION] ari index score: 0.974582
+epsilon: 0.56 mu: 12
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.255028 s.
+[QUERY] cluster number: 116944
+[EVALUATION] ari index score: 0.976943
+epsilon: 0.56 mu: 13
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.249728 s.
+[QUERY] cluster number: 101241
+[EVALUATION] ari index score: 0.979343
+epsilon: 0.56 mu: 14
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.244747 s.
+[QUERY] cluster number: 88173
+[EVALUATION] ari index score: 0.980291
+epsilon: 0.56 mu: 15
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.232252 s.
+[QUERY] cluster number: 77878
+[EVALUATION] ari index score: 0.981566
+epsilon: 0.55 mu: 2
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.555156 s.
+[QUERY] cluster number: 1155279
+[EVALUATION] ari index score: 0.999536
+epsilon: 0.55 mu: 3
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.509012 s.
+[QUERY] cluster number: 674917
+[EVALUATION] ari index score: 0.999548
+epsilon: 0.55 mu: 4
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.421165 s.
+[QUERY] cluster number: 481700
+[EVALUATION] ari index score: 0.996366
+epsilon: 0.55 mu: 5
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.372425 s.
+[QUERY] cluster number: 389633
+[EVALUATION] ari index score: 0.99527
+epsilon: 0.55 mu: 6
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.35392 s.
+[QUERY] cluster number: 322814
+[EVALUATION] ari index score: 0.994446
+epsilon: 0.55 mu: 7
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.325262 s.
+[QUERY] cluster number: 266152
+[EVALUATION] ari index score: 0.992421
+epsilon: 0.55 mu: 8
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.29991 s.
+[QUERY] cluster number: 225439
+[EVALUATION] ari index score: 0.992499
+epsilon: 0.55 mu: 9
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.277308 s.
+[QUERY] cluster number: 190380
+[EVALUATION] ari index score: 0.991209
+epsilon: 0.55 mu: 10
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.284415 s.
+[QUERY] cluster number: 160458
+[EVALUATION] ari index score: 0.991732
+epsilon: 0.55 mu: 11
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.262174 s.
+[QUERY] cluster number: 137969
+[EVALUATION] ari index score: 0.991136
+epsilon: 0.55 mu: 12
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.247685 s.
+[QUERY] cluster number: 116944
+[EVALUATION] ari index score: 0.990802
+epsilon: 0.55 mu: 13
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.251362 s.
+[QUERY] cluster number: 101241
+[EVALUATION] ari index score: 0.991049
+epsilon: 0.55 mu: 14
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.247231 s.
+[QUERY] cluster number: 88173
+[EVALUATION] ari index score: 0.99155
+epsilon: 0.55 mu: 15
+[QUERY] Start
+search from 11 th tree
+[QUERY] finish
+[TIME COST] 0.230773 s.
+[QUERY] cluster number: 77878
+[EVALUATION] ari index score: 0.992163
+epsilon: 0.54 mu: 2
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.935271 s.
+[QUERY] cluster number: 1207438
+[EVALUATION] ari index score: 0.867641
+epsilon: 0.54 mu: 3
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.901326 s.
+[QUERY] cluster number: 693093
+[EVALUATION] ari index score: 0.875909
+epsilon: 0.54 mu: 4
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.610081 s.
+[QUERY] cluster number: 493527
+[EVALUATION] ari index score: 0.880177
+epsilon: 0.54 mu: 5
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.579596 s.
+[QUERY] cluster number: 404955
+[EVALUATION] ari index score: 0.877584
+epsilon: 0.54 mu: 6
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.489507 s.
+[QUERY] cluster number: 342434
+[EVALUATION] ari index score: 0.880629
+epsilon: 0.54 mu: 7
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.456745 s.
+[QUERY] cluster number: 287327
+[EVALUATION] ari index score: 0.879733
+epsilon: 0.54 mu: 8
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.44173 s.
+[QUERY] cluster number: 243807
+[EVALUATION] ari index score: 0.880573
+epsilon: 0.54 mu: 9
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.427858 s.
+[QUERY] cluster number: 208356
+[EVALUATION] ari index score: 0.882424
+epsilon: 0.54 mu: 10
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.395836 s.
+[QUERY] cluster number: 177986
+[EVALUATION] ari index score: 0.884481
+epsilon: 0.54 mu: 11
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.426699 s.
+[QUERY] cluster number: 154497
+[EVALUATION] ari index score: 0.889221
+epsilon: 0.54 mu: 12
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.362364 s.
+[QUERY] cluster number: 133265
+[EVALUATION] ari index score: 0.899995
+epsilon: 0.54 mu: 13
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.364417 s.
+[QUERY] cluster number: 116503
+[EVALUATION] ari index score: 0.909105
+epsilon: 0.54 mu: 14
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.347783 s.
+[QUERY] cluster number: 102362
+[EVALUATION] ari index score: 0.912332
+epsilon: 0.54 mu: 15
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.342259 s.
+[QUERY] cluster number: 91161
+[EVALUATION] ari index score: 0.920064
+epsilon: 0.53 mu: 2
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.746098 s.
+[QUERY] cluster number: 1207438
+[EVALUATION] ari index score: 0.923148
+epsilon: 0.53 mu: 3
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.689476 s.
+[QUERY] cluster number: 693093
+[EVALUATION] ari index score: 0.927071
+epsilon: 0.53 mu: 4
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.596162 s.
+[QUERY] cluster number: 493527
+[EVALUATION] ari index score: 0.929507
+epsilon: 0.53 mu: 5
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.450746 s.
+[QUERY] cluster number: 404955
+[EVALUATION] ari index score: 0.930222
+epsilon: 0.53 mu: 6
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.430554 s.
+[QUERY] cluster number: 342434
+[EVALUATION] ari index score: 0.92935
+epsilon: 0.53 mu: 7
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.410513 s.
+[QUERY] cluster number: 287327
+[EVALUATION] ari index score: 0.929025
+epsilon: 0.53 mu: 8
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.368091 s.
+[QUERY] cluster number: 243807
+[EVALUATION] ari index score: 0.930454
+epsilon: 0.53 mu: 9
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.42107 s.
+[QUERY] cluster number: 208356
+[EVALUATION] ari index score: 0.932012
+epsilon: 0.53 mu: 10
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.32311 s.
+[QUERY] cluster number: 177986
+[EVALUATION] ari index score: 0.931789
+epsilon: 0.53 mu: 11
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.30584 s.
+[QUERY] cluster number: 154497
+[EVALUATION] ari index score: 0.934806
+epsilon: 0.53 mu: 12
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.296176 s.
+[QUERY] cluster number: 133265
+[EVALUATION] ari index score: 0.936603
+epsilon: 0.53 mu: 13
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.286033 s.
+[QUERY] cluster number: 116503
+[EVALUATION] ari index score: 0.937364
+epsilon: 0.53 mu: 14
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.279213 s.
+[QUERY] cluster number: 102362
+[EVALUATION] ari index score: 0.941178
+epsilon: 0.53 mu: 15
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.269528 s.
+[QUERY] cluster number: 91161
+[EVALUATION] ari index score: 0.945438
+epsilon: 0.52 mu: 2
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.651386 s.
+[QUERY] cluster number: 1207438
+[EVALUATION] ari index score: 0.923148
+epsilon: 0.52 mu: 3
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.545658 s.
+[QUERY] cluster number: 693093
+[EVALUATION] ari index score: 0.927071
+epsilon: 0.52 mu: 4
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.449629 s.
+[QUERY] cluster number: 493527
+[EVALUATION] ari index score: 0.929507
+epsilon: 0.52 mu: 5
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.412599 s.
+[QUERY] cluster number: 404955
+[EVALUATION] ari index score: 0.930222
+epsilon: 0.52 mu: 6
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.388886 s.
+[QUERY] cluster number: 342434
+[EVALUATION] ari index score: 0.92935
+epsilon: 0.52 mu: 7
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.402399 s.
+[QUERY] cluster number: 287327
+[EVALUATION] ari index score: 0.929025
+epsilon: 0.52 mu: 8
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.345676 s.
+[QUERY] cluster number: 243807
+[EVALUATION] ari index score: 0.930454
+epsilon: 0.52 mu: 9
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.326306 s.
+[QUERY] cluster number: 208356
+[EVALUATION] ari index score: 0.932012
+epsilon: 0.52 mu: 10
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.312371 s.
+[QUERY] cluster number: 177986
+[EVALUATION] ari index score: 0.931789
+epsilon: 0.52 mu: 11
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.301468 s.
+[QUERY] cluster number: 154497
+[EVALUATION] ari index score: 0.934806
+epsilon: 0.52 mu: 12
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.286448 s.
+[QUERY] cluster number: 133265
+[EVALUATION] ari index score: 0.936603
+epsilon: 0.52 mu: 13
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.283157 s.
+[QUERY] cluster number: 116503
+[EVALUATION] ari index score: 0.937364
+epsilon: 0.52 mu: 14
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.28028 s.
+[QUERY] cluster number: 102362
+[EVALUATION] ari index score: 0.941178
+epsilon: 0.52 mu: 15
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.275612 s.
+[QUERY] cluster number: 91161
+[EVALUATION] ari index score: 0.945438
+epsilon: 0.51 mu: 2
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.614798 s.
+[QUERY] cluster number: 1207438
+[EVALUATION] ari index score: 0.951559
+epsilon: 0.51 mu: 3
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.565189 s.
+[QUERY] cluster number: 693093
+[EVALUATION] ari index score: 0.953655
+epsilon: 0.51 mu: 4
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.455424 s.
+[QUERY] cluster number: 493527
+[EVALUATION] ari index score: 0.955938
+epsilon: 0.51 mu: 5
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.417006 s.
+[QUERY] cluster number: 404955
+[EVALUATION] ari index score: 0.954915
+epsilon: 0.51 mu: 6
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.406111 s.
+[QUERY] cluster number: 342434
+[EVALUATION] ari index score: 0.955921
+epsilon: 0.51 mu: 7
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.364929 s.
+[QUERY] cluster number: 287327
+[EVALUATION] ari index score: 0.954355
+epsilon: 0.51 mu: 8
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.344807 s.
+[QUERY] cluster number: 243807
+[EVALUATION] ari index score: 0.957504
+epsilon: 0.51 mu: 9
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.332755 s.
+[QUERY] cluster number: 208356
+[EVALUATION] ari index score: 0.954304
+epsilon: 0.51 mu: 10
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.311504 s.
+[QUERY] cluster number: 177986
+[EVALUATION] ari index score: 0.955039
+epsilon: 0.51 mu: 11
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.305194 s.
+[QUERY] cluster number: 154497
+[EVALUATION] ari index score: 0.958119
+epsilon: 0.51 mu: 12
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.292693 s.
+[QUERY] cluster number: 133265
+[EVALUATION] ari index score: 0.958311
+epsilon: 0.51 mu: 13
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.279222 s.
+[QUERY] cluster number: 116503
+[EVALUATION] ari index score: 0.956539
+epsilon: 0.51 mu: 14
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.274079 s.
+[QUERY] cluster number: 102362
+[EVALUATION] ari index score: 0.9586
+epsilon: 0.51 mu: 15
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.265981 s.
+[QUERY] cluster number: 91161
+[EVALUATION] ari index score: 0.962868
+epsilon: 0.5 mu: 2
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.623079 s.
+[QUERY] cluster number: 1207438
+[EVALUATION] ari index score: 0.9998
+epsilon: 0.5 mu: 3
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.559094 s.
+[QUERY] cluster number: 693093
+[EVALUATION] ari index score: 0.999801
+epsilon: 0.5 mu: 4
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.450824 s.
+[QUERY] cluster number: 493527
+[EVALUATION] ari index score: 0.99733
+epsilon: 0.5 mu: 5
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.423887 s.
+[QUERY] cluster number: 404955
+[EVALUATION] ari index score: 0.995479
+epsilon: 0.5 mu: 6
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.386656 s.
+[QUERY] cluster number: 342434
+[EVALUATION] ari index score: 0.994854
+epsilon: 0.5 mu: 7
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.359994 s.
+[QUERY] cluster number: 287327
+[EVALUATION] ari index score: 0.993416
+epsilon: 0.5 mu: 8
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.349045 s.
+[QUERY] cluster number: 243807
+[EVALUATION] ari index score: 0.99287
+epsilon: 0.5 mu: 9
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.330184 s.
+[QUERY] cluster number: 208356
+[EVALUATION] ari index score: 0.992109
+epsilon: 0.5 mu: 10
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.308351 s.
+[QUERY] cluster number: 177986
+[EVALUATION] ari index score: 0.991221
+epsilon: 0.5 mu: 11
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.308733 s.
+[QUERY] cluster number: 154497
+[EVALUATION] ari index score: 0.989115
+epsilon: 0.5 mu: 12
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.295775 s.
+[QUERY] cluster number: 133265
+[EVALUATION] ari index score: 0.989103
+epsilon: 0.5 mu: 13
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.277173 s.
+[QUERY] cluster number: 116503
+[EVALUATION] ari index score: 0.988415
+epsilon: 0.5 mu: 14
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.281022 s.
+[QUERY] cluster number: 102362
+[EVALUATION] ari index score: 0.988104
+epsilon: 0.5 mu: 15
+[QUERY] Start
+search from 10 th tree
+[QUERY] finish
+[TIME COST] 0.279438 s.
+[QUERY] cluster number: 91161
+[EVALUATION] ari index score: 0.987862
+epsilon: 0.49 mu: 2
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.938903 s.
+[QUERY] cluster number: 1152046
+[EVALUATION] ari index score: 0.882524
+epsilon: 0.49 mu: 3
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.809075 s.
+[QUERY] cluster number: 661204
+[EVALUATION] ari index score: 0.888901
+epsilon: 0.49 mu: 4
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.724495 s.
+[QUERY] cluster number: 476831
+[EVALUATION] ari index score: 0.880688
+epsilon: 0.49 mu: 5
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.669887 s.
+[QUERY] cluster number: 397677
+[EVALUATION] ari index score: 0.876963
+epsilon: 0.49 mu: 6
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.574835 s.
+[QUERY] cluster number: 340803
+[EVALUATION] ari index score: 0.8713
+epsilon: 0.49 mu: 7
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.550779 s.
+[QUERY] cluster number: 290467
+[EVALUATION] ari index score: 0.872739
+epsilon: 0.49 mu: 8
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.519813 s.
+[QUERY] cluster number: 250376
+[EVALUATION] ari index score: 0.877035
+epsilon: 0.49 mu: 9
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.520177 s.
+[QUERY] cluster number: 217209
+[EVALUATION] ari index score: 0.872449
+epsilon: 0.49 mu: 10
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.481078 s.
+[QUERY] cluster number: 188399
+[EVALUATION] ari index score: 0.875256
+epsilon: 0.49 mu: 11
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.458406 s.
+[QUERY] cluster number: 164287
+[EVALUATION] ari index score: 0.880289
+epsilon: 0.49 mu: 12
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.468296 s.
+[QUERY] cluster number: 143172
+[EVALUATION] ari index score: 0.886288
+epsilon: 0.49 mu: 13
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.438513 s.
+[QUERY] cluster number: 126617
+[EVALUATION] ari index score: 0.892147
+epsilon: 0.49 mu: 14
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.4263 s.
+[QUERY] cluster number: 112070
+[EVALUATION] ari index score: 0.896125
+epsilon: 0.49 mu: 15
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.404822 s.
+[QUERY] cluster number: 100532
+[EVALUATION] ari index score: 0.900804
+epsilon: 0.48 mu: 2
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.859375 s.
+[QUERY] cluster number: 1152046
+[EVALUATION] ari index score: 0.911956
+epsilon: 0.48 mu: 3
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.789063 s.
+[QUERY] cluster number: 661204
+[EVALUATION] ari index score: 0.916411
+epsilon: 0.48 mu: 4
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.789211 s.
+[QUERY] cluster number: 476831
+[EVALUATION] ari index score: 0.908454
+epsilon: 0.48 mu: 5
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.579927 s.
+[QUERY] cluster number: 397677
+[EVALUATION] ari index score: 0.908195
+epsilon: 0.48 mu: 6
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.535332 s.
+[QUERY] cluster number: 340803
+[EVALUATION] ari index score: 0.904801
+epsilon: 0.48 mu: 7
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.540501 s.
+[QUERY] cluster number: 290467
+[EVALUATION] ari index score: 0.903904
+epsilon: 0.48 mu: 8
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.488354 s.
+[QUERY] cluster number: 250376
+[EVALUATION] ari index score: 0.908293
+epsilon: 0.48 mu: 9
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.606583 s.
+[QUERY] cluster number: 217209
+[EVALUATION] ari index score: 0.905323
+epsilon: 0.48 mu: 10
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.346946 s.
+[QUERY] cluster number: 188399
+[EVALUATION] ari index score: 0.904652
+epsilon: 0.48 mu: 11
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.321988 s.
+[QUERY] cluster number: 164287
+[EVALUATION] ari index score: 0.910141
+epsilon: 0.48 mu: 12
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.328523 s.
+[QUERY] cluster number: 143172
+[EVALUATION] ari index score: 0.913849
+epsilon: 0.48 mu: 13
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.305063 s.
+[QUERY] cluster number: 126617
+[EVALUATION] ari index score: 0.9173
+epsilon: 0.48 mu: 14
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.298414 s.
+[QUERY] cluster number: 112070
+[EVALUATION] ari index score: 0.91866
+epsilon: 0.48 mu: 15
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.297076 s.
+[QUERY] cluster number: 100532
+[EVALUATION] ari index score: 0.925161
+epsilon: 0.47 mu: 2
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.624665 s.
+[QUERY] cluster number: 1152046
+[EVALUATION] ari index score: 0.939711
+epsilon: 0.47 mu: 3
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.57404 s.
+[QUERY] cluster number: 661204
+[EVALUATION] ari index score: 0.942872
+epsilon: 0.47 mu: 4
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.489634 s.
+[QUERY] cluster number: 476831
+[EVALUATION] ari index score: 0.934736
+epsilon: 0.47 mu: 5
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.448332 s.
+[QUERY] cluster number: 397677
+[EVALUATION] ari index score: 0.935891
+epsilon: 0.47 mu: 6
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.409679 s.
+[QUERY] cluster number: 340803
+[EVALUATION] ari index score: 0.932551
+epsilon: 0.47 mu: 7
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.387186 s.
+[QUERY] cluster number: 290467
+[EVALUATION] ari index score: 0.931519
+epsilon: 0.47 mu: 8
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.367242 s.
+[QUERY] cluster number: 250376
+[EVALUATION] ari index score: 0.934005
+epsilon: 0.47 mu: 9
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.361284 s.
+[QUERY] cluster number: 217209
+[EVALUATION] ari index score: 0.934897
+epsilon: 0.47 mu: 10
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.337776 s.
+[QUERY] cluster number: 188399
+[EVALUATION] ari index score: 0.934683
+epsilon: 0.47 mu: 11
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.324882 s.
+[QUERY] cluster number: 164287
+[EVALUATION] ari index score: 0.938674
+epsilon: 0.47 mu: 12
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.318526 s.
+[QUERY] cluster number: 143172
+[EVALUATION] ari index score: 0.942203
+epsilon: 0.47 mu: 13
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.310536 s.
+[QUERY] cluster number: 126617
+[EVALUATION] ari index score: 0.94087
+epsilon: 0.47 mu: 14
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.306409 s.
+[QUERY] cluster number: 112070
+[EVALUATION] ari index score: 0.943598
+epsilon: 0.47 mu: 15
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.287949 s.
+[QUERY] cluster number: 100532
+[EVALUATION] ari index score: 0.944493
+epsilon: 0.46 mu: 2
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.627255 s.
+[QUERY] cluster number: 1152046
+[EVALUATION] ari index score: 0.968602
+epsilon: 0.46 mu: 3
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.572684 s.
+[QUERY] cluster number: 661204
+[EVALUATION] ari index score: 0.970297
+epsilon: 0.46 mu: 4
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.476411 s.
+[QUERY] cluster number: 476831
+[EVALUATION] ari index score: 0.966015
+epsilon: 0.46 mu: 5
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.452765 s.
+[QUERY] cluster number: 397677
+[EVALUATION] ari index score: 0.968317
+epsilon: 0.46 mu: 6
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.408788 s.
+[QUERY] cluster number: 340803
+[EVALUATION] ari index score: 0.965672
+epsilon: 0.46 mu: 7
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.382427 s.
+[QUERY] cluster number: 290467
+[EVALUATION] ari index score: 0.964825
+epsilon: 0.46 mu: 8
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.378935 s.
+[QUERY] cluster number: 250376
+[EVALUATION] ari index score: 0.960806
+epsilon: 0.46 mu: 9
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.352069 s.
+[QUERY] cluster number: 217209
+[EVALUATION] ari index score: 0.96402
+epsilon: 0.46 mu: 10
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.338215 s.
+[QUERY] cluster number: 188399
+[EVALUATION] ari index score: 0.962477
+epsilon: 0.46 mu: 11
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.321096 s.
+[QUERY] cluster number: 164287
+[EVALUATION] ari index score: 0.96357
+epsilon: 0.46 mu: 12
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.329473 s.
+[QUERY] cluster number: 143172
+[EVALUATION] ari index score: 0.96378
+epsilon: 0.46 mu: 13
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.309897 s.
+[QUERY] cluster number: 126617
+[EVALUATION] ari index score: 0.965669
+epsilon: 0.46 mu: 14
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.295176 s.
+[QUERY] cluster number: 112070
+[EVALUATION] ari index score: 0.967524
+epsilon: 0.46 mu: 15
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.294137 s.
+[QUERY] cluster number: 100532
+[EVALUATION] ari index score: 0.967032
+epsilon: 0.45 mu: 2
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.633591 s.
+[QUERY] cluster number: 1152046
+[EVALUATION] ari index score: 0.999644
+epsilon: 0.45 mu: 3
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.569012 s.
+[QUERY] cluster number: 661204
+[EVALUATION] ari index score: 0.999651
+epsilon: 0.45 mu: 4
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.480279 s.
+[QUERY] cluster number: 476831
+[EVALUATION] ari index score: 0.997414
+epsilon: 0.45 mu: 5
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.451769 s.
+[QUERY] cluster number: 397677
+[EVALUATION] ari index score: 0.996034
+epsilon: 0.45 mu: 6
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.419677 s.
+[QUERY] cluster number: 340803
+[EVALUATION] ari index score: 0.995322
+epsilon: 0.45 mu: 7
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.39313 s.
+[QUERY] cluster number: 290467
+[EVALUATION] ari index score: 0.994561
+epsilon: 0.45 mu: 8
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.361268 s.
+[QUERY] cluster number: 250376
+[EVALUATION] ari index score: 0.993659
+epsilon: 0.45 mu: 9
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.349771 s.
+[QUERY] cluster number: 217209
+[EVALUATION] ari index score: 0.992316
+epsilon: 0.45 mu: 10
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.340437 s.
+[QUERY] cluster number: 188399
+[EVALUATION] ari index score: 0.991762
+epsilon: 0.45 mu: 11
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.326549 s.
+[QUERY] cluster number: 164287
+[EVALUATION] ari index score: 0.991519
+epsilon: 0.45 mu: 12
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.325897 s.
+[QUERY] cluster number: 143172
+[EVALUATION] ari index score: 0.990752
+epsilon: 0.45 mu: 13
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.306678 s.
+[QUERY] cluster number: 126617
+[EVALUATION] ari index score: 0.989886
+epsilon: 0.45 mu: 14
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.297122 s.
+[QUERY] cluster number: 112070
+[EVALUATION] ari index score: 0.988803
+epsilon: 0.45 mu: 15
+[QUERY] Start
+search from 9 th tree
+[QUERY] finish
+[TIME COST] 0.300581 s.
+[QUERY] cluster number: 100532
+[EVALUATION] ari index score: 0.988408
+epsilon: 0.44 mu: 2
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.99264 s.
+[QUERY] cluster number: 1143204
+[EVALUATION] ari index score: 0.868105
+epsilon: 0.44 mu: 3
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.622582 s.
+[QUERY] cluster number: 668065
+[EVALUATION] ari index score: 0.87576
+epsilon: 0.44 mu: 4
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.52903 s.
+[QUERY] cluster number: 476830
+[EVALUATION] ari index score: 0.871052
+epsilon: 0.44 mu: 5
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.500854 s.
+[QUERY] cluster number: 397282
+[EVALUATION] ari index score: 0.872338
+epsilon: 0.44 mu: 6
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.456926 s.
+[QUERY] cluster number: 343001
+[EVALUATION] ari index score: 0.870876
+epsilon: 0.44 mu: 7
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.432919 s.
+[QUERY] cluster number: 296968
+[EVALUATION] ari index score: 0.873365
+epsilon: 0.44 mu: 8
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.432212 s.
+[QUERY] cluster number: 260112
+[EVALUATION] ari index score: 0.872199
+epsilon: 0.44 mu: 9
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.396063 s.
+[QUERY] cluster number: 226964
+[EVALUATION] ari index score: 0.876425
+epsilon: 0.44 mu: 10
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.37504 s.
+[QUERY] cluster number: 199243
+[EVALUATION] ari index score: 0.878711
+epsilon: 0.44 mu: 11
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.363508 s.
+[QUERY] cluster number: 176448
+[EVALUATION] ari index score: 0.881939
+epsilon: 0.44 mu: 12
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.370736 s.
+[QUERY] cluster number: 155896
+[EVALUATION] ari index score: 0.879928
+epsilon: 0.44 mu: 13
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.348218 s.
+[QUERY] cluster number: 139604
+[EVALUATION] ari index score: 0.882582
+epsilon: 0.44 mu: 14
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.342798 s.
+[QUERY] cluster number: 125115
+[EVALUATION] ari index score: 0.886188
+epsilon: 0.44 mu: 15
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.328585 s.
+[QUERY] cluster number: 112750
+[EVALUATION] ari index score: 0.883509
+epsilon: 0.43 mu: 2
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.672737 s.
+[QUERY] cluster number: 1143204
+[EVALUATION] ari index score: 0.894758
+epsilon: 0.43 mu: 3
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.635491 s.
+[QUERY] cluster number: 668065
+[EVALUATION] ari index score: 0.900539
+epsilon: 0.43 mu: 4
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.534698 s.
+[QUERY] cluster number: 476830
+[EVALUATION] ari index score: 0.897886
+epsilon: 0.43 mu: 5
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.493265 s.
+[QUERY] cluster number: 397282
+[EVALUATION] ari index score: 0.899502
+epsilon: 0.43 mu: 6
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.469552 s.
+[QUERY] cluster number: 343001
+[EVALUATION] ari index score: 0.896624
+epsilon: 0.43 mu: 7
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.429544 s.
+[QUERY] cluster number: 296968
+[EVALUATION] ari index score: 0.90188
+epsilon: 0.43 mu: 8
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.409949 s.
+[QUERY] cluster number: 260112
+[EVALUATION] ari index score: 0.901666
+epsilon: 0.43 mu: 9
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.39674 s.
+[QUERY] cluster number: 226964
+[EVALUATION] ari index score: 0.906835
+epsilon: 0.43 mu: 10
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.380198 s.
+[QUERY] cluster number: 199243
+[EVALUATION] ari index score: 0.906317
+epsilon: 0.43 mu: 11
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.376547 s.
+[QUERY] cluster number: 176448
+[EVALUATION] ari index score: 0.906916
+epsilon: 0.43 mu: 12
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.359905 s.
+[QUERY] cluster number: 155896
+[EVALUATION] ari index score: 0.90953
+epsilon: 0.43 mu: 13
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.349478 s.
+[QUERY] cluster number: 139604
+[EVALUATION] ari index score: 0.908548
+epsilon: 0.43 mu: 14
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.334854 s.
+[QUERY] cluster number: 125115
+[EVALUATION] ari index score: 0.915664
+epsilon: 0.43 mu: 15
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.325959 s.
+[QUERY] cluster number: 112750
+[EVALUATION] ari index score: 0.91518
+epsilon: 0.42 mu: 2
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.682156 s.
+[QUERY] cluster number: 1143204
+[EVALUATION] ari index score: 0.930396
+epsilon: 0.42 mu: 3
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.616346 s.
+[QUERY] cluster number: 668065
+[EVALUATION] ari index score: 0.933934
+epsilon: 0.42 mu: 4
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.551893 s.
+[QUERY] cluster number: 476830
+[EVALUATION] ari index score: 0.931809
+epsilon: 0.42 mu: 5
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.483768 s.
+[QUERY] cluster number: 397282
+[EVALUATION] ari index score: 0.934411
+epsilon: 0.42 mu: 6
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.451417 s.
+[QUERY] cluster number: 343001
+[EVALUATION] ari index score: 0.930166
+epsilon: 0.42 mu: 7
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.45402 s.
+[QUERY] cluster number: 296968
+[EVALUATION] ari index score: 0.932785
+epsilon: 0.42 mu: 8
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.415433 s.
+[QUERY] cluster number: 260112
+[EVALUATION] ari index score: 0.929072
+epsilon: 0.42 mu: 9
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.404594 s.
+[QUERY] cluster number: 226964
+[EVALUATION] ari index score: 0.931506
+epsilon: 0.42 mu: 10
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.401935 s.
+[QUERY] cluster number: 199243
+[EVALUATION] ari index score: 0.932099
+epsilon: 0.42 mu: 11
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.369997 s.
+[QUERY] cluster number: 176448
+[EVALUATION] ari index score: 0.92887
+epsilon: 0.42 mu: 12
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.366324 s.
+[QUERY] cluster number: 155896
+[EVALUATION] ari index score: 0.934048
+epsilon: 0.42 mu: 13
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.361 s.
+[QUERY] cluster number: 139604
+[EVALUATION] ari index score: 0.932329
+epsilon: 0.42 mu: 14
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.361261 s.
+[QUERY] cluster number: 125115
+[EVALUATION] ari index score: 0.934614
+epsilon: 0.42 mu: 15
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.33332 s.
+[QUERY] cluster number: 112750
+[EVALUATION] ari index score: 0.936127
+epsilon: 0.41 mu: 2
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.723287 s.
+[QUERY] cluster number: 1143204
+[EVALUATION] ari index score: 0.957232
+epsilon: 0.41 mu: 3
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.636553 s.
+[QUERY] cluster number: 668065
+[EVALUATION] ari index score: 0.958982
+epsilon: 0.41 mu: 4
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.549272 s.
+[QUERY] cluster number: 476830
+[EVALUATION] ari index score: 0.957315
+epsilon: 0.41 mu: 5
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.496411 s.
+[QUERY] cluster number: 397282
+[EVALUATION] ari index score: 0.961594
+epsilon: 0.41 mu: 6
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.473398 s.
+[QUERY] cluster number: 343001
+[EVALUATION] ari index score: 0.960561
+epsilon: 0.41 mu: 7
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.431371 s.
+[QUERY] cluster number: 296968
+[EVALUATION] ari index score: 0.96064
+epsilon: 0.41 mu: 8
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.417626 s.
+[QUERY] cluster number: 260112
+[EVALUATION] ari index score: 0.959815
+epsilon: 0.41 mu: 9
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.412557 s.
+[QUERY] cluster number: 226964
+[EVALUATION] ari index score: 0.96009
+epsilon: 0.41 mu: 10
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.383715 s.
+[QUERY] cluster number: 199243
+[EVALUATION] ari index score: 0.959921
+epsilon: 0.41 mu: 11
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.373695 s.
+[QUERY] cluster number: 176448
+[EVALUATION] ari index score: 0.957681
+epsilon: 0.41 mu: 12
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.358839 s.
+[QUERY] cluster number: 155896
+[EVALUATION] ari index score: 0.958207
+epsilon: 0.41 mu: 13
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.350723 s.
+[QUERY] cluster number: 139604
+[EVALUATION] ari index score: 0.958904
+epsilon: 0.41 mu: 14
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.342117 s.
+[QUERY] cluster number: 125115
+[EVALUATION] ari index score: 0.957714
+epsilon: 0.41 mu: 15
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.347005 s.
+[QUERY] cluster number: 112750
+[EVALUATION] ari index score: 0.959746
+epsilon: 0.4 mu: 2
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.666 s.
+[QUERY] cluster number: 1143204
+[EVALUATION] ari index score: 0.998813
+epsilon: 0.4 mu: 3
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.60506 s.
+[QUERY] cluster number: 668065
+[EVALUATION] ari index score: 0.998824
+epsilon: 0.4 mu: 4
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.549174 s.
+[QUERY] cluster number: 476830
+[EVALUATION] ari index score: 0.996942
+epsilon: 0.4 mu: 5
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.479787 s.
+[QUERY] cluster number: 397282
+[EVALUATION] ari index score: 0.995448
+epsilon: 0.4 mu: 6
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.45479 s.
+[QUERY] cluster number: 343001
+[EVALUATION] ari index score: 0.994499
+epsilon: 0.4 mu: 7
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.442092 s.
+[QUERY] cluster number: 296968
+[EVALUATION] ari index score: 0.993364
+epsilon: 0.4 mu: 8
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.40772 s.
+[QUERY] cluster number: 260112
+[EVALUATION] ari index score: 0.992797
+epsilon: 0.4 mu: 9
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.412065 s.
+[QUERY] cluster number: 226964
+[EVALUATION] ari index score: 0.992051
+epsilon: 0.4 mu: 10
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.375829 s.
+[QUERY] cluster number: 199243
+[EVALUATION] ari index score: 0.991527
+epsilon: 0.4 mu: 11
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.388534 s.
+[QUERY] cluster number: 176448
+[EVALUATION] ari index score: 0.990826
+epsilon: 0.4 mu: 12
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.356323 s.
+[QUERY] cluster number: 155896
+[EVALUATION] ari index score: 0.989111
+epsilon: 0.4 mu: 13
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.358612 s.
+[QUERY] cluster number: 139604
+[EVALUATION] ari index score: 0.989181
+epsilon: 0.4 mu: 14
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.336402 s.
+[QUERY] cluster number: 125115
+[EVALUATION] ari index score: 0.989047
+epsilon: 0.4 mu: 15
+[QUERY] Start
+search from 8 th tree
+[QUERY] finish
+[TIME COST] 0.333675 s.
+[QUERY] cluster number: 112750
+[EVALUATION] ari index score: 0.988244
+epsilon: 0.39 mu: 2
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 1.03795 s.
+[QUERY] cluster number: 1075853
+[EVALUATION] ari index score: 0.878563
+epsilon: 0.39 mu: 3
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.618854 s.
+[QUERY] cluster number: 631979
+[EVALUATION] ari index score: 0.884292
+epsilon: 0.39 mu: 4
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.588656 s.
+[QUERY] cluster number: 458128
+[EVALUATION] ari index score: 0.876351
+epsilon: 0.39 mu: 5
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.525273 s.
+[QUERY] cluster number: 387311
+[EVALUATION] ari index score: 0.863004
+epsilon: 0.39 mu: 6
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.495145 s.
+[QUERY] cluster number: 337178
+[EVALUATION] ari index score: 0.857425
+epsilon: 0.39 mu: 7
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.459652 s.
+[QUERY] cluster number: 294175
+[EVALUATION] ari index score: 0.852839
+epsilon: 0.39 mu: 8
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.465005 s.
+[QUERY] cluster number: 260417
+[EVALUATION] ari index score: 0.843469
+epsilon: 0.39 mu: 9
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.423206 s.
+[QUERY] cluster number: 230168
+[EVALUATION] ari index score: 0.843945
+epsilon: 0.39 mu: 10
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.423388 s.
+[QUERY] cluster number: 205235
+[EVALUATION] ari index score: 0.843313
+epsilon: 0.39 mu: 11
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.445351 s.
+[QUERY] cluster number: 182620
+[EVALUATION] ari index score: 0.841495
+epsilon: 0.39 mu: 12
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.399572 s.
+[QUERY] cluster number: 162903
+[EVALUATION] ari index score: 0.843295
+epsilon: 0.39 mu: 13
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.37472 s.
+[QUERY] cluster number: 147545
+[EVALUATION] ari index score: 0.841052
+epsilon: 0.39 mu: 14
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.377889 s.
+[QUERY] cluster number: 133712
+[EVALUATION] ari index score: 0.846688
+epsilon: 0.39 mu: 15
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.384481 s.
+[QUERY] cluster number: 122089
+[EVALUATION] ari index score: 0.849696
+epsilon: 0.38 mu: 2
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.713084 s.
+[QUERY] cluster number: 1075853
+[EVALUATION] ari index score: 0.908215
+epsilon: 0.38 mu: 3
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.62871 s.
+[QUERY] cluster number: 631979
+[EVALUATION] ari index score: 0.912324
+epsilon: 0.38 mu: 4
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.576529 s.
+[QUERY] cluster number: 458128
+[EVALUATION] ari index score: 0.905613
+epsilon: 0.38 mu: 5
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.512617 s.
+[QUERY] cluster number: 387311
+[EVALUATION] ari index score: 0.896251
+epsilon: 0.38 mu: 6
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.510359 s.
+[QUERY] cluster number: 337178
+[EVALUATION] ari index score: 0.891301
+epsilon: 0.38 mu: 7
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.485435 s.
+[QUERY] cluster number: 294175
+[EVALUATION] ari index score: 0.888397
+epsilon: 0.38 mu: 8
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.447043 s.
+[QUERY] cluster number: 260417
+[EVALUATION] ari index score: 0.880579
+epsilon: 0.38 mu: 9
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.428588 s.
+[QUERY] cluster number: 230168
+[EVALUATION] ari index score: 0.879028
+epsilon: 0.38 mu: 10
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.430468 s.
+[QUERY] cluster number: 205235
+[EVALUATION] ari index score: 0.880096
+epsilon: 0.38 mu: 11
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.406993 s.
+[QUERY] cluster number: 182620
+[EVALUATION] ari index score: 0.876357
+epsilon: 0.38 mu: 12
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.39501 s.
+[QUERY] cluster number: 162903
+[EVALUATION] ari index score: 0.878052
+epsilon: 0.38 mu: 13
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.397182 s.
+[QUERY] cluster number: 147545
+[EVALUATION] ari index score: 0.878547
+epsilon: 0.38 mu: 14
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.371071 s.
+[QUERY] cluster number: 133712
+[EVALUATION] ari index score: 0.88037
+epsilon: 0.38 mu: 15
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.369913 s.
+[QUERY] cluster number: 122089
+[EVALUATION] ari index score: 0.881045
+epsilon: 0.37 mu: 2
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.719345 s.
+[QUERY] cluster number: 1075853
+[EVALUATION] ari index score: 0.93931
+epsilon: 0.37 mu: 3
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.639337 s.
+[QUERY] cluster number: 631979
+[EVALUATION] ari index score: 0.94179
+epsilon: 0.37 mu: 4
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.578326 s.
+[QUERY] cluster number: 458128
+[EVALUATION] ari index score: 0.936005
+epsilon: 0.37 mu: 5
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.520498 s.
+[QUERY] cluster number: 387311
+[EVALUATION] ari index score: 0.932877
+epsilon: 0.37 mu: 6
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.525266 s.
+[QUERY] cluster number: 337178
+[EVALUATION] ari index score: 0.928728
+epsilon: 0.37 mu: 7
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.490825 s.
+[QUERY] cluster number: 294175
+[EVALUATION] ari index score: 0.926281
+epsilon: 0.37 mu: 8
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.473216 s.
+[QUERY] cluster number: 260417
+[EVALUATION] ari index score: 0.919743
+epsilon: 0.37 mu: 9
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.43555 s.
+[QUERY] cluster number: 230168
+[EVALUATION] ari index score: 0.914379
+epsilon: 0.37 mu: 10
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.461179 s.
+[QUERY] cluster number: 205235
+[EVALUATION] ari index score: 0.913507
+epsilon: 0.37 mu: 11
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.397625 s.
+[QUERY] cluster number: 182620
+[EVALUATION] ari index score: 0.911802
+epsilon: 0.37 mu: 12
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.412439 s.
+[QUERY] cluster number: 162903
+[EVALUATION] ari index score: 0.909491
+epsilon: 0.37 mu: 13
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.381866 s.
+[QUERY] cluster number: 147545
+[EVALUATION] ari index score: 0.911477
+epsilon: 0.37 mu: 14
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.392785 s.
+[QUERY] cluster number: 133712
+[EVALUATION] ari index score: 0.914557
+epsilon: 0.37 mu: 15
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.356567 s.
+[QUERY] cluster number: 122089
+[EVALUATION] ari index score: 0.912171
+epsilon: 0.36 mu: 2
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.708292 s.
+[QUERY] cluster number: 1075853
+[EVALUATION] ari index score: 0.968418
+epsilon: 0.36 mu: 3
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.659702 s.
+[QUERY] cluster number: 631979
+[EVALUATION] ari index score: 0.969465
+epsilon: 0.36 mu: 4
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.583898 s.
+[QUERY] cluster number: 458128
+[EVALUATION] ari index score: 0.96586
+epsilon: 0.36 mu: 5
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.533639 s.
+[QUERY] cluster number: 387311
+[EVALUATION] ari index score: 0.964127
+epsilon: 0.36 mu: 6
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.481664 s.
+[QUERY] cluster number: 337178
+[EVALUATION] ari index score: 0.963122
+epsilon: 0.36 mu: 7
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.492311 s.
+[QUERY] cluster number: 294175
+[EVALUATION] ari index score: 0.961652
+epsilon: 0.36 mu: 8
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.449575 s.
+[QUERY] cluster number: 260417
+[EVALUATION] ari index score: 0.956861
+epsilon: 0.36 mu: 9
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.43906 s.
+[QUERY] cluster number: 230168
+[EVALUATION] ari index score: 0.954669
+epsilon: 0.36 mu: 10
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.418155 s.
+[QUERY] cluster number: 205235
+[EVALUATION] ari index score: 0.953707
+epsilon: 0.36 mu: 11
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.415406 s.
+[QUERY] cluster number: 182620
+[EVALUATION] ari index score: 0.952194
+epsilon: 0.36 mu: 12
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.401357 s.
+[QUERY] cluster number: 162903
+[EVALUATION] ari index score: 0.950717
+epsilon: 0.36 mu: 13
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.373233 s.
+[QUERY] cluster number: 147545
+[EVALUATION] ari index score: 0.953225
+epsilon: 0.36 mu: 14
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.398338 s.
+[QUERY] cluster number: 133712
+[EVALUATION] ari index score: 0.956273
+epsilon: 0.36 mu: 15
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.364127 s.
+[QUERY] cluster number: 122089
+[EVALUATION] ari index score: 0.95338
+epsilon: 0.35 mu: 2
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.700432 s.
+[QUERY] cluster number: 1075853
+[EVALUATION] ari index score: 0.999151
+epsilon: 0.35 mu: 3
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.656778 s.
+[QUERY] cluster number: 631979
+[EVALUATION] ari index score: 0.999153
+epsilon: 0.35 mu: 4
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.54711 s.
+[QUERY] cluster number: 458128
+[EVALUATION] ari index score: 0.997539
+epsilon: 0.35 mu: 5
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.54367 s.
+[QUERY] cluster number: 387311
+[EVALUATION] ari index score: 0.996516
+epsilon: 0.35 mu: 6
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.50235 s.
+[QUERY] cluster number: 337178
+[EVALUATION] ari index score: 0.995371
+epsilon: 0.35 mu: 7
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.477392 s.
+[QUERY] cluster number: 294175
+[EVALUATION] ari index score: 0.993798
+epsilon: 0.35 mu: 8
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.443484 s.
+[QUERY] cluster number: 260417
+[EVALUATION] ari index score: 0.992657
+epsilon: 0.35 mu: 9
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.424657 s.
+[QUERY] cluster number: 230168
+[EVALUATION] ari index score: 0.991751
+epsilon: 0.35 mu: 10
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.430429 s.
+[QUERY] cluster number: 205235
+[EVALUATION] ari index score: 0.990133
+epsilon: 0.35 mu: 11
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.396374 s.
+[QUERY] cluster number: 182620
+[EVALUATION] ari index score: 0.988842
+epsilon: 0.35 mu: 12
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.391977 s.
+[QUERY] cluster number: 162903
+[EVALUATION] ari index score: 0.987463
+epsilon: 0.35 mu: 13
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.406057 s.
+[QUERY] cluster number: 147545
+[EVALUATION] ari index score: 0.987184
+epsilon: 0.35 mu: 14
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.371516 s.
+[QUERY] cluster number: 133712
+[EVALUATION] ari index score: 0.986964
+epsilon: 0.35 mu: 15
+[QUERY] Start
+search from 7 th tree
+[QUERY] finish
+[TIME COST] 0.383965 s.
+[QUERY] cluster number: 122089
+[EVALUATION] ari index score: 0.985771
+epsilon: 0.34 mu: 2
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 1.14426 s.
+[QUERY] cluster number: 1027258
+[EVALUATION] ari index score: 0.875871
+epsilon: 0.34 mu: 3
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.706802 s.
+[QUERY] cluster number: 610242
+[EVALUATION] ari index score: 0.880898
+epsilon: 0.34 mu: 4
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.632564 s.
+[QUERY] cluster number: 450036
+[EVALUATION] ari index score: 0.87329
+epsilon: 0.34 mu: 5
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.572728 s.
+[QUERY] cluster number: 375851
+[EVALUATION] ari index score: 0.870283
+epsilon: 0.34 mu: 6
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.544614 s.
+[QUERY] cluster number: 325423
+[EVALUATION] ari index score: 0.865788
+epsilon: 0.34 mu: 7
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.497312 s.
+[QUERY] cluster number: 292126
+[EVALUATION] ari index score: 0.857801
+epsilon: 0.34 mu: 8
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.479205 s.
+[QUERY] cluster number: 254487
+[EVALUATION] ari index score: 0.853183
+epsilon: 0.34 mu: 9
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.46074 s.
+[QUERY] cluster number: 226669
+[EVALUATION] ari index score: 0.85437
+epsilon: 0.34 mu: 10
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.450749 s.
+[QUERY] cluster number: 203689
+[EVALUATION] ari index score: 0.847897
+epsilon: 0.34 mu: 11
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.457906 s.
+[QUERY] cluster number: 184085
+[EVALUATION] ari index score: 0.843895
+epsilon: 0.34 mu: 12
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.441496 s.
+[QUERY] cluster number: 167131
+[EVALUATION] ari index score: 0.841009
+epsilon: 0.34 mu: 13
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.412536 s.
+[QUERY] cluster number: 153230
+[EVALUATION] ari index score: 0.836255
+epsilon: 0.34 mu: 14
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.410677 s.
+[QUERY] cluster number: 140187
+[EVALUATION] ari index score: 0.831471
+epsilon: 0.34 mu: 15
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.423142 s.
+[QUERY] cluster number: 129161
+[EVALUATION] ari index score: 0.833045
+epsilon: 0.33 mu: 2
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.722313 s.
+[QUERY] cluster number: 1027258
+[EVALUATION] ari index score: 0.913984
+epsilon: 0.33 mu: 3
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.680211 s.
+[QUERY] cluster number: 610242
+[EVALUATION] ari index score: 0.917226
+epsilon: 0.33 mu: 4
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.602169 s.
+[QUERY] cluster number: 450036
+[EVALUATION] ari index score: 0.910951
+epsilon: 0.33 mu: 5
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.568968 s.
+[QUERY] cluster number: 375851
+[EVALUATION] ari index score: 0.903838
+epsilon: 0.33 mu: 6
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.535111 s.
+[QUERY] cluster number: 325423
+[EVALUATION] ari index score: 0.901208
+epsilon: 0.33 mu: 7
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.503086 s.
+[QUERY] cluster number: 292126
+[EVALUATION] ari index score: 0.893673
+epsilon: 0.33 mu: 8
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.482597 s.
+[QUERY] cluster number: 254487
+[EVALUATION] ari index score: 0.890713
+epsilon: 0.33 mu: 9
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.455053 s.
+[QUERY] cluster number: 226669
+[EVALUATION] ari index score: 0.888241
+epsilon: 0.33 mu: 10
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.460759 s.
+[QUERY] cluster number: 203689
+[EVALUATION] ari index score: 0.884744
+epsilon: 0.33 mu: 11
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.43691 s.
+[QUERY] cluster number: 184085
+[EVALUATION] ari index score: 0.883762
+epsilon: 0.33 mu: 12
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.429033 s.
+[QUERY] cluster number: 167131
+[EVALUATION] ari index score: 0.879647
+epsilon: 0.33 mu: 13
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.409247 s.
+[QUERY] cluster number: 153230
+[EVALUATION] ari index score: 0.873817
+epsilon: 0.33 mu: 14
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.431436 s.
+[QUERY] cluster number: 140187
+[EVALUATION] ari index score: 0.867874
+epsilon: 0.33 mu: 15
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.395905 s.
+[QUERY] cluster number: 129161
+[EVALUATION] ari index score: 0.868924
+epsilon: 0.32 mu: 2
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.727627 s.
+[QUERY] cluster number: 1027258
+[EVALUATION] ari index score: 0.94154
+epsilon: 0.32 mu: 3
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.675623 s.
+[QUERY] cluster number: 610242
+[EVALUATION] ari index score: 0.943671
+epsilon: 0.32 mu: 4
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.591646 s.
+[QUERY] cluster number: 450036
+[EVALUATION] ari index score: 0.938771
+epsilon: 0.32 mu: 5
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.573294 s.
+[QUERY] cluster number: 375851
+[EVALUATION] ari index score: 0.934955
+epsilon: 0.32 mu: 6
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.547836 s.
+[QUERY] cluster number: 325423
+[EVALUATION] ari index score: 0.932318
+epsilon: 0.32 mu: 7
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.502397 s.
+[QUERY] cluster number: 292126
+[EVALUATION] ari index score: 0.927648
+epsilon: 0.32 mu: 8
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.487755 s.
+[QUERY] cluster number: 254487
+[EVALUATION] ari index score: 0.923685
+epsilon: 0.32 mu: 9
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.463527 s.
+[QUERY] cluster number: 226669
+[EVALUATION] ari index score: 0.927078
+epsilon: 0.32 mu: 10
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.450312 s.
+[QUERY] cluster number: 203689
+[EVALUATION] ari index score: 0.921871
+epsilon: 0.32 mu: 11
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.431463 s.
+[QUERY] cluster number: 184085
+[EVALUATION] ari index score: 0.919137
+epsilon: 0.32 mu: 12
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.419191 s.
+[QUERY] cluster number: 167131
+[EVALUATION] ari index score: 0.917871
+epsilon: 0.32 mu: 13
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.42655 s.
+[QUERY] cluster number: 153230
+[EVALUATION] ari index score: 0.912766
+epsilon: 0.32 mu: 14
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.41047 s.
+[QUERY] cluster number: 140187
+[EVALUATION] ari index score: 0.90947
+epsilon: 0.32 mu: 15
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.39275 s.
+[QUERY] cluster number: 129161
+[EVALUATION] ari index score: 0.911007
+epsilon: 0.31 mu: 2
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.72653 s.
+[QUERY] cluster number: 1027258
+[EVALUATION] ari index score: 0.966785
+epsilon: 0.31 mu: 3
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.690738 s.
+[QUERY] cluster number: 610242
+[EVALUATION] ari index score: 0.967902
+epsilon: 0.31 mu: 4
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.592947 s.
+[QUERY] cluster number: 450036
+[EVALUATION] ari index score: 0.963649
+epsilon: 0.31 mu: 5
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.544309 s.
+[QUERY] cluster number: 375851
+[EVALUATION] ari index score: 0.962257
+epsilon: 0.31 mu: 6
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.551689 s.
+[QUERY] cluster number: 325423
+[EVALUATION] ari index score: 0.959902
+epsilon: 0.31 mu: 7
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.509475 s.
+[QUERY] cluster number: 292126
+[EVALUATION] ari index score: 0.958756
+epsilon: 0.31 mu: 8
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.469336 s.
+[QUERY] cluster number: 254487
+[EVALUATION] ari index score: 0.955648
+epsilon: 0.31 mu: 9
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.455916 s.
+[QUERY] cluster number: 226669
+[EVALUATION] ari index score: 0.956648
+epsilon: 0.31 mu: 10
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.47443 s.
+[QUERY] cluster number: 203689
+[EVALUATION] ari index score: 0.955618
+epsilon: 0.31 mu: 11
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.457485 s.
+[QUERY] cluster number: 184085
+[EVALUATION] ari index score: 0.95448
+epsilon: 0.31 mu: 12
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.428199 s.
+[QUERY] cluster number: 167131
+[EVALUATION] ari index score: 0.955511
+epsilon: 0.31 mu: 13
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.418486 s.
+[QUERY] cluster number: 153230
+[EVALUATION] ari index score: 0.950874
+epsilon: 0.31 mu: 14
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.421235 s.
+[QUERY] cluster number: 140187
+[EVALUATION] ari index score: 0.948114
+epsilon: 0.31 mu: 15
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.396731 s.
+[QUERY] cluster number: 129161
+[EVALUATION] ari index score: 0.949003
+epsilon: 0.3 mu: 2
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.707783 s.
+[QUERY] cluster number: 1027258
+[EVALUATION] ari index score: 0.995211
+epsilon: 0.3 mu: 3
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.693494 s.
+[QUERY] cluster number: 610242
+[EVALUATION] ari index score: 0.995216
+epsilon: 0.3 mu: 4
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.607631 s.
+[QUERY] cluster number: 450036
+[EVALUATION] ari index score: 0.993471
+epsilon: 0.3 mu: 5
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.546026 s.
+[QUERY] cluster number: 375851
+[EVALUATION] ari index score: 0.991397
+epsilon: 0.3 mu: 6
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.524345 s.
+[QUERY] cluster number: 325423
+[EVALUATION] ari index score: 0.990448
+epsilon: 0.3 mu: 7
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.501831 s.
+[QUERY] cluster number: 292126
+[EVALUATION] ari index score: 0.989814
+epsilon: 0.3 mu: 8
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.480662 s.
+[QUERY] cluster number: 254487
+[EVALUATION] ari index score: 0.988529
+epsilon: 0.3 mu: 9
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.48105 s.
+[QUERY] cluster number: 226669
+[EVALUATION] ari index score: 0.989059
+epsilon: 0.3 mu: 10
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.453586 s.
+[QUERY] cluster number: 203689
+[EVALUATION] ari index score: 0.988231
+epsilon: 0.3 mu: 11
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.454071 s.
+[QUERY] cluster number: 184085
+[EVALUATION] ari index score: 0.989151
+epsilon: 0.3 mu: 12
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.426558 s.
+[QUERY] cluster number: 167131
+[EVALUATION] ari index score: 0.987595
+epsilon: 0.3 mu: 13
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.441269 s.
+[QUERY] cluster number: 153230
+[EVALUATION] ari index score: 0.986797
+epsilon: 0.3 mu: 14
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.400195 s.
+[QUERY] cluster number: 140187
+[EVALUATION] ari index score: 0.986092
+epsilon: 0.3 mu: 15
+[QUERY] Start
+search from 6 th tree
+[QUERY] finish
+[TIME COST] 0.408646 s.
+[QUERY] cluster number: 129161
+[EVALUATION] ari index score: 0.985506
+epsilon: 0.29 mu: 2
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 1.16892 s.
+[QUERY] cluster number: 950492
+[EVALUATION] ari index score: 0.848731
+epsilon: 0.29 mu: 3
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.713258 s.
+[QUERY] cluster number: 578545
+[EVALUATION] ari index score: 0.853343
+epsilon: 0.29 mu: 4
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.658696 s.
+[QUERY] cluster number: 445497
+[EVALUATION] ari index score: 0.853978
+epsilon: 0.29 mu: 5
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.612044 s.
+[QUERY] cluster number: 373455
+[EVALUATION] ari index score: 0.842758
+epsilon: 0.29 mu: 6
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.586496 s.
+[QUERY] cluster number: 317520
+[EVALUATION] ari index score: 0.841638
+epsilon: 0.29 mu: 7
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.574082 s.
+[QUERY] cluster number: 277572
+[EVALUATION] ari index score: 0.843247
+epsilon: 0.29 mu: 8
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.560433 s.
+[QUERY] cluster number: 246981
+[EVALUATION] ari index score: 0.839139
+epsilon: 0.29 mu: 9
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.524667 s.
+[QUERY] cluster number: 224543
+[EVALUATION] ari index score: 0.832902
+epsilon: 0.29 mu: 10
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.535535 s.
+[QUERY] cluster number: 200653
+[EVALUATION] ari index score: 0.828998
+epsilon: 0.29 mu: 11
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.475069 s.
+[QUERY] cluster number: 182782
+[EVALUATION] ari index score: 0.827988
+epsilon: 0.29 mu: 12
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.484681 s.
+[QUERY] cluster number: 167031
+[EVALUATION] ari index score: 0.82587
+epsilon: 0.29 mu: 13
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.503638 s.
+[QUERY] cluster number: 154783
+[EVALUATION] ari index score: 0.829997
+epsilon: 0.29 mu: 14
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.447119 s.
+[QUERY] cluster number: 143352
+[EVALUATION] ari index score: 0.83803
+epsilon: 0.29 mu: 15
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.453424 s.
+[QUERY] cluster number: 133567
+[EVALUATION] ari index score: 0.837187
+epsilon: 0.28 mu: 2
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.772596 s.
+[QUERY] cluster number: 950492
+[EVALUATION] ari index score: 0.884813
+epsilon: 0.28 mu: 3
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.744928 s.
+[QUERY] cluster number: 578545
+[EVALUATION] ari index score: 0.888155
+epsilon: 0.28 mu: 4
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.632413 s.
+[QUERY] cluster number: 445497
+[EVALUATION] ari index score: 0.885821
+epsilon: 0.28 mu: 5
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.598787 s.
+[QUERY] cluster number: 373455
+[EVALUATION] ari index score: 0.877418
+epsilon: 0.28 mu: 6
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.56467 s.
+[QUERY] cluster number: 317520
+[EVALUATION] ari index score: 0.877052
+epsilon: 0.28 mu: 7
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.539852 s.
+[QUERY] cluster number: 277572
+[EVALUATION] ari index score: 0.878589
+epsilon: 0.28 mu: 8
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.508693 s.
+[QUERY] cluster number: 246981
+[EVALUATION] ari index score: 0.877413
+epsilon: 0.28 mu: 9
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.517439 s.
+[QUERY] cluster number: 224543
+[EVALUATION] ari index score: 0.871889
+epsilon: 0.28 mu: 10
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.512396 s.
+[QUERY] cluster number: 200653
+[EVALUATION] ari index score: 0.864266
+epsilon: 0.28 mu: 11
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.498728 s.
+[QUERY] cluster number: 182782
+[EVALUATION] ari index score: 0.859931
+epsilon: 0.28 mu: 12
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.519117 s.
+[QUERY] cluster number: 167031
+[EVALUATION] ari index score: 0.859085
+epsilon: 0.28 mu: 13
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.49996 s.
+[QUERY] cluster number: 154783
+[EVALUATION] ari index score: 0.861969
+epsilon: 0.28 mu: 14
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.470062 s.
+[QUERY] cluster number: 143352
+[EVALUATION] ari index score: 0.867328
+epsilon: 0.28 mu: 15
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.478409 s.
+[QUERY] cluster number: 133567
+[EVALUATION] ari index score: 0.871335
+epsilon: 0.27 mu: 2
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.777382 s.
+[QUERY] cluster number: 950492
+[EVALUATION] ari index score: 0.916163
+epsilon: 0.27 mu: 3
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.739635 s.
+[QUERY] cluster number: 578545
+[EVALUATION] ari index score: 0.918332
+epsilon: 0.27 mu: 4
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.658413 s.
+[QUERY] cluster number: 445497
+[EVALUATION] ari index score: 0.911069
+epsilon: 0.27 mu: 5
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.608541 s.
+[QUERY] cluster number: 373455
+[EVALUATION] ari index score: 0.906521
+epsilon: 0.27 mu: 6
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.584183 s.
+[QUERY] cluster number: 317520
+[EVALUATION] ari index score: 0.904776
+epsilon: 0.27 mu: 7
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.556091 s.
+[QUERY] cluster number: 277572
+[EVALUATION] ari index score: 0.909336
+epsilon: 0.27 mu: 8
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.542633 s.
+[QUERY] cluster number: 246981
+[EVALUATION] ari index score: 0.908903
+epsilon: 0.27 mu: 9
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.504702 s.
+[QUERY] cluster number: 224543
+[EVALUATION] ari index score: 0.903955
+epsilon: 0.27 mu: 10
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.49564 s.
+[QUERY] cluster number: 200653
+[EVALUATION] ari index score: 0.898027
+epsilon: 0.27 mu: 11
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.500123 s.
+[QUERY] cluster number: 182782
+[EVALUATION] ari index score: 0.894984
+epsilon: 0.27 mu: 12
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.47352 s.
+[QUERY] cluster number: 167031
+[EVALUATION] ari index score: 0.893298
+epsilon: 0.27 mu: 13
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.501535 s.
+[QUERY] cluster number: 154783
+[EVALUATION] ari index score: 0.893593
+epsilon: 0.27 mu: 14
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.448789 s.
+[QUERY] cluster number: 143352
+[EVALUATION] ari index score: 0.899218
+epsilon: 0.27 mu: 15
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.451602 s.
+[QUERY] cluster number: 133567
+[EVALUATION] ari index score: 0.901421
+epsilon: 0.26 mu: 2
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.745107 s.
+[QUERY] cluster number: 950492
+[EVALUATION] ari index score: 0.95669
+epsilon: 0.26 mu: 3
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.708873 s.
+[QUERY] cluster number: 578545
+[EVALUATION] ari index score: 0.957918
+epsilon: 0.26 mu: 4
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.651685 s.
+[QUERY] cluster number: 445497
+[EVALUATION] ari index score: 0.95387
+epsilon: 0.26 mu: 5
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.616897 s.
+[QUERY] cluster number: 373455
+[EVALUATION] ari index score: 0.950344
+epsilon: 0.26 mu: 6
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.602172 s.
+[QUERY] cluster number: 317520
+[EVALUATION] ari index score: 0.945717
+epsilon: 0.26 mu: 7
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.599905 s.
+[QUERY] cluster number: 277572
+[EVALUATION] ari index score: 0.949686
+epsilon: 0.26 mu: 8
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.567936 s.
+[QUERY] cluster number: 246981
+[EVALUATION] ari index score: 0.951512
+epsilon: 0.26 mu: 9
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.526966 s.
+[QUERY] cluster number: 224543
+[EVALUATION] ari index score: 0.948177
+epsilon: 0.26 mu: 10
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.516903 s.
+[QUERY] cluster number: 200653
+[EVALUATION] ari index score: 0.947788
+epsilon: 0.26 mu: 11
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.495916 s.
+[QUERY] cluster number: 182782
+[EVALUATION] ari index score: 0.94114
+epsilon: 0.26 mu: 12
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.483101 s.
+[QUERY] cluster number: 167031
+[EVALUATION] ari index score: 0.937217
+epsilon: 0.26 mu: 13
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.46652 s.
+[QUERY] cluster number: 154783
+[EVALUATION] ari index score: 0.92875
+epsilon: 0.26 mu: 14
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.441713 s.
+[QUERY] cluster number: 143352
+[EVALUATION] ari index score: 0.933365
+epsilon: 0.26 mu: 15
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.44405 s.
+[QUERY] cluster number: 133567
+[EVALUATION] ari index score: 0.935922
+epsilon: 0.25 mu: 2
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.826466 s.
+[QUERY] cluster number: 950492
+[EVALUATION] ari index score: 0.991464
+epsilon: 0.25 mu: 3
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.730633 s.
+[QUERY] cluster number: 578545
+[EVALUATION] ari index score: 0.991469
+epsilon: 0.25 mu: 4
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.637115 s.
+[QUERY] cluster number: 445497
+[EVALUATION] ari index score: 0.989896
+epsilon: 0.25 mu: 5
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.625174 s.
+[QUERY] cluster number: 373455
+[EVALUATION] ari index score: 0.990172
+epsilon: 0.25 mu: 6
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.600673 s.
+[QUERY] cluster number: 317520
+[EVALUATION] ari index score: 0.988012
+epsilon: 0.25 mu: 7
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.551158 s.
+[QUERY] cluster number: 277572
+[EVALUATION] ari index score: 0.987489
+epsilon: 0.25 mu: 8
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.564688 s.
+[QUERY] cluster number: 246981
+[EVALUATION] ari index score: 0.986024
+epsilon: 0.25 mu: 9
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.520182 s.
+[QUERY] cluster number: 224543
+[EVALUATION] ari index score: 0.986398
+epsilon: 0.25 mu: 10
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.493995 s.
+[QUERY] cluster number: 200653
+[EVALUATION] ari index score: 0.985441
+epsilon: 0.25 mu: 11
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.484082 s.
+[QUERY] cluster number: 182782
+[EVALUATION] ari index score: 0.985205
+epsilon: 0.25 mu: 12
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.46025 s.
+[QUERY] cluster number: 167031
+[EVALUATION] ari index score: 0.984075
+epsilon: 0.25 mu: 13
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.470018 s.
+[QUERY] cluster number: 154783
+[EVALUATION] ari index score: 0.98261
+epsilon: 0.25 mu: 14
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.46302 s.
+[QUERY] cluster number: 143352
+[EVALUATION] ari index score: 0.981929
+epsilon: 0.25 mu: 15
+[QUERY] Start
+search from 5 th tree
+[QUERY] finish
+[TIME COST] 0.437341 s.
+[QUERY] cluster number: 133567
+[EVALUATION] ari index score: 0.982199
+epsilon: 0.24 mu: 2
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 1.24568 s.
+[QUERY] cluster number: 834626
+[EVALUATION] ari index score: 0.795558
+epsilon: 0.24 mu: 3
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.727694 s.
+[QUERY] cluster number: 515418
+[EVALUATION] ari index score: 0.80044
+epsilon: 0.24 mu: 4
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.723503 s.
+[QUERY] cluster number: 419286
+[EVALUATION] ari index score: 0.807912
+epsilon: 0.24 mu: 5
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.651671 s.
+[QUERY] cluster number: 364345
+[EVALUATION] ari index score: 0.829256
+epsilon: 0.24 mu: 6
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.599164 s.
+[QUERY] cluster number: 314910
+[EVALUATION] ari index score: 0.830258
+epsilon: 0.24 mu: 7
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.61044 s.
+[QUERY] cluster number: 275879
+[EVALUATION] ari index score: 0.824002
+epsilon: 0.24 mu: 8
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.622126 s.
+[QUERY] cluster number: 242560
+[EVALUATION] ari index score: 0.821378
+epsilon: 0.24 mu: 9
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.543188 s.
+[QUERY] cluster number: 216043
+[EVALUATION] ari index score: 0.815475
+epsilon: 0.24 mu: 10
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.545971 s.
+[QUERY] cluster number: 194755
+[EVALUATION] ari index score: 0.813992
+epsilon: 0.24 mu: 11
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.523688 s.
+[QUERY] cluster number: 179796
+[EVALUATION] ari index score: 0.807373
+epsilon: 0.24 mu: 12
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.531701 s.
+[QUERY] cluster number: 163464
+[EVALUATION] ari index score: 0.804493
+epsilon: 0.24 mu: 13
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.504358 s.
+[QUERY] cluster number: 151912
+[EVALUATION] ari index score: 0.807598
+epsilon: 0.24 mu: 14
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.489372 s.
+[QUERY] cluster number: 141366
+[EVALUATION] ari index score: 0.798596
+epsilon: 0.24 mu: 15
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.52249 s.
+[QUERY] cluster number: 132326
+[EVALUATION] ari index score: 0.79656
+epsilon: 0.23 mu: 2
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.753168 s.
+[QUERY] cluster number: 834626
+[EVALUATION] ari index score: 0.834294
+epsilon: 0.23 mu: 3
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.723957 s.
+[QUERY] cluster number: 515418
+[EVALUATION] ari index score: 0.837852
+epsilon: 0.23 mu: 4
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.672544 s.
+[QUERY] cluster number: 419286
+[EVALUATION] ari index score: 0.844704
+epsilon: 0.23 mu: 5
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.637186 s.
+[QUERY] cluster number: 364345
+[EVALUATION] ari index score: 0.865484
+epsilon: 0.23 mu: 6
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.63495 s.
+[QUERY] cluster number: 314910
+[EVALUATION] ari index score: 0.865663
+epsilon: 0.23 mu: 7
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.638603 s.
+[QUERY] cluster number: 275879
+[EVALUATION] ari index score: 0.860818
+epsilon: 0.23 mu: 8
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.568096 s.
+[QUERY] cluster number: 242560
+[EVALUATION] ari index score: 0.85762
+epsilon: 0.23 mu: 9
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.558439 s.
+[QUERY] cluster number: 216043
+[EVALUATION] ari index score: 0.854038
+epsilon: 0.23 mu: 10
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.524696 s.
+[QUERY] cluster number: 194755
+[EVALUATION] ari index score: 0.850366
+epsilon: 0.23 mu: 11
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.507484 s.
+[QUERY] cluster number: 179796
+[EVALUATION] ari index score: 0.84254
+epsilon: 0.23 mu: 12
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.497441 s.
+[QUERY] cluster number: 163464
+[EVALUATION] ari index score: 0.842434
+epsilon: 0.23 mu: 13
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.507145 s.
+[QUERY] cluster number: 151912
+[EVALUATION] ari index score: 0.843913
+epsilon: 0.23 mu: 14
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.530791 s.
+[QUERY] cluster number: 141366
+[EVALUATION] ari index score: 0.836201
+epsilon: 0.23 mu: 15
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.480508 s.
+[QUERY] cluster number: 132326
+[EVALUATION] ari index score: 0.835457
+epsilon: 0.22 mu: 2
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.807775 s.
+[QUERY] cluster number: 834626
+[EVALUATION] ari index score: 0.882383
+epsilon: 0.22 mu: 3
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.741235 s.
+[QUERY] cluster number: 515418
+[EVALUATION] ari index score: 0.884798
+epsilon: 0.22 mu: 4
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.678676 s.
+[QUERY] cluster number: 419286
+[EVALUATION] ari index score: 0.887733
+epsilon: 0.22 mu: 5
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.621687 s.
+[QUERY] cluster number: 364345
+[EVALUATION] ari index score: 0.898143
+epsilon: 0.22 mu: 6
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.64009 s.
+[QUERY] cluster number: 314910
+[EVALUATION] ari index score: 0.899173
+epsilon: 0.22 mu: 7
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.611282 s.
+[QUERY] cluster number: 275879
+[EVALUATION] ari index score: 0.8944
+epsilon: 0.22 mu: 8
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.547372 s.
+[QUERY] cluster number: 242560
+[EVALUATION] ari index score: 0.892931
+epsilon: 0.22 mu: 9
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.556406 s.
+[QUERY] cluster number: 216043
+[EVALUATION] ari index score: 0.890423
+epsilon: 0.22 mu: 10
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.538419 s.
+[QUERY] cluster number: 194755
+[EVALUATION] ari index score: 0.891224
+epsilon: 0.22 mu: 11
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.57134 s.
+[QUERY] cluster number: 179796
+[EVALUATION] ari index score: 0.886877
+epsilon: 0.22 mu: 12
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.498112 s.
+[QUERY] cluster number: 163464
+[EVALUATION] ari index score: 0.88795
+epsilon: 0.22 mu: 13
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.500948 s.
+[QUERY] cluster number: 151912
+[EVALUATION] ari index score: 0.888172
+epsilon: 0.22 mu: 14
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.516131 s.
+[QUERY] cluster number: 141366
+[EVALUATION] ari index score: 0.885454
+epsilon: 0.22 mu: 15
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.468815 s.
+[QUERY] cluster number: 132326
+[EVALUATION] ari index score: 0.876772
+epsilon: 0.21 mu: 2
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.798719 s.
+[QUERY] cluster number: 834626
+[EVALUATION] ari index score: 0.930546
+epsilon: 0.21 mu: 3
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.722568 s.
+[QUERY] cluster number: 515418
+[EVALUATION] ari index score: 0.931686
+epsilon: 0.21 mu: 4
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.665448 s.
+[QUERY] cluster number: 419286
+[EVALUATION] ari index score: 0.930223
+epsilon: 0.21 mu: 5
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.649245 s.
+[QUERY] cluster number: 364345
+[EVALUATION] ari index score: 0.929632
+epsilon: 0.21 mu: 6
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.627921 s.
+[QUERY] cluster number: 314910
+[EVALUATION] ari index score: 0.9302
+epsilon: 0.21 mu: 7
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.585042 s.
+[QUERY] cluster number: 275879
+[EVALUATION] ari index score: 0.941159
+epsilon: 0.21 mu: 8
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.559969 s.
+[QUERY] cluster number: 242560
+[EVALUATION] ari index score: 0.940367
+epsilon: 0.21 mu: 9
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.525167 s.
+[QUERY] cluster number: 216043
+[EVALUATION] ari index score: 0.938688
+epsilon: 0.21 mu: 10
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.50708 s.
+[QUERY] cluster number: 194755
+[EVALUATION] ari index score: 0.938585
+epsilon: 0.21 mu: 11
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.508727 s.
+[QUERY] cluster number: 179796
+[EVALUATION] ari index score: 0.936898
+epsilon: 0.21 mu: 12
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.513624 s.
+[QUERY] cluster number: 163464
+[EVALUATION] ari index score: 0.937373
+epsilon: 0.21 mu: 13
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.503137 s.
+[QUERY] cluster number: 151912
+[EVALUATION] ari index score: 0.936981
+epsilon: 0.21 mu: 14
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.489959 s.
+[QUERY] cluster number: 141366
+[EVALUATION] ari index score: 0.936458
+epsilon: 0.21 mu: 15
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.482929 s.
+[QUERY] cluster number: 132326
+[EVALUATION] ari index score: 0.935129
+epsilon: 0.2 mu: 2
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.746465 s.
+[QUERY] cluster number: 834626
+[EVALUATION] ari index score: 0.981554
+epsilon: 0.2 mu: 3
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.727354 s.
+[QUERY] cluster number: 515418
+[EVALUATION] ari index score: 0.981565
+epsilon: 0.2 mu: 4
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.684126 s.
+[QUERY] cluster number: 419286
+[EVALUATION] ari index score: 0.980709
+epsilon: 0.2 mu: 5
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.626618 s.
+[QUERY] cluster number: 364345
+[EVALUATION] ari index score: 0.966481
+epsilon: 0.2 mu: 6
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.6084 s.
+[QUERY] cluster number: 314910
+[EVALUATION] ari index score: 0.964129
+epsilon: 0.2 mu: 7
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.592678 s.
+[QUERY] cluster number: 275879
+[EVALUATION] ari index score: 0.962575
+epsilon: 0.2 mu: 8
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.567342 s.
+[QUERY] cluster number: 242560
+[EVALUATION] ari index score: 0.975919
+epsilon: 0.2 mu: 9
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.547318 s.
+[QUERY] cluster number: 216043
+[EVALUATION] ari index score: 0.97472
+epsilon: 0.2 mu: 10
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.520087 s.
+[QUERY] cluster number: 194755
+[EVALUATION] ari index score: 0.974002
+epsilon: 0.2 mu: 11
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.505558 s.
+[QUERY] cluster number: 179796
+[EVALUATION] ari index score: 0.973394
+epsilon: 0.2 mu: 12
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.509849 s.
+[QUERY] cluster number: 163464
+[EVALUATION] ari index score: 0.972917
+epsilon: 0.2 mu: 13
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.492854 s.
+[QUERY] cluster number: 151912
+[EVALUATION] ari index score: 0.972076
+epsilon: 0.2 mu: 14
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.49333 s.
+[QUERY] cluster number: 141366
+[EVALUATION] ari index score: 0.972177
+epsilon: 0.2 mu: 15
+[QUERY] Start
+search from 4 th tree
+[QUERY] finish
+[TIME COST] 0.475714 s.
+[QUERY] cluster number: 132326
+[EVALUATION] ari index score: 0.975194
+[PRINT TIME] total clustering time: 342.799
+[PRINT TIME] average clustering time: 0.401404
+[PRINT ARI] average ARI score: 0.941365
